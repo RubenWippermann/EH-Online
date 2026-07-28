@@ -1,0 +1,39 @@
+# erstehilfekurse.online
+
+> Info- und Vergleichsportal rund um Erste-Hilfe-Kurse: welcher Kurs für welchen Anlass, wer zahlt, wie oft auffrischen — plus direkte Buchung freier Termine. Betrieben von Personal Paramedic e.K. (DGUV-Kennziffer 8.2018).
+
+## Kurse
+- [Erste-Hilfe-Ausbildung](https://www.erstehilfekurse.online/kurse/erste-hilfe-ausbildung/): Der Grundkurs (9 UE) — für Führerschein, Betrieb und Alltag. Gültig: Führerschein: unbegrenzt · Betrieb: 2 Jahre. Kosten: ab 30 € (selbst · Betrieb/BG).
+- [Erste-Hilfe-Fortbildung](https://www.erstehilfekurse.online/kurse/erste-hilfe-fortbildung/): Die Auffrischung für betriebliche Ersthelfer — alle zwei Jahre. Gültig: 2 Jahre. Kosten: ab 30 € (Betrieb/BG).
+- [Erste Hilfe für Bildungs- & Betreuungseinrichtungen](https://www.erstehilfekurse.online/kurse/erste-hilfe-bildungseinrichtungen/): Für Kita, Schule, Hort und Tagespflege. Gültig: 2 Jahre. Kosten: ab 50 € (Unfallkasse).
+- [Erste Hilfe für Babys & Kleinkinder](https://www.erstehilfekurse.online/kurse/erste-hilfe-baby-kind/): Der private Abendkurs für Eltern, Großeltern und Paten. Gültig: kein Nachweis nötig. Kosten: ab 30 € (selbst).
+- [Brandschutzhelfer](https://www.erstehilfekurse.online/kurse/brandschutzhelfer/): Betrieblicher Pflichtbaustein — Theorie plus Löschübung. Gültig: Empfehlung: 3–5 Jahre. Kosten: ab 50 € (Betrieb).
+- [Notfalltraining](https://www.erstehilfekurse.online/kurse/notfalltraining/): Für Praxen, Pflege und Teams mit echtem Notfallrisiko. Gültig: Empfehlung: jährlich. Kosten: auf Anfrage (Arbeitgeber).
+- [Lehrkräfte-Ausbildung — Themenbereich 1](https://www.erstehilfekurse.online/kurse/lehrkraefte-ausbildung-tb1/): Der Einstieg zur Ausbilderqualifikation Erste Hilfe. Gültig: Voraussetzung für TB 2. Kosten: ab 150 € (selbst · Arbeitgeber).
+- [Lehrkräfte-Ausbildung — Themenbereich 2](https://www.erstehilfekurse.online/kurse/lehrkraefte-ausbildung-tb2/): Der fachliche Aufbau bis zur eigenständigen Kursleitung. Gültig: vollständige Lehrbefähigung. Kosten: ab 200 € (selbst · Arbeitgeber).
+- [Lehrkräfte-Fortbildung](https://www.erstehilfekurse.online/kurse/lehrkraefte-fortbildung/): Die Pflichtfortbildung für Erste-Hilfe-Lehrkräfte. Gültig: 3 Jahre. Kosten: ab 100 € (selbst · Arbeitgeber).
+- [Betriebssanitäter — Grundausbildung](https://www.erstehilfekurse.online/kurse/betriebssanitaeter-grundausbildung/): Kompaktblock mit Prüfung nach DGUV Grundsatz 304-002. Gültig: mit Aufbaulehrgang vollständig. Kosten: auf Anfrage (Arbeitgeber).
+- [Betriebssanitäter — Aufbaulehrgang](https://www.erstehilfekurse.online/kurse/betriebssanitaeter-aufbaulehrgang/): Der zweite Teil zur vollen Qualifikation. Gültig: vollständige Qualifikation. Kosten: auf Anfrage (Arbeitgeber).
+- [Medizinischer Sanitätshelfer](https://www.erstehilfekurse.online/kurse/sanitaetshelfer/): Sechs Tage bis zur qualifizierten Sanitätsausbildung. Gültig: Grundlage Sanitätsdienst. Kosten: auf Anfrage (selbst · Verein).
+
+## Ratgeber
+- [Erste-Hilfe-Kurs für den Führerschein: Was gilt 2026?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-fuehrerschein/): Ein Kurs, alle Klassen, kein Ablaufdatum — die wichtigsten Fragen rund um den Erste-Hilfe-Nachweis für die Fahrerlaubnis.
+- [Betriebliche Ersthelfer: Wie viele braucht ein Betrieb?](https://www.erstehilfekurse.online/ratgeber/betriebliche-ersthelfer/): Die Richtwerte aus der DGUV Vorschrift 1 — und warum „Pflicht“ und „Prozentwert“ nicht dasselbe sind.
+- [Wann muss ich meinen Erste-Hilfe-Kurs auffrischen?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-auffrischung/): Führerschein, Betrieb, Lehrkraft — die Fristen unterscheiden sich. Ein Überblick plus Auffrischungs-Rechner.
+- [Erste Hilfe in Kita und Schule: Welcher Kurs ist der richtige?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kita-schule/): Warum für pädagogische Fachkräfte ein eigener Kurs sinnvoll ist — und wer ihn bezahlt.
+- [Erste-Hilfe-Kurs für Eltern: Baby- und Kindernotfälle](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-baby-kind/): Der private Kurs ohne Nachweis-Zwang — für alle, die auf kleine Kinder aufpassen.
+- [Erste-Hilfe-Ausbildung oder Fortbildung — was brauche ich?](https://www.erstehilfekurse.online/ratgeber/ausbildung-oder-fortbildung/): Beide dauern 9 Unterrichtseinheiten, aber nur eine ist für Einsteiger. Der Unterschied entscheidet, ob du 30 Minuten oder einen ganzen Tag falsch buchst.
+- [Erste-Hilfe-Kurs fürs Studium: Medizin, Lehramt & Co.](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-studium/): Fürs Medizinstudium ist der Nachweis Zulassungsvoraussetzung, im Lehramt kommt es aufs Bundesland an. Welcher Kurs zählt und wann du ihn brauchst.
+- [Erste Hilfe im Betrieb: Welche Pflichten hat der Arbeitgeber?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-betrieb-pflichten/): Ersthelfer benennen, Material stellen, Kurse organisieren — was das Arbeitsschutzrecht vom Betrieb verlangt, mit den konkreten Fundstellen.
+- [Wie läuft ein Erste-Hilfe-Kurs ab?](https://www.erstehilfekurse.online/ratgeber/wie-laeuft-ein-erste-hilfe-kurs-ab/): Ein Tag, neun Unterrichtseinheiten, viel Praxis — was dich im Kurs erwartet und was du am Ende in der Hand hast.
+- [Erste Hilfe in Pflege & Gesundheitsberufen: Welcher Kurs?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-pflege-gesundheitsberufe/): Der Standardkurs deckt die Ersthelfer-Pflicht ab — im Praxis- und Pflegealltag ist aber das Notfalltraining am eigenen Material der eigentliche Hebel.
+
+## Werkzeuge
+- [Kursfinder](https://www.erstehilfekurse.online/kursfinder/): Anlass wählen, passenden Kurs erhalten.
+- [Vergleich](https://www.erstehilfekurse.online/vergleich/): alle Kurse mit Dauer, Gültigkeit, Kosten.
+- [Ersthelfer-Rechner](https://www.erstehilfekurse.online/ersthelfer-rechner/): Zahl nach DGUV Vorschrift 1 § 26.
+- [Auffrischungs-Rechner](https://www.erstehilfekurse.online/auffrischung-rechner/): nächste Fortbildung.
+- [Kosten & Abrechnung](https://www.erstehilfekurse.online/kosten/): wer zahlt, BG/UK.
+
+## Hinweis
+Präsenz-/Inhouse-Kurse, kein E-Learning. Buchung/Anfrage läuft über software-wippermann.de. Betreiber und Vertragspartner sind im Impressum (https://www.erstehilfekurse.online/impressum/) ausgewiesen.
