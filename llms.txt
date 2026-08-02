@@ -29,6 +29,9 @@
 - [Wie läuft ein Erste-Hilfe-Kurs ab?](https://www.erstehilfekurse.online/ratgeber/wie-laeuft-ein-erste-hilfe-kurs-ab/): Ein Tag, neun Unterrichtseinheiten, viel Praxis — was dich im Kurs erwartet und was du am Ende in der Hand hast.
 - [Erste Hilfe in Pflege & Gesundheitsberufen: Welcher Kurs?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-pflege-gesundheitsberufe/): Der Standardkurs deckt die Ersthelfer-Pflicht ab — im Praxis- und Pflegealltag ist aber das Notfalltraining am eigenen Material der eigentliche Hebel.
 - [Kann ich den Erste-Hilfe-Kurs online machen?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kurs-online/): Kurz: Nein — der anerkannte Erste-Hilfe-Kurs ist ein Präsenzkurs mit praktischen Übungen. Was das „.online“wirklich meint und was du digital erledigen kannst.
+- [Wie kurzfristig bekomme ich einen Erste-Hilfe-Kurs-Termin?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kurs-kurzfristig/): Oft sehr kurzfristig: Freie Einzelplätze kannst du sofort online buchen, für einen Kurs im Betrieb gibt es meist schnell eine Rückmeldung.
+- [Wie alt darf mein Erste-Hilfe-Kurs für den Führerschein sein?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kurs-fuehrerschein-gueltigkeit/): Beliebig alt: Für den Führerschein hat der Erste-Hilfe-Nachweis kein Ablaufdatum. Ein einmal gemachter Kurs bleibt gültig.
+- [Was muss ich zum Erste-Hilfe-Kurs mitbringen?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kurs-was-mitbringen/): Wenig: Ausweis, bequeme Kleidung und — wenn vorhanden — deine Buchungsbestätigung. Material und Vorwissen brauchst du nicht.
 
 ## Werkzeuge
 - [Kursfinder](https://www.erstehilfekurse.online/kursfinder/): Anlass wählen, passenden Kurs erhalten.
@@ -36,6 +39,10 @@
 - [Ersthelfer-Rechner](https://www.erstehilfekurse.online/ersthelfer-rechner/): Zahl nach DGUV Vorschrift 1 § 26.
 - [Auffrischungs-Rechner](https://www.erstehilfekurse.online/auffrischung-rechner/): nächste Fortbildung.
 - [Kosten & Abrechnung](https://www.erstehilfekurse.online/kosten/): wer zahlt, BG/UK.
+- [BG/UK-Trägerverzeichnis](https://www.erstehilfekurse.online/bg-uk-traeger/): zuständigen Träger + Kontakt finden.
+
+## Info-Dokument
+- [Portalprofil (PDF)](https://www.erstehilfekurse.online/info/erstehilfekurse-online-profil.pdf): kompaktes Info-Dokument über erstehilfekurse.online — Zweck, Angebot, Kurswahl-Hilfe, belegte Kern-Fakten (Erstattung/QSEH, Ersthelfer-Zahl, Fristen), Betreiber, Abgrenzung.
 
 ## Hinweis
 Präsenz-/Inhouse-Kurse, kein E-Learning. Buchung/Anfrage läuft über software-wippermann.de. Betreiber und Vertragspartner sind im Impressum (https://www.erstehilfekurse.online/impressum/) ausgewiesen.
