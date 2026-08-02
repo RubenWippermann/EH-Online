@@ -294,7 +294,7 @@ a.termin-row:hover .termin-cta{background:linear-gradient(135deg,var(--cta-a),va
 .termine-filter{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:6px}
 .termine-filter select{
   appearance:none;padding:10px 38px 10px 14px;border:1px solid var(--line);border-radius:var(--r-pill);
-  background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2378716C' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 15px center;
+  background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23726C7E' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 15px center;
   color:var(--ink);font:inherit;font-size:.9rem;cursor:pointer;
 }
 .tf-bg{display:inline-flex;align-items:center;gap:8px;font-size:.9rem;color:var(--ink-2);cursor:pointer;padding:10px 14px;border:1px solid var(--line);border-radius:var(--r-pill)}
@@ -383,8 +383,13 @@ a.kurs-card:hover .k-more{gap:9px}
 .checks li{position:relative;padding-left:32px;color:var(--ink-2);margin:0}
 .checks li::before{
   content:'';position:absolute;left:0;top:.35em;width:20px;height:20px;border-radius:50%;
-  background:var(--bg-tint) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23EA580C' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E") center no-repeat;
+  background:var(--bg-tint) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%237C3AED' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E") center no-repeat;
   border:1px solid var(--o-200);
+}
+/* „Nicht abgedeckt"-Variante: neutraler ×-Marker statt Häkchen */
+.checks.no li::before{
+  background:var(--bg-tint) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23726C7E' stroke-width='3.4' stroke-linecap='round'%3E%3Cpath d='M18 6L6 18M6 6l12 12'/%3E%3C/svg%3E") center no-repeat;
+  border-color:var(--line);
 }
 
 /* Kooperationshinweis — Pflichtangabe, wer den Lehrgang durchführt.
