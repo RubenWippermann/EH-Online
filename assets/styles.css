@@ -14,7 +14,7 @@
   --brand:#7C3AED;
   --brand-hi:#8B5CF6;
   --brand-lo:#6D28D9;
-  --accent:#F59E0B;
+  --accent:#A78BFA;
   --cta-a:#8B5CF6; --cta-b:#6D28D9;
 
   --ink:#1A1523;
@@ -172,7 +172,7 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
 }
 .btn:active{transform:translateY(1px)}
 .btn.primary{background:linear-gradient(135deg,var(--cta-a),var(--cta-b));color:#fff;box-shadow:var(--sh-brand)}
-.btn.primary:hover{color:#fff;transform:translateY(-2px);box-shadow:0 20px 40px -16px rgba(234,88,12,.6)}
+.btn.primary:hover{color:#fff;transform:translateY(-2px);box-shadow:0 20px 40px -16px rgba(109,40,217,.6)}
 .btn.ghost{background:transparent;border-color:var(--line);color:var(--ink)}
 .btn.ghost:hover{border-color:var(--brand);color:var(--brand-lo);background:var(--bg-tint)}
 .btn.light{background:#fff;color:var(--o-800)}
@@ -206,8 +206,8 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
 .hero::before{
   content:'';position:absolute;inset:-30% -20% auto -20%;height:130%;z-index:-2;
   background:
-    radial-gradient(58% 46% at 78% 8%,rgba(249,115,22,.20),transparent 62%),
-    radial-gradient(46% 40% at 8% 88%,rgba(255,176,32,.16),transparent 64%);
+    radial-gradient(58% 46% at 78% 8%,rgba(124,58,237,.20),transparent 62%),
+    radial-gradient(46% 40% at 8% 88%,rgba(167,139,250,.16),transparent 64%);
 }
 .hero::after{
   content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;
@@ -235,7 +235,7 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
 }
 .hero-panel::before{
   content:'';position:absolute;inset:-1px;border-radius:inherit;padding:1px;z-index:-1;
-  background:linear-gradient(150deg,rgba(249,115,22,.55),transparent 45%);
+  background:linear-gradient(150deg,rgba(124,58,237,.55),transparent 45%);
   -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;
 }
 .hero-panel h3{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:1.06rem;margin-bottom:4px}
@@ -332,8 +332,8 @@ a.termin-row:hover .termin-cta{background:linear-gradient(135deg,var(--cta-a),va
   background:linear-gradient(140deg,var(--o-100),var(--o-200));color:var(--o-700);
 }
 .card-ic svg{width:23px;height:23px}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .card-ic{background:linear-gradient(140deg,rgba(249,115,22,.22),rgba(249,115,22,.10));color:var(--o-300)}}
-:root[data-theme="dark"] .card-ic{background:linear-gradient(140deg,rgba(249,115,22,.22),rgba(249,115,22,.10));color:var(--o-300)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .card-ic{background:linear-gradient(140deg,rgba(124,58,237,.22),rgba(124,58,237,.10));color:var(--o-300)}}
+:root[data-theme="dark"] .card-ic{background:linear-gradient(140deg,rgba(124,58,237,.22),rgba(124,58,237,.10));color:var(--o-300)}
 
 /* Kurskarte */
 a.kurs-card{display:flex;flex-direction:column;color:var(--ink)}
