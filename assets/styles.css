@@ -264,6 +264,8 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
 
 /* ---------- Termin-Listen (API) ---------- */
 .termine{display:flex;flex-direction:column;gap:10px}
+.termine[data-termine]{min-height:188px}
+.termine[data-limit="6"]{min-height:392px}
 .termine-rows{display:flex;flex-direction:column;gap:10px}
 .termin-row{
   display:grid;grid-template-columns:auto 1fr auto auto;gap:16px;align-items:center;
