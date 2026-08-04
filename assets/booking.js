@@ -20,6 +20,11 @@
   // Erste-Hilfe-Ausbildung (EHA), -Fortbildung (EHF), Schulung in Bildungseinrichtungen (EHB).
   // Der Kursfeed flaggt andere Kursarten (Brandschutz, Betriebssani, Notfalltraining,
   // Lehrkräfte, Sanitätshelfer) teils fälschlich als abrechenbar → hier clientseitig korrigiert.
+  // ⚠️ EXAKTE Prüfung per Objekt-Key (k.kursart als Key), NIEMALS startsWith/indexOf:
+  //    "EHBK".startsWith("EHB") === true → ein Präfix-Vergleich würde EHBK (Erste Hilfe am
+  //    Kind, NICHT DGUV-anerkannt) fälschlich als abrechenbar mitfangen. Objekt-Lookup ist exakt.
+  // ⚠️ POSITIVE Allowlist, keine "alles außer X"-Negativlogik: neue Kursarten (z. B. LKF) sind
+  //    automatisch NICHT abrechenbar, bis sie hier bewusst ergänzt werden.
   var BG_UK_KURSARTEN = { EHA: 1, EHF: 1, EHB: 1 };
   function istBgUk(k) { return !!(k && k.bg_uk_abrechenbar && BG_UK_KURSARTEN[k.kursart]); }
 
