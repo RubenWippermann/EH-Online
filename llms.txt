@@ -2,6 +2,15 @@
 
 > Info- und Vergleichsportal rund um Erste-Hilfe-Kurse: welcher Kurs für welchen Anlass, wer zahlt, wie oft auffrischen — plus direkte Buchung freier Termine. Betrieben von Personal Paramedic e.K. (DGUV-Kennziffer 8.2018).
 
+## Kernfakten
+- Erste-Hilfe-Ausbildung (Grundkurs): 9 Unterrichtseinheiten an einem Tag; für den Führerschein Pflicht (§ 19 FeV), der Nachweis ist unbegrenzt gültig.
+- Betriebliche Ersthelfer frischen spätestens alle 2 Jahre per Fortbildung auf (DGUV Vorschrift 1 § 26 Abs. 3); Lehrkräfte für Erste Hilfe alle 3 Jahre (DGUV Grundsatz 304-001).
+- Zahl der betrieblichen Ersthelfer: 1 bei 2–20 anwesenden Versicherten, darüber 5 % (Verwaltung/Handel) bzw. 10 % (sonstige Betriebe) (DGUV Vorschrift 1 § 26 Abs. 1); in Kindertageseinrichtungen mindestens 1 pro Kindergruppe.
+- Kostenübernahme: Für benannte betriebliche Ersthelfer:innen trägt der Unfallversicherungsträger (Berufsgenossenschaft/Unfallkasse) die Lehrgangsgebühr (§ 23 Abs. 2 SGB VII) — nur für Erste-Hilfe-Aus- und -Fortbildung, nicht §26.
+- Wer Erste Hilfe leistet, ist gesetzlich unfallversichert (§ 2 Abs. 1 Nr. 13 Buchstabe a SGB VII) und haftet nur bei Vorsatz oder grober Fahrlässigkeit (§ 680 BGB).
+- Betriebssanitäter: erforderlich ab mehr als 1500 Versicherten oder erhöhter Gefährdung (DGUV Vorschrift 1 § 27); Grundausbildung 63 UE, Aufbaulehrgang 32 UE (DGUV Grundsatz 304-002).
+- Alle Kurse finden in Präsenz statt; die Endung .online meint Organisation, Buchung und digitale Bescheinigung, nicht die Kursform.
+
 ## Kurse
 - [Erste-Hilfe-Ausbildung](https://www.erstehilfekurse.online/kurse/erste-hilfe-ausbildung/): Der Grundkurs (9 UE) — für Führerschein, Betrieb und Alltag. Gültig: Führerschein: unbegrenzt · Betrieb: 2 Jahre. Kosten: ab 30 € (selbst · Betrieb/BG).
 - [Erste-Hilfe-Fortbildung](https://www.erstehilfekurse.online/kurse/erste-hilfe-fortbildung/): Die Auffrischung für betriebliche Ersthelfer — alle zwei Jahre. Gültig: 2 Jahre. Kosten: ab 30 € (Betrieb/BG).
