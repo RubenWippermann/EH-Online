@@ -266,6 +266,8 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
 .termine{display:flex;flex-direction:column;gap:10px}
 .termine[data-termine]{min-height:188px}
 .termine[data-limit="6"]{min-height:392px}
+.illu-band{margin:clamp(28px,5vw,56px) auto}
+.illu-band .illu{display:block;width:100%;max-width:760px;height:auto;margin:0 auto;border-radius:18px}
 .termine-rows{display:flex;flex-direction:column;gap:10px}
 .termin-row{
   display:grid;grid-template-columns:auto 1fr auto auto;gap:16px;align-items:center;
