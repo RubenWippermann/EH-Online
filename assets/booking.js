@@ -63,6 +63,12 @@
     return fmtDate(k.datum) + ' – ' + fmtDate(k.datum_ende);
   }
   function label(t) { return String(t == null ? '' : t).replace(/\s*\([^)]*\)/g, '').trim(); }
+  // Herkunfts-Attribution: quelle=erstehilfekurse additiv anhängen, ohne bestehende
+  // Parameter (v. a. org des Veranstalters) zu verändern. Doppelung wird vermieden.
+  function withQuelle(url) {
+    if (!url || url.indexOf('quelle=') !== -1) return url;
+    return url + (url.indexOf('?') !== -1 ? '&' : '?') + 'quelle=' + encodeURIComponent(QUELLE);
+  }
   function jget(url) {
     return fetch(url, { credentials: 'omit' }).then(function (r) {
       if (!r.ok) throw new Error('http_' + r.status);
@@ -129,8 +135,10 @@
         ' data-titel="' + esc(k.titel) + '"' +
         ' data-datum="' + esc(fmtRange(k)) + (k.stadt ? ' · ' + esc(k.stadt) : '') + '">Warteliste →</button></div>';
     }
-    // buchungs_url unverändert übernehmen (enthält den org des Veranstalters!)
-    var url = k.buchungs_url || (API + '/buchen?termin=' + encodeURIComponent(k.id || ''));
+    // buchungs_url unverändert übernehmen (enthält den org des Veranstalters!) —
+    // NUR additiv quelle=erstehilfekurse anhängen (Herkunfts-Attribution im Arbeitsbereich).
+    // org wird NIE angefasst; quelle nur ergänzt, falls noch nicht vorhanden.
+    var url = withQuelle(k.buchungs_url || (API + '/buchen?termin=' + encodeURIComponent(k.id || '')));
     return '<a class="termin-row" href="' + esc(url) + '" target="_blank" rel="noopener"' +
       ' data-termin-id="' + esc(k.id || '') + '" data-titel="' + esc(label(k.titel)) + '">' +
       inner + '<span class="termin-cta">Platz buchen →</span></a>';
@@ -138,7 +146,7 @@
 
   var EMPTY =
     '<p class="termine-empty">Für diesen Zeitraum sind gerade keine offenen Termine freigeschaltet. ' +
-    'Neue Termine kommen laufend dazu — oder fragt direkt einen <a href="/inhouse-kurse/">Kurs bei euch vor Ort</a> an.</p>';
+    'Neue Termine kommen laufend dazu — oder fragt direkt einen <a href="/inhouse/#anfrage">Kurs bei euch vor Ort</a> an.</p>';
 
   /* ---------- Liste mit Filter ---------- */
   function renderFiltered(el, all) {
@@ -174,7 +182,7 @@
         return (!a || k.kursart === a) && (!s || k.stadt === s) && (!bg || istBgUk(k));
       });
       rows.innerHTML = f.length ? f.map(rowHTML).join('')
-        : '<p class="termine-empty">Für diese Auswahl ist gerade nichts frei. <a href="/inhouse-kurse/">Wunschtermin anfragen →</a></p>';
+        : '<p class="termine-empty">Für diese Auswahl ist gerade nichts frei. <a href="/inhouse/#anfrage">Wunschtermin anfragen →</a></p>';
       if (count) count.textContent = f.length + (f.length === 1 ? ' Termin' : ' Termine');
     }
     [artSel, stadtSel, bgChk].forEach(function (n) { if (n) n.addEventListener('change', apply); });
@@ -202,7 +210,7 @@
         if (!list.length) {
           el.innerHTML = arten.length
             ? '<p class="termine-empty">Für dieses Format ist gerade kein offener Termin ausgeschrieben. ' +
-              'Als Kurs bei euch vor Ort jederzeit möglich — <a href="/inhouse-kurse/">Wunschtermin anfragen →</a></p>'
+              'Als Kurs bei euch vor Ort jederzeit möglich — <a href="/inhouse/#anfrage">Wunschtermin anfragen →</a></p>'
             : EMPTY;
           return;
         }
