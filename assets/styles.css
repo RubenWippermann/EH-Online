@@ -268,6 +268,8 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
 .termine[data-limit="6"]{min-height:392px}
 .illu-band{margin:clamp(28px,5vw,56px) auto}
 .illu-band .illu{display:block;width:100%;max-width:min(760px,100%);height:auto;min-width:0;margin:0 auto;border-radius:18px}
+.foot-logo{display:inline-block;background:#fff;padding:12px 16px;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:14px}
+.foot-logo img{display:block;width:100%;max-width:230px;height:auto}
 .termine-rows{display:flex;flex-direction:column;gap:10px}
 .termin-row{
   display:grid;grid-template-columns:auto 1fr auto auto;gap:16px;align-items:center;
