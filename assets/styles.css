@@ -555,6 +555,10 @@ tr:last-child td{border-bottom:0}
 .foot-col{display:flex;flex-direction:column;gap:10px}
 .foot-col a{color:var(--ink-2);font-size:.93rem}
 .foot-col a:hover{color:var(--brand-lo)}
+.foot-ad{margin:34px 0 0;padding-top:20px;border-top:1px solid var(--line);font-size:.86rem;color:var(--muted)}
+.foot-ad .ad-label{position:static;display:inline;margin-right:8px;text-transform:uppercase;font-size:.66rem;letter-spacing:.06em;color:var(--muted)}
+.foot-ad a{color:var(--brand);font-weight:600}
+.foot-ad a:hover{color:var(--brand-lo)}
 .foot-bottom{
   margin-top:44px;border-top:1px solid var(--line);padding:22px 0 30px;
   display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;
