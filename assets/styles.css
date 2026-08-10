@@ -741,6 +741,7 @@ body.cc-open .sticky-cta{display:none}
 @media(max-width:520px){.topbar .tb-sep{display:none}}
 .foot-angebot{font-size:.86rem;color:var(--muted);margin-top:6px}
 .foot-angebot b{color:var(--ink-2)}
+.foot-ort{font-size:.86rem;color:var(--muted);margin-top:4px}
 
 /* ---------- BG/UK-Trägerverzeichnis ---------- */
 .t-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
