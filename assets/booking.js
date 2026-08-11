@@ -33,6 +33,13 @@
   var ORG_LEAD   = CFG.orgLead    || 'personal-paramedic';
   var ORG_FEEDS  = CFG.orgFeeds   || ['bww', 'personal-paramedic'];
   var QUELLE     = CFG.quelle     || 'erstehilfekurse';
+  // Anzeigename des Veranstalters je Mandanten-Kürzel — für den Buchungs-Zwischenhinweis.
+  // Die offenen Termine veranstaltet BWW (grüne Buchungsseite im neuen Tab); der Hinweis
+  // benennt den Veranstalter offen, statt den Marken-Wechsel zu verschleiern.
+  var VERANSTALTER = CFG.veranstalter || { 'bww': 'BWW', 'personal-paramedic': 'Personal Paramedic' };
+  // M1-Buchungs-Zwischenhinweis: default AUS (Rubens Entscheidung offen — Funnel-Friktion,
+  // nicht messbar). Scharf via EHD_CONFIG.buchungHinweis=true ODER Default hier auf true.
+  var BUCHUNG_HINWEIS = CFG.buchungHinweis === true;
   var TEL        = CFG.tel        || '+49 5527 748849 5';
   var TEL_HREF   = CFG.telHref    || '+4955277488495';
 
@@ -69,6 +76,14 @@
     if (!url || url.indexOf('quelle=') !== -1) return url;
     return url + (url.indexOf('?') !== -1 ? '&' : '?') + 'quelle=' + encodeURIComponent(QUELLE);
   }
+  // Mandanten-Kürzel des Kurses: bevorzugt aus dem Feed (_org), sonst aus der buchungs_url
+  // (org=…). Wird nur zur Anzeige des Veranstalter-Namens genutzt, nie zum Umschreiben der URL.
+  function orgOf(k) {
+    if (k && k._org) return k._org;
+    var m = /[?&]org=([^&]+)/.exec((k && k.buchungs_url) || '');
+    return m ? decodeURIComponent(m[1]) : '';
+  }
+  function veranstalter(k) { return VERANSTALTER[orgOf(k)] || ''; }
   function jget(url) {
     return fetch(url, { credentials: 'omit' }).then(function (r) {
       if (!r.ok) throw new Error('http_' + r.status);
@@ -140,7 +155,9 @@
     // org wird NIE angefasst; quelle nur ergänzt, falls noch nicht vorhanden.
     var url = withQuelle(k.buchungs_url || (API + '/buchen?termin=' + encodeURIComponent(k.id || '')));
     return '<a class="termin-row" href="' + esc(url) + '" target="_blank" rel="noopener"' +
-      ' data-termin-id="' + esc(k.id || '') + '" data-titel="' + esc(label(k.titel)) + '">' +
+      ' data-termin-id="' + esc(k.id || '') + '" data-titel="' + esc(label(k.titel)) + '"' +
+      ' data-datum="' + esc(fmtRange(k)) + (k.stadt ? ' · ' + esc(k.stadt) : '') + '"' +
+      ' data-veranstalter="' + esc(veranstalter(k)) + '">' +
       inner + '<span class="termin-cta">Platz buchen →</span></a>';
   }
 
@@ -194,6 +211,8 @@
     var els = document.querySelectorAll('[data-termine]');
     if (!els.length) return;
     Array.prototype.forEach.call(els, function (el) {
+      // Vorgerenderte (build-time) Termine sichtbar lassen — kein Skeleton-Flash, dienen als Fallback.
+      if (el.getAttribute('data-prerendered')) return;
       el.innerHTML = '<div class="termine-skeleton"><div class="sk-row"></div><div class="sk-row"></div><div class="sk-row"></div></div>';
     });
     loadFeed().then(function (all) {
@@ -223,6 +242,8 @@
       });
     }).catch(function () {
       Array.prototype.forEach.call(els, function (el) {
+        // Feed zur Laufzeit weg: vorgerenderte Termine als Fallback stehen lassen, nicht überschreiben.
+        if (el.getAttribute('data-prerendered')) return;
         el.innerHTML = '<p class="termine-empty">Die Termine lassen sich gerade nicht laden. ' +
           'Bitte kurz später erneut versuchen oder anrufen: <a href="tel:' + TEL_HREF + '">' + TEL + '</a>.</p>';
       });
@@ -321,6 +342,61 @@
     });
   }
 
+  /* ---------- Buchungs-Zwischenhinweis (Marken-Wechsel abfedern) ----------
+     Der Kurs wird vom Veranstalter (i. d. R. BWW) gebucht; dessen Buchungsseite
+     hat ein anderes Erscheinungsbild. Statt wortlos in einen neuen Tab zu springen,
+     benennt ein kurzer Hinweis den Veranstalter offen und führt dann weiter.
+     Kleinster Eingriff, keine zweite Wahrheit: die buchungs_url (org des Veranstalters)
+     bleibt unverändert; der Hinweis verschleiert NICHT, wer bucht. */
+  function ensureBookModal() {
+    if (document.getElementById('bkModal')) return;
+    var d = document.createElement('div');
+    d.className = 'modal-bd'; d.id = 'bkModal'; d.hidden = true;
+    d.innerHTML =
+      '<div class="modal" role="dialog" aria-modal="true" aria-labelledby="bkTitle">' +
+        '<button type="button" class="modal-x" aria-label="Schließen">&times;</button>' +
+        '<h3 id="bkTitle">Weiter zur Buchung</h3>' +
+        '<p class="m-sub" id="bkSub"></p>' +
+        '<p id="bkNote" style="margin:0 0 20px;font-size:.95rem;color:var(--ink-2)"></p>' +
+        '<a id="bkGo" class="btn primary block" target="_blank" rel="noopener" href="#">Weiter zur Buchung →</a>' +
+        '<button type="button" class="btn ghost block bk-cancel" style="margin-top:10px">Abbrechen</button>' +
+      '</div>';
+    document.body.appendChild(d);
+    function close() { d.hidden = true; }
+    d.querySelector('.modal-x').addEventListener('click', close);
+    d.querySelector('.bk-cancel').addEventListener('click', close);
+    // Nach dem Weiterklick (öffnet neuen Tab per echtem Link) den Hinweis schließen.
+    d.querySelector('#bkGo').addEventListener('click', function () { setTimeout(close, 0); });
+    d.addEventListener('click', function (e) { if (e.target === d) close(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !d.hidden) close(); });
+  }
+
+  function wireBooking() {
+    if (!BUCHUNG_HINWEIS) return;   // Flag AUS → direkter Sprung zur Buchung (altes Verhalten)
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest ? e.target.closest('a.termin-row') : null;
+      if (!a || !a.getAttribute('href')) return;
+      // Modifizierte Klicks (neuer Tab/Fenster gewollt) und Nicht-Linksklick: direkt durchlassen.
+      if (e.button || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      e.preventDefault();
+      ensureBookModal();
+      var m = document.getElementById('bkModal');
+      var titel = a.getAttribute('data-titel') || 'Kurs';
+      var datum = a.getAttribute('data-datum') || '';
+      var vera  = a.getAttribute('data-veranstalter') || '';
+      var go = m.querySelector('#bkGo');
+      go.setAttribute('href', a.getAttribute('href'));
+      go.textContent = (vera ? 'Weiter zur Buchung bei ' + vera : 'Weiter zur Buchung') + ' →';
+      m.querySelector('#bkSub').textContent = titel + (datum ? ' — ' + datum : '');
+      m.querySelector('#bkNote').textContent = vera
+        ? 'Diesen Kurs veranstaltet ' + vera + '. Die Buchung läuft direkt beim Veranstalter — '
+          + 'die Seite öffnet sich in einem neuen Tab und sieht daher anders aus als dieses Portal.'
+        : 'Die Buchung läuft direkt beim Veranstalter des Kurses und öffnet sich in einem neuen Tab.';
+      m.hidden = false;
+      setTimeout(function () { go.focus(); }, 60);
+    });
+  }
+
   /* ---------- Warteliste für ausgebuchte Termine ---------- */
   function ensureModal() {
     if (document.getElementById('wlModal')) return;
@@ -388,7 +464,7 @@
   }
 
   /* ---------- Start ---------- */
-  function boot() { initTermine(); initCounters(); wireForms(); wireWaitlist(); initReviews(); }
+  function boot() { initTermine(); initCounters(); wireForms(); wireWaitlist(); wireBooking(); initReviews(); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
   else boot();
 })();
