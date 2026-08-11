@@ -136,8 +136,11 @@
     var zeit  = k.uhrzeit ? esc(k.uhrzeit) + (k.uhrzeit_ende ? '–' + esc(k.uhrzeit_ende) : '') + ' Uhr' : '';
     var preis = (k.preis != null && k.preis !== '') ? esc(k.preis) + ' €' : 'auf Anfrage';
     var voll  = !!k.ausgebucht;
-    var frei  = (k.freie_plaetze != null && k.freie_plaetze !== '' && +k.freie_plaetze <= 4 && !voll)
-                ? 'nur noch ' + esc(k.freie_plaetze) + ' Plätze' : 'Plätze frei';
+    // KEINE konkrete Restplatz-Zahl: die Kapazität ist laut Kurssystem derzeit nicht belastbar
+    // (plaetze_frei=0 heißt „gesperrt“ ODER „nie gepflegt“, Bedeutung kippt) → keine unbelegte
+    // Zusage. Zusätzlich hieß das Feld nie „freie_plaetze“ (Doku-Fehler), sondern „plaetze_frei“
+    // — NICHT resurrektieren, solange es keinen eigenen „Anmeldung gesperrt“-Zustand gibt.
+    var frei  = 'Plätze frei';
 
     var inner =
       '<span class="termin-date"><b>' + fmtRange(k) + '</b>' + (zeit ? '<small>' + zeit + '</small>' : '') + '</span>' +
