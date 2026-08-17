@@ -93,6 +93,14 @@
   }
 
   /* ---------- Termin-Feed (mehrere Mandanten, zusammengeführt) ---------- */
+  // Abgesagt/verschoben NICHT als buchbaren Termin zeigen (schlimmer als eine Platzzahl: der
+  // Kunde stünde vor verschlossener Tür). scheduled/rescheduled bleiben (rescheduled trägt sein
+  // neues Datum). Gleiche Logik wie build-seitig `_abgesagt`.
+  function abgesagt(k) {
+    var s = String((k && k.eventStatus) || '').toLowerCase().replace('event', '').trim();
+    return s === 'cancelled' || s === 'canceled' || s === 'abgesagt' ||
+           s === 'postponed' || s === 'verschoben' || s === 'moved';
+  }
   var _feed = null;
   function loadFeed() {
     if (_feed) return _feed;
@@ -114,6 +122,7 @@
       // Dubletten (gleicher Termin über zwei Mandanten) entfernen, nach Datum sortieren
       var seen = {}, out = [];
       all.forEach(function (k) {
+        if (abgesagt(k)) return;   // abgesagt/verschoben raus (deckt auch den Zähler ab)
         var id = String(k.id || (k.kursart + k.datum));
         if (seen[id]) return;
         seen[id] = 1; out.push(k);
