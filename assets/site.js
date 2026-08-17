@@ -1,4 +1,4 @@
-/* Erste Hilfe Duderstadt — UI (Navigation, Reveal, Theme, Kleinigkeiten) */
+/* erstehilfekurse.online (Personal Paramedic) — UI (Navigation, Reveal, Theme, Kleinigkeiten) */
 (function () {
   'use strict';
 

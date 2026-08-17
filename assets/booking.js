@@ -1,5 +1,5 @@
 /* =============================================================================
-   Erste Hilfe Duderstadt — Anbindung an die Firmensoftware (software-wippermann.de)
+   erstehilfekurse.online (Personal Paramedic) — Anbindung an die Firmensoftware
    -----------------------------------------------------------------------------
    Lesend : GET  /api/kurse?org=&ab_datum=&stadt=&art=   -> {kurse:[…]}
             GET  /api/bewertungen?org=                   -> {bewertungen:[…]}
