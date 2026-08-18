@@ -1,3 +1,3 @@
-2026-08-18T07:02:08+02:00	37
+2026-08-18T07:07:59+02:00	37
 # fingerabdruck=26be82bf6772	bewegung_zuletzt=2026-08-17
 # unveraendert_seit_tagen=1	spaetester_termin=2026-12-20
