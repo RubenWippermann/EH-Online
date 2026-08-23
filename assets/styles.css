@@ -133,10 +133,6 @@ hr{border:0;border-top:1px solid var(--line);margin:2.5rem 0}
   transition:transform .18s var(--ease),box-shadow .18s var(--ease) !important;
 }
 .nav-cta:hover{transform:translateY(-1px);background:linear-gradient(135deg,var(--cta-a),var(--cta-b))}
-/* Telefonnummer NICHT in der Desktop-Leiste (breitester + redundanter Punkt: steht im Footer,
-   auf /kontakt und im Klappmenü). Verhindert den Overflow, der sonst den Geld-CTA abschneidet.
-   Im Mobil-Menü (<=1040px) wird sie unten wieder eingeblendet. */
-.nav-tel{display:none;align-items:center;gap:7px;font-weight:640 !important;color:var(--brand-lo) !important}
 .menu-toggle{
   display:none;margin-left:auto;width:44px;height:44px;border:1px solid var(--line);background:var(--card);
   border-radius:var(--r-xs);color:var(--ink);cursor:pointer;align-items:center;justify-content:center;
@@ -163,7 +159,6 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
   body.menu-open .nav-links{opacity:1;transform:none;pointer-events:auto}
   .nav-links a{padding:13px 10px;font-size:1.03rem;border-bottom:1px solid var(--line-2)}
   .nav-cta{margin:14px 0 0;text-align:center;padding:14px !important}
-  .nav-tel{display:inline-flex}   /* im Klappmenü wieder sichtbar */
   .nav-links a:last-child{border-bottom:0}
 }
 
