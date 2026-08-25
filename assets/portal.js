@@ -63,10 +63,44 @@
     if (!root) return;
     var anz = root.querySelector('#c-anz');
     var out = root.querySelector('[data-out]');
+    var API = 'https://software-wippermann.de';
+    var ORG_LEAD = 'personal-paramedic';
+    var QUELLE = 'erstehilfekurse';
+    var letztesErgebnis = null;   // {anzahl, typ, ergebnis} — nur gesetzt, wenn eine Zahl feststeht
+
+    function sendeLeadMail(e) {
+      e.preventDefault();
+      var form = e.target;
+      var mail = form.querySelector('[name="email"]').value.trim();
+      var hp = form.querySelector('[name="website"]');
+      if (hp && hp.value) return;   // Honeypot: stiller Abbruch
+      if (!mail || !letztesErgebnis) return;
+      var btn = form.querySelector('button[type="submit"]');
+      var status = form.querySelector('.calc-lead-status');
+      btn.disabled = true; btn.textContent = 'Wird gesendet …';
+      fetch(API + '/api/lead', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          org: ORG_LEAD, quelle: QUELLE, email: mail, website: '',
+          rechner: letztesErgebnis
+        })
+      }).then(function (r) { return r.json().catch(function () { return {}; }); })
+        .then(function (res) {
+          if (res && res.ok) {
+            form.innerHTML = '<p class="calc-lead-status ok">Danke — das Ergebnis ist unterwegs zu dir.</p>';
+          } else {
+            btn.disabled = false; btn.textContent = 'Ergebnis per Mail sichern';
+            if (status) status.textContent = 'Das hat leider nicht geklappt. Bitte später erneut versuchen.';
+          }
+        }).catch(function () {
+          btn.disabled = false; btn.textContent = 'Ergebnis per Mail sichern';
+          if (status) status.textContent = 'Das hat leider nicht geklappt. Bitte später erneut versuchen.';
+        });
+    }
 
     function calc() {
       var n = parseInt(anz.value, 10);
-      if (!n || n < 1) { out.innerHTML = ''; return; }
+      if (!n || n < 1) { out.innerHTML = ''; letztesErgebnis = null; return; }
       var typ = (root.querySelector('input[name="c-typ"]:checked') || {}).value || 'verwaltung';
       var zahl, regel;
       if (n <= 20) {
@@ -78,13 +112,23 @@
         regel = 'Bei über 20 Anwesenden: <b>' + (quote * 100) + '&nbsp;%</b> von ' + n +
           ' = <b>' + zahl + '</b> (aufgerundet).';
       }
+      letztesErgebnis = { anzahl: n, typ: typ, ergebnis: zahl };
       out.innerHTML =
         '<div class="calc-result"><b class="calc-big">' + zahl + '</b>' +
         '<span>' + (zahl === 1 ? 'Ersthelfer:in' : 'Ersthelfer:innen') + ' erforderlich</span></div>' +
         '<p>' + regel + '</p>' +
         '<p class="muted" style="font-size:.86rem">Richtwert nach DGUV Vorschrift 1 § 26 Abs. 1. ' +
         'Plane Urlaub, Schicht und Krankheit ein, damit immer genug Ersthelfer:innen anwesend sind.</p>' +
-        '<a class="btn primary" href="/inhouse/#anfrage" style="margin-top:8px">Ersthelfer ausbilden lassen →</a>';
+        '<a class="btn primary" href="/inhouse/#anfrage" style="margin-top:8px">Ersthelfer ausbilden lassen →</a>' +
+        '<form class="calc-lead-form" data-lead-form style="margin-top:14px">' +
+        '<label for="c-lead-mail" style="font-size:.9rem">Ergebnis per Mail erhalten (optional)</label>' +
+        '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:4px">' +
+        '<input type="email" id="c-lead-mail" name="email" placeholder="deine@mail.de" style="flex:1;min-width:200px">' +
+        '<input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">' +
+        '<button class="btn outline" type="submit">Ergebnis per Mail sichern</button>' +
+        '</div><p class="calc-lead-status muted" style="font-size:.82rem;margin-top:4px"></p></form>';
+      var leadForm = out.querySelector('[data-lead-form]');
+      if (leadForm) leadForm.addEventListener('submit', sendeLeadMail);
     }
     anz.addEventListener('input', calc);
     Array.prototype.forEach.call(root.querySelectorAll('input[name="c-typ"]'), function (r) {
