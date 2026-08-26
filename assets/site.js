@@ -82,7 +82,7 @@
   function initKoop() {
     var box = document.getElementById('koopHinweis');
     if (!box) return;
-    var boxes = document.querySelectorAll('input[name="kursart"][data-traeger]');
+    var boxes = document.querySelectorAll('input[name="kurse"][data-traeger]');
     if (!boxes.length) return;
     function sync() {
       var bww = false;
