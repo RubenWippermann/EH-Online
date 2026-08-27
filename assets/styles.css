@@ -134,7 +134,7 @@ hr{border:0;border-top:1px solid var(--line);margin:2.5rem 0}
 }
 .nav-cta:hover{transform:translateY(-1px);background:linear-gradient(135deg,var(--cta-a),var(--cta-b))}
 .menu-toggle{
-  display:none;margin-left:auto;width:44px;height:44px;border:1px solid var(--line);background:var(--card);
+  display:none;flex-shrink:0;margin-left:auto;width:44px;height:44px;border:1px solid var(--line);background:var(--card);
   border-radius:var(--r-xs);color:var(--ink);cursor:pointer;align-items:center;justify-content:center;
 }
 .menu-toggle span{display:block;width:19px;height:2px;background:currentColor;border-radius:2px;position:relative;transition:.22s var(--ease)}
@@ -565,6 +565,9 @@ tr:last-child td{border-bottom:0}
   font-size:.85rem;color:var(--muted);
 }
 .foot-bottom nav{display:flex;flex-wrap:wrap;gap:18px}
+.foot-bottom a,.foot-bottom nav button{
+  padding:11px 6px;margin:-11px -6px;display:inline-flex;align-items:center;min-height:44px;
+}
 .foot-bottom a{color:var(--muted)}
 .foot-bottom a:hover{color:var(--brand-lo)}
 .foot-legal{max-width:70ch;line-height:1.6}
