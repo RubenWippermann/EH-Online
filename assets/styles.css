@@ -209,12 +209,14 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
     radial-gradient(46% 40% at 8% 88%,rgba(167,139,250,.16),transparent 64%);
 }
 .hero::after{
+  /* Sparses Punktraster statt generischem SaaS-Liniengitter (Tech-Grid-Textur, wie sie auf
+     jeder x-beliebigen Dark-Hero-Landingpage steht) — ruhiger, nicht als "App-Blueprint" lesbar. */
   content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;
-  background-image:linear-gradient(var(--line-2) 1px,transparent 1px),linear-gradient(90deg,var(--line-2) 1px,transparent 1px);
-  background-size:58px 58px;
+  background-image:radial-gradient(var(--line-2) 1.6px,transparent 1.6px);
+  background-size:30px 30px;
   mask-image:radial-gradient(70% 55% at 62% 32%,#000 0%,transparent 78%);
   -webkit-mask-image:radial-gradient(70% 55% at 62% 32%,#000 0%,transparent 78%);
-  opacity:.75;
+  opacity:.6;
 }
 .hero-grid{display:grid;grid-template-columns:1.06fr .94fr;gap:clamp(32px,4.5vw,68px);align-items:center}
 .hero h1{margin-bottom:.42em}
@@ -233,8 +235,10 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
   box-shadow:var(--sh-3);padding:26px;position:relative;
 }
 .hero-panel::before{
+  /* Dezenter Rand-Akzent statt vollem Glow-Gradient-Rahmen (generischer "Glass Card"-Effekt) —
+     Tiefe kommt bereits über --sh-3, das hier nicht verdoppelt werden muss. */
   content:'';position:absolute;inset:-1px;border-radius:inherit;padding:1px;z-index:-1;
-  background:linear-gradient(150deg,rgba(124,58,237,.55),transparent 45%);
+  background:linear-gradient(150deg,rgba(124,58,237,.32),transparent 32%);
   -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;
 }
 .hero-panel h3{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:1.06rem;margin-bottom:4px}
