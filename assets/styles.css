@@ -549,7 +549,7 @@ tr:last-child td{border-bottom:0}
 
 /* ---------- Footer ---------- */
 .site-footer{background:var(--bg-soft);border-top:1px solid var(--line);padding:clamp(46px,5vw,72px) 0 0;margin-top:0}
-.foot-grid{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:36px}
+.foot-grid{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr 1fr;gap:36px}
 @media (max-width:900px){.foot-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.foot-grid{grid-template-columns:1fr}}
 .foot-brand p{color:var(--muted);font-size:.92rem;max-width:38ch}
