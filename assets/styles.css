@@ -591,6 +591,9 @@ tr:last-child td{border-bottom:0}
 /* Consent-Banner hat Vorrang: solange keine Cookie-Wahl getroffen ist, würde die
    Sticky-CTA (z-index 90) am Handy die Zustimmungs-Buttons verdecken → ausblenden. */
 body.cc-open .sticky-cta{display:none}
+/* Dasselbe gilt fürs offene Mobil-Menü: gleicher z-index (90) wie .nav-links, sonst
+   bleiben die Sticky-CTA-Buttons hinter/neben dem Menü sicht- und klickbar. */
+body.menu-open .sticky-cta{display:none}
 
 /* ---------- Reveal ---------- */
 .js .rv{opacity:0;transform:translateY(18px);transition:opacity .6s var(--ease),transform .6s var(--ease)}
