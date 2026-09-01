@@ -298,7 +298,7 @@
         var hp = form.querySelector('input[name="website"]');
         if (hp && hp.value) { if (status) status.textContent = 'Danke!'; return; }
 
-        var payload = { org: ORG_LEAD, website: '', quelle: QUELLE };
+        var payload = { org: ORG_LEAD, website: '', quelle: QUELLE, quelle_pfad: location.pathname };
         Array.prototype.forEach.call(form.querySelectorAll('[name]'), function (f) {
           var n = f.getAttribute('name');
           if (n === 'website' || n === 'consent' || n === 'newsletter') return;
