@@ -306,6 +306,9 @@ a.termin-row:hover .termin-cta{background:linear-gradient(135deg,var(--cta-a),va
 .termin-row.is-full .termin-cta{background:transparent;border-color:var(--line);color:var(--muted)}
 .termin-row.is-full .termin-cta:hover{border-color:var(--brand);color:var(--brand-lo)}
 .termine-empty{padding:26px;border:1px dashed var(--line);border-radius:var(--r);color:var(--muted);text-align:center;background:var(--bg-soft)}
+/* Fund 01.09.: Live-Abruf zur Laufzeit fehlgeschlagen, vorgerenderter Stand bleibt sichtbar —
+   dieser Hinweis macht das ehrlich, statt "live geprüft" unkommentiert stehen zu lassen. */
+.termine-stand-warn{color:var(--warn);font-weight:600}
 .termine-filter{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:6px}
 .termine-filter select{max-width:100%;min-width:0;flex:1 1 150px;text-overflow:ellipsis}
 .termine-filter select{

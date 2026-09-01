@@ -255,8 +255,19 @@
       });
     }).catch(function () {
       Array.prototype.forEach.call(els, function (el) {
-        // Feed zur Laufzeit weg: vorgerenderte Termine als Fallback stehen lassen, nicht überschreiben.
-        if (el.getAttribute('data-prerendered')) return;
+        // Feed zur Laufzeit weg: vorgerenderte Termine als Fallback stehen lassen, nicht überschreiben —
+        // aber die "live geprüft"-Zeile aus dem Vorrender bleibt sonst unkommentiert stehen, obwohl der
+        // GERADE erfolgte Live-Check fehlgeschlagen ist (Fund 01.09.). Dezenter Hinweis statt Stille.
+        if (el.getAttribute('data-prerendered')) {
+          var stand = el.querySelector('.termine-stand');
+          if (stand && !stand.querySelector('.termine-stand-warn')) {
+            var warn = document.createElement('span');
+            warn.className = 'termine-stand-warn';
+            warn.textContent = ' Live-Abruf gerade nicht möglich, zeigt letzten bekannten Stand.';
+            stand.appendChild(warn);
+          }
+          return;
+        }
         el.innerHTML = '<p class="termine-empty">Die Termine lassen sich gerade nicht laden. ' +
           'Bitte kurz später erneut versuchen oder anrufen: <a href="tel:' + TEL_HREF + '">' + TEL + '</a>.</p>';
       });
