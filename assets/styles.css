@@ -155,6 +155,12 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
     box-shadow:var(--sh-2);transform:translateY(-8px);opacity:0;pointer-events:none;
     transition:opacity .2s var(--ease),transform .2s var(--ease);
     overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;
+    /* `bottom:0` allein reicht auf mobilem Safari nicht: die ein-/ausblendende
+       Adressleiste verändert die Fixed-Viewport-Hoehe live, das Panel kann dadurch
+       zu kurz geraten und Seiteninhalt am unteren Rand durchscheinen lassen (Fund
+       31.08./01.09., Ruben-Screenshot). Explizite Hoehe erzwingen, mit dvh-Fallback
+       fuer die tatsaechlich sichtbare Flaeche in modernen Browsern. */
+    height:calc(100vh - var(--nav-h));height:calc(100dvh - var(--nav-h));
   }
   body.menu-open .nav-links{opacity:1;transform:none;pointer-events:auto}
   .nav-links a{padding:13px 10px;font-size:1.03rem;border-bottom:1px solid var(--line-2)}
