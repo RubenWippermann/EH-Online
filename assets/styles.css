@@ -438,6 +438,12 @@ a.kurs-card:hover .k-more{gap:9px}
 .note.warn{border-color:color-mix(in srgb,var(--warn) 35%,transparent);background:var(--warn-bg)}
 .note b{display:block;margin-bottom:4px}
 .note p:last-child{margin-bottom:0}
+/* Fund 01.09.: Muster-Widerrufsformular (Widerruf-Seite, gesetzlich vorgeschrieben) hatte
+   keinerlei CSS, rendert unstylisiert. Gleiches Muster wie .note, eigener Name da Formular-
+   fließtext (kein <b>-Titel-Vorschub nötig). */
+.callout{padding:20px 22px;border-radius:var(--r);border:1px solid var(--line);background:var(--bg-soft);font-size:.94rem}
+.callout p{margin:0 0 .6em}
+.callout p:last-child{margin-bottom:0}
 
 /* Tabelle */
 .table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r-lg);background:var(--card)}
