@@ -740,6 +740,13 @@ body.menu-open .sticky-cta{display:none}
 .cc-text p{margin:0;font-size:.9rem;color:var(--muted)}
 .cc-actions{display:flex;gap:10px;flex:0 0 auto}
 @media(max-width:560px){.cc-actions{width:100%}.cc-actions .btn{flex:1}}
+/* Fund 01.09.: "Alle akzeptieren" (voller Verlauf+Schatten) vs. "Nur notwendige" (reine
+   Umrandung) wirkte ungleich gewichtet ("Nudging" — von Aufsichtsbehörden/Gerichten
+   beanstandetes Muster). Beide Buttons hier bewusst gleich neutral, nur "Akzeptieren"
+   mit Markenfarbe statt Grau als minimaler, nicht-dominanter Unterschied. */
+.cc-actions .btn.primary{background:transparent;color:var(--brand);border:1.5px solid var(--brand);
+  box-shadow:none}
+.cc-actions .btn.primary:hover{background:var(--bg-tint);color:var(--brand-lo);border-color:var(--brand-lo)}
 
 /* ---------- Formular-Extras ---------- */
 .wrap.narrow{max-width:760px}
