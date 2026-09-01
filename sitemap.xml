@@ -828,4 +828,34 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/zerebralparese-fruehkindliche-hirnschaedigung/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/lupus-erythematodes-sle/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/sklerodermie/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/sjoegren-syndrom/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/sarkoidose/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/spastik/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
