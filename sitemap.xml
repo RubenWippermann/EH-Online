@@ -1818,4 +1818,34 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/narzisstische-persoenlichkeitsstoerung/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/antisoziale-persoenlichkeitsstoerung/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/dependente-persoenlichkeitsstoerung/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/histrionische-persoenlichkeitsstoerung/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/zwanghafte-persoenlichkeitsstoerung/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/schizoide-persoenlichkeitsstoerung/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
