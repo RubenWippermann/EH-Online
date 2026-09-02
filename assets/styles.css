@@ -594,6 +594,10 @@ tr:last-child td{border-bottom:0}
 .foot-contact a,.foot-contact span{color:var(--ink-2);display:inline-flex;align-items:center;gap:9px}
 .foot-contact a:hover{color:var(--brand-lo)}
 .foot-contact svg{width:16px;height:16px;color:var(--brand);flex:0 0 auto}
+.foot-social{margin-top:12px}
+.foot-social a{color:var(--ink-2);display:inline-flex;align-items:center;gap:8px;font-size:.92rem}
+.foot-social a:hover{color:var(--brand-lo)}
+.foot-social svg{width:18px;height:18px;color:var(--brand);flex:0 0 auto}
 .site-footer h4{font-size:.78rem;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin-bottom:16px;font-weight:700}
 .foot-col{display:flex;flex-direction:column;gap:10px}
 .foot-col a{color:var(--ink-2);font-size:.93rem}
