@@ -5,8 +5,7 @@
         if (saved === "dark" || saved === "light") document.documentElement.setAttribute("data-theme", saved);
     } catch (e) {}
     function toggleTheme() {
-        var cur = document.documentElement.getAttribute("data-theme");
-        if (!cur) cur = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        var cur = document.documentElement.getAttribute("data-theme") || "light";
         var next = cur === "dark" ? "light" : "dark";
         document.documentElement.setAttribute("data-theme", next);
         try {

@@ -44,21 +44,6 @@
   --ease:cubic-bezier(.22,.61,.36,1);
 }
 
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    --ink:#F4F1FA; --ink-2:#D2CCDE; --muted:#A29CB0;
-    --line:#2A2434; --line-2:#211C2B;
-    --bg:#141019; --bg-soft:#1A1524; --bg-tint:#221A33; --card:#1C1727;
-    --brand:#A78BFA; --brand-hi:#C4B5FD; --brand-lo:#8B5CF6;
-    --ok:#4ADE80; --ok-bg:#0F2318;
-    --warn:#FBBF24; --warn-bg:#291D08;
-    --err:#F87171; --err-bg:#2A1414;
-    --sh-1:0 1px 2px rgba(0,0,0,.4);
-    --sh-2:0 4px 16px -4px rgba(0,0,0,.55);
-    --sh-3:0 18px 44px -18px rgba(0,0,0,.7);
-    --sh-brand:0 14px 34px -14px rgba(167,139,250,.4);
-  }
-}
 :root[data-theme="dark"]{
   --ink:#F4F1FA; --ink-2:#D2CCDE; --muted:#A29CB0;
   --line:#2A2434; --line-2:#211C2B;
@@ -92,7 +77,6 @@ h4{font-size:1.03rem;letter-spacing:-.01em}
 p{margin:0 0 1.05em}
 a{color:var(--brand-lo);text-decoration:none;transition:color .18s var(--ease)}
 a:hover{color:var(--brand)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a:not(.btn){color:var(--brand)}}
 :root[data-theme="dark"] a:not(.btn){color:var(--brand)}
 strong,b{font-weight:680;color:var(--ink)}
 small{font-size:.83rem}
@@ -319,7 +303,6 @@ a.termin-row:hover .termin-cta{background:linear-gradient(135deg,var(--cta-a),va
   background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23726C7E' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 15px center;
   color:var(--ink);font:inherit;font-size:.9rem;cursor:pointer;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .termine-filter select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23A29CB0' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E")}}
 :root[data-theme="dark"] .termine-filter select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23A29CB0' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E")}
 .tf-bg{display:inline-flex;align-items:center;gap:8px;font-size:.9rem;color:var(--ink-2);cursor:pointer;padding:10px 14px;border:1px solid var(--line);border-radius:var(--r-pill)}
 .tf-count{margin-left:auto;color:var(--muted);font-size:.87rem;font-weight:600}
@@ -357,7 +340,6 @@ a.termin-row:hover .termin-cta{background:linear-gradient(135deg,var(--cta-a),va
   background:linear-gradient(140deg,var(--o-100),var(--o-200));color:var(--o-700);
 }
 .card-ic svg{width:23px;height:23px}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .card-ic{background:linear-gradient(140deg,rgba(124,58,237,.22),rgba(124,58,237,.10));color:var(--o-300)}}
 :root[data-theme="dark"] .card-ic{background:linear-gradient(140deg,rgba(124,58,237,.22),rgba(124,58,237,.10));color:var(--o-300)}
 
 /* Kurskarte */
