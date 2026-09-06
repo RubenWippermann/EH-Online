@@ -247,8 +247,20 @@
           return;
         }
         if (limit > 0 || arten.length) {
-          el.innerHTML = '<div class="termine-rows">' +
-            (limit > 0 ? list.slice(0, limit) : list).map(rowHTML).join('') + '</div>';
+          var gezeigt = list;
+          if (limit > 0) {
+            // Vorschau mit fester Platzzahl: zuerst buchbare Termine füllen, ausgebuchte
+            // überspringen (nicht ausblenden — in der vollständigen Liste ohne Limit
+            // bleiben sie sichtbar). Gibt es gar keinen buchbaren, lieber die nächsten
+            // ausgebuchten mit Hinweis zeigen als eine leere Vorschau (Digital-Koordinator-
+            // Entscheidung 06.09.).
+            var frei = list.filter(function (k) { return !k.ausgebucht; });
+            gezeigt = frei.length ? frei.slice(0, limit) : list.slice(0, limit);
+          }
+          var hinweis = (limit > 0 && gezeigt.length && gezeigt.every(function (k) { return k.ausgebucht; }))
+            ? '<p class="termine-empty">Diese Termine sind belegt — <a href="/inhouse/#anfrage">schreib uns, wir finden einen Platz</a>.</p>'
+            : '';
+          el.innerHTML = hinweis + '<div class="termine-rows">' + gezeigt.map(rowHTML).join('') + '</div>';
           return;
         }
         renderFiltered(el, list);
