@@ -1,0 +1,200 @@
+name: Termine täglich neu bauen
+
+# WARUM ES DIESEN LAUF GIBT
+# Die Website ist statisch — sie ist nur so frisch wie der letzte Bau. Der bisherige
+# Weg (launchd-Job online.erstehilfekurse.termine, 05:30 lokal) hängt an einem einzelnen
+# Mac und ist fragiler als nötig — Fund 06./07.09.: ein lokal fehlendes build/legal/agb.html
+# ließ den 05:30-Lauf tagelang scheitern, ohne dass jemand außerhalb des Rechners es sah.
+# Dieser Workflow ersetzt den launchd-Job, sobald die zwei Voraussetzungen unten stehen
+# (siehe "VORAUSSETZUNGEN, BEVOR DAS LÄUFT"). Bis dahin bleibt tageslauf.sh die Quelle der
+# Wahrheit für die Logik — dieser Workflow spiegelt sie 1:1, nur als CI-Job statt Cronjob.
+#
+# VORAUSSETZUNGEN, BEVOR DAS LÄUFT (Ruben, nicht von hier aus machbar):
+# 1. Dieses Repo (build/-Inhalt: build.py, data.py, wissen_data.py, staedte.json,
+#    legal/agb.html, legal/widerruf.html, staedte_generieren.py) muss irgendwo in Git
+#    landen — NICHT im öffentlichen RubenWippermann/EH-Online (data.py enthält
+#    Geschäftsinternes: Partner-Konditionen in WERBUNG, ADSENSE_CLIENT, Preisstruktur).
+#    Empfehlung: neues PRIVATES Repo, z. B. RubenWippermann/EH-Online-Build.
+# 2. In diesem neuen Repo unter Settings → Secrets and variables → Actions einen Secret
+#    SITE_PUSH_TOKEN anlegen: ein fine-grained Personal Access Token mit
+#    "Contents: Read and write" NUR auf RubenWippermann/EH-Online (das Website-Repo,
+#    nicht dieses hier). Ablaufdatum unten bei TOKEN_ABLAUF nachtragen.
+# Danach: launchd-Job deaktivieren (launchctl unload
+# ~/Library/LaunchAgents/online.erstehilfekurse.termine.plist), damit nicht doppelt gebaut
+# wird — das macht am besten die Session, die dann noch am Mac sitzt.
+
+on:
+  schedule:
+    - cron: "30 3 * * *"      # 03:30 UTC = 05:30 Sommerzeit — exakt die bisherige launchd-Zeit
+  workflow_dispatch:           # von Hand auslösbar, ohne auf den Zeitplan zu warten
+  push:
+    branches: [main]           # Änderung an den Bauskripten -> Website sofort nachziehen
+    paths-ignore:
+      - "README.md"
+
+# ⏳ Ablaufdatum des Zugangsschlüssels an EINER Stelle. Beim Anlegen des Tokens (siehe oben)
+# hier eintragen. NUR diese Zeile ändern, wenn der Token erneuert wird.
+env:
+  TOKEN_ABLAUF: "BITTE-EINTRAGEN-YYYY-MM-DD"
+  VORWARNUNG_TAGE: "14"
+
+jobs:
+  bauen:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read   # dieses (Bauskript-)Repo braucht nur Lesezugriff, gepusht wird in "site"
+    steps:
+      - name: Bauskripte auschecken
+        uses: actions/checkout@v4
+        with:
+          path: build
+
+      - name: Website-Repo auschecken
+        uses: actions/checkout@v4
+        with:
+          repository: RubenWippermann/EH-Online
+          path: site
+          token: ${{ secrets.SITE_PUSH_TOKEN }}     # ⚠️ muss Ruben einmalig anlegen, siehe oben
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten
+        run: pip install openpyxl
+
+      # Rechtstexte + Ortsdaten kommen aus DIESEM Repo, nicht dem Website-Repo (siehe
+      # site/build-daten/README.md — build/ ist bewusst nicht im Website-Repo versioniert).
+      - name: Rechtstexte/Ortsdaten vorhanden?
+        run: |
+          test -f build/legal/agb.html || { echo "::error::build/legal/agb.html fehlt in diesem Repo."; exit 1; }
+          test -f build/legal/widerruf.html || { echo "::error::build/legal/widerruf.html fehlt in diesem Repo."; exit 1; }
+          test -f build/staedte.json || { echo "::error::build/staedte.json fehlt in diesem Repo."; exit 1; }
+
+      # Stand VOR dem Bau merken — einzig zuverlässiges Signal, ob der Termine-Feed
+      # überhaupt erreichbar war (siehe tageslauf.sh, SICHERHEITSREGEL 1: build.py liefert
+      # bei totem Feed still den alten Stand, kein Fehler-Exit).
+      - name: Termine-Stand vorher merken
+        id: vorher
+        run: |
+          if [ -f site/termine-stand.txt ]; then
+            echo "stand=$(head -1 site/termine-stand.txt)" >> "$GITHUB_OUTPUT"
+          else
+            echo "stand=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Bauen (holt die Termine selbst aus dem Feed)
+        run: |
+          cd build
+          python3 build.py
+        env:
+          # build.py erwartet OUT = ../site relativ zu seinem eigenen Ordner — passt hier
+          # automatisch, weil "build" und "site" Geschwisterordner im Runner-Workspace sind.
+          PYTHONUNBUFFERED: "1"
+
+      - name: Frische prüfen — ohne frischen Feed wird NICHT ausgeliefert
+        run: |
+          vorher="${{ steps.vorher.outputs.stand }}"
+          nachher=$(head -1 site/termine-stand.txt 2>/dev/null || true)
+          if [ "$vorher" = "$nachher" ]; then
+            echo "::error::termine-stand.txt unverändert — Feed war nicht erreichbar. Kein Commit."
+            exit 1
+          fi
+
+      # SICHERHEITSREGEL 3 aus tageslauf.sh (Fund 02.09.): ein Feed, der ANTWORTET, aber für
+      # eine einzelne Kursart plötzlich 0 statt vorher >0 Termine liefert, rutscht durch die
+      # obige Prüfung. Je Seite: hatte sie vorher data-prerendered-Termine und jetzt nicht
+      # mehr, wird NUR diese Datei auf den letzten committeten Stand zurückgesetzt.
+      - name: Regression je Kursseite verhindern
+        run: |
+          cd site
+          for p in kurse/lehrkraefte-ausbildung-tb1/index.html \
+                   kurse/lehrkraefte-ausbildung-tb2/index.html \
+                   kurse/lehrkraefte-fortbildung/index.html \
+                   kurse/betriebssanitaeter-grundausbildung/index.html \
+                   kurse/betriebssanitaeter-aufbaulehrgang/index.html; do
+            vorher_pre=$(git show HEAD:"$p" 2>/dev/null | grep -c 'data-prerendered="1"' || true)
+            nachher_pre=$(grep -c 'data-prerendered="1"' "$p" 2>/dev/null || true)
+            if [ "${vorher_pre:-0}" -gt 0 ] && [ "${nachher_pre:-0}" -eq 0 ]; then
+              echo "::warning::Regression verhindert: $p hatte Termine, neuer Build hat keine mehr — zurückgesetzt."
+              git checkout HEAD -- "$p"
+            fi
+          done
+
+      # Doppelte Absicherung neben der Rechtstexte/Ortsdaten-Prüfung oben: falls build.py aus
+      # irgendeinem Grund doch den Platzhalter erzeugt, NICHT ausliefern.
+      - name: Kein Rechtstext-Platzhalter ausgeliefert
+        run: |
+          cd site
+          if grep -q "Rechtstext folgt" agb/index.html datenschutz/index.html 2>/dev/null; then
+            echo "::error::Platzhalter-Rechtstext erzeugt — kein Commit."
+            exit 1
+          fi
+
+      # NUR die termine-getriebenen Kursseiten + Frische-Datei automatisch committen (wie
+      # tageslauf.sh) — site/ ist ein geteilter Arbeitsbaum, in dem parallel andere Sessions
+      # arbeiten. Ein `git add -A` würde deren offene, noch nicht committete Änderungen
+      # versehentlich mit ausliefern.
+      - name: Website committen und pushen
+        id: push
+        run: |
+          cd site
+          git config user.name  "Termin-Automatik"
+          git config user.email "actions@users.noreply.github.com"
+          git add -- \
+            kurse/lehrkraefte-ausbildung-tb1/index.html \
+            kurse/lehrkraefte-ausbildung-tb2/index.html \
+            kurse/lehrkraefte-fortbildung/index.html \
+            kurse/betriebssanitaeter-grundausbildung/index.html \
+            kurse/betriebssanitaeter-aufbaulehrgang/index.html \
+            termine-stand.txt
+          if git diff --cached --quiet; then
+            echo "Keine Termine-Änderung heute — nichts zu committen."
+            echo "gepusht=nein" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -q -m "Termine-Tageslauf $(date -u +%F): LK/BS-Kursstrecke aktualisiert"
+          git push
+          echo "gepusht=ja" >> "$GITHUB_OUTPUT"
+          echo "stempel=$(head -1 termine-stand.txt | cut -f1)" >> "$GITHUB_OUTPUT"
+
+      # 🔴 EIN GRÜNER LAUF BEWEIST DEN PUSH, NICHT DIE SEITE (Worbis-Erfahrung 17.08.: zwei
+      # GitHub-Pages-Auslieferungen scheiterten, während der Lauf jedes Mal grün meldete).
+      - name: Kam es auch draußen an?
+        if: steps.push.outputs.gepusht == 'ja'
+        run: |
+          erwartet="${{ steps.push.outputs.stempel }}"
+          echo "Erwarteter Stempel auf der Live-Seite: $erwartet"
+          for i in $(seq 1 12); do
+            live=$(curl -sSL --max-time 20 \
+                   -A "eh-online-build/1.0" \
+                   https://www.erstehilfekurse.online/termine-stand.txt | head -1 | cut -f1)
+            if [ "$live" = "$erwartet" ]; then
+              echo "Ausgeliefert nach $((i*30)) Sekunden."
+              exit 0
+            fi
+            echo "  noch $live — warte 30 s ($i/12)"
+            sleep 30
+          done
+          echo "::error::GEPUSHT, ABER NICHT AUSGELIEFERT. Nach 6 Minuten zeigt die Seite weiter '$live' statt '$erwartet'."
+          echo "::error::Pruefen: curl -s https://api.github.com/repos/RubenWippermann/EH-Online/deployments?per_page=3"
+          exit 1
+
+      # ⏳ Läuft der Zugangsschlüssel ab, scheitert der Checkout des Website-Repos still.
+      - name: Zugangsschlüssel — Restlaufzeit
+        if: always()
+        run: |
+          if [ "$TOKEN_ABLAUF" = "BITTE-EINTRAGEN-YYYY-MM-DD" ]; then
+            echo "::warning::TOKEN_ABLAUF ist noch nicht eingetragen — bitte nach Anlegen des Secrets nachtragen."
+            exit 0
+          fi
+          rest=$(( ( $(date -u -d "$TOKEN_ABLAUF" +%s) - $(date -u +%s) ) / 86400 ))
+          echo "SITE_PUSH_TOKEN läuft am $TOKEN_ABLAUF ab — noch $rest Tage."
+          if [ "$rest" -le 0 ]; then
+            echo "::error::Der Token ist ABGELAUFEN. Neuen fine-grained Token (Contents: Read and"
+            echo "::error::write auf RubenWippermann/EH-Online) anlegen, als Secret SITE_PUSH_TOKEN"
+            echo "::error::setzen und TOKEN_ABLAUF oben nachziehen."
+          elif [ "$rest" -le "$VORWARNUNG_TAGE" ]; then
+            echo "::warning::Nur noch $rest Tage. Danach hört der tägliche Lauf STILL auf."
+          fi

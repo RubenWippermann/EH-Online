@@ -44,3 +44,26 @@ Falls auch die LIVE-Seiten selbst je verloren gehen sollten, bräuchte es echte
 Rechtstext-Neufassung durch Ruben/Anwalt — das ist niemals eine Aufgabe für
 diesen Chat, nur die technische Wiederherstellung aus einem bekannten,
 bereits freigegebenen Stand.
+
+## GitHub-Actions-Migration (`.github/workflows/termine.yml`)
+
+Fertig vorbereiteter Workflow, analog zu EH-Worbis' `termine.yml`, um den
+lokalen launchd-Job (`online.erstehilfekurse.termine`, hängt an diesem
+einen Mac) durch einen robusteren täglichen GitHub-Actions-Lauf zu
+ersetzen. Kann NICHT von hier aus scharf geschaltet werden — braucht zwei
+Schritte, die nur Ruben machen kann (Details stehen als Kommentar oben in
+der Workflow-Datei selbst):
+
+1. `build/` (build.py, data.py, wissen_data.py, staedte.json, legal/) in
+   ein neues Repo bringen — NICHT ins öffentliche EH-Online-Repo, weil
+   data.py Geschäftsinternes enthält (Partner-Konditionen, AdSense-ID,
+   Preisstruktur). Empfehlung: neues privates Repo (z. B.
+   `RubenWippermann/EH-Online-Build`).
+2. In diesem neuen Repo einen Secret `SITE_PUSH_TOKEN` anlegen
+   (fine-grained PAT, "Contents: Read and write" nur auf EH-Online) und
+   `TOKEN_ABLAUF` in der Workflow-Datei nachtragen.
+
+Danach: Workflow-Datei aus `build-daten/.github/workflows/termine.yml`
+in das neue Repo kopieren, und den launchd-Job deaktivieren
+(`launchctl unload ~/Library/LaunchAgents/online.erstehilfekurse.termine.plist`),
+damit nicht doppelt gebaut wird.
