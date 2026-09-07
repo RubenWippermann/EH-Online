@@ -976,4 +976,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/chronische-ischaemische-herzkrankheit/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/toxische-leberkrankheit/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/speicheldruesenerkrankungen/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/krankheiten-der-zunge/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/gastrooesophageale-refluxkrankheit/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/gefaesskrankheiten-des-darmes/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/orbitaerkrankungen/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
