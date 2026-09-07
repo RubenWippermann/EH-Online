@@ -856,4 +856,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/stomatitis/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/hypotonie/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/rheumatische-mitralklappenkrankheiten/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/krankheiten-mehrerer-herzklappen/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/angeborene-kehlkopffehlbildungen/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/angeborene-lungenfehlbildungen/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/atrophische-hautkrankheiten/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
