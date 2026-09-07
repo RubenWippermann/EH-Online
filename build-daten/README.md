@@ -67,3 +67,18 @@ Danach: Workflow-Datei aus `build-daten/.github/workflows/termine.yml`
 in das neue Repo kopieren, und den launchd-Job deaktivieren
 (`launchctl unload ~/Library/LaunchAgents/online.erstehilfekurse.termine.plist`),
 damit nicht doppelt gebaut wird.
+
+## `indexnow.py`
+
+FUND 07.09. (Rubens "Durchgang bis Null"): ein früherer Sitzungs-Log
+dokumentierte diesen Ping als "PFLICHT-DEPLOY-SCHRITT" — die
+Schlüsseldatei (`INDEXNOW_KEY` in data.py, liegt live unter
+`/6ee5c1615ef2f434e5d82d4c72b80fef.txt`) lag die ganze Zeit korrekt im
+Web-Root, aber `build/indexnow.py` selbst war nirgends vorhanden
+(vermutlich derselbe Datenverlust wie bei staedte.json/legal). Alle
+Deploys seither haben Google/Bing nie aktiv über Änderungen informiert,
+nur den normalen Crawl-Rhythmus. Am 07.09. neu gebaut, sofort für
+1.351 Sitemap-URLs ausgelöst (HTTP 200), und in `tageslauf.sh`
+eingehängt (pingt nach jedem erfolgreichen Termine-Push die 5
+LK/BS-Kursseiten). Bei erneutem Verlust: `cp site/build-daten/indexnow.py
+build/indexnow.py`.
