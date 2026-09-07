@@ -1360,4 +1360,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/anophthalmus-mikrophthalmus-und-makrophthalmus/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/methaemoglobinaemie/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/disseminierte-intravasale-gerinnung-defibrinationssyndrom/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/akutes-atemnotsyndrom-des-kindes-jugendlichen-und-erwachsenen-ards/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/leptospirose/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/akute-virushepatitis-a/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/akute-virushepatitis-b/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
