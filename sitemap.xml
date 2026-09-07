@@ -1264,4 +1264,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/affektionen-des-glaskoerpers/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/enzephalitis-myelitis-und-enzephalomyelitis/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/krankheiten-von-nervenwurzeln-und-nervenplexus/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/mononeuropathien-der-oberen-extremitaet/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/mononeuropathien-der-unteren-extremitaet/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/folgen-einer-zerebrovaskulaeren-krankheit/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/toxische-enzephalopathie/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
