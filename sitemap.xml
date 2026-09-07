@@ -1456,4 +1456,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/hyphaema/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/tympanosklerose/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/akute-myringitis/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/polyp-im-mittelohr/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/taubstummheit/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/degenerative-und-vaskulaere-krankheiten-des-ohres/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/kontinuitaetsunterbrechung-der-gehoerknoechelchenkette/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
