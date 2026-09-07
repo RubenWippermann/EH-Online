@@ -639,7 +639,7 @@ body.menu-open .sticky-cta{display:none}
 /* ---------- Karten-Zusätze ---------- */
 .tag{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.02em;
   padding:3px 9px;border-radius:var(--r-pill);background:var(--o-100);color:var(--o-800)}
-.tag.alt{background:var(--line-2);color:var(--muted)}
+.tag.alt{background:var(--line-2);color:var(--ink-2)}
 :root[data-theme="dark"] .tag,.card .tag{}
 .anlass .k-more,.card .k-more{margin-top:auto}
 .anlass{display:flex;flex-direction:column}
