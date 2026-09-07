@@ -832,4 +832,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/pinta/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/blindheit-sehbeeintraechtigung/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/traenenapparat-erkrankungen/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/volumenmangel/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/alkoholische-leberkrankheit/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/oesophagitis/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/stomatitis/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
