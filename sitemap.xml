@@ -928,4 +928,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/atemstoerungen/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/hypertrophe-hautkrankheiten/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/staphylococcal-scalded-skin-syndrom/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/manische-episode/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/phobische-stoerungen/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/nichtorganische-schlafstoerungen/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/stoerungen-der-vestibularfunktion/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
