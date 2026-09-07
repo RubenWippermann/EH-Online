@@ -1120,4 +1120,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/chorioretinitis/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/neuropathia-vestibularis/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/labyrinthfistel/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/otorrhoe/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/ototoxischer-hoerverlust/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/erworbene-stenose-des-aeusseren-gehoerganges/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/funktionsstoerung-des-labyrinths/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
