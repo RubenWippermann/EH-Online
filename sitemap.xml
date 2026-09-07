@@ -496,4 +496,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/trizyklische-antidepressiva-vergiftung/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/digitalisvergiftung/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/kalziumantagonisten-vergiftung/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/eisenvergiftung/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/antikoagulanzien-vergiftung/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/cholinesterasehemmer-vergiftung/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/ace-hemmer-ueberdosierung/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
