@@ -544,4 +544,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/polyneuritis/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/eklampsie/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/atrioventrikulaerer-block/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/paroxysmale-tachykardie/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/rheumatische-chorea/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/dekubitus/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/pilonidalzyste/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
