@@ -1,0 +1,653 @@
+[
+ {
+  "name": "Büsum",
+  "slug": "buesum",
+  "bundesland": "Schleswig-Holstein",
+  "kreis": "Dithmarschen",
+  "ew": 5105
+ },
+ {
+  "name": "Lensahn",
+  "slug": "lensahn",
+  "bundesland": "Schleswig-Holstein",
+  "kreis": "Ostholstein",
+  "ew": 5066
+ },
+ {
+  "name": "Laboe",
+  "slug": "laboe",
+  "bundesland": "Schleswig-Holstein",
+  "kreis": "Plön",
+  "ew": 5546
+ },
+ {
+  "name": "Süderbrarup",
+  "slug": "suederbrarup",
+  "bundesland": "Schleswig-Holstein",
+  "kreis": "Schleswig-Flensburg",
+  "ew": 5255
+ },
+ {
+  "name": "Calberlah",
+  "slug": "calberlah",
+  "bundesland": "Niedersachsen",
+  "kreis": "Gifhorn",
+  "ew": 5288
+ },
+ {
+  "name": "Bad Lauterberg im Harz",
+  "slug": "bad-lauterberg-im-harz",
+  "bundesland": "Niedersachsen",
+  "kreis": "Göttingen",
+  "ew": 10164
+ },
+ {
+  "name": "Oldenburg (Oldb)",
+  "slug": "oldenburg-oldb",
+  "bundesland": "Niedersachsen",
+  "kreis": null,
+  "ew": 176614
+ },
+ {
+  "name": "Münster (Hessen)",
+  "slug": "muenster-hessen",
+  "bundesland": "Hessen",
+  "kreis": "Darmstadt-Dieburg",
+  "ew": 14813
+ },
+ {
+  "name": "Schmitten im Taunus",
+  "slug": "schmitten-im-taunus",
+  "bundesland": "Hessen",
+  "kreis": "Hochtaunuskreis",
+  "ew": 9323
+ },
+ {
+  "name": "Oberzent",
+  "slug": "oberzent",
+  "bundesland": "Hessen",
+  "kreis": "Odenwaldkreis",
+  "ew": 9429
+ },
+ {
+  "name": "Heuchelheim a. d. Lahn",
+  "slug": "heuchelheim-a-d-lahn",
+  "bundesland": "Hessen",
+  "kreis": "Gießen",
+  "ew": 7773
+ },
+ {
+  "name": "Habichtswald",
+  "slug": "habichtswald",
+  "bundesland": "Hessen",
+  "kreis": "Kassel",
+  "ew": 5168
+ },
+ {
+  "name": "Kusel",
+  "slug": "kusel",
+  "bundesland": "Rheinland-Pfalz",
+  "kreis": "Kusel",
+  "ew": 5332
+ },
+ {
+  "name": "Erdmannhausen",
+  "slug": "erdmannhausen",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Ludwigsburg",
+  "ew": 5261
+ },
+ {
+  "name": "Talheim",
+  "slug": "talheim",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Heilbronn",
+  "ew": 5074
+ },
+ {
+  "name": "Forchtenberg",
+  "slug": "forchtenberg",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Hohenlohekreis",
+  "ew": 5405
+ },
+ {
+  "name": "Frankenhardt",
+  "slug": "frankenhardt",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Schwäbisch Hall",
+  "ew": 5026
+ },
+ {
+  "name": "Obersontheim",
+  "slug": "obersontheim",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Schwäbisch Hall",
+  "ew": 5355
+ },
+ {
+  "name": "Sulzfeld",
+  "slug": "sulzfeld",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Karlsruhe",
+  "ew": 5131
+ },
+ {
+  "name": "Iffezheim",
+  "slug": "iffezheim",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Rastatt",
+  "ew": 5219
+ },
+ {
+  "name": "Ötigheim",
+  "slug": "oetigheim",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Rastatt",
+  "ew": 5110
+ },
+ {
+  "name": "Haßmersheim",
+  "slug": "hassmersheim",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Neckar-Odenwald-Kreis",
+  "ew": 5052
+ },
+ {
+  "name": "Angelbachtal",
+  "slug": "angelbachtal",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Rhein-Neckar-Kreis",
+  "ew": 5299
+ },
+ {
+  "name": "Lenzkirch",
+  "slug": "lenzkirch",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Breisgau-Hochschwarzwald",
+  "ew": 5201
+ },
+ {
+  "name": "Müllheim im Markgräflerland",
+  "slug": "muellheim-im-markgraeflerland",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Breisgau-Hochschwarzwald",
+  "ew": 20097
+ },
+ {
+  "name": "Mahlberg",
+  "slug": "mahlberg",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Ortenaukreis",
+  "ew": 5254
+ },
+ {
+  "name": "Kappel-Grafenhausen",
+  "slug": "kappel-grafenhausen",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Ortenaukreis",
+  "ew": 5246
+ },
+ {
+  "name": "Steißlingen",
+  "slug": "steisslingen",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Konstanz",
+  "ew": 5133
+ },
+ {
+  "name": "Bad Bellingen",
+  "slug": "bad-bellingen",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Lörrach",
+  "ew": 5134
+ },
+ {
+  "name": "Walddorfhäslach",
+  "slug": "walddorfhaeslach",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Reutlingen",
+  "ew": 5457
+ },
+ {
+  "name": "Ofterdingen",
+  "slug": "ofterdingen",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Tübingen",
+  "ew": 5505
+ },
+ {
+  "name": "Illerkirchberg",
+  "slug": "illerkirchberg",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Alb-Donau-Kreis",
+  "ew": 5036
+ },
+ {
+  "name": "Lonsee",
+  "slug": "lonsee",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Alb-Donau-Kreis",
+  "ew": 5170
+ },
+ {
+  "name": "Achstetten",
+  "slug": "achstetten",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Biberach",
+  "ew": 5116
+ },
+ {
+  "name": "Oberteuringen",
+  "slug": "oberteuringen",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Bodenseekreis",
+  "ew": 5035
+ },
+ {
+  "name": "Krauchenwies",
+  "slug": "krauchenwies",
+  "bundesland": "Baden-Württemberg",
+  "kreis": "Sigmaringen",
+  "ew": 5023
+ },
+ {
+  "name": "Odelzhausen",
+  "slug": "odelzhausen",
+  "bundesland": "Bayern",
+  "kreis": "Dachau",
+  "ew": 5671
+ },
+ {
+  "name": "Denkendorf",
+  "slug": "denkendorf-bayern",
+  "bundesland": "Bayern",
+  "kreis": "Eichstätt",
+  "ew": 5036
+ },
+ {
+  "name": "Wettstetten",
+  "slug": "wettstetten",
+  "bundesland": "Bayern",
+  "kreis": "Eichstätt",
+  "ew": 5184
+ },
+ {
+  "name": "Fahrenzhausen",
+  "slug": "fahrenzhausen",
+  "bundesland": "Bayern",
+  "kreis": "Freising",
+  "ew": 5064
+ },
+ {
+  "name": "Mammendorf",
+  "slug": "mammendorf",
+  "bundesland": "Bayern",
+  "kreis": "Fürstenfeldbruck",
+  "ew": 5066
+ },
+ {
+  "name": "Karlskron",
+  "slug": "karlskron",
+  "bundesland": "Bayern",
+  "kreis": "Neuburg-Schrobenhausen",
+  "ew": 5150
+ },
+ {
+  "name": "Schechen",
+  "slug": "schechen",
+  "bundesland": "Bayern",
+  "kreis": "Rosenheim",
+  "ew": 5316
+ },
+ {
+  "name": "Übersee",
+  "slug": "uebersee",
+  "bundesland": "Bayern",
+  "kreis": "Traunstein",
+  "ew": 5013
+ },
+ {
+  "name": "Pfeffenhausen",
+  "slug": "pfeffenhausen",
+  "bundesland": "Bayern",
+  "kreis": "Landshut",
+  "ew": 5441
+ },
+ {
+  "name": "Windorf",
+  "slug": "windorf",
+  "bundesland": "Bayern",
+  "kreis": "Passau",
+  "ew": 5005
+ },
+ {
+  "name": "Moosthenning",
+  "slug": "moosthenning",
+  "bundesland": "Bayern",
+  "kreis": "Dingolfing-Landau",
+  "ew": 5290
+ },
+ {
+  "name": "Deining",
+  "slug": "deining",
+  "bundesland": "Bayern",
+  "kreis": "Neumarkt i.d.OPf.",
+  "ew": 5392
+ },
+ {
+  "name": "Mühlhausen",
+  "slug": "muehlhausen-bayern",
+  "bundesland": "Bayern",
+  "kreis": "Neumarkt i.d.OPf.",
+  "ew": 5251
+ },
+ {
+  "name": "Mintraching",
+  "slug": "mintraching",
+  "bundesland": "Bayern",
+  "kreis": "Regensburg",
+  "ew": 5020
+ },
+ {
+  "name": "Wörth a.d.Donau",
+  "slug": "woerth-a-d-donau",
+  "bundesland": "Bayern",
+  "kreis": "Regensburg",
+  "ew": 5196
+ },
+ {
+  "name": "Frensdorf",
+  "slug": "frensdorf",
+  "bundesland": "Bayern",
+  "kreis": "Bamberg",
+  "ew": 5175
+ },
+ {
+  "name": "Weitramsdorf",
+  "slug": "weitramsdorf",
+  "bundesland": "Bayern",
+  "kreis": "Coburg",
+  "ew": 5029
+ },
+ {
+  "name": "Petersaurach",
+  "slug": "petersaurach",
+  "bundesland": "Bayern",
+  "kreis": "Ansbach",
+  "ew": 5000
+ },
+ {
+  "name": "Spalt",
+  "slug": "spalt",
+  "bundesland": "Bayern",
+  "kreis": "Roth",
+  "ew": 5196
+ },
+ {
+  "name": "Erlenbach a.Main",
+  "slug": "erlenbach-a-main-bayern",
+  "bundesland": "Bayern",
+  "kreis": "Miltenberg",
+  "ew": 9717
+ },
+ {
+  "name": "Fischach",
+  "slug": "fischach",
+  "bundesland": "Bayern",
+  "kreis": "Augsburg",
+  "ew": 5001
+ },
+ {
+  "name": "Großaitingen",
+  "slug": "grossaitingen",
+  "bundesland": "Bayern",
+  "kreis": "Augsburg",
+  "ew": 5331
+ },
+ {
+  "name": "Sulzberg",
+  "slug": "sulzberg",
+  "bundesland": "Bayern",
+  "kreis": "Oberallgäu",
+  "ew": 5040
+ },
+ {
+  "name": "Wiggensbach",
+  "slug": "wiggensbach",
+  "bundesland": "Bayern",
+  "kreis": "Oberallgäu",
+  "ew": 5065
+ },
+ {
+  "name": "Rehfelde",
+  "slug": "rehfelde",
+  "bundesland": "Brandenburg",
+  "kreis": "Märkisch-Oderland",
+  "ew": 5403
+ },
+ {
+  "name": "Aue-Bad Schlema",
+  "slug": "aue-bad-schlema",
+  "bundesland": "Sachsen",
+  "kreis": "Erzgebirgskreis",
+  "ew": 18868
+ },
+ {
+  "name": "Lichtenau",
+  "slug": "lichtenau",
+  "bundesland": "Sachsen",
+  "kreis": "Mittelsachsen",
+  "ew": 6912
+ },
+ {
+  "name": "Neustadt in Sachsen",
+  "slug": "neustadt-in-sachsen",
+  "bundesland": "Sachsen",
+  "kreis": "Sächsische Schweiz-Osterzgebirge",
+  "ew": 11810
+ },
+ {
+  "name": "Bennewitz",
+  "slug": "bennewitz",
+  "bundesland": "Sachsen",
+  "kreis": "Leipzig",
+  "ew": 5135
+ },
+ {
+  "name": "Rackwitz",
+  "slug": "rackwitz",
+  "bundesland": "Sachsen",
+  "kreis": "Nordsachsen",
+  "ew": 5452
+ },
+ {
+  "name": "Niederorschel",
+  "slug": "niederorschel",
+  "bundesland": "Thüringen",
+  "kreis": "Eichsfeld",
+  "ew": 5357
+ },
+ {
+  "name": "Uder",
+  "slug": "uder",
+  "bundesland": "Thüringen",
+  "kreis": "Eichsfeld",
+  "ew": 6134
+ },
+ {
+  "name": "Nordhausen",
+  "slug": "nordhausen",
+  "bundesland": "Thüringen",
+  "kreis": "Nordhausen",
+  "ew": 40767
+ },
+ {
+  "name": "Bleicherode",
+  "slug": "bleicherode",
+  "bundesland": "Thüringen",
+  "kreis": "Nordhausen",
+  "ew": 9920
+ },
+ {
+  "name": "Werra-Suhl-Tal",
+  "slug": "werra-suhl-tal",
+  "bundesland": "Thüringen",
+  "kreis": "Wartburgkreis",
+  "ew": 6028
+ },
+ {
+  "name": "Dermbach",
+  "slug": "dermbach",
+  "bundesland": "Thüringen",
+  "kreis": "Wartburgkreis",
+  "ew": 6889
+ },
+ {
+  "name": "Mühlhausen",
+  "slug": "muehlhausen-thueringen",
+  "bundesland": "Thüringen",
+  "kreis": "Unstrut-Hainich-Kreis",
+  "ew": 36353
+ },
+ {
+  "name": "Unstruttal",
+  "slug": "unstruttal",
+  "bundesland": "Thüringen",
+  "kreis": "Unstrut-Hainich-Kreis",
+  "ew": 5993
+ },
+ {
+  "name": "Unstrut-Hainich",
+  "slug": "unstrut-hainich",
+  "bundesland": "Thüringen",
+  "kreis": "Unstrut-Hainich-Kreis",
+  "ew": 6378
+ },
+ {
+  "name": "Nottertal-Heilinger Höhen",
+  "slug": "nottertal-heilinger-hoehen",
+  "bundesland": "Thüringen",
+  "kreis": "Unstrut-Hainich-Kreis",
+  "ew": 5750
+ },
+ {
+  "name": "Roßleben-Wiehe",
+  "slug": "rossleben-wiehe",
+  "bundesland": "Thüringen",
+  "kreis": "Kyffhäuserkreis",
+  "ew": 7062
+ },
+ {
+  "name": "Greußen",
+  "slug": "greussen",
+  "bundesland": "Thüringen",
+  "kreis": "Kyffhäuserkreis",
+  "ew": 5544
+ },
+ {
+  "name": "An der Schmücke",
+  "slug": "an-der-schmuecke",
+  "bundesland": "Thüringen",
+  "kreis": "Kyffhäuserkreis",
+  "ew": 5881
+ },
+ {
+  "name": "Kaltennordheim",
+  "slug": "kaltennordheim",
+  "bundesland": "Thüringen",
+  "kreis": "Schmalkalden-Meiningen",
+  "ew": 5562
+ },
+ {
+  "name": "Wasungen",
+  "slug": "wasungen",
+  "bundesland": "Thüringen",
+  "kreis": "Schmalkalden-Meiningen",
+  "ew": 5342
+ },
+ {
+  "name": "Nessetal",
+  "slug": "nessetal",
+  "bundesland": "Thüringen",
+  "kreis": "Gotha",
+  "ew": 7938
+ },
+ {
+  "name": "Georgenthal",
+  "slug": "georgenthal",
+  "bundesland": "Thüringen",
+  "kreis": "Gotha",
+  "ew": 7824
+ },
+ {
+  "name": "Buttstädt",
+  "slug": "buttstaedt",
+  "bundesland": "Thüringen",
+  "kreis": "Sömmerda",
+  "ew": 6470
+ },
+ {
+  "name": "Stadtilm",
+  "slug": "stadtilm",
+  "bundesland": "Thüringen",
+  "kreis": "Ilm-Kreis",
+  "ew": 8312
+ },
+ {
+  "name": "Geratal",
+  "slug": "geratal",
+  "bundesland": "Thüringen",
+  "kreis": "Ilm-Kreis",
+  "ew": 8504
+ },
+ {
+  "name": "Großbreitenbach",
+  "slug": "grossbreitenbach",
+  "bundesland": "Thüringen",
+  "kreis": "Ilm-Kreis",
+  "ew": 5884
+ },
+ {
+  "name": "Ilmtal-Weinstraße",
+  "slug": "ilmtal-weinstrasse",
+  "bundesland": "Thüringen",
+  "kreis": "Weimarer Land",
+  "ew": 6169
+ },
+ {
+  "name": "Grammetal",
+  "slug": "grammetal",
+  "bundesland": "Thüringen",
+  "kreis": "Weimarer Land",
+  "ew": 6437
+ },
+ {
+  "name": "Bad Sulza",
+  "slug": "bad-sulza",
+  "bundesland": "Thüringen",
+  "kreis": "Weimarer Land",
+  "ew": 8001
+ },
+ {
+  "name": "Am Ettersberg",
+  "slug": "am-ettersberg",
+  "bundesland": "Thüringen",
+  "kreis": "Weimarer Land",
+  "ew": 7010
+ },
+ {
+  "name": "Föritztal",
+  "slug": "foeritztal",
+  "bundesland": "Thüringen",
+  "kreis": "Sonneberg",
+  "ew": 8183
+ },
+ {
+  "name": "Berga-Wünschendorf",
+  "slug": "berga-wuenschendorf",
+  "bundesland": "Thüringen",
+  "kreis": "Greiz",
+  "ew": 5840
+ }
+]
