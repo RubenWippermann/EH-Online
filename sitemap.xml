@@ -784,4 +784,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/akute-lymphadenitis/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/nichtrheumatische-trikuspidalklappenkrankheiten/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/herzgeraeusche/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/hals-und-brustschmerzen/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/haemoptyse/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/hypertensive-herzkrankheit/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/gestationshypertonie/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
