@@ -2108,4 +2108,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/malzarbeiter-lunge/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/rotz/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/akute-oder-fulminante-melioidose/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/pasteurellose/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/extraintestinale-yersiniose/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/marburg-viruskrankheit/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/ebola-viruskrankheit/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
