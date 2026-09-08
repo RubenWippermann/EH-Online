@@ -1720,4 +1720,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/folgen-der-ueberernaehrung/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/sexuelle-funktionsstoerungen-nichtorganisch/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/depressive-episode/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/rezidivierende-depressive-stoerung/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/andere-affektive-stoerungen/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/induzierte-wahnhafte-stoerung/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/akute-voruebergehende-psychotische-stoerungen/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
