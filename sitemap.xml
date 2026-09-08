@@ -1528,4 +1528,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/stoerungen-der-zahnentwicklung-und-des-zahndurchbruchs/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/paraparese-paraplegie-tetraparese-tetraplegie/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/sonstige-laehmungssyndrome/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/sonstige-myopathien/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/sonstige-degenerative-krankheiten-der-basalganglien/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/sonstige-demyelinisierende-krankheiten-des-zentralnervensystems/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/intrakranielle-und-intraspinale-abszesse-und-granulome/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
