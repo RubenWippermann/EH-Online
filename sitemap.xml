@@ -1840,4 +1840,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/nichtrheumatische-trikuspidalklappenstenose/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/hereditaere-spastische-paraplegie/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/refsum-krankheit/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/hereditaere-sensomotorische-neuropathie/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/angeborene-myasthenie/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/toxische-neuromuskulaere-krankheiten/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/paraneoplastische-neuromyopathie/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
