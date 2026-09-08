@@ -1648,4 +1648,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/misslungene-geburtseinleitung/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/enterocolitis-necroticans/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/anenzephalie/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/enzephalozele/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/sonstige-angeborene-fehlbildungen-des-gehirns/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/nierenagenesie-und-reduktionsdefekte-der-niere/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/angeborene-fehlbildungen-der-lunge/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
