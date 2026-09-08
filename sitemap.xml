@@ -1864,4 +1864,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/paraneoplastische-neuromyopathie/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/allgemeines-oedem/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/somnolenz-sopor-koma/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/stoerungen-der-stimme/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/ploetzlicher-kindstod/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/sprech-und-sprachstoerungen/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/hautausschlag-und-unspezifische-hauteruptionen/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
