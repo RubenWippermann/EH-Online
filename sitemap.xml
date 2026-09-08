@@ -1624,4 +1624,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/sonstige-krankheiten-der-nase-und-nasennebenhoehlen/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/retention-der-plazenta-und-der-eihaeute/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/geburtshindernis-durch-lageanomalien-des-fetus/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/blutung-in-der-fruehschwangerschaft/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/fehl-und-mangelernaehrung-in-der-schwangerschaft/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/sonstiges-geburtshindernis/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/misslungene-geburtseinleitung/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
