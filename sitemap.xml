@@ -1768,4 +1768,28 @@
     <loc>https://www.erstehilfekurse.online/wissen/zustand-nach-sepsis/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/ulcus-cruris/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/allergische-kontaktdermatitis/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/dermatitis-solaris-acuta/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/radiodermatitis/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/sonstige-erythematoese-krankheiten/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.erstehilfekurse.online/wissen/krankheiten-der-ekkrinen-schweissdruesen/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
