@@ -310,6 +310,31 @@
         var hp = form.querySelector('input[name="website"]');
         if (hp && hp.value) { if (status) status.textContent = 'Danke!'; return; }
 
+        // Client-seitige Vorprüfung (Fund 17.09.: novalidate + kein JS-Check schickte jeden
+        // leeren/falschen Versuch als echten Request an den Server, bevor Feedback kam).
+        // Verhindert nur offensichtlich unvollständige/falsche Eingaben — der valide
+        // Absende-Pfad ist unverändert, Pflichtfeld-Logik bleibt serverseitig die Wahrheit.
+        var firstInvalid = null;
+        Array.prototype.forEach.call(form.querySelectorAll('[required]'), function (f) {
+          f.removeAttribute('aria-invalid');
+        });
+        Array.prototype.forEach.call(form.querySelectorAll('[required]'), function (f) {
+          var empty = f.type === 'checkbox' ? !f.checked : String(f.value).trim() === '';
+          var badMail = f.type === 'email' && !empty && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f.value.trim());
+          if (empty || badMail) {
+            f.setAttribute('aria-invalid', 'true');
+            if (!firstInvalid) firstInvalid = f;
+          }
+        });
+        if (firstInvalid) {
+          if (status) {
+            status.className = 'form-status is-error';
+            status.textContent = 'Bitte prüft die rot markierten Felder.';
+          }
+          firstInvalid.focus();
+          return;
+        }
+
         var payload = { org: ORG_LEAD, website: '', quelle: QUELLE, quelle_pfad: location.pathname };
         Array.prototype.forEach.call(form.querySelectorAll('[name]'), function (f) {
           var n = f.getAttribute('name');
