@@ -240,7 +240,7 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
   background:linear-gradient(150deg,rgba(124,58,237,.32),transparent 32%);
   -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;
 }
-.hero-panel h3{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:1.06rem;margin-bottom:4px}
+.hero-panel h3,.hero-panel h2{letter-spacing:-.016em;display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:1.06rem;margin-bottom:4px}
 .hero-panel .panel-note{color:var(--muted);font-size:.86rem;margin-bottom:16px}
 .live-dot{display:inline-flex;align-items:center;gap:7px;font-size:.72rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ok)}
 .live-dot i{width:7px;height:7px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 0 rgba(21,128,61,.55);animation:pulse 2.4s infinite}
@@ -587,7 +587,7 @@ tr:last-child td{border-bottom:0}
 .foot-social a{color:var(--ink-2);display:inline-flex;align-items:center;gap:8px;font-size:.92rem}
 .foot-social a:hover{color:var(--brand-lo)}
 .foot-social svg{width:18px;height:18px;color:var(--brand);flex:0 0 auto}
-.site-footer h4{font-size:.78rem;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin-bottom:16px;font-weight:700}
+.site-footer h4,.site-footer .foot-h{font-size:.78rem;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin-bottom:16px;font-weight:700}
 .foot-col{display:flex;flex-direction:column;gap:10px}
 .foot-col a{color:var(--ink-2);font-size:.93rem}
 .foot-col a:hover{color:var(--brand-lo)}
@@ -607,6 +607,12 @@ tr:last-child td{border-bottom:0}
 .foot-bottom a{color:var(--muted)}
 .foot-bottom a:hover{color:var(--brand-lo)}
 .foot-legal{max-width:70ch;line-height:1.6}
+/* Tippflächen im Footer auf Handy >=44px (WCAG 2.5.8 / Apple HIG) — Fund 20.09. */
+@media (max-width:720px){
+  .foot-col{gap:0}
+  .foot-col a,.foot-contact a,.foot-social a,.foot-bottom nav a,.foot-bottom nav button{display:inline-flex;align-items:center;min-height:44px}
+  .foot-bottom nav{gap:0 20px}
+}
 
 /* ---------- Sticky Mobile-CTA ---------- */
 .sticky-cta{
