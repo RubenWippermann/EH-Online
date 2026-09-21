@@ -143,20 +143,24 @@
                 out.innerHTML = "";
                 return;
             }
-            var d = new Date(datum.value);
+            // Lokales Datum aus den Teilen bilden: new Date("YYYY-MM-DD") wäre UTC und
+            // verschiebt das Datum westlich von UTC um einen Tag.
+            var teile = datum.value.split("-");
+            var d = new Date(+teile[0], +teile[1] - 1, +teile[2]);
             if (isNaN(d.getTime())) {
                 out.innerHTML = "";
                 return;
             }
             var jahre = parseInt((root.querySelector('input[name="c-rolle"]:checked') || {}).value || "2", 10);
-            var faellig = new Date(d.getTime());
-            faellig.setFullYear(faellig.getFullYear() + jahre);
+            var faellig = new Date(d.getFullYear() + jahre, d.getMonth(), d.getDate());
+            // 29.02. + n Jahre: fehlt der Tag im Zielmonat, endet die Frist am letzten Tag des Monats (§ 188 Abs. 3 BGB)
+            if (faellig.getMonth() !== d.getMonth()) faellig = new Date(d.getFullYear() + jahre, d.getMonth() + 1, 0);
             var heute = new Date;
             heute.setHours(0, 0, 0, 0);
             var tage = Math.round((faellig - heute) / 864e5);
             var status, cls;
             if (tage < 0) {
-                status = "Überfällig seit " + Math.abs(tage) + " Tagen — die Frist ist abgelaufen. " + "Jetzt ist in der Regel die komplette Erste-Hilfe-Ausbildung erneut nötig, nicht nur die Fortbildung.";
+                status = "Überfällig seit " + Math.abs(tage) + " Tagen — die Frist ist abgelaufen. " + "Nach Auskunft des DGUV-Fachbereichs Erste Hilfe kann die Person zunächst weiter als Ersthelfer:in eingesetzt werden; die Fortbildung ist zum nächstmöglichen Zeitpunkt nachzuholen (im Zweifel lässt sich auch die Ausbildung buchen).";
                 cls = "err";
             } else if (tage <= 90) {
                 status = "Bald fällig — in " + tage + " Tagen. Jetzt einen Fortbildungstermin sichern.";
