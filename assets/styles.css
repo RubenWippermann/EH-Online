@@ -746,6 +746,10 @@ body.menu-open .sticky-cta{display:none}
    Meldung vom 06.09., nur zeitlich vor statt dauerhaft. Bis zur Einwilligung ganz ausblenden
    (kein Leerplatz-Layout), consent.js setzt .consented erst nach echtem Opt-in. */
 .ad-net[data-ad-consent]:not(.consented){display:none}
+/* Nach Einwilligung: zusammengeklappt, bis Google eine Anzeige ausliefert (consent.js setzt/entfernt
+   .ad-empty anhand data-ad-status="filled"). Breite bleibt, Hoehe 0 -> keine Luecke. */
+.ad-net.ad-empty{height:0;min-height:0;padding:0;margin:0;border:0;overflow:hidden}
+.section.ad-empty{padding:0}
 @media(max-width:640px){.ad-row{grid-template-columns:1fr}}
 
 /* ---------- Cookie-Banner ---------- */

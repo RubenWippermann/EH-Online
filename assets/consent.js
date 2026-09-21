@@ -24,6 +24,26 @@
   function openBanner() { if (banner) { banner.hidden = false; document.body.classList.add('cc-open'); } }
   function closeBanner() { if (banner) { banner.hidden = true; document.body.classList.remove('cc-open'); } }
 
+  /* Anzeigenkasten bleibt auf 0 px zusammengeklappt, bis Google die Anzeige tatsaechlich
+     ausliefert (data-ad-status="filled" am <ins>); sonst entstand nach der Einwilligung eine
+     leere, auf dem Handy bis ~1000 px hohe Luecke. Die Breite bleibt erhalten, damit Google
+     die Anzeigengroesse berechnen kann (display:none wuerde die Auslieferung verhindern). */
+  function collapseUntilFilled(el) {
+    var ins = el.querySelector('ins.adsbygoogle');
+    if (!ins) return;
+    var section = el.closest ? el.closest('.section') : null;
+    function set(filled) {
+      el.classList.toggle('ad-empty', !filled);
+      if (section) section.classList.toggle('ad-empty', !filled);
+    }
+    set(ins.getAttribute('data-ad-status') === 'filled');
+    if (window.MutationObserver) {
+      new MutationObserver(function () {
+        set(ins.getAttribute('data-ad-status') === 'filled');
+      }).observe(ins, { attributes: true, attributeFilter: ['data-ad-status'] });
+    }
+  }
+
   /* Marketing freischalten. AdSense ist seit 31.08. anwaltlich freigegeben (AD_NETWORK_AKTIV) —
      das SDK-Skript wird deshalb hier NACH Opt-in nachgeladen, nie vorher, nie fest im <head>.
      Client-ID kommt aus dem bereits vorhandenen data-ad-client der Anzeigenplätze (network_ad_slot
@@ -35,6 +55,7 @@
     var slots = document.querySelectorAll('[data-ad-consent]');
     Array.prototype.forEach.call(slots, function (el) {
       el.classList.add('consented');
+      collapseUntilFilled(el);
     });
     if (slots.length && !document.querySelector('script[data-adsense-sdk]')) {
       var ins = document.querySelector('ins.adsbygoogle[data-ad-client]');
