@@ -160,7 +160,7 @@
             var tage = Math.round((faellig - heute) / 864e5);
             var status, cls;
             if (tage < 0) {
-                status = "Überfällig seit " + Math.abs(tage) + " Tagen — die Frist ist abgelaufen. " + "Jetzt ist in der Regel die komplette Erste-Hilfe-Ausbildung erneut nötig, nicht nur die Fortbildung.";
+                status = "Überfällig seit " + Math.abs(tage) + " Tagen — die Frist ist abgelaufen. " + "Nach Auskunft des DGUV-Fachbereichs Erste Hilfe kann die Person zunächst weiter als Ersthelfer:in eingesetzt werden; die Fortbildung ist zum nächstmöglichen Zeitpunkt nachzuholen (im Zweifel lässt sich auch die Ausbildung buchen).";
                 cls = "err";
             } else if (tage <= 90) {
                 status = "Bald fällig — in " + tage + " Tagen. Jetzt einen Fortbildungstermin sichern.";
