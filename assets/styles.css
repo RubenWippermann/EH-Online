@@ -87,8 +87,9 @@ hr{border:0;border-top:1px solid var(--line);margin:2.5rem 0}
 ::selection{background:var(--o-200);color:var(--o-950)}
 
 .wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:22px}
-.skip{position:absolute;left:-9999px;top:0;background:var(--brand);color:#fff;padding:12px 18px;border-radius:0 0 var(--r-sm) 0;z-index:200;font-weight:640}
+.skip{position:absolute;left:-9999px;top:0;background:var(--o-700);color:#fff;padding:12px 18px;border-radius:0 0 var(--r-sm) 0;z-index:200;font-weight:640}
 .skip:focus{left:0}
+:root[data-theme="dark"] a.skip{color:#fff}
 /* Nur für Screenreader sichtbar (z.B. aria-live-Statusmeldungen) — Fund 01.09. Accessibility-Sweep. */
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
   clip:rect(0,0,0,0);white-space:nowrap;border:0}
@@ -186,6 +187,7 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
   display:inline-flex;align-items:center;gap:8px;font-size:.75rem;font-weight:720;letter-spacing:.13em;
   text-transform:uppercase;color:var(--brand-lo);margin-bottom:16px;
 }
+:root[data-theme="dark"] .eyebrow{color:var(--brand)}
 .eyebrow::before{content:'';width:22px;height:2px;background:linear-gradient(90deg,var(--brand-hi),transparent);border-radius:2px}
 .section-head.center .eyebrow::before{display:none}
 /* Zentrierte Section-Heads: Eyebrow als Block mittig ausrichten (inline-flex zentriert sich
@@ -553,7 +555,7 @@ tr:last-child td{border-bottom:0}
 .page-hero p{color:var(--ink-2);font-size:1.09rem;max-width:56ch;margin-bottom:0}
 .page-hero .hero-actions{margin-top:26px;margin-bottom:0}
 .crumbs{font-size:.83rem;color:var(--muted);margin-bottom:16px;display:flex;flex-wrap:wrap;gap:7px;align-items:center}
-.crumbs a{color:var(--muted)}
+.crumbs a{color:var(--muted);display:inline-flex;align-items:center;min-height:28px;margin-block:-3px}
 .crumbs a:hover{color:var(--brand-lo)}
 .crumbs span[aria-hidden]{opacity:.5}
 
@@ -772,7 +774,7 @@ body.menu-open .sticky-cta{display:none}
 .chk-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .chk{display:flex;gap:9px;align-items:flex-start;padding:10px 13px;border:1px solid var(--line);
   border-radius:var(--r-sm);font-size:.92rem;cursor:pointer}
-.chk input{margin-top:2px;accent-color:var(--brand)}
+.chk input{width:20px;height:20px;padding:0;border:0;flex:0 0 20px;margin:1px 0 0;accent-color:var(--brand)}
 .chk:has(input:checked){border-color:var(--brand);background:var(--bg-tint)}
 @media(max-width:640px){.chk-grid{grid-template-columns:1fr}}
 .form-note{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:.86rem;margin-top:12px}
