@@ -31,7 +31,12 @@
   function collapseUntilFilled(el) {
     var ins = el.querySelector('ins.adsbygoogle');
     if (!ins) return;
-    var section = el.closest ? el.closest('.section') : null;
+    /* Umgebende Section nur mitzuklappen, wenn der Kasten ihr einziger Inhalt ist
+       (network_ad_slot: section > .wrap > .ad-net); die In-Article-Anzeige steht mitten
+       im Artikeltext und darf dessen Section nicht beruehren. */
+    var wrap = el.parentElement, section = wrap && wrap.parentElement;
+    if (!(section && section.classList.contains('section') && wrap.classList.contains('wrap') &&
+          wrap.children.length === 1 && section.children.length === 1)) section = null;
     function set(filled) {
       el.classList.toggle('ad-empty', !filled);
       if (section) section.classList.toggle('ad-empty', !filled);
