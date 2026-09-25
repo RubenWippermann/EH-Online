@@ -821,3 +821,7 @@ body.menu-open .sticky-cta{display:none}
 .t-hint{display:flex;gap:7px;align-items:flex-start;font-size:.84rem;color:var(--warn);margin:2px 0 0}
 .t-hint svg{width:15px;height:15px;flex:0 0 auto;margin-top:2px}
 .t-src{font-size:.78rem;color:var(--muted);margin:6px 0 0;padding-top:8px;border-top:1px solid var(--line-2)}
+
+/* Textlinks im Fließtext unterstreichen (axe link-in-text-block, EHO-4) */
+.prose a:not(.btn),.faq details a{text-decoration:underline;text-underline-offset:2px}
+[data-cc-banner] a{text-decoration:underline;text-underline-offset:2px}
