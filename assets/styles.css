@@ -979,3 +979,7 @@ h2{font-size:clamp(2rem,1.3rem + 2.4vw,3rem);line-height:1.1;letter-spacing:-.03
   .cta-band{border-radius:24px}
   .card{padding:24px}
 }
+
+/* Textlinks im Fließtext unterstreichen (axe link-in-text-block, EHO-4) */
+.prose a:not(.btn),.faq details a{text-decoration:underline;text-underline-offset:2px}
+[data-cc-banner] a{text-decoration:underline;text-underline-offset:2px}
