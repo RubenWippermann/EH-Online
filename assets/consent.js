@@ -83,7 +83,60 @@
 
   function choose(v) { set(v); apply(v); closeBanner(); }
 
+  /* Google-Einwilligungsmeldung (html[data-cmp="google"], nur wenn GOOGLE_CONSENT_TAG in data.py gesetzt).
+     Google übernimmt Abfrage und Speicherung; Werbung wird erst freigeschaltet, wenn der TCF-String
+     Zweck 1 und den Anbieter Google (ID 755) bestätigt. Der eigene Banner bleibt Rückfall: er öffnet nur,
+     wenn window.__tcfapi nach 4 s fehlt (z. B. Werbeblocker). */
+  var GOOGLE_VENDOR = 755;
+  var cmpGoogle = document.documentElement.getAttribute('data-cmp') === 'google';
+
+  function tcfGranted(d) {
+    if (d && d.gdprApplies === false) return true;
+    return !!(d && d.purpose && d.purpose.consents && d.purpose.consents[1] &&
+      d.vendor && d.vendor.consents && d.vendor.consents[GOOGLE_VENDOR]);
+  }
+
+  function bootGoogle() {
+    var t0 = Date.now(), done = false;
+    function fallback() {
+      if (done) return;
+      done = true;
+      var cur = get();
+      if (cur === 'accept' || cur === 'reject') apply(cur); else openBanner();
+    }
+    (function wait() {
+      if (typeof window.__tcfapi === 'function') {
+        done = true;
+        window.__tcfapi('addEventListener', 2, function (d, ok) {
+          if (!ok || !d) return;
+          if (d.eventStatus === 'tcloaded' || d.eventStatus === 'useractioncomplete') {
+            if (tcfGranted(d)) enableMarketing();
+            else document.documentElement.setAttribute('data-consent', 'essential');
+          }
+        });
+      } else if (Date.now() - t0 > 4000) fallback();
+      else setTimeout(wait, 200);
+    })();
+    Array.prototype.forEach.call(document.querySelectorAll('[data-cookie-settings]'), function (b) {
+      b.addEventListener('click', function (e) {
+        e.preventDefault();
+        if (window.googlefc && window.googlefc.callbackQueue) {
+          window.googlefc.callbackQueue.push({ 'CONSENT_API_READY': function () {
+            if (typeof window.googlefc.showRevocationMessage === 'function') window.googlefc.showRevocationMessage();
+          } });
+        } else openBanner();
+      });
+    });
+    if (banner) {
+      var a = banner.querySelector('[data-cc="accept"]');
+      var r = banner.querySelector('[data-cc="reject"]');
+      if (a) a.addEventListener('click', function () { choose('accept'); });
+      if (r) r.addEventListener('click', function () { choose('reject'); });
+    }
+  }
+
   function boot() {
+    if (cmpGoogle) { bootGoogle(); return; }
     if (banner) {
       var a = banner.querySelector('[data-cc="accept"]');
       var r = banner.querySelector('[data-cc="reject"]');
