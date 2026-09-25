@@ -2,28 +2,30 @@
 
 > Info- und Vergleichsportal rund um Erste-Hilfe-Kurse: welcher Kurs für welchen Anlass, wer zahlt, wie oft auffrischen — plus direkte Buchung freier Termine. Betrieben von Personal Paramedic e.K. (DGUV-Kennziffer 8.2018).
 
+Stand: 25. Sep. 2026 (letzte inhaltliche Änderung)
+
 ## Kernfakten
 - Erste-Hilfe-Ausbildung (Grundkurs): 9 Unterrichtseinheiten an einem Tag; für den Führerschein Pflicht (§ 19 FeV); das Gesetz nennt keine Ablauffrist, die Fahrerlaubnisbehörde vorher fragen.
-- Betriebliche Ersthelfer frischen spätestens alle 2 Jahre per Fortbildung auf (DGUV Vorschrift 1 § 26 Abs. 3); Lehrkräfte für Erste Hilfe alle 3 Jahre (DGUV Grundsatz 304-003).
+- Betriebliche Ersthelfer frischen in der Regel alle 2 Jahre per Fortbildung auf (DGUV Vorschrift 1 § 26 Abs. 3); Lehrkräfte für Erste Hilfe alle 3 Jahre (DGUV Grundsatz 304-003).
 - Zahl der betrieblichen Ersthelfer: 1 bei 2–20 anwesenden Versicherten, darüber 5 % (Verwaltung/Handel) bzw. 10 % (sonstige Betriebe) (DGUV Vorschrift 1 § 26 Abs. 1); in Kindertageseinrichtungen mindestens 1 pro Kindergruppe.
 - Kostenübernahme: Für benannte betriebliche Ersthelfer:innen trägt der Unfallversicherungsträger (Berufsgenossenschaft/Unfallkasse) die Lehrgangsgebühr (§ 23 Abs. 2 SGB VII) — nur für Erste-Hilfe-Aus- und -Fortbildung, nicht §26.
 - Wer Erste Hilfe leistet, ist gesetzlich unfallversichert (§ 2 Abs. 1 Nr. 13 Buchstabe a SGB VII) und haftet nur bei Vorsatz oder grober Fahrlässigkeit (§ 680 BGB).
 - Betriebssanitäter: erforderlich bei mehr als 1500 Versicherten in einer Betriebsstätte, bei mehr als 250 bis 1500, wenn Art, Schwere und Zahl der Unfälle es erfordern, und auf Baustellen mit mehr als 100 Versicherten (DGUV Vorschrift 1 § 27); Grundausbildung 63 UE, Aufbaulehrgang 32 UE (DGUV Grundsatz 304-002).
-- Alle Kurse finden in Präsenz statt; die Endung .online meint Organisation, Buchung und digitale Bescheinigung, nicht die Kursform.
+- Alle Kurse finden in Präsenz statt: Inhouse-Kurse bundesweit bei euch vor Ort (ab 8 Personen), Präsenzkurse in Leinefelde-Worbis. Die Endung .online meint Organisation, Buchung und digitale Bescheinigung, nicht die Kursform.
 
 ## Kurse
-- [Erste-Hilfe-Ausbildung](https://www.erstehilfekurse.online/kurse/erste-hilfe-ausbildung/): Grundkurs (9 UE) für Führerschein, Betrieb und Alltag. Gültig: Führerschein: keine gesetzliche Ablauffrist (§ 19 FeV) · Betrieb: 2 Jahre. Kosten: ab 30 € (selbst · Betrieb/BG).
-- [Erste-Hilfe-Fortbildung](https://www.erstehilfekurse.online/kurse/erste-hilfe-fortbildung/): Die Auffrischung für betriebliche Ersthelfer — alle zwei Jahre. Gültig: 2 Jahre. Kosten: ab 30 € (Betrieb/BG).
-- [Erste Hilfe für Bildungs- & Betreuungseinrichtungen](https://www.erstehilfekurse.online/kurse/erste-hilfe-bildungseinrichtungen/): Für Kita, Schule, Hort und Tagespflege. Gültig: 2 Jahre. Kosten: ab 50 € (Unfallkasse).
-- [Erste Hilfe für Babys & Kleinkinder](https://www.erstehilfekurse.online/kurse/erste-hilfe-baby-kind/): Der private Abendkurs für Eltern, Großeltern und Paten. Gültig: kein Nachweis nötig. Kosten: ab 30 € (selbst).
-- [Brandschutzhelfer](https://www.erstehilfekurse.online/kurse/brandschutzhelfer/): Betrieblicher Pflichtbaustein — Theorie plus Löschübung. Gültig: Empfehlung: 3–5 Jahre. Kosten: ab 50 € (Betrieb).
-- [Notfalltraining](https://www.erstehilfekurse.online/kurse/notfalltraining/): Für Praxen, Pflege und Teams mit echtem Notfallrisiko. Gültig: Empfehlung: jährlich. Kosten: auf Anfrage (Arbeitgeber).
-- [Lehrkräfte-Ausbildung — Themenbereich 1](https://www.erstehilfekurse.online/kurse/lehrkraefte-ausbildung-tb1/): Der Einstieg zur Ausbilderqualifikation Erste Hilfe. Gültig: Voraussetzung für TB 2. Kosten: ab 150 € (selbst · Arbeitgeber).
-- [Lehrkräfte-Ausbildung — Themenbereich 2](https://www.erstehilfekurse.online/kurse/lehrkraefte-ausbildung-tb2/): Der fachliche Aufbau bis zur eigenständigen Kursleitung. Gültig: vollständige Lehrbefähigung. Kosten: ab 200 € (selbst · Arbeitgeber).
-- [Lehrkräfte-Fortbildung](https://www.erstehilfekurse.online/kurse/lehrkraefte-fortbildung/): Die Pflichtfortbildung für Erste-Hilfe-Lehrkräfte. Gültig: 3 Jahre. Kosten: ab 100 € (selbst · Arbeitgeber).
-- [Betriebssanitäter — Grundausbildung](https://www.erstehilfekurse.online/kurse/betriebssanitaeter-grundausbildung/): Kompaktblock mit Prüfung, DGUV 304-002. Gültig: mit Aufbaulehrgang vollständig. Kosten: auf Anfrage (Arbeitgeber).
-- [Betriebssanitäter — Aufbaulehrgang](https://www.erstehilfekurse.online/kurse/betriebssanitaeter-aufbaulehrgang/): Der zweite Teil zur vollen Qualifikation. Gültig: vollständige Qualifikation. Kosten: auf Anfrage (Arbeitgeber).
-- [Medizinischer Sanitätshelfer](https://www.erstehilfekurse.online/kurse/sanitaetshelfer/): Sechs Tage bis zur qualifizierten Sanitätsausbildung. Gültig: Grundlage Sanitätsdienst. Kosten: auf Anfrage (selbst · Verein).
+- [Erste-Hilfe-Ausbildung](https://www.erstehilfekurse.online/kurse/erste-hilfe-ausbildung/): Grundkurs (9 UE) für Führerschein, Betrieb und Alltag. Dauer: 1 Tag. Gültig: Führerschein: keine gesetzliche Ablauffrist (§ 19 FeV) · Betrieb: 2 Jahre. Kosten: ab 30 € pro Person (selbst · Betrieb/BG).
+- [Erste-Hilfe-Fortbildung](https://www.erstehilfekurse.online/kurse/erste-hilfe-fortbildung/): Die Auffrischung für betriebliche Ersthelfer — alle zwei Jahre. Dauer: 1 Tag. Gültig: 2 Jahre. Kosten: ab 30 € pro Person (Betrieb/BG).
+- [Erste Hilfe für Bildungs- & Betreuungseinrichtungen](https://www.erstehilfekurse.online/kurse/erste-hilfe-bildungseinrichtungen/): Für Kita, Schule, Hort und Tagespflege. Dauer: 1 Tag. Gültig: 2 Jahre. Kosten: ab 50 € (Unfallkasse).
+- [Erste Hilfe für Babys & Kleinkinder](https://www.erstehilfekurse.online/kurse/erste-hilfe-baby-kind/): Der private Abendkurs für Eltern, Großeltern und Paten. Dauer: Abendkurs. Gültig: kein Nachweis nötig. Kosten: ab 30 € (selbst).
+- [Brandschutzhelfer](https://www.erstehilfekurse.online/kurse/brandschutzhelfer/): Betrieblicher Pflichtbaustein — Theorie plus Löschübung. Dauer: ca. 4 Stunden. Gültig: Empfehlung: 3–5 Jahre. Kosten: ab 50 € (Betrieb).
+- [Notfalltraining](https://www.erstehilfekurse.online/kurse/notfalltraining/): Für Praxen, Pflege und Teams mit echtem Notfallrisiko. Dauer: 4 Stunden. Gültig: Empfehlung: jährlich. Kosten: auf Anfrage (Arbeitgeber).
+- [Lehrkräfte-Ausbildung — Themenbereich 1](https://www.erstehilfekurse.online/kurse/lehrkraefte-ausbildung-tb1/): Der Einstieg zur Ausbilderqualifikation Erste Hilfe. Dauer: 3 Tage. Gültig: Voraussetzung für TB 2. Kosten: ab 150 € (selbst · Arbeitgeber).
+- [Lehrkräfte-Ausbildung — Themenbereich 2](https://www.erstehilfekurse.online/kurse/lehrkraefte-ausbildung-tb2/): Der fachliche Aufbau bis zur eigenständigen Kursleitung. Dauer: 4 Tage. Gültig: vollständige Lehrbefähigung. Kosten: ab 200 € (selbst · Arbeitgeber).
+- [Lehrkräfte-Fortbildung](https://www.erstehilfekurse.online/kurse/lehrkraefte-fortbildung/): Die Pflichtfortbildung für Erste-Hilfe-Lehrkräfte. Dauer: 2 Tage. Gültig: 3 Jahre. Kosten: ab 100 € (selbst · Arbeitgeber).
+- [Betriebssanitäter — Grundausbildung](https://www.erstehilfekurse.online/kurse/betriebssanitaeter-grundausbildung/): Kompaktblock mit Prüfung, DGUV 304-002. Dauer: 63 UE zzgl. Prüfung (i. d. R. 8 UE). Gültig: mit Aufbaulehrgang vollständig. Kosten: auf Anfrage (Arbeitgeber).
+- [Betriebssanitäter — Aufbaulehrgang](https://www.erstehilfekurse.online/kurse/betriebssanitaeter-aufbaulehrgang/): Der zweite Teil zur vollen Qualifikation. Dauer: 32 UE zzgl. Prüfung (i. d. R. 8 UE). Gültig: vollständige Qualifikation. Kosten: auf Anfrage (Arbeitgeber).
+- [Medizinischer Sanitätshelfer](https://www.erstehilfekurse.online/kurse/sanitaetshelfer/): Sechs Tage bis zur qualifizierten Sanitätsausbildung. Dauer: 6 Tage. Gültig: Grundlage Sanitätsdienst. Kosten: auf Anfrage (selbst · Verein).
 
 ## Ratgeber
 - [Welcher Erste-Hilfe-Kurs zählt wofür — und welcher ist nur ein Zusatz?](https://www.erstehilfekurse.online/ratgeber/welcher-kurs-zaehlt-wofuer/): Führerschein, Betrieb, Kita, privat: Nur bestimmte Kurse gelten als anerkannter Ersthelfer-Nachweis. Was zählt und was nur ergänzt — mit Fundstellen.
