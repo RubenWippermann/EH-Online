@@ -946,7 +946,7 @@ h2{font-size:clamp(2rem,1.3rem + 2.4vw,3rem);line-height:1.1;letter-spacing:-.03
 
 /* Kopfleiste und Kopfbereich */
 .topbar{background:var(--bg-soft);color:var(--muted);font-size:.8rem}
-.topbar a{color:var(--ink)}
+.topbar b,.topbar strong,.topbar a{color:var(--ink)}
 .site-header{background:color-mix(in srgb,var(--bg) 72%,transparent);-webkit-backdrop-filter:saturate(180%) blur(22px);backdrop-filter:saturate(180%) blur(22px)}
 .site-footer{background:var(--bg-soft);border-top:0}
 
