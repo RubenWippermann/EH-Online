@@ -1,5 +1,10 @@
 (function() {
     "use strict";
+    // Fund WEB-EHO-6 #4: "js"-Klasse hier statt inline im <head> setzen — bleibt site.js aus
+    // irgendeinem Grund aus (Fehler, Blocker), verstecken sich die .rv-Blöcke dann nie (Fallback
+    // gilt nur für vorhandene JS-Läufe). Ohne diese Klasse zeigt die CSS-Regel .js .rv{opacity:0}
+    // gar nicht erst, der Inhalt ist von Anfang an sichtbar.
+    document.documentElement.className += " js";
     try {
         var saved = localStorage.getItem("ehd-theme");
         if (saved === "dark" || saved === "light") document.documentElement.setAttribute("data-theme", saved);
@@ -74,7 +79,7 @@
             Array.prototype.forEach.call(els, function(el) {
                 if (el.getBoundingClientRect().top < window.innerHeight) el.classList.add("in");
             });
-        }, 2500);
+        }, 800);
     }
     function initKoop() {
         var box = document.getElementById("koopHinweis");
