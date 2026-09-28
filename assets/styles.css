@@ -166,13 +166,13 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
 .btn:active{transform:translateY(1px)}
 .btn.primary{background:linear-gradient(135deg,var(--cta-a),var(--cta-b));color:#fff;box-shadow:var(--sh-brand)}
 .btn.primary:hover{color:#fff;transform:translateY(-2px);box-shadow:0 20px 40px -16px rgba(109,40,217,.6)}
-.btn.ghost{background:transparent;border-color:var(--line);color:var(--ink)}
+.btn.ghost{background:transparent;border-color:var(--muted);color:var(--ink)}
 .btn.ghost:hover{border-color:var(--brand);color:var(--brand-lo);background:var(--bg-tint)}
 .btn.light{background:#fff;color:var(--o-800)}
 .btn.light:hover{color:var(--o-900);transform:translateY(-2px)}
 .btn.outline-light{background:transparent;border-color:rgba(255,255,255,.5);color:#fff}
 .btn.outline-light:hover{background:rgba(255,255,255,.13);border-color:#fff;color:#fff}
-.btn.sm{padding:10px 18px;font-size:.92rem}
+.btn.sm{padding:10px 18px;font-size:.92rem;min-height:44px}
 .btn.block{display:flex;width:100%}
 .btn[disabled]{opacity:.55;cursor:not-allowed;transform:none}
 
@@ -828,7 +828,9 @@ body.menu-open .sticky-cta{display:none}
 .t-hint svg{width:15px;height:15px;flex:0 0 auto;margin-top:2px}
 .t-src{font-size:.78rem;color:var(--muted);margin:6px 0 0;padding-top:8px;border-top:1px solid var(--line-2)}
 
-/* =====================================================================
+/* Textlinks im Fließtext unterstreichen (axe link-in-text-block, EHO-4) */
+.prose a:not(.btn),.faq details a{text-decoration:underline;text-underline-offset:2px}
+[data-cc-banner] a{text-decoration:underline;text-underline-offset:2px}
    APPLE-DESIGN-EBENE (W3, 25.09.2026) — Umsetzung nach Apple HIG als letzte Schicht.
    Bewusst NUR Überschreibungen am Dateiende: Farben/Marke (Violett) bleiben, Werbeplätze
    (.ad-net, .ad-row, .foot-ad) und Einwilligungsbanner (.cc-banner, Bedienung in consent.js)
