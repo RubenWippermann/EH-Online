@@ -1038,3 +1038,24 @@ h2{font-size:clamp(2rem,1.3rem + 2.4vw,3rem);line-height:1.1;letter-spacing:-.03
   .js .rv.in{animation:none}
   .live-dot i,.sk-row{animation:none}
 }
+
+/* ---------- Animation Runde 3 (05.10.): Hero-Einstieg, Terminzeilen gestaffelt, Fokus Terminzeilen, Bilder-Fade ----------
+   Nur opacity und transform. Hero einmal (h1 0 ms, Untertitel 80 ms, Knopf 160 ms), Endzustand sichtbar. */
+@keyframes a3In{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:no-preference){
+  .hero h1,.page-hero h1{animation:a3In .36s ease-out backwards}
+  .hero-sub,.page-hero h1+p{animation:a3In .36s ease-out 80ms backwards}
+  .hero-actions{animation:a3In .36s ease-out 160ms backwards}
+  /* Terminzeilen aus dem Skript (nicht die vorgerenderten): 60 ms je Zeile, höchstens 6 Stufen */
+  [data-termine]:not([data-prerendered]) .termine-rows>*,.termine-filter~.termine-rows>*{animation:ehEin .22s ease-out backwards}
+  .termine-rows>:nth-child(2){animation-delay:60ms !important}
+  .termine-rows>:nth-child(3){animation-delay:120ms !important}
+  .termine-rows>:nth-child(4){animation-delay:180ms !important}
+  .termine-rows>:nth-child(5){animation-delay:240ms !important}
+  .termine-rows>:nth-child(n+6){animation-delay:300ms !important}
+  /* Bilder unterhalb des ersten Bildschirms: Skript setzt html.a3-ready und markiert Bilder mit .a3-img */
+  img.a3-img{transition:opacity .25s ease-out}
+  html.a3-ready img.a3-img:not(.a3-loaded){opacity:0}
+}
+/* Buchen-Zeilen: sichtbarer Fokus wie bei allen Knöpfen (statisch) */
+a.termin-row:focus-visible{outline:2px solid var(--brand);outline-offset:2px;border-radius:var(--r)}

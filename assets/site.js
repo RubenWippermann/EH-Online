@@ -100,6 +100,38 @@
             });
         }, 800);
     }
+    function initBilder() {
+        // Bilder unterhalb des ersten Bildschirms blenden nach dem Laden kurz ein (nur opacity). Ohne diese Funktion
+        // (JS aus, reduced motion, Fehler) bleibt jedes Bild sichtbar: versteckt wird erst mit html.a3-ready.
+        if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        var imgs = document.querySelectorAll("img.illu[loading=lazy]");
+        if (!imgs.length) return;
+        var h = window.innerHeight || 800, list = [];
+        Array.prototype.forEach.call(imgs, function(im) {
+            if (im.complete && im.naturalWidth) return;
+            if (im.getBoundingClientRect().top < h) return;
+            im.classList.add("a3-img");
+            var ok = function() { im.classList.add("a3-loaded"); };
+            im.addEventListener("load", ok);
+            im.addEventListener("error", ok);
+            list.push(im);
+        });
+        if (!list.length) return;
+        if (!("IntersectionObserver" in window)) {
+            list.forEach(function(im) { im.classList.add("a3-loaded"); });
+            return;
+        }
+        document.documentElement.classList.add("a3-ready");
+        // Sicherheitsnetz: feuert load 3 s nach dem Sichtbarwerden nicht, wird das Bild trotzdem gezeigt.
+        var io = new IntersectionObserver(function(es) {
+            es.forEach(function(e) {
+                if (!e.isIntersecting) return;
+                io.unobserve(e.target);
+                setTimeout(function() { e.target.classList.add("a3-loaded"); }, 3000);
+            });
+        });
+        list.forEach(function(im) { io.observe(im); });
+    }
     function initKoop() {
         var box = document.getElementById("koopHinweis");
         if (!box) return;
@@ -136,6 +168,7 @@
     function boot() {
         initNav();
         initReveal();
+        initBilder();
         initKoop();
         initYear();
         initAnchorFocus();
