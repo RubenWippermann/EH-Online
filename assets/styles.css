@@ -986,13 +986,12 @@ h2{font-size:clamp(2rem,1.3rem + 2.4vw,3rem);line-height:1.1;letter-spacing:-.03
 
 /* Hero-Einstieg: gestaffelt, nur opacity/transform, Endzustand immer sichtbar; reduced-motion: aus (globale Regel oben) */
 @media (prefers-reduced-motion:no-preference){
-  .hero .hero-grid > div > .eyebrow,.hero h1,.hero .hero-sub,.hero .hero-actions,.hero .hero-alt{animation:ehHeroEin .6s cubic-bezier(.2,.7,.2,1) both}
-  .hero h1{animation-delay:.08s}
-  .hero .hero-sub{animation-delay:.16s}
-  .hero .hero-actions{animation-delay:.24s}
-  .hero .hero-alt{animation-delay:.32s}
+  .hero .hero-grid > div > .eyebrow,.hero h1,.hero .hero-sub,.hero .hero-actions,.hero .hero-alt,.page-hero h1,.page-hero h1+p{animation:ehHeroEin .36s ease-out backwards}
+  .hero h1,.page-hero h1{animation-delay:0s}
+  .hero .hero-sub,.page-hero h1+p{animation-delay:.08s}
+  .hero .hero-actions,.hero .hero-alt{animation-delay:.16s}
 }
-@keyframes ehHeroEin{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes ehHeroEin{from{opacity:.01;transform:translateY(8px)}to{opacity:1;transform:none}}
 
 /* Symmetrie 05.10.: einzelne Waisen-Karte mittig, Footer-Marke volle Breite bei 2 Spalten, gleich breite CTA-Knoepfe */
 @media (min-width:961px){.grid.g3>:last-child:nth-child(3n+1){grid-column:2}}
@@ -1040,12 +1039,8 @@ h2{font-size:clamp(2rem,1.3rem + 2.4vw,3rem);line-height:1.1;letter-spacing:-.03
 }
 
 /* ---------- Animation Runde 3 (05.10.): Hero-Einstieg, Terminzeilen gestaffelt, Fokus Terminzeilen, Bilder-Fade ----------
-   Nur opacity und transform. Hero einmal (h1 0 ms, Untertitel 80 ms, Knopf 160 ms), Endzustand sichtbar. */
-@keyframes a3In{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+   Nur opacity und transform. Hero-Einstieg: siehe ehHeroEin oben (360 ms, h1 0 ms, Untertitel 80 ms, Knopf 160 ms, Start bei opacity .01, damit der LCP nicht verspätet). */
 @media (prefers-reduced-motion:no-preference){
-  .hero h1,.page-hero h1{animation:a3In .36s ease-out backwards}
-  .hero-sub,.page-hero h1+p{animation:a3In .36s ease-out 80ms backwards}
-  .hero-actions{animation:a3In .36s ease-out 160ms backwards}
   /* Terminzeilen aus dem Skript (nicht die vorgerenderten): 60 ms je Zeile, höchstens 6 Stufen */
   [data-termine]:not([data-prerendered]) .termine-rows>*,.termine-filter~.termine-rows>*{animation:ehEin .22s ease-out backwards}
   .termine-rows>:nth-child(2){animation-delay:60ms !important}
