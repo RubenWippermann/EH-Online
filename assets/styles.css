@@ -1005,21 +1005,26 @@ h2{font-size:clamp(2rem,1.3rem + 2.4vw,3rem);line-height:1.1;letter-spacing:-.03
    Karten, Kacheln und Terminzeilen heben sich gleich: -3px, 200 ms ease-out. Der Hover-Schatten läuft
    über ein Pseudo-Element (opacity), nicht über box-shadow. */
 @media (prefers-reduced-motion:no-preference){
+  .js .rv{transition:none;transition-delay:0s !important}
   .card.hoverable,.finder-tile,a.termin-row{position:relative;transition:transform .2s ease-out}
   .card.hoverable::after,.finder-tile::after,a.termin-row::after{
     content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
     box-shadow:var(--sh-2);opacity:0;transition:opacity .2s ease-out}
-  /* Kartenreihen staffeln (60 ms je Karte, höchstens 3 Stufen je Zeile); überschreibt den JS-Index */
-  .g2>.rv:nth-child(2n){transition-delay:60ms !important}
-  .g3>.rv:nth-child(3n+2){transition-delay:60ms !important}
-  .g3>.rv:nth-child(3n){transition-delay:120ms !important}
-  .g4>.rv:nth-child(4n+2){transition-delay:60ms !important}
-  .g4>.rv:nth-child(4n+3){transition-delay:120ms !important}
-  .g4>.rv:nth-child(4n){transition-delay:180ms !important}
+  /* Einblenden beim Scrollen als Animation statt Transition: so bleibt der Hover-Lift unabhängig und
+     die vom Skript gesetzte transition-delay (Index-Staffel) verzögert den Hover nicht. */
+  .js .rv.in{animation:ehRv .5s ease-out backwards}
+  /* Kartenreihen staffeln: 60 ms je Karte, höchstens 4 Stufen je Zeile */
+  .g2>.rv:nth-child(2n){animation-delay:60ms}
+  .g3>.rv:nth-child(3n+2){animation-delay:60ms}
+  .g3>.rv:nth-child(3n){animation-delay:120ms}
+  .g4>.rv:nth-child(4n+2){animation-delay:60ms}
+  .g4>.rv:nth-child(4n+3){animation-delay:120ms}
+  .g4>.rv:nth-child(4n){animation-delay:180ms}
   /* Neu eingesetzte Inhalte (Terminfilter, Kursfinder-Ergebnis, Rechner, aufgeklappte FAQ) blenden kurz ein */
   .termine-filter~.termine-rows>*,.finder-card,.calc-result,.faq details[open]>:not(summary){
     animation:ehEin .22s ease-out backwards}
 }
+@keyframes ehRv{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
 @keyframes ehEin{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:no-preference) and (hover:hover){
   .card.hoverable:hover,.finder-tile:hover,a.termin-row:hover{transform:translateY(-3px)}
@@ -1030,5 +1035,6 @@ h2{font-size:clamp(2rem,1.3rem + 2.4vw,3rem);line-height:1.1;letter-spacing:-.03
   .card.hoverable,.finder-tile,a.termin-row{transition:none}
   .card.hoverable:hover,.finder-tile:hover,a.termin-row:hover{transform:none;box-shadow:none}
   .rv{transition:none !important}
+  .js .rv.in{animation:none}
   .live-dot i,.sk-row{animation:none}
 }
