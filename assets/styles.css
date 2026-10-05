@@ -983,3 +983,13 @@ h2{font-size:clamp(2rem,1.3rem + 2.4vw,3rem);line-height:1.1;letter-spacing:-.03
 /* Textlinks im Fließtext unterstreichen (axe link-in-text-block, EHO-4) */
 .prose a:not(.btn),.faq details a{text-decoration:underline;text-underline-offset:2px}
 [data-cc-banner] a{text-decoration:underline;text-underline-offset:2px}
+
+/* Hero-Einstieg: gestaffelt, nur opacity/transform, Endzustand immer sichtbar; reduced-motion: aus (globale Regel oben) */
+@media (prefers-reduced-motion:no-preference){
+  .hero .hero-grid > div > .eyebrow,.hero h1,.hero .hero-sub,.hero .hero-actions,.hero .hero-alt{animation:ehHeroEin .6s cubic-bezier(.2,.7,.2,1) both}
+  .hero h1{animation-delay:.08s}
+  .hero .hero-sub{animation-delay:.16s}
+  .hero .hero-actions{animation-delay:.24s}
+  .hero .hero-alt{animation-delay:.32s}
+}
+@keyframes ehHeroEin{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}

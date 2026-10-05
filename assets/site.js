@@ -52,6 +52,24 @@
             b.addEventListener("click", toggleTheme);
         });
     }
+    function zaehleStatistik(block) {
+        var zahlen = block.querySelectorAll ? block.querySelectorAll(".stat b") : [];
+        Array.prototype.forEach.call(zahlen, function(z) {
+            var ziel = (z.textContent || "").trim();
+            if (!/^\d{1,5}$/.test(ziel) || z.dataset.gezaehlt) return;
+            z.dataset.gezaehlt = "1";
+            var n = parseInt(ziel, 10), t0 = null;
+            z.style.fontVariantNumeric = "tabular-nums";
+            z.textContent = "0";
+            function schritt(t) {
+                if (t0 === null) t0 = t;
+                var f = Math.min((t - t0) / 600, 1);
+                z.textContent = String(Math.round(n * f));
+                if (f < 1) requestAnimationFrame(schritt);
+            }
+            requestAnimationFrame(schritt);
+        });
+    }
     function initReveal() {
         var els = document.querySelectorAll(".rv");
         if (!els.length) return;
@@ -65,6 +83,7 @@
             entries.forEach(function(en) {
                 if (!en.isIntersecting) return;
                 en.target.classList.add("in");
+                zaehleStatistik(en.target);
                 io.unobserve(en.target);
             });
         }, {
