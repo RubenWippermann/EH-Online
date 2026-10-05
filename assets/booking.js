@@ -41,7 +41,7 @@
   // EHD_CONFIG.buchungHinweis=false. (Kostet einen Tap in der Buchungsstrecke, dafür kein
   // überraschender Marken-Wechsel zur BWW-Seite; Wirkung erst messbar, wenn funnel_ankunft steht.)
   var BUCHUNG_HINWEIS = CFG.buchungHinweis !== false;
-  var TEL        = CFG.tel        || '+49 5527 748849 5';
+  var TEL        = CFG.tel        || '+49 5527 7488495';
   var TEL_HREF   = CFG.telHref    || '+4955277488495';
 
   var MONTHS = ['Jan.', 'Feb.', 'März', 'Apr.', 'Mai', 'Juni', 'Juli', 'Aug.', 'Sep.', 'Okt.', 'Nov.', 'Dez.'];
