@@ -999,3 +999,36 @@ h2{font-size:clamp(2rem,1.3rem + 2.4vw,3rem);line-height:1.1;letter-spacing:-.03
 @media (min-width:621px) and (max-width:960px){.grid.g3>:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc(50% - 10px)}}
 @media (min-width:561px) and (max-width:900px){.foot-grid>:first-child{grid-column:1/-1}}
 @media (min-width:561px){.cta-actions,.hero-actions{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;width:fit-content}.cta-actions.center{margin-inline:auto}.cta-actions .btn,.hero-actions .btn{justify-content:center;text-align:center}}
+
+/* ---------- Animation Runde 2 (05.10.): ein Hover-Lift, ein Stagger, ein Einblend-Wechsel ----------
+   Nur opacity und transform. Ohne JS bleibt alles sichtbar (.rv wird erst mit der Klasse .js versteckt).
+   Karten, Kacheln und Terminzeilen heben sich gleich: -3px, 200 ms ease-out. Der Hover-Schatten läuft
+   über ein Pseudo-Element (opacity), nicht über box-shadow. */
+@media (prefers-reduced-motion:no-preference){
+  .card.hoverable,.finder-tile,a.termin-row{position:relative;transition:transform .2s ease-out}
+  .card.hoverable::after,.finder-tile::after,a.termin-row::after{
+    content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+    box-shadow:var(--sh-2);opacity:0;transition:opacity .2s ease-out}
+  /* Kartenreihen staffeln (60 ms je Karte, höchstens 3 Stufen je Zeile); überschreibt den JS-Index */
+  .g2>.rv:nth-child(2n){transition-delay:60ms !important}
+  .g3>.rv:nth-child(3n+2){transition-delay:60ms !important}
+  .g3>.rv:nth-child(3n){transition-delay:120ms !important}
+  .g4>.rv:nth-child(4n+2){transition-delay:60ms !important}
+  .g4>.rv:nth-child(4n+3){transition-delay:120ms !important}
+  .g4>.rv:nth-child(4n){transition-delay:180ms !important}
+  /* Neu eingesetzte Inhalte (Terminfilter, Kursfinder-Ergebnis, Rechner, aufgeklappte FAQ) blenden kurz ein */
+  .termine-filter~.termine-rows>*,.finder-card,.calc-result,.faq details[open]>:not(summary){
+    animation:ehEin .22s ease-out backwards}
+}
+@keyframes ehEin{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:no-preference) and (hover:hover){
+  .card.hoverable:hover,.finder-tile:hover,a.termin-row:hover{transform:translateY(-3px)}
+  .card.hoverable:hover,.finder-tile:not(.sel):hover,a.termin-row:hover{box-shadow:none}
+  .card.hoverable:hover::after,.finder-tile:hover::after,a.termin-row:hover::after{opacity:1}
+}
+@media (prefers-reduced-motion:reduce){
+  .card.hoverable,.finder-tile,a.termin-row{transition:none}
+  .card.hoverable:hover,.finder-tile:hover,a.termin-row:hover{transform:none;box-shadow:none}
+  .rv{transition:none !important}
+  .live-dot i,.sk-row{animation:none}
+}
