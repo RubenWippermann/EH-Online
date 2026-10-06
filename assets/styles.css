@@ -633,9 +633,8 @@ body.cc-open .sticky-cta{display:none}
 body.menu-open .sticky-cta{display:none}
 
 /* ---------- Reveal ---------- */
-.js .rv{opacity:0;transform:translateY(18px);transition:opacity .6s var(--ease),transform .6s var(--ease)}
-.js .rv.in{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.js .rv{opacity:1;transform:none}}
+/* Sichtbarkeit 06.10.: nur transform, nie opacity:0 — bei stehender Animationsuhr (iOS-Safari, Hintergrund-Tab) bleibt Inhalt sonst unsichtbar */
+@media (prefers-reduced-motion:no-preference){.js .rv{transform:translateY(18px);transition:transform .6s var(--ease)}.js .rv.in{transform:none}}
 
 /* ---------- Utilities ---------- */
 .center{text-align:center}
@@ -991,7 +990,7 @@ h2{font-size:clamp(2rem,1.3rem + 2.4vw,3rem);line-height:1.1;letter-spacing:-.03
   .hero .hero-sub,.page-hero h1+p{animation-delay:.08s}
   .hero .hero-actions,.hero .hero-alt{animation-delay:.16s}
 }
-@keyframes ehHeroEin{from{opacity:.01;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes ehHeroEin{from{transform:translateY(8px)}to{transform:none}}
 
 /* Symmetrie 05.10.: einzelne Waisen-Karte mittig, Footer-Marke volle Breite bei 2 Spalten, gleich breite CTA-Knoepfe */
 @media (min-width:961px){.grid.g3>:last-child:nth-child(3n+1){grid-column:2}}
@@ -1023,8 +1022,8 @@ h2{font-size:clamp(2rem,1.3rem + 2.4vw,3rem);line-height:1.1;letter-spacing:-.03
   .termine-filter~.termine-rows>*,.finder-card,.calc-result,.faq details[open]>:not(summary){
     animation:ehEin .22s ease-out backwards}
 }
-@keyframes ehRv{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
-@keyframes ehEin{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes ehRv{from{transform:translateY(18px)}to{transform:none}}
+@keyframes ehEin{from{transform:translateY(6px)}to{transform:none}}
 @media (prefers-reduced-motion:no-preference) and (hover:hover){
   .card.hoverable:hover,.finder-tile:hover,a.termin-row:hover{transform:translateY(-3px)}
   .card.hoverable:hover,.finder-tile:not(.sel):hover,a.termin-row:hover{box-shadow:none}
@@ -1049,8 +1048,6 @@ h2{font-size:clamp(2rem,1.3rem + 2.4vw,3rem);line-height:1.1;letter-spacing:-.03
   .termine-rows>:nth-child(5){animation-delay:240ms !important}
   .termine-rows>:nth-child(n+6){animation-delay:300ms !important}
   /* Bilder unterhalb des ersten Bildschirms: Skript setzt html.a3-ready und markiert Bilder mit .a3-img */
-  img.a3-img{transition:opacity .25s ease-out}
-  html.a3-ready img.a3-img:not(.a3-loaded){opacity:0}
 }
 /* Buchen-Zeilen: sichtbarer Fokus wie bei allen Knöpfen (statisch) */
 a.termin-row:focus-visible{outline:2px solid var(--brand);outline-offset:2px;border-radius:var(--r)}
