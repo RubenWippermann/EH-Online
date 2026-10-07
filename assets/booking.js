@@ -150,7 +150,7 @@
     // (plaetze_frei=0 heißt „gesperrt“ ODER „nie gepflegt“, Bedeutung kippt) → keine unbelegte
     // Zusage. Zusätzlich hieß das Feld nie „freie_plaetze“ (Doku-Fehler), sondern „plaetze_frei“
     // — NICHT resurrektieren, solange es keinen eigenen „Anmeldung gesperrt“-Zustand gibt.
-    var frei  = 'Plätze frei';
+    var frei  = 'Buchung beim Veranstalter';
 
     var inner =
       '<span class="termin-date"><b>' + fmtRange(k) + '</b>' + (zeit ? '<small>' + zeit + '</small>' : '') + '</span>' +
@@ -171,7 +171,7 @@
       ' data-termin-id="' + esc(k.id || '') + '" data-titel="' + esc(label(k.titel)) + '"' +
       ' data-datum="' + esc(fmtRange(k)) + (k.stadt ? ' · ' + esc(k.stadt) : '') + '"' +
       ' data-veranstalter="' + esc(veranstalter(k)) + '">' +
-      inner + '<span class="termin-cta">Platz buchen →</span></a>';
+      inner + '<span class="termin-cta">Termin ansehen / buchen →</span></a>';
   }
 
   var EMPTY =
