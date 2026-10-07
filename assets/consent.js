@@ -21,8 +21,26 @@
 
   var banner = document.querySelector('[data-cc-banner]');
 
-  function openBanner() { if (banner) { banner.hidden = false; document.body.classList.add('cc-open'); } }
-  function closeBanner() { if (banner) { banner.hidden = true; document.body.classList.remove('cc-open'); } }
+  /* Die Leiste liegt fixiert am unteren Rand; solange sie sichtbar ist, bekommt der body ein
+     padding-bottom in Leistenhoehe, damit die letzten Footer-Links nicht verdeckt werden. */
+  var ccRO = null;
+  function ccPad() {
+    if (!banner || banner.hidden) return;
+    document.body.style.paddingBottom = Math.max(0, Math.ceil(window.innerHeight - banner.getBoundingClientRect().top)) + 'px';
+  }
+  function openBanner() {
+    if (!banner) return;
+    banner.hidden = false; document.body.classList.add('cc-open'); ccPad();
+    window.addEventListener('resize', ccPad);
+    if (window.ResizeObserver && !ccRO) { ccRO = new ResizeObserver(ccPad); ccRO.observe(banner); }
+  }
+  function closeBanner() {
+    if (!banner) return;
+    banner.hidden = true; document.body.classList.remove('cc-open');
+    document.body.style.paddingBottom = '';
+    window.removeEventListener('resize', ccPad);
+    if (ccRO) { ccRO.disconnect(); ccRO = null; }
+  }
 
   /* Anzeigenkasten bleibt auf 0 px zusammengeklappt, bis Google die Anzeige tatsaechlich
      ausliefert (data-ad-status="filled" am <ins>); sonst entstand nach der Einwilligung eine
