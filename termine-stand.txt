@@ -1,3 +1,3 @@
-2026-10-05T15:33:28+02:00	97
-# fingerabdruck=f90451f56416	bewegung_zuletzt=2026-10-05
+2026-10-14T02:49:41+02:00	94
+# fingerabdruck=f78047d82569	bewegung_zuletzt=2026-10-14
 # unveraendert_seit_tagen=0	spaetester_termin=2027-12-19
