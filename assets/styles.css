@@ -1062,3 +1062,6 @@ a.termin-row:focus-visible{outline:2px solid var(--brand);outline-offset:2px;bor
 /* WCAG 2.5.8 (Klickfläche min. 24 px): alleinstehende Textlinks, Telefonnummern, Quellenlinks (fett in der Liste) und der zweite Ratgeber-Link */
 li>a:only-child,p>a:only-child,a[href^="tel:"],.sources li>b>a:only-child{display:inline-flex;align-items:center;min-height:24px}
 .ratgeber-cta-sec{min-height:24px}
+
+/* Safari-Hotfix: Hero bildet eigenen Stapelkontext, damit die Pseudo-Ebenen mit z-index:-1/-2 innerhalb der Hero-Fläche bleiben und nicht hinter Body-/Canvas-Hintergrund gemalt werden */
+.hero{isolation:isolate}
