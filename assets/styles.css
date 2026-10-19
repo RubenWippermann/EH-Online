@@ -1065,3 +1065,5 @@ li>a:only-child,p>a:only-child,a[href^="tel:"],.sources li>b>a:only-child{displa
 
 /* Safari-Hotfix: Hero bildet eigenen Stapelkontext, damit die Pseudo-Ebenen mit z-index:-1/-2 innerhalb der Hero-Fläche bleiben und nicht hinter Body-/Canvas-Hintergrund gemalt werden */
 .hero{isolation:isolate}
+/* Safari-Hotfix 2: keine Einblend-Animation im Hero (nur opacity/transform, 360 ms, 8 px) — nichts Animiertes im Hero, unabhängig von der WebKit-Ursache */
+.hero .hero-grid > div > .eyebrow,.hero h1,.hero .hero-sub,.hero .hero-actions,.hero .hero-alt,.page-hero h1,.page-hero h1+p{animation:none}
