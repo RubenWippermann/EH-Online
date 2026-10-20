@@ -74,8 +74,43 @@
   // Herkunfts-Attribution: quelle=erstehilfekurse additiv anhängen, ohne bestehende
   // Parameter (v. a. org des Veranstalters) zu verändern. Doppelung wird vermieden.
   function withQuelle(url) {
-    if (!url || url.indexOf('quelle=') !== -1) return url;
-    return url + (url.indexOf('?') !== -1 ? '&' : '?') + 'quelle=' + encodeURIComponent(QUELLE);
+    if (!url) return url;
+    if (url.indexOf('quelle=') === -1) url += (url.indexOf('?') !== -1 ? '&' : '?') + 'quelle=' + encodeURIComponent(QUELLE);
+    return withUtm(url);
+  }
+  // UTM-Durchreichen: kommt der Besucher mit utm_* auf die Seite, werden genau diese Parameter an Links der
+  // Software (/buchen, /inhouse) gehängt. Nie eigene utm_* setzen (die Software speichert utm sticky).
+  // Erlaubt: nur a-z, 0-9 und -, höchstens 80 Zeichen; bereits vorhandene Parameter bleiben unberührt.
+  var UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+  var UTM = (function () {
+    var out = [];
+    try {
+      var q = new URLSearchParams(location.search);
+      UTM_KEYS.forEach(function (k) {
+        var v = q.get(k);
+        if (v && /^[a-z0-9-]{1,80}$/.test(v)) out.push([k, v]);
+      });
+    } catch (e) {}
+    return out;
+  })();
+  function withUtm(url) {
+    if (!url || !UTM.length) return url;
+    UTM.forEach(function (kv) {
+      if (url.indexOf(kv[0] + '=') === -1) url += (url.indexOf('?') !== -1 ? '&' : '?') + kv[0] + '=' + encodeURIComponent(kv[1]);
+    });
+    return url;
+  }
+  // Bereits im HTML stehende Links zur Software (/buchen, /inhouse): quelle + vorhandene utm_* ergänzen.
+  function decorateLinks() {
+    var apiHost = API.replace(/^https?:\/\//, '').replace(/\/.*$/, '');
+    Array.prototype.forEach.call(document.querySelectorAll('a[href]'), function (a) {
+      var h = a.getAttribute('href') || '';
+      var m = /^https?:\/\/([^\/?#]+)(\/[^?#]*)?/.exec(h);
+      if (!m || m[1] !== apiHost || !/^\/(buchen|inhouse)/.test(m[2] || '')) return;
+      var hash = ''; var i = h.indexOf('#');
+      if (i !== -1) { hash = h.slice(i); h = h.slice(0, i); }
+      a.setAttribute('href', withQuelle(h) + hash);
+    });
   }
   // Mandanten-Kürzel des Kurses: bevorzugt aus dem Feed (_org), sonst aus der buchungs_url
   // (org=…). Wird nur zur Anzeige des Veranstalter-Namens genutzt, nie zum Umschreiben der URL.
@@ -525,7 +560,7 @@
   }
 
   /* ---------- Start ---------- */
-  function boot() { initTermine(); initCounters(); wireForms(); wireWaitlist(); wireBooking(); initReviews(); }
+  function boot() { decorateLinks(); initTermine(); initCounters(); wireForms(); wireWaitlist(); wireBooking(); initReviews(); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
   else boot();
 })();
