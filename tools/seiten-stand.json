@@ -1220,7 +1220,15 @@
 "stand": "2026-09-01"
 },
 "/wissen/anaphylaktischer-schock/": {
-"hash": "d894689c3d98f2fbad102346c08f06183f847538",
+"hash": "436c4e339dab690079436ce7362e5ae1f6975b6f",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 44 f. (gedruckte Seitenzahl)",
+"punkte": "Schwere allergische Reaktion: erste Anzeichen Kribbeln in Mund/Zunge/Lippen, Quaddeln mit Juckreiz; Auslöser unterbinden (Stachel entfernen, Einstichstelle kühlen); Notruf; beruhigen, warm halten; bei Atemnot Kleidung öffnen, Oberkörper erhöht; nach Notfallset fragen und bei der Anwendung helfen. NICHT übernommen (nicht in DGUV): Haltezeit/zweite Dosis des Injektors, Adrenalin-Nebenwirkungen, Notfallset-Inhalt",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
 "stand": "2026-11-01"
 },
 "/wissen/andauernde-persoenlichkeitsaenderung-nach-psychischer-krankheit/": {
