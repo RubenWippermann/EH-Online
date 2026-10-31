@@ -360,8 +360,16 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-verbrennung-kind/": {
-"hash": "d6331560aebac03c382567099ffe22c89b580970",
-"stand": "2026-10-04"
+"hash": "9e1064d51b4f9ac83f93308b40ebfc05a06c9495",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 90 f.",
+"punkte": "Verbrennungen/Verbrühungen: Kleidung (Verbrühung), Kühlung (nicht eiskalt, nur kleine Verbrennungen an Armen/Beinen, wenige Minuten), Gesicht, Verbandtuch, Notruf, Zudecken/Rettungsdecke, Überwachung",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-verein-ehrenamt/": {
 "hash": "6c951c50336714cddf9a0075c783b6b44f6c68b0",
@@ -1092,8 +1100,16 @@
 "stand": "2026-09-01"
 },
 "/wissen/amputationsverletzung/": {
-"hash": "9a762b6ede204b579c5d16b2d9498c7b1500f568",
-"stand": "2026-09-21"
+"hash": "e091a568bbadd1fe2a5ceaf7c164422e30371de4",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 50 f.",
+"punkte": "Amputationsverletzungen: Lagerung, Beine erhöht, Rettungsdecke, Betreuung, Einmalhandschuhe, Amputat nicht säubern/kein Wasser, auch Haut-/Gewebestücke",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/amyelie/": {
 "hash": "fc705ccb913df118982d78dd5f3a46e27d90e962",
@@ -8728,8 +8744,16 @@
 "stand": "2026-09-21"
 },
 "/wissen/nasenbluten/": {
-"hash": "8260926ef7b317cbd61a72ba957236f4bcbfbfc9",
-"stand": "2026-09-21"
+"hash": "04ebfc908378053e1dd8b948dca99e0c8a6b6d34",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 72",
+"punkte": "Nasenbluten: Notruf bei starkem, anhaltendem Nasenbluten; Kälte im Nacken",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/nasenfurche-naseneinkerbung-und-spaltnase/": {
 "hash": "75a63b03362a583031a80de87d2ed94e281730fa",
@@ -13600,8 +13624,16 @@
 "stand": "2026-09-15"
 },
 "/wissen/wespenstich-im-mund-rachen-notfall/": {
-"hash": "b9fb61c017e6d00d3a41e67994210f370f59a223",
-"stand": "2026-09-01"
+"hash": "752a96e491e89e0a778b4ee96b73b45b898334db",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 36",
+"punkte": "Insektenstich im Mund-Rachenraum: Erstickungsgefahr, allergischer Schock, Notfallset nach ärztlicher Absprache",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/west-nil-fieber/": {
 "hash": "6204d32375c822a55eb3092d4ae60366fdd859cd",
