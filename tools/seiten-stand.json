@@ -4752,8 +4752,16 @@
 "stand": "2026-09-15"
 },
 "/wissen/fremdkoerper-in-der-nase/": {
-"hash": "bb2a242a77ddd4ef9364a5918c1f751a7938ab23",
-"stand": "2026-09-01"
+"hash": "5a64d8e633bed0729c66633b8179871ade1ff3aa",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 70 (Korrektur nach Rubens Linie: offizielle DGUV-Ausgabe gilt)",
+"punkte": "Fremdkörper in Körperöffnungen (Nase/Ohren): am besten dort lassen, ärztlich entfernen, Gegenstand beschreiben/Duplikat zeigen",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/friedreich-ataxie/": {
 "hash": "7773051f43af67a42f371748b574eedc9660716b",
