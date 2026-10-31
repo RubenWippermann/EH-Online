@@ -1107,3 +1107,6 @@ li>a:only-child,p>a:only-child,a[href^="tel:"],.sources li>b>a:only-child{displa
   body{background:var(--bg)}
   .site-header,.card,.termin-row,.hero-panel,.form-card,.section.soft .card{background:var(--card);-webkit-backdrop-filter:none;backdrop-filter:none;border-color:var(--ink-2)}
 }
+
+/* Design-Durchgang 31.10.2026: Punktraster im Hero ist reine Dekoration ohne Funktion */
+.hero::after{display:none}
