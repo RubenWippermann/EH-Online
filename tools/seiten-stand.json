@@ -4212,8 +4212,16 @@
 "stand": "2026-09-16"
 },
 "/wissen/erste-hilfe-bei-verbrennungen-sofortmassnahmen/": {
-"hash": "25035df27612c1e98739ed4730112dbee3a7ec77",
-"stand": "2026-10-19"
+"hash": "b09350607a613344255e0290e0d26487d8db2522",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 90 f. (Fachprüfung BL 01.11.; Seitenzahlen = gedruckte)",
+"punkte": "Verbrennungen/Verbrühungen: Wasser kühlen nur bei kleineren Verbrennungen an Armen und Beinen für wenige Minuten, nicht eiskalt; im Gesicht feuchte Tücher; danach keimfreies Verbandtuch; Notruf",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/erste-hilfe-bei-vergiftungen-sofortmassnahmen/": {
 "hash": "910f9a1da145d41c7e01ca5df4bff92950ddc9b1",
@@ -5944,8 +5952,16 @@
 "stand": "2026-09-15"
 },
 "/wissen/hitzschlag/": {
-"hash": "1d730cb60e4a06bcc5bb555671d8e4e07c90cb01",
-"stand": "2026-09-21"
+"hash": "74e598f48b630e059949bffa481a3fd666e5eb00",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 83 (Fachprüfung BL 01.11.; Seitenzahlen = gedruckte)",
+"punkte": "Hitzschlag: flach mit erhöhtem Kopf, feuchte kühle Tücher/Eisbeutel im Tuch, bei Bewusstlosigkeit Seitenlage und Notruf",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/hiv-infektion/": {
 "hash": "f4185805eff33ac3d8621faff1b51dfb018e52d5",
@@ -13374,8 +13390,16 @@
 "stand": "2026-09-16"
 },
 "/wissen/verbrennung/": {
-"hash": "d9a3b8e8743a1c5da1da7d068cdfd4f5cfc01ae4",
-"stand": "2026-09-21"
+"hash": "249c04f1b2576aa55c28cddd34ec2f6dc78ad1af",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 90 f. (Fachprüfung BL 01.11.; Seitenzahlen = gedruckte)",
+"punkte": "Verbrennungen/Verbrühungen: Wasser kühlen nur bei kleineren Verbrennungen an Armen und Beinen für wenige Minuten, nicht eiskalt; im Gesicht feuchte Tücher; danach keimfreies Verbandtuch; Notruf",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/verbruehung/": {
 "hash": "947ebf513d932e87ce7754480000901ff3e0c11e",
