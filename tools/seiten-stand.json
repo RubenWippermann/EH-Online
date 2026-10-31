@@ -264,8 +264,16 @@
 "stand": "2026-10-19"
 },
 "/ratgeber/erste-hilfe-hitze-sonnenstich/": {
-"hash": "fece6a06126d9755d0305055c1ef8c671070e714",
-"stand": "2026-10-04"
+"hash": "82832b07132d453d03ec4596875f4ab23eb44888",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 83 f. (Korrektur nach Rubens Linie: offizielle DGUV-Ausgabe gilt)",
+"punkte": "Hitzschlag/Sonnenstich: feuchte kühle Tücher oder Eisbeutel, Eisbeutel nie direkt auf die Haut, mit Tuch umwickeln",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-homeoffice-kleinstbetrieb/": {
 "hash": "faf19db9bcae0b34a173fc5e741eaa82c3b5b97c",
@@ -360,12 +368,18 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-verbrennung-kind/": {
-"hash": "9e1064d51b4f9ac83f93308b40ebfc05a06c9495",
+"hash": "158d926348dc9e593815addbdfc773c6869a049e",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 90 f.",
 "punkte": "Verbrennungen/Verbrühungen: Kleidung (Verbrühung), Kühlung (nicht eiskalt, nur kleine Verbrennungen an Armen/Beinen, wenige Minuten), Gesicht, Verbandtuch, Notruf, Zudecken/Rettungsdecke, Überwachung",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+},
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 90 f. (Korrektur nach Rubens Linie: offizielle DGUV-Ausgabe gilt)",
+"punkte": "Verbrennungen/Verbrühungen: Kühlen mit Wasser nicht eiskalt, nur kleinere Verbrennungen an Armen/Beinen, wenige Minuten",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
 }
 ],
@@ -1100,12 +1114,18 @@
 "stand": "2026-09-01"
 },
 "/wissen/amputationsverletzung/": {
-"hash": "e091a568bbadd1fe2a5ceaf7c164422e30371de4",
+"hash": "5f75fdc0f8863a1813f286f79e658ab7379f0340",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 50 f.",
 "punkte": "Amputationsverletzungen: Lagerung, Beine erhöht, Rettungsdecke, Betreuung, Einmalhandschuhe, Amputat nicht säubern/kein Wasser, auch Haut-/Gewebestücke",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+},
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 50 f. (Korrektur nach Rubens Linie: offizielle DGUV-Ausgabe gilt)",
+"punkte": "Amputationsverletzungen: Amputat nicht säubern/kein Wasser, in sauberes (steriles) Tuch wickeln, dem Rettungsdienst übergeben, der es kühlt; Abbindungen vermeiden (Tourniquet-Aussage unverändert bis Entscheid Wissensdatenbank)",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
 }
 ],
@@ -4736,8 +4756,16 @@
 "stand": "2026-09-15"
 },
 "/wissen/fremdkoerper-im-ohr/": {
-"hash": "8af893f483fa9216bb8f07cd4a2b4e41f39becf9",
-"stand": "2026-09-01"
+"hash": "30e7adcf229ec3ccd865a9c9742ee38f5afa78b1",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 70 (Korrektur nach Rubens Linie: offizielle DGUV-Ausgabe gilt)",
+"punkte": "Fremdkörper in Körperöffnungen (Nase/Ohren): am besten dort lassen, ärztlich entfernen, Gegenstand beschreiben/Duplikat zeigen",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/fremdkoerper-im-urogenitaltrakt/": {
 "hash": "9ccae86d42794c243e27143b87608f2fbd892dec",
@@ -8752,12 +8780,18 @@
 "stand": "2026-09-21"
 },
 "/wissen/nasenbluten/": {
-"hash": "04ebfc908378053e1dd8b948dca99e0c8a6b6d34",
+"hash": "2c8c1289224f0c513a64047893ea04a559993b4b",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 72",
 "punkte": "Nasenbluten: Notruf bei starkem, anhaltendem Nasenbluten; Kälte im Nacken",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+},
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 72 (Korrektur nach Rubens Linie: offizielle DGUV-Ausgabe gilt)",
+"punkte": "Nasenbluten: Kopf leicht vornüberbeugen, kurzzeitige Kompression der weichen Nasenflügel, Kälte im Nacken, Notruf bei starkem anhaltendem Nasenbluten",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
 }
 ],
