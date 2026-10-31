@@ -368,8 +368,16 @@
 "stand": "2026-10-19"
 },
 "/ratgeber/erste-hilfe-verschlucken-kind/": {
-"hash": "9f16d6935a87d4b78e06b2585fab85e47d5f014f",
-"stand": "2026-10-04"
+"hash": "00637cab8edded7783198a67aff2e7e6a2182f9b",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "German Resuscitation Council: Fremdkörperaspiration/Atemwegsobstruktion beim Kind (Poster_FBAO_Algorithmus_GER_2021, publiziert Mai 2021, nach ERC)",
+"punkte": "Husten wirksam/unwirksam; Notruf 112; Säugling 5 Rückenschläge+5 Brustkompressionen; Kind 5 Rückenschläge+5 abdominelle Kompressionen; bewusstlos 5 Beatmungsversuche; Mund nicht blind auswischen; Nachsorge",
+"url": "https://www.grc-org.de/downloads/FBAO%20Algo%20GRC%2015.08.2022.pdf"
+}
+],
+"stand": "2026-11-01"
 },
 "/ratgeber/ersthelfer-freistellung-lohnfortzahlung/": {
 "hash": "842a7cab5595cf99984058aa79f10994ed7906a7",

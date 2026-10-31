@@ -76,9 +76,9 @@ for pfad in sorted(alt_lastmod):
         neu_n += 1
     elif e["hash"] != h:
         if rebase:   # rein technische Änderung (z. B. Link-Umschreibung): Hash nachziehen, Datum behalten
-            e = {"stand": e["stand"], "hash": h}
+            e = {**e, "hash": h}
         else:
-            e = {"stand": heute, "hash": h}
+            e = {**e, "stand": heute, "hash": h}
             geaendert_n += 1
     ledger[pfad] = e
     neu_stand[pfad] = e["stand"]
