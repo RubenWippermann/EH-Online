@@ -5836,7 +5836,15 @@
 "stand": "2026-09-07"
 },
 "/wissen/herzinfarkt/": {
-"hash": "2878ac13f059d5054ab22e3c00c058dc0012e24c",
+"hash": "e426cbd65e2b8944bc4e3e31c975aad7a1637d0f",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 100 f. (gedruckte Seitenzahl)",
+"punkte": "Herzinfarkt: Schmerz hinter dem Brustbein, Ausstrahlung linker Arm/Schulterblätter/Hals/Kiefer/Oberbauch; Notruf, beruhigen, abschirmen, Oberkörper erhöht, enge Kleidung öffnen, nicht allein lassen, Wiederbelebung und AED. Kein Medikament in der DGUV genannt",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
 "stand": "2026-11-01"
 },
 "/wissen/herzinsuffizienz-beim-neugeborenen/": {
@@ -11370,8 +11378,16 @@
 "stand": "2026-09-01"
 },
 "/wissen/schlaganfall/": {
-"hash": "bcf92aee876ff8cf9a79691d71be43046655f9e2",
-"stand": "2026-10-19"
+"hash": "bdf14090e4233917c66f261b4c704e06261457e0",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 103 f. (gedruckte Seitenzahl)",
+"punkte": "Schlaganfall: Notruf, Seitenlage bei Bewusstlosigkeit mit Atmung, Wiederbelebung bei Stillstand, bequem mit erhöhtem Oberkörper, gelähmte Körperteile polstern, ständig beobachten; FAST-Schema",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/schlangengift/": {
 "hash": "7d05df83092916845c2d5ab03acaa91be0893b08",
