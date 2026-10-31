@@ -2,7 +2,7 @@
 
 > Info- und Vergleichsportal rund um Erste-Hilfe-Kurse (Betreiber: Personal Paramedic e.K.). Dies ist die lange Fassung von https://www.erstehilfekurse.online/llms.txt: Kernfakten, jeder Kurs mit Zielgruppe, Inhalten und häufigen Fragen, danach Ratgeber und Werkzeuge.
 
-Stand: 28. Sep. 2026 (letzte inhaltliche Änderung)
+Stand: 20. Okt. 2026 (letzte inhaltliche Änderung)
 
 ## Kernfakten
 - Erste-Hilfe-Ausbildung (Grundkurs): 9 Unterrichtseinheiten an einem Tag; für den Führerschein Pflicht (§ 19 FeV); das Gesetz nennt keine Ablauffrist, die Fahrerlaubnisbehörde vorher fragen.
@@ -122,6 +122,27 @@ Für wen: Ehrenamtliche im Sanitäts- und Betreuungsdienst; Veranstaltungssanit�
 Inhalte: Anatomie und Physiologie im Überblick; Notfallbilder erkennen und versorgen; Erweiterte Maßnahmen und Sanitätsmaterial; Betreuung, Transport und Lagerung; Praktische Prüfung.
 Frage: Brauche ich Vorkenntnisse?
 Antwort: Eine aktuelle Erste-Hilfe-Ausbildung ist Voraussetzung. Alles Weitere lernt ihr im Kurs.
+
+## Standorte, Kontakt und Anfrage
+Betreiber: Personal Paramedic e.K., Königsallee 19, 40212 Düsseldorf. Telefon +49 5527 7488495, E-Mail info@personal-paramedic.de. Impressum: https://www.erstehilfekurse.online/impressum/.
+Inhouse-Kurse finden bundesweit bei euch vor Ort statt (ab 8 Personen); Präsenzkurse mit offenen Terminen in Leinefelde-Worbis. Orts- und Regionalseiten: https://www.erstehilfekurse.online/erste-hilfe-kurs/. Anfrage für Inhouse-Kurse: https://www.erstehilfekurse.online/inhouse/#anfrage. Buchung offener Termine und Anfragen laufen über software-wippermann.de; Preise stehen am Termin, andernfalls „auf Anfrage“.
+
+## Häufige Fragen zum Portal
+
+Frage: Ich brauche den Kurs für den Führerschein — welchen buche ich?
+Antwort: Die Erste-Hilfe-Ausbildung mit 9 Unterrichtseinheiten. Sie gilt für alle Führerscheinklassen und ist gleichzeitig die betriebliche Ersthelfer-Ausbildung. Details im Führerschein-Ratgeber.
+
+Frage: Wie viele Ersthelfer braucht mein Betrieb?
+Antwort: Das richtet sich nach der DGUV Vorschrift 1 § 26: 1 Ersthelfer bei 2–20 Anwesenden, darüber 5 % (Verwaltung/Handel) bzw. 10 % (sonstige Betriebe). Der Ersthelfer-Rechner zeigt dir die Zahl sofort.
+
+Frage: Wie oft muss ich auffrischen?
+Antwort: Für den Führerschein nie. Als betriebliche:r Ersthelfer:in alle zwei Jahre. Mehr im Auffrischungs-Ratgeber oder direkt im Rechner.
+
+Frage: Was kostet ein Kurs und wer zahlt?
+Antwort: Für betriebliche Ersthelfer:innen übernimmt meist die Berufsgenossenschaft oder Unfallkasse die Kosten. Selbstzahler:innen sehen den Preis direkt am Termin. Alles dazu unter Kosten & Abrechnung.
+
+Frage: Wer steckt hinter diesem Portal?
+Antwort: Betrieben wird erstehilfekurse.online von Personal Paramedic e.K., einer DGUV-anerkannten Ausbildungsstätte (Kennziffer 8.2018). Die buchbaren Kurse sind eigene Kurse bzw. Kurse unseres Kooperationspartners BWW UG — Details stehen jeweils am Kurs und im Impressum. Kurse unseres Kooperationspartners BWW UG (haftungsbeschränkt) werden von dieser als eigenständiger DGUV-anerkannter Ausbildungsstätte (Kennziffer 8.2122) durchgeführt und verantwortet.
 
 ## Ratgeber
 - [Welcher Erste-Hilfe-Kurs zählt wofür — und welcher ist nur ein Zusatz?](https://www.erstehilfekurse.online/ratgeber/welcher-kurs-zaehlt-wofuer/): Führerschein, Betrieb, Kita, privat: Nur bestimmte Kurse gelten als anerkannter Ersthelfer-Nachweis. Was zählt und was nur ergänzt — mit Fundstellen.
