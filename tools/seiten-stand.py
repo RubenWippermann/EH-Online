@@ -7,13 +7,14 @@ Ledger: tools/seiten-stand.json  {pfad: {"stand": "JJJJ-MM-TT", "hash": "<sha1>"
 Hash = sha1 des <main>-Inhalts ohne flüchtige Teile (Stand-Zeile, Stand im Haftungshinweis, vorgerenderte Termine inkl. Stand-Zeile, Skripte).
 Ablauf: Hash gleich -> Datum bleibt; Hash anders -> Datum = heute. Erster Lauf (Seite nicht im Ledger): Datum = max(sichtbarer Stand,
 bisheriger lastmod), Hash = aktuell.
-Aufruf im Repo-Root:  python3 tools/seiten-stand.py [--dry] [--heute JJJJ-MM-TT] [--export <daten-datum.json des Generators>]
+Aufruf im Repo-Root:  python3 tools/seiten-stand.py [--dry] [--rebase-hash (Hash nachziehen, Datum NICHT ändern: nur für technische Änderungen)] [--heute JJJJ-MM-TT] [--export <daten-datum.json des Generators>]
 --export schreibt die Daten in die daten-datum.json des Generators (geaendert = Stand, wo er von veroeffentlicht abweicht)."""
 import re, sys, os, json, glob, hashlib, datetime
 
 MON = ["Jan.", "Feb.", "März", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sep.", "Okt.", "Nov.", "Dez."]
 HOST = "https://www.erstehilfekurse.online"
 dry = "--dry" in sys.argv
+rebase = "--rebase-hash" in sys.argv
 heute = datetime.date.today().isoformat()
 if "--heute" in sys.argv:
     heute = sys.argv[sys.argv.index("--heute") + 1]
@@ -74,8 +75,11 @@ for pfad in sorted(alt_lastmod):
         e = {"stand": max(kand) if kand else heute, "hash": h}
         neu_n += 1
     elif e["hash"] != h:
-        e = {"stand": heute, "hash": h}
-        geaendert_n += 1
+        if rebase:   # rein technische Änderung (z. B. Link-Umschreibung): Hash nachziehen, Datum behalten
+            e = {"stand": e["stand"], "hash": h}
+        else:
+            e = {"stand": heute, "hash": h}
+            geaendert_n += 1
     ledger[pfad] = e
     neu_stand[pfad] = e["stand"]
     # Seite angleichen: sichtbarer Stand, Haftungshinweis, dateModified

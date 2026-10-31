@@ -28,7 +28,7 @@
 "stand": "2026-10-07"
 },
 "/branchen/betrieb/": {
-"hash": "927431f45302f8e6279ef10fe2cdc366e707e63a",
+"hash": "28189699361881174d7edec8294be14c5d774078",
 "stand": "2026-10-07"
 },
 "/branchen/betriebssanitaeter/": {
@@ -52,7 +52,7 @@
 "stand": "2026-10-20"
 },
 "/datenschutz/": {
-"hash": "940f7576cd21f949db52d12e6d756bfa5902234d",
+"hash": "26ec32c6f6078218e099836cd1492bde7119cd3c",
 "stand": "2026-10-07"
 },
 "/erste-hilfe-kurs/": {
@@ -144,55 +144,55 @@
 "stand": "2026-10-07"
 },
 "/kurse/": {
-"hash": "4ad2eea0cc8c0c541a850b8f4f9774c1bc917107",
+"hash": "4a12a2d93724f115d0e503aaaa0fe669501523b5",
 "stand": "2026-10-07"
 },
 "/kurse/betriebssanitaeter-aufbaulehrgang/": {
-"hash": "77cd3e865e3da9cc8ac038cb3166e5dacef9a7ba",
+"hash": "d2077266aaf63cd0eea6b27f5592ac9731b2056f",
 "stand": "2026-10-31"
 },
 "/kurse/betriebssanitaeter-grundausbildung/": {
-"hash": "2b7e5583e3292c0a7b177f1f7f10c0c6d12556de",
+"hash": "ea93788bfd38c5c5af7d9cadad848bd6288bd411",
 "stand": "2026-10-31"
 },
 "/kurse/brandschutzhelfer/": {
-"hash": "5f881d4752ebc49e5ae5b6a3780a2015a3e140e8",
+"hash": "a45a526c0f13217c5d321d216547244e5463e194",
 "stand": "2026-10-19"
 },
 "/kurse/erste-hilfe-ausbildung/": {
-"hash": "9ce59d7707961578753151ca1f2b3116e9e3ab92",
+"hash": "bac76dd9b94d546fe99db2289d8eac73357b9b5f",
 "stand": "2026-10-19"
 },
 "/kurse/erste-hilfe-baby-kind/": {
-"hash": "6053c5dcb90844543d4b0b68f18e6d24e7b8ef97",
+"hash": "bd2fc97fdc3de3b6e446681903b3053051fe3b69",
 "stand": "2026-10-19"
 },
 "/kurse/erste-hilfe-bildungseinrichtungen/": {
-"hash": "5d861398fdb2826d4dc28f51b4acaa9fdb1b5fe3",
+"hash": "a0ab66c39309320fa522952dac44f589328ba53d",
 "stand": "2026-10-19"
 },
 "/kurse/erste-hilfe-fortbildung/": {
-"hash": "ddbbbd3477cb54800fee67e262668841b2e43344",
+"hash": "98b86d91772d689aa194481f6524c8646b357713",
 "stand": "2026-10-19"
 },
 "/kurse/lehrkraefte-ausbildung-tb1/": {
-"hash": "b989f978ba8b85ae64e35f4075b2f2e1c11f92ad",
+"hash": "aaffd1c0924539b5793b05c05f49ba383ef7e23e",
 "stand": "2026-10-31"
 },
 "/kurse/lehrkraefte-ausbildung-tb2/": {
-"hash": "d62a7a88f5e5fe962f7c49f09b8ee8c6416801ac",
+"hash": "a2794295a0909deda122a513c6198ea7d56573eb",
 "stand": "2026-10-31"
 },
 "/kurse/lehrkraefte-fortbildung/": {
-"hash": "e7b74b958306acf1c3d45d1f3ce8a23bf96fc470",
+"hash": "a32f64c00942a3c8c9355e239ed1d89e7813eb36",
 "stand": "2026-10-31"
 },
 "/kurse/notfalltraining/": {
-"hash": "dbcf0fb18a55f355d826dd4e85eb8f225fc05683",
+"hash": "6a93b259ef898d86d6bd9978b306fea3b4d31ca7",
 "stand": "2026-10-19"
 },
 "/kurse/sanitaetshelfer/": {
-"hash": "d78b9ba38f7b0a1a9de239d1a9fa628a1ecc7d7a",
+"hash": "57336caf80b2f70c709d2d88247ba791022a1515",
 "stand": "2026-10-19"
 },
 "/kursfinder/": {
@@ -420,7 +420,7 @@
 "stand": "2026-09-25"
 },
 "/vergleich/": {
-"hash": "290c73e9634f964f35b0fc7eed5deb99c862d1f6",
+"hash": "f4654719de28629b06b4b2ef47f7446c0ab905a9",
 "stand": "2026-10-07"
 },
 "/widerruf/": {
@@ -428,7 +428,7 @@
 "stand": "2026-10-07"
 },
 "/wissen/": {
-"hash": "2ea35e373adda62f72734ff14f120d272d3ddcb3",
+"hash": "a35eae074523553ee34422f05ef5880495358649",
 "stand": "2026-10-20"
 },
 "/wissen/2-propanol/": {
@@ -780,7 +780,7 @@
 "stand": "2026-09-08"
 },
 "/wissen/akute-laryngopharyngitis/": {
-"hash": "586b703d1d39c9b3f5cc0feb741efe0fc75628a6",
+"hash": "5c03487e86f1d83ffce88bc161f336e5de34592e",
 "stand": "2026-09-17"
 },
 "/wissen/akute-lymphadenitis/": {
@@ -852,7 +852,7 @@
 "stand": "2026-09-17"
 },
 "/wissen/akute-tracheitis/": {
-"hash": "1cc150ea95960babd70bae705a85b7b89579ccec",
+"hash": "31f725edcaee4a752cab72e8f3b7b909c0873725",
 "stand": "2026-09-17"
 },
 "/wissen/akute-tubulointerstitielle-nephritis/": {
@@ -916,7 +916,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/akutes-nierenversagen/": {
-"hash": "def27f9a3ada7c6f69da6b0e099352ecd0649215",
+"hash": "d0bbe0ac809b324a4292d5db11cfb12ed3a69c88",
 "stand": "2026-09-01"
 },
 "/wissen/akutes-skrotum-im-kindes-und-jugendalter/": {
@@ -1484,7 +1484,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/angeborene-perforation-des-nasenseptums/": {
-"hash": "acba00151e5a5ca64b05139f39aa2cda80e1702c",
+"hash": "f131bac51ac1c8965c974ee2f9c5a5b9a64f4dc8",
 "stand": "2026-09-21"
 },
 "/wissen/angeborene-phlebektasie/": {
@@ -2300,7 +2300,7 @@
 "stand": "2026-09-06"
 },
 "/wissen/bauch-und-beckenschmerzen/": {
-"hash": "4903140e164ae05083dea86617f53459f7b8c5bf",
+"hash": "29ad42a9640a9aa79ae969988e0f91d8ac4a84c3",
 "stand": "2026-09-07"
 },
 "/wissen/bauchdeckenaplasie-syndrom/": {
@@ -2468,7 +2468,7 @@
 "stand": "2026-09-02"
 },
 "/wissen/bipolare-stoerung/": {
-"hash": "c97c6369822266eb694a20afc1e5e2a46b432edb",
+"hash": "710ac10ef259bd103a88993af8e2da609b8d6c99",
 "stand": "2026-09-01"
 },
 "/wissen/blaehungen-meteorismus/": {
@@ -2548,7 +2548,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/blut-im-urin-haematurie/": {
-"hash": "2c6cec09a323106a9b38f3fda447f4ac69c40b9b",
+"hash": "b31aa1240f6b6fc65f3bd70397379513f83d3689",
 "stand": "2026-09-01"
 },
 "/wissen/blutaspiration-durch-das-neugeborene/": {
@@ -4119,10 +4119,6 @@
 "hash": "f016b8352faa5c57ad52539c01736dfa33fc9369",
 "stand": "2026-09-16"
 },
-"/wissen/epistaxis/": {
-"hash": "287698a9d2bf092b4c6a55c9c4ae94bec4a675c8",
-"stand": "2026-09-17"
-},
 "/wissen/erb-laehmung/": {
 "hash": "de9e5a6ecede0fe50b6547021ce47dad8fdf4a89",
 "stand": "2026-09-16"
@@ -5020,7 +5016,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/gehoergangsexostose/": {
-"hash": "3176f1c06ed9cb48ff407f2de86e555fe7484df9",
+"hash": "5c1d5e9593bd2eebcac5d14e55c2225a99eab837",
 "stand": "2026-09-02"
 },
 "/wissen/gelbfieber/": {
@@ -5312,12 +5308,8 @@
 "stand": "2026-09-01"
 },
 "/wissen/guertelrose/": {
-"hash": "10624cdabebde9efb05952f62d25801f79a649d5",
+"hash": "263fa9cf6b37d2839d414ce22d8a47afdc370464",
 "stand": "2026-09-16"
-},
-"/wissen/guerteltrose-herpes-zoster/": {
-"hash": "62faf77e7153ddb7f53719b002d14138b44d7b8b",
-"stand": "2026-09-01"
 },
 "/wissen/guillain-barre-syndrom/": {
 "hash": "fc656443177421b5326fff8bc2a8d50d06947278",
@@ -5660,7 +5652,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/hereditaere-haemorrhagische-teleangiektasie/": {
-"hash": "4a4d055b87eb3d8e31623f7c4d847f8472d97309",
+"hash": "f59867a1e187b507fb708a59c9557d05f056a79f",
 "stand": "2026-09-21"
 },
 "/wissen/hereditaere-hornhautdystrophien/": {
@@ -6016,7 +6008,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/hydronephrose/": {
-"hash": "3699e3c82c02386031ad49c9c5e988e07773ae4e",
+"hash": "40dae9ca813e1deb35a3095fc7063e5212e25b9d",
 "stand": "2026-09-06"
 },
 "/wissen/hydrops-der-gallenblase/": {
@@ -6536,11 +6528,11 @@
 "stand": "2026-09-16"
 },
 "/wissen/interkostalneuralgie/": {
-"hash": "914198adf2b62780b91ee0cb81a955400519e084",
+"hash": "223bb768252e7e8a5c772a37cc6dea1c826b8d21",
 "stand": "2026-09-21"
 },
 "/wissen/interkostalneuropathie/": {
-"hash": "fb1438b887d1a9b71a6b8b4f701df7984ebb51ff",
+"hash": "5b4236fc9d029c368239fc40409d164d34192712",
 "stand": "2026-09-21"
 },
 "/wissen/internukleaere-ophthalmoplegie/": {
@@ -6976,7 +6968,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/klinische-kategorien-der-hiv-krankheit/": {
-"hash": "09ea62445deb5a694a639d7b589fc11a53685dbd",
+"hash": "244a3f7ef04027ba677d81aaa8c32627f142ed5d",
 "stand": "2026-09-21"
 },
 "/wissen/klippel-feil-syndrom/": {
@@ -7292,7 +7284,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/krankheiten-des-n-vestibulocochlearis-viii-hirnnerv/": {
-"hash": "1a374022d704a594ce1ba4dbaf17f775cf2f3bba",
+"hash": "fc4e9d35ab14a58a05549e6f03326153569165a2",
 "stand": "2026-09-21"
 },
 "/wissen/krankheiten-des-verdauungssystems-die-schwangerschaft-geburt-und-wochenbett-komplizieren/": {
@@ -7620,7 +7612,7 @@
 "stand": "2026-09-07"
 },
 "/wissen/lesch-nyhan-syndrom/": {
-"hash": "e95d44d8a2d3f0f48c349fef34a8ad39c9153397",
+"hash": "26fe0946f182083d1476f70e59bad3a13e19a54a",
 "stand": "2026-09-07"
 },
 "/wissen/leukaemie/": {
@@ -8720,7 +8712,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/nasenbeinbruch/": {
-"hash": "8c992e6657ef4b9d242ff03d783dfca7f8e550f6",
+"hash": "3840b3ccd9a51470edfec1d29d0f67a05dcb21bf",
 "stand": "2026-09-21"
 },
 "/wissen/nasenbeinfraktur/": {
@@ -8728,7 +8720,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/nasenbluten/": {
-"hash": "9097f1449b002318715fa2609fcd8579d693e034",
+"hash": "8260926ef7b317cbd61a72ba957236f4bcbfbfc9",
 "stand": "2026-09-21"
 },
 "/wissen/nasenfurche-naseneinkerbung-und-spaltnase/": {
@@ -8992,7 +8984,7 @@
 "stand": "2026-09-06"
 },
 "/wissen/niere-und-harnsystem/": {
-"hash": "677be19ccd282a31137266c9651cd72498d1de11",
+"hash": "629e711d4f10a2736c71326c6e4228be571e0a07",
 "stand": "2026-09-01"
 },
 "/wissen/nierenabszess-und-perinephritischer-abszess/": {
@@ -9012,7 +9004,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/nierenbeckenentzuendung/": {
-"hash": "2f9312169711f479b77e4ce45b0880b8c6bf025c",
+"hash": "bfed304f46e4ce52d0eb1d5d5f7a22af04c094c7",
 "stand": "2026-10-20"
 },
 "/wissen/nierendysplasie/": {
@@ -9040,12 +9032,8 @@
 "stand": "2026-09-01"
 },
 "/wissen/nierenstein/": {
-"hash": "48ec7ebed5f0b06de3bd86bc3185267dba792daa",
+"hash": "5c847d026a1489c1caadbd5c69d5a6451837545f",
 "stand": "2026-09-16"
-},
-"/wissen/nierensteine/": {
-"hash": "c896e075c03fa521d75697c86f68b550468672c5",
-"stand": "2026-09-01"
 },
 "/wissen/nierenwerte-kreatinin-gfr/": {
 "hash": "d92f28fe35b40280390e552156a78b322ea39ac5",
@@ -9180,7 +9168,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/ohrmuschelentzuendung-perichondritis/": {
-"hash": "381d870e1d6cc9d9de761b06258fc924608512bc",
+"hash": "7cf5d4e00ef4e313d997f6405449b31d864c3a91",
 "stand": "2026-09-02"
 },
 "/wissen/okulo-mandibulo-faziales-syndrom/": {
@@ -9600,7 +9588,7 @@
 "stand": "2026-09-02"
 },
 "/wissen/pavor-nocturnus-nachtangst-bei-kindern/": {
-"hash": "71c25fd77820cf62e410a842d7b8720caa04e2e8",
+"hash": "09346cc479969baa34d037a26cd28a1055a8a873",
 "stand": "2026-09-01"
 },
 "/wissen/pco-syndrom/": {
@@ -10616,7 +10604,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/pyelonephritis/": {
-"hash": "573ff16691e08e860b772adb482ef86294f44913",
+"hash": "3394f57bd68fb7076226e9296d663c682d90cddb",
 "stand": "2026-09-06"
 },
 "/wissen/pylorusstenose/": {
@@ -11256,7 +11244,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/schlafwandeln-somnambulismus/": {
-"hash": "4182a52c4ed4b5470638d526f345cf6c21721b38",
+"hash": "a005732ff0f5199950b76560fe662ab9fb891dd4",
 "stand": "2026-09-01"
 },
 "/wissen/schlaganfall/": {
@@ -11556,7 +11544,7 @@
 "stand": "2026-09-06"
 },
 "/wissen/sichelzellenanaemie/": {
-"hash": "f252269ba953b2db481f25efbab44945e467f69e",
+"hash": "29c063e0a59dfa4ef143f8c59dc79574e6c43650",
 "stand": "2026-09-21"
 },
 "/wissen/sichelzellenkrankheiten/": {
@@ -11760,7 +11748,7 @@
 "stand": "2026-09-08"
 },
 "/wissen/soziale-phobie-sozialangst/": {
-"hash": "790cc8fed274d21cc34450ef3b5fa394ece544dc",
+"hash": "3951879f781c75604dd45de1fe409c540423062d",
 "stand": "2026-09-01"
 },
 "/wissen/spaetblutung-und-spaete-nachgeburtsblutung/": {
@@ -12896,7 +12884,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/tubenventilationsstoerung/": {
-"hash": "6c6e819efa09be71c6ea3937d9ba5d91b5326ce3",
+"hash": "2bd4a9f08136872d1630d1ce7f3ab8389d3930d8",
 "stand": "2026-09-02"
 },
 "/wissen/tuberkulose/": {
@@ -13636,7 +13624,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/windpocken/": {
-"hash": "9c8edb468db2f803b553150dc30a16c498261c48",
+"hash": "fec9902f4ae4c12eb4ccdc0f2d94a787b8010af2",
 "stand": "2026-10-20"
 },
 "/wissen/wirbelosteomyelitis/": {
@@ -13912,7 +13900,7 @@
 "stand": "2026-09-17"
 },
 "/wissen/zwangsstoerung-ocd/": {
-"hash": "668b0d405986d5db39a26a84bbb8d50024478742",
+"hash": "16ece574b88e6bac17abb9e32785da96c961deae",
 "stand": "2026-09-01"
 },
 "/wissen/zwischenfaelle-bei-chirurgischem-eingriff-und-medizinischer-behandlung/": {
