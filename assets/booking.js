@@ -120,6 +120,16 @@
     return m ? decodeURIComponent(m[1]) : '';
   }
   function veranstalter(k) { return VERANSTALTER[orgOf(k)] || ''; }
+  // Baustein 4.1 (Jurist, ENTWURF bis zur anwaltlichen Prüfung): wo BWW-Termine stehen, einmal je Terminliste der Veranstalterhinweis.
+  // Muss mit der vorgerenderten Fassung (Generator, termine_prerender) übereinstimmen.
+  function veranstHinweis(list) {
+    if (!list.some(function (k) { return orgOf(k) === 'bww'; })) return '';
+    return '<p class="termine-veranst muted" style="font-size:.86rem;margin-top:14px"><b>Veranstalter der BWW-Termine:</b> BWW UG (haftungsbeschränkt), Worbiser Straße 2, 37115 Duderstadt. ' +
+      '<a href="https://www.multiplikatorenstelle.de/impressum/" rel="noopener" target="_blank">Impressum des Veranstalters</a>. Es gelten die ' +
+      '<a href="https://www.multiplikatorenstelle.de/agb/" rel="noopener" target="_blank">AGB</a> und die ' +
+      '<a href="https://www.multiplikatorenstelle.de/widerruf/" rel="noopener" target="_blank">Widerrufsbelehrung</a> des Veranstalters. ' +
+      'Der Preis je Termin ist der Endpreis laut Veranstalter. Diese Website vermittelt den Kurs im Namen des Veranstalters.</p>';
+  }
   function jget(url) {
     return fetch(url, { credentials: 'omit' }).then(function (r) {
       if (!r.ok) throw new Error('http_' + r.status);
@@ -179,6 +189,7 @@
     if (k.mehrtaegig) tags.push('mehrtägig');
 
     var zeit  = k.uhrzeit ? esc(k.uhrzeit) + (k.uhrzeit_ende ? '–' + esc(k.uhrzeit_ende) : '') + ' Uhr' : '';
+    if (k.kursart === 'BH') zeit = '4 UE';   // Brandschutzhelfer: Terminzeiten im Kurssystem werden korrigiert, bis dahin Dauer in UE
     var preis = (k.preis != null && k.preis !== '') ? esc(k.preis) + ' €' : 'auf Anfrage';
     var voll  = !!k.ausgebucht;
     // KEINE konkrete Restplatz-Zahl: die Kapazität ist laut Kurssystem derzeit nicht belastbar
@@ -235,11 +246,11 @@
         (hasBg ? '<label class="tf-bg"><input type="checkbox" class="tf-bgchk"> Nur BG/UK-abrechenbar</label>' : '') +
         '<span class="tf-count" aria-live="polite"></span></div>';
     }
-    el.innerHTML = bar + '<div class="termine-rows"></div>';
+    el.innerHTML = bar + '<div class="termine-rows"></div><div class="termine-veranst-slot"></div>';
 
     var artSel = el.querySelector('.tf-art'), stadtSel = el.querySelector('.tf-stadt'),
         bgChk = el.querySelector('.tf-bgchk'), rows = el.querySelector('.termine-rows'),
-        count = el.querySelector('.tf-count');
+        count = el.querySelector('.tf-count'), vslot = el.querySelector('.termine-veranst-slot');
 
     function apply() {
       var a = artSel ? artSel.value : '', s = stadtSel ? stadtSel.value : '', bg = bgChk && bgChk.checked;
@@ -249,6 +260,7 @@
       rows.innerHTML = f.length ? f.map(rowHTML).join('')
         : '<p class="termine-empty">Für diese Auswahl ist gerade nichts frei. <a href="/inhouse/#anfrage">Wunschtermin anfragen →</a></p>';
       if (count) count.textContent = f.length + (f.length === 1 ? ' Termin' : ' Termine');
+      if (vslot) vslot.innerHTML = veranstHinweis(f);
     }
     [artSel, stadtSel, bgChk].forEach(function (n) { if (n) n.addEventListener('change', apply); });
     apply();
@@ -295,7 +307,7 @@
           var hinweis = (limit > 0 && gezeigt.length && gezeigt.every(function (k) { return k.ausgebucht; }))
             ? '<p class="termine-empty">Diese Termine sind belegt — <a href="/inhouse/#anfrage">schreib uns, wir finden einen Platz</a>.</p>'
             : '';
-          el.innerHTML = hinweis + '<div class="termine-rows">' + gezeigt.map(rowHTML).join('') + '</div>';
+          el.innerHTML = hinweis + '<div class="termine-rows">' + gezeigt.map(rowHTML).join('') + '</div>' + veranstHinweis(gezeigt);
           return;
         }
         renderFiltered(el, list);
