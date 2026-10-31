@@ -6624,8 +6624,16 @@
 "stand": "2026-09-16"
 },
 "/wissen/insektenstich-allergische-reaktion/": {
-"hash": "43b1526c797873e0241a06e0cafc581413f117c1",
-"stand": "2026-09-21"
+"hash": "40b1bdc01aa78e9a8a303dfe4e9388457cb764a2",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 36 und 68 (gedruckte Seiten)",
+"punkte": "Insektenstich Mund-Rachenraum (S. 36): Notruf, Speiseeis/Eiswürfel lutschen, Hals von außen kühlen, bei Atemstillstand beatmen, Vorbeugung Trinkhalm, Notfallset nach ärztlicher Absprache; Stachel sofort entfernen (S. 68). NICHT übernommen (nicht in DGUV): Beobachtung 20-30 min, Pinzette/Abkratzen-Methode, Autoinjektor-Details",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/instabilitaet-der-wirbelsaeule/": {
 "hash": "93c3a976af356b2b214454d4e7ff6d6a4a6802ef",
