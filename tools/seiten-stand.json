@@ -4920,8 +4920,16 @@
 "stand": "2026-09-08"
 },
 "/wissen/gallensteine/": {
-"hash": "49a18cce3ec9a29468e08e4cf676adf067d0b793",
-"stand": "2026-09-01"
+"hash": "caf2b38da15caad7dea5fe89763708ca3f730261",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 106 f. (Korrektur Wissensdatenbank/Rubens Linie)",
+"punkte": "Akuter Kolikanfall: Notruf, zudecken, Knierolle, nichts essen/trinken/rauchen, keine Medikamente einschließlich Schmerzmittel",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/gallensteinileus/": {
 "hash": "0f37d581716a43edc5584ad1eb8f52e33f651225",
@@ -9106,8 +9114,16 @@
 "stand": "2026-09-01"
 },
 "/wissen/nierenstein/": {
-"hash": "5c847d026a1489c1caadbd5c69d5a6451837545f",
-"stand": "2026-09-16"
+"hash": "59dc1c77edee657ec13ac34db94a31cd9e3db353",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 106 f. (Korrektur Wissensdatenbank/Rubens Linie)",
+"punkte": "Akuter Kolikanfall: Notruf, zudecken, Knierolle, nichts essen/trinken/rauchen, keine Medikamente einschließlich Schmerzmittel",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/nierenwerte-kreatinin-gfr/": {
 "hash": "d92f28fe35b40280390e552156a78b322ea39ac5",
@@ -13422,8 +13438,16 @@
 "stand": "2026-09-16"
 },
 "/wissen/verstauchung-distorsion/": {
-"hash": "2720a60f514266e954179dc8d190425529834e80",
-"stand": "2026-09-21"
+"hash": "c8169cba09a31f7caeeb19f3b50549e812f73a20",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 74-76 (Korrektur Wissensdatenbank/Rubens Linie)",
+"punkte": "PECH-Regel, leichter Kompressionsverband mit Fixierbinde, Kühlphase 20-30 min, Kältepackung nie direkt auf die Haut, ärztliche Diagnose zwingend, Vereisungssprays abraten",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/verstopfung-obstipation/": {
 "hash": "93ee3e9d0efc6120814984a9a71d959c06983e34",
