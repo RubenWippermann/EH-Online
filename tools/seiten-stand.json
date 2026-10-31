@@ -5836,12 +5836,12 @@
 "stand": "2026-09-07"
 },
 "/wissen/herzinfarkt/": {
-"hash": "e426cbd65e2b8944bc4e3e31c975aad7a1637d0f",
+"hash": "10ca54f510f94fea072b257904d6a4618ec97b3b",
 "quellen": [
 {
 "gelesen": "2026-11-01",
-"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 100 f. (gedruckte Seitenzahl)",
-"punkte": "Herzinfarkt: Schmerz hinter dem Brustbein, Ausstrahlung linker Arm/Schulterblätter/Hals/Kiefer/Oberbauch; Notruf, beruhigen, abschirmen, Oberkörper erhöht, enge Kleidung öffnen, nicht allein lassen, Wiederbelebung und AED. Kein Medikament in der DGUV genannt",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 100-102 (gedruckte Seitenzahl)",
+"punkte": "Herzinfarkt: Schmerz hinter dem Brustbein, Ausstrahlung linker Arm/Schulterblätter/Hals/Kiefer/Oberbauch; Notruf, beruhigen, abschirmen, Oberkörper erhöht, enge Kleidung öffnen, nicht allein lassen, Wiederbelebung und AED. Angina pectoris: Hilfe bei Einnahme der EIGENEN Medikamente (meist Nitrosprays), Frischluft; Ersthelfer geben selbst nichts",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
 }
 ],
