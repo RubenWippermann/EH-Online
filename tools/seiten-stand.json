@@ -922,8 +922,16 @@
 "stand": "2026-09-08"
 },
 "/wissen/akute-zystitis/": {
-"hash": "5c60f7bae4d10fa3d363105b8735f452ee82a29c",
-"stand": "2026-09-16"
+"hash": "3994d58bd4c648015c9af7d4ab05d64d8a415793",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "gesund.bund.de, Blasenentzündung (Zystitis): Behandlung, Stand 27.08.2024",
+"punkte": "Blut im Urin, Ausstrahlung; Hausmittel viel trinken/Wärme (Wirkung weniger belegt); Paracetamol/Ibuprofen als Alternative; 30-50 von 100 heilen ohne Antibiotika; Flankenschmerz/Fieber/Übelkeit = schnell Arzt; Teststreifen; Vorbeugung/Risikofaktoren. NICHT übernommen (nicht belegt): Trinkmenge 2-3 l, Antibiotika-Dauer, Cranberry",
+"url": "https://gesund.bund.de/blasenentzuendung-harnwegsinfektion"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/akutes-abdomen/": {
 "hash": "d35bd980d1bd17e5126f0dc1e560766a774dfc95",
