@@ -1,0 +1,192 @@
+# erstehilfekurse.online — ausführliche Fassung für KI-Assistenten
+
+> Info- und Vergleichsportal rund um Erste-Hilfe-Kurse (Betreiber: Personal Paramedic e.K.). Dies ist die lange Fassung von https://www.erstehilfekurse.online/llms.txt: Kernfakten, jeder Kurs mit Zielgruppe, Inhalten und häufigen Fragen, danach Ratgeber und Werkzeuge.
+
+Stand: 28. Sep. 2026 (letzte inhaltliche Änderung)
+
+## Kernfakten
+- Erste-Hilfe-Ausbildung (Grundkurs): 9 Unterrichtseinheiten an einem Tag; für den Führerschein Pflicht (§ 19 FeV); das Gesetz nennt keine Ablauffrist, die Fahrerlaubnisbehörde vorher fragen.
+- Betriebliche Ersthelfer frischen in der Regel alle 2 Jahre per Fortbildung auf (DGUV Vorschrift 1 § 26 Abs. 3); Lehrkräfte für Erste Hilfe alle 3 Jahre (DGUV Grundsatz 304-003).
+- Zahl der betrieblichen Ersthelfer: 1 bei 2–20 anwesenden Versicherten, darüber 5 % (Verwaltung/Handel) bzw. 10 % (sonstige Betriebe) (DGUV Vorschrift 1 § 26 Abs. 1); in Kindertageseinrichtungen mindestens 1 pro Kindergruppe.
+- Kostenübernahme: Für benannte betriebliche Ersthelfer:innen trägt der Unfallversicherungsträger (Berufsgenossenschaft/Unfallkasse) die Lehrgangsgebühr (§ 23 Abs. 2 SGB VII) — nur für Erste-Hilfe-Aus- und -Fortbildung, nicht §26.
+- Wer Erste Hilfe leistet, ist gesetzlich unfallversichert (§ 2 Abs. 1 Nr. 13 Buchstabe a SGB VII) und haftet nur bei Vorsatz oder grober Fahrlässigkeit (§ 680 BGB).
+- Betriebssanitäter: erforderlich bei mehr als 1500 Versicherten in einer Betriebsstätte, bei mehr als 250 bis 1500, wenn Art, Schwere und Zahl der Unfälle es erfordern, und auf Baustellen mit mehr als 100 Versicherten (DGUV Vorschrift 1 § 27); Grundausbildung 63 UE, Aufbaulehrgang 32 UE (DGUV Grundsatz 304-002).
+- Alle Kurse finden in Präsenz statt: Inhouse-Kurse bundesweit bei euch vor Ort (ab 8 Personen), Präsenzkurse in Leinefelde-Worbis. Die Endung .online meint Organisation, Buchung und digitale Bescheinigung, nicht die Kursform.
+
+## Kurse im Detail
+
+### Erste-Hilfe-Ausbildung
+Seite: https://www.erstehilfekurse.online/kurse/erste-hilfe-ausbildung/
+Grundkurs (9 UE) für Führerschein, Betrieb und Alltag. Dauer: 1 Tag (9 Unterrichtseinheiten). Gültig: Führerschein: keine gesetzliche Ablauffrist (§ 19 FeV) · Betrieb: 2 Jahre. Kosten: Preis im Kursfinder (selbst · Betrieb/BG).
+Für wen: Fahrschüler:innen — alle Führerscheinklassen (A, B, C, D …); Neue betriebliche Ersthelfer:innen nach DGUV Vorschrift 1; Übungsleiter:innen und Vereine; Alle, die im Notfall handlungsfähig sein wollen.
+Inhalte: Absichern, Eigenschutz, Notruf 112; Bewusstlosigkeit und stabile Seitenlage; Herz-Lungen-Wiederbelebung und AED; Starke Blutungen, Schock, Wundversorgung; Knochenbrüche, Verbrennungen, Vergiftungen; Herzinfarkt, Schlaganfall, Krampfanfall.
+Frage: Reicht dieser eine Kurs für den Führerschein?
+Antwort: Ja. Die Erste-Hilfe-Ausbildung mit 9 Unterrichtseinheiten ist der vorgeschriebene Kurs für alle Führerscheinklassen — vom Roller (Klasse AM) bis zum Bus. Einen separaten „Sofortmaßnahmen-Kurs“ gibt es seit 2015 nicht mehr.
+Frage: Wie lange ist der Nachweis gültig?
+Antwort: § 19 FeV nennt für den Führerschein keine Ablauffrist. Ob deine Fahrerlaubnisbehörde eine ältere Bescheinigung noch annimmt, klärst du am besten vor der Anmeldung mit ihr. Als benannte:r Ersthelfer:in im Betrieb musst du dagegen in der Regel alle zwei Jahre (§ 26 Abs. 3 DGUV V1) zur Fortbildung.
+Frage: Wie lange dauert der Kurs genau?
+Antwort: Der Kurs dauert einen Tag. Neun Unterrichtseinheiten zu je 45 Minuten sind 6 Stunden und 45 Minuten reine Unterrichtszeit, dazu kommen die Pausen.
+Frage: Wer braucht den Kurs für den Führerschein nicht?
+Antwort: Nach § 19 Abs. 3 FeV ist kein Kursnachweis nötig, wer ein Zeugnis über eine ärztliche oder zahnärztliche Ausbildung, über einen bundesrechtlich geregelten Gesundheitsfachberuf oder Helferberuf des Gesundheits- und Sozialwesens vorlegt oder eine Bescheinigung über eine Sanitätsausbildung, rettungsdienstliche Ausbildung oder Ausbildung als Rettungsschwimmer (Silber oder Gold). Das entscheidet im Einzelfall die Fahrerlaubnisbehörde.
+
+### Erste-Hilfe-Fortbildung
+Seite: https://www.erstehilfekurse.online/kurse/erste-hilfe-fortbildung/
+Die Auffrischung für betriebliche Ersthelfer — alle zwei Jahre. Dauer: 1 Tag (9 Unterrichtseinheiten). Gültig: 2 Jahre. Kosten: Preis im Kursfinder (Betrieb/BG).
+Für wen: Betriebliche Ersthelfer:innen mit gültiger Ausbildung; Ersthelfer:innen in Kitas, Schulen, Einrichtungen; Alle, deren letzter Kurs unter zwei Jahre her ist.
+Inhalte: Basismaßnahmen auffrischen — Wiederbelebung und AED; Fallbeispiele aus dem eigenen Arbeitsumfeld; Aktuelle Änderungen der Leitlinien; Praxisstationen: Verbände, Lagerungen, Notfallcheck.
+Frage: Was, wenn die zwei Jahre schon vorbei sind?
+Antwort: Nach Auskunft des DGUV-Fachbereichs Erste Hilfe kann die Person zunächst weiter als Ersthelfer:in eingesetzt werden; die Fortbildung ist zum nächstmöglichen Zeitpunkt nachzuholen. Ausbildung und Fortbildung dauern gleich lang (9 UE) — im Zweifel lässt sich statt der Fortbildung auch die Erste-Hilfe-Ausbildung buchen.
+Frage: Wie oft muss ich als betrieblicher Ersthelfer auffrischen?
+Antwort: § 26 Abs. 3 DGUV Vorschrift 1 sieht vor, dass Ersthelfer „in der Regel in Zeitabständen von zwei Jahren fortgebildet werden“. Wann deine nächste Fortbildung fällig ist, rechnet der Auffrischungs-Rechner aus.
+Frage: Zahlt die Berufsgenossenschaft die Fortbildung?
+Antwort: In der Regel ja: Für benannte Ersthelfer:innen trägt der zuständige Unfallversicherungsträger bei einer ermächtigten Stelle die Lehrgangsgebühr, wenn der Betrieb den Kurs veranlasst (§ 23 Abs. 2 SGB VII). Einzelheiten stehen auf der Seite Kosten &amp; BG/UK-Abrechnung; welcher Träger zuständig ist, zeigt das Trägerverzeichnis.
+Frage: Was ist der Unterschied zwischen Ausbildung und Fortbildung?
+Antwort: Beide dauern 9 Unterrichtseinheiten. Die Ausbildung ist die Erstqualifikation, die Fortbildung frischt sie für bereits ausgebildete Ersthelfer:innen auf. Mehr dazu im Ratgeber Ausbildung oder Fortbildung?
+
+### Erste Hilfe für Bildungs- & Betreuungseinrichtungen
+Seite: https://www.erstehilfekurse.online/kurse/erste-hilfe-bildungseinrichtungen/
+Für Kita, Schule, Hort und Tagespflege. Dauer: 1 Tag (9 Unterrichtseinheiten). Gültig: 2 Jahre. Kosten: ab 50 € (Unfallkasse).
+Für wen: Erzieher:innen und Kinderpfleger:innen; Lehrkräfte und pädagogische Fachkräfte; Tagespflegepersonen; Betreuungskräfte in Hort und Ganztag.
+Inhalte: Notfallcheck und Wiederbelebung bei Kindern; Verschlucken — Rückenschläge und Heimlich-Handgriff; Fieberkrampf, Pseudokrupp, allergische Reaktion; Stürze, Kopfverletzungen, Zahnunfall; Verbrennungen, Vergiftungen, Insektenstiche.
+Frage: Zahlt die Unfallkasse den Kurs?
+Antwort: Für Beschäftigte in Kitas und Schulen übernimmt in der Regel die zuständige Unfallkasse die Lehrgangsgebühren. Wie die Abrechnung läuft, steht unter Kosten & Abrechnung.
+
+### Erste Hilfe für Babys & Kleinkinder
+Seite: https://www.erstehilfekurse.online/kurse/erste-hilfe-baby-kind/
+Der private Abendkurs für Eltern, Großeltern und Paten. Dauer: Abendkurs (kompakt). Gültig: kein Nachweis nötig. Kosten: Preis im Kursfinder (selbst).
+Für wen: Werdende und frischgebackene Eltern; Großeltern, Paten, Tanten und Onkel; Babysitter:innen und Au-pairs.
+Inhalte: Notfallcheck beim Säugling und Kleinkind; Verschlucken: Rückenschläge, Heimlich-Handgriff; Wiederbelebung beim Baby — richtig dosiert; Fieberkrampf und Pseudokrupp ruhig überstehen; Hausapotheke und Vergiftungsnotruf.
+Frage: Ist der Kurs für Führerschein oder Betrieb gültig?
+Antwort: Nein. Dafür braucht ihr die Erste-Hilfe-Ausbildung (9 UE). Dieser Kurs ist ein reiner Zusatzkurs für den Familienalltag.
+
+### Brandschutzhelfer
+Seite: https://www.erstehilfekurse.online/kurse/brandschutzhelfer/
+Betrieblicher Pflichtbaustein — Theorie plus Löschübung. Dauer: ca. 4 Stunden (Theorie & Praxis). Gültig: Empfehlung: 3–5 Jahre. Kosten: ab 50 € (Betrieb).
+Für wen: Betriebe jeder Größe; Pflegeeinrichtungen, Kitas, Schulen, Praxen; Neu benannte Brandschutzhelfer:innen.
+Inhalte: Grundzüge des vorbeugenden Brandschutzes; Brandklassen und passende Löschmittel; Verhalten im Brandfall, Alarmierung, Räumung; Praktische Löschübung mit dem Feuerlöscher.
+Frage: Wie viele Brandschutzhelfer brauchen wir?
+Antwort: Pflicht ist eine „ausreichende Anzahl“ — die konkrete Zahl ergibt sich aus eurer Gefährdungsbeurteilung (§ 10 ArbSchG). Die 5 % sind ein Richtwert aus der ASR A2.2 (Abschnitt 7.3) für den Normalfall, keine gesetzliche Mindestzahl.
+
+### Notfalltraining
+Seite: https://www.erstehilfekurse.online/kurse/notfalltraining/
+Für Praxen, Pflege und Teams mit echtem Notfallrisiko. Dauer: 4 Stunden (praxisorientiert). Gültig: Empfehlung: jährlich. Kosten: auf Anfrage (Arbeitgeber).
+Für wen: Arzt-, Zahnarzt- und Therapiepraxen; Pflegeeinrichtungen und ambulante Dienste; Teams, die ihre Notfallausrüstung sicher beherrschen wollen.
+Inhalte: Strukturierte Notfallversorgung nach ABCDE; Reanimation im Team mit klaren Rollen; AED, Beatmungsbeutel, Sauerstoff, Absaugung; Notfallkoffer — Inhalt und Handhabung; Realistische Szenarien in euren Räumen.
+Frage: Trainiert ihr an unserem eigenen Material?
+Antwort: Ja, genau das ist der Punkt: Wir arbeiten mit eurem Notfallkoffer, AED und Sauerstoff — damit im Ernstfall niemand suchen muss.
+
+### Lehrkräfte-Ausbildung — Themenbereich 1
+Seite: https://www.erstehilfekurse.online/kurse/lehrkraefte-ausbildung-tb1/
+Der Einstieg zur Ausbilderqualifikation Erste Hilfe. Dauer: 3 Tage (Themenbereich 1). Gültig: Voraussetzung für TB 2. Kosten: ab 150 € (selbst · Arbeitgeber).
+Für wen: Angehende Erste-Hilfe-Ausbilder:innen; Rettungsdienst- und Pflegepersonal mit Lehrambitionen; Ausbilder:innen von Hilfsorganisationen.
+Inhalte: Rolle und Selbstverständnis als Lehrkraft; Didaktische Grundlagen und Lernziele; Methodenvielfalt und Medieneinsatz; Lehrproben mit strukturiertem Feedback.
+Frage: Welche Voraussetzungen brauche ich?
+Antwort: Eine gültige Erste-Hilfe-Qualifikation und meist eine medizinische oder pädagogische Grundqualifikation. Im Zweifel gemeinsam den Werdegang durchgehen.
+
+### Lehrkräfte-Ausbildung — Themenbereich 2
+Seite: https://www.erstehilfekurse.online/kurse/lehrkraefte-ausbildung-tb2/
+Der fachliche Aufbau bis zur eigenständigen Kursleitung. Dauer: 4 Tage (Themenbereich 2). Gültig: vollständige Lehrbefähigung. Kosten: ab 200 € (selbst · Arbeitgeber).
+Für wen: Absolvent:innen von Themenbereich 1; Künftige Lehrkräfte für Erste Hilfe.
+Inhalte: Fachliche Vertiefung aller Kursthemen; Aufbau und Leitung von Praxisstationen; Fallbeispiele realistisch inszenieren; Prüfungslehrprobe mit Bewertung.
+Frage: Was kann ich damit machen?
+Antwort: Mit beiden Themenbereichen bist du qualifiziert, selbst Erste-Hilfe-Kurse nach DGUV Grundsatz 304-003 zu leiten.
+
+### Lehrkräfte-Fortbildung
+Seite: https://www.erstehilfekurse.online/kurse/lehrkraefte-fortbildung/
+Die Pflichtfortbildung für Erste-Hilfe-Lehrkräfte. Dauer: 2 Tage (16 Unterrichtseinheiten). Gültig: 3 Jahre. Kosten: ab 100 € (selbst · Arbeitgeber).
+Für wen: Lehrkräfte für Erste Hilfe mit gültiger Qualifikation; Ausbilder:innen von Ausbildungsstellen.
+Inhalte: Aktuelle Reanimationsleitlinien; Neue Methoden und Medien für den Kurs; Kollegialer Austausch und Lehrproben.
+Frage: Wann muss ich zur Fortbildung?
+Antwort: Spätestens drei Jahre nach der letzten Qualifikation oder Fortbildung.
+
+### Betriebssanitäter — Grundausbildung
+Seite: https://www.erstehilfekurse.online/kurse/betriebssanitaeter-grundausbildung/
+Kompaktblock mit Prüfung, DGUV 304-002. Dauer: 63 UE zzgl. Prüfung (i. d. R. 8 UE) (Grundausbildung). Gültig: mit Aufbaulehrgang vollständig. Kosten: auf Anfrage (Arbeitgeber).
+Für wen: Betriebe mit hoher Unfallzahl (Art, Schwere, Zahl der Unfälle); Werkfeuerwehren und betriebliche Sanitätsdienste; Beschäftigte mit gültiger Erste-Hilfe-Ausbildung.
+Inhalte: Anatomie, Physiologie und Krankheitsbilder; Erweiterte Notfallversorgung; Sanitätsmaterial und Notfallausrüstung; Rettung, Transport, Lagerung; Abschlussprüfung — theoretisch und praktisch.
+Frage: Welche Voraussetzung gilt?
+Antwort: Voraussetzung ist eine Erste-Hilfe-Ausbildung. Für den anschließenden Aufbaulehrgang darf die Grundausbildung höchstens zwei Jahre zurückliegen (§ 27 Abs. 5 DGUV Vorschrift 1).
+
+### Betriebssanitäter — Aufbaulehrgang
+Seite: https://www.erstehilfekurse.online/kurse/betriebssanitaeter-aufbaulehrgang/
+Der zweite Teil zur vollen Qualifikation. Dauer: 32 UE zzgl. Prüfung (i. d. R. 8 UE) (Aufbaulehrgang). Gültig: vollständige Qualifikation. Kosten: auf Anfrage (Arbeitgeber).
+Für wen: Absolvent:innen der Grundausbildung; Betriebliche Sanitätsdienste.
+Inhalte: Vertiefung Notfallmedizin und Einsatztaktik; Betriebsspezifische Notfallszenarien; Praktische Fallübungen im Team; Abschlussprüfung.
+Frage: Wie schnell nach der Grundausbildung?
+Antwort: Zeitnah — beide Blöcke lassen sich für einen Betrieb auch gebündelt planen.
+
+### Medizinischer Sanitätshelfer
+Seite: https://www.erstehilfekurse.online/kurse/sanitaetshelfer/
+Sechs Tage bis zur qualifizierten Sanitätsausbildung. Dauer: 6 Tage (mit Prüfung). Gültig: Grundlage Sanitätsdienst. Kosten: auf Anfrage (selbst · Verein).
+Für wen: Ehrenamtliche im Sanitäts- und Betreuungsdienst; Veranstaltungssanitätsdienste und Vereine; Einstieg vor Ausbildung/Studium im Gesundheitswesen.
+Inhalte: Anatomie und Physiologie im Überblick; Notfallbilder erkennen und versorgen; Erweiterte Maßnahmen und Sanitätsmaterial; Betreuung, Transport und Lagerung; Praktische Prüfung.
+Frage: Brauche ich Vorkenntnisse?
+Antwort: Eine aktuelle Erste-Hilfe-Ausbildung ist Voraussetzung. Alles Weitere lernt ihr im Kurs.
+
+## Ratgeber
+- [Welcher Erste-Hilfe-Kurs zählt wofür — und welcher ist nur ein Zusatz?](https://www.erstehilfekurse.online/ratgeber/welcher-kurs-zaehlt-wofuer/): Führerschein, Betrieb, Kita, privat: Nur bestimmte Kurse gelten als anerkannter Ersthelfer-Nachweis. Was zählt und was nur ergänzt — mit Fundstellen.
+- [Erste-Hilfe-Kurs für den Führerschein: Was gilt 2026?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-fuehrerschein/): Ein Kurs, alle Klassen, keine gesetzliche Ablauffrist — die wichtigsten Fragen rund um den Erste-Hilfe-Nachweis für die Fahrerlaubnis.
+- [Betriebliche Ersthelfer: Wie viele braucht ein Betrieb?](https://www.erstehilfekurse.online/ratgeber/betriebliche-ersthelfer/): Die Richtwerte aus der DGUV Vorschrift 1 — und warum „Pflicht“ und „Prozentwert“ nicht dasselbe sind.
+- [Wann muss ich meinen Erste-Hilfe-Kurs auffrischen?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-auffrischung/): Führerschein, Betrieb, Lehrkraft — die Fristen unterscheiden sich. Ein Überblick plus Auffrischungs-Rechner.
+- [Erste Hilfe in Kita und Schule: Welcher Kurs ist der richtige?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kita-schule/): Warum für pädagogische Fachkräfte ein eigener Kurs sinnvoll ist — und wer ihn bezahlt.
+- [Erste-Hilfe-Kurs für Eltern: Baby- und Kindernotfälle](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-baby-kind/): Der private Kurs ohne Nachweis-Zwang — für alle, die auf kleine Kinder aufpassen.
+- [Erste-Hilfe-Ausbildung oder Fortbildung — was brauche ich?](https://www.erstehilfekurse.online/ratgeber/ausbildung-oder-fortbildung/): Beide dauern 9 Unterrichtseinheiten, aber nur eine ist für Einsteiger. Der Unterschied entscheidet, welcher Kurs für dich passt.
+- [Erste-Hilfe-Kurs fürs Studium: Medizin, Lehramt & Co.](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-studium/): Fürs Medizinstudium ist der Nachweis Zulassungsvoraussetzung, im Lehramt kommt es aufs Bundesland an. Welcher Kurs zählt und wann du ihn brauchst.
+- [Erste Hilfe im Betrieb: Welche Pflichten hat der Arbeitgeber?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-betrieb-pflichten/): Ersthelfer benennen, Material stellen, Kurse organisieren — was das Arbeitsschutzrecht vom Betrieb verlangt, mit den konkreten Fundstellen.
+- [Wie läuft ein Erste-Hilfe-Kurs ab?](https://www.erstehilfekurse.online/ratgeber/wie-laeuft-ein-erste-hilfe-kurs-ab/): Ein Tag, neun Unterrichtseinheiten, viel Praxis — was dich im Kurs erwartet und was du am Ende in der Hand hast.
+- [Erste Hilfe in Pflege & Gesundheitsberufen: Welcher Kurs?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-pflege-gesundheitsberufe/): Der Standardkurs deckt die Ersthelfer-Pflicht ab — im Praxis- und Pflegealltag ist aber das Notfalltraining am eigenen Material der eigentliche Hebel.
+- [Kann ich den Erste-Hilfe-Kurs online machen?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kurs-online/): Kurz: Nein — der anerkannte Erste-Hilfe-Kurs ist ein Präsenzkurs mit praktischen Übungen. Was das „.online“wirklich meint und was du digital erledigen kannst.
+- [Wie kurzfristig bekomme ich einen Erste-Hilfe-Kurs-Termin?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kurs-kurzfristig/): Oft sehr kurzfristig: Freie Einzelplätze kannst du sofort online buchen, für einen Kurs im Betrieb gibt es meist schnell eine Rückmeldung.
+- [Wie alt darf mein Erste-Hilfe-Kurs für den Führerschein sein?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kurs-fuehrerschein-gueltigkeit/): Keine gesetzliche Ablauffrist: § 19 FeV nennt für den Erste-Hilfe-Nachweis zum Führerschein keine Frist. Die Fahrerlaubnisbehörde vorher fragen.
+- [Was muss ich zum Erste-Hilfe-Kurs mitbringen?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kurs-was-mitbringen/): Wenig: Ausweis, bequeme Kleidung und — wenn vorhanden — deine Buchungsbestätigung. Material und Vorwissen brauchst du nicht.
+- [Erste-Hilfe-Kurs Gültigkeit: Wie lange ist er gültig?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kurs-gueltigkeit/): Kommt auf den Zweck an: Für den Führerschein keine gesetzliche Ablauffrist, im Betrieb 2 Jahre, als Lehrkraft 3 Jahre. Der Überblick mit Fundstellen.
+- [Erste-Hilfe-Koffer Inhalt: Was muss rein (DIN 13157/13169)?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-koffer-inhalt/): Der Betriebs-Verbandkasten muss den Inhalt nach DIN 13157 (klein) bzw. DIN 13169 (groß) enthalten. Was drin ist, wie viele der Betrieb braucht.
+- [Ersthelfer im Betrieb: Aufgaben, Rechte und Pflichten](https://www.erstehilfekurse.online/ratgeber/ersthelfer-im-betrieb-aufgaben-rechte/): Was darf und muss ein betrieblicher Ersthelfer? Aufgaben, Versicherungsschutz und Haftung — verständlich erklärt, mit den passenden Paragrafen.
+- [Erste Hilfe für Verein und Ehrenamt: Welcher Kurs passt?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-verein-ehrenamt/): Für die meisten im Verein reicht die Erste-Hilfe-Ausbildung (9 UE); für einen organisierten Sanitätsdienst braucht es die Sanitätshelfer-Ausbildung.
+- [Ersthelfer oder Betriebssanitäter — was ist der Unterschied?](https://www.erstehilfekurse.online/ratgeber/ersthelfer-oder-betriebssanitaeter/): Der Ersthelfer ist die Basis in jedem Betrieb (9-UE-Kurs), der Betriebssanitäter die weitergehende Qualifikation für gefährdete Betriebe.
+- [Wie viele Ersthelfer braucht die Kita oder Schule?](https://www.erstehilfekurse.online/ratgeber/ersthelfer-kita-schule-anzahl/): In der Kita mindestens eine ausgebildete Person pro Gruppe; in Schulen und anderen Einrichtungen gilt die allgemeine Ersthelfer-Zahl. Mit Fundstelle.
+- [Erste-Hilfe-Bescheinigung verloren — wie bekomme ich sie neu?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-bescheinigung-verloren/): Kein Problem: Die ausbildende Stelle kann eine Zweitschrift ausstellen. So gehst du vor — und warum du für den Führerschein nicht neu zum Kurs musst.
+- [Erste-Hilfe-Kurs stornieren oder umbuchen — geht das?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kurs-stornieren-umbuchen/): Meistens ja: Umbuchen auf einen anderen Termin ist oft unkompliziert; ob eine Stornierung möglich ist, hängt vom Zeitpunkt und den Bedingungen ab.
+- [Welche Führerscheinklassen brauchen einen Erste-Hilfe-Kurs?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-fuehrerschein-klassen/): Alle. Seit Herbst 2015 gilt für jede Klasse — vom Roller bis zum Bus — derselbe 9-UE-Kurs. Und ein Kurs deckt alle Klassen ab.
+- [Erste-Hilfe-Kurs für die Firma: Inhouse-Kurs organisieren](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kurs-inhouse-firma/): Ab einer Handvoll Teilnehmender kommt die Ausbildung zu euch in den Betrieb — Wunschtermin, eigener Standort, für Ersthelfer:innen meist von der BG/UK bezahlt.
+- [Früher LSM und Erste Hilfe getrennt — heute nur noch ein Kurs?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-fuehrerschein-lsm-alt/): Ja: Seit Herbst 2015 gibt es einen einheitlichen 9-UE-Kurs für alle Klassen. Die frühere Trennung in „LSM“ und großen Lehrgang ist weg.
+- [Erste-Hilfe-Fortbildung überzogen — Fortbildung oder neuer Kurs?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-fortbildung-frist-verpasst/): Zwei Jahre überschritten? Nach dem DGUV-Fachbereich kann die Person zunächst weiter eingesetzt werden — die Fortbildung ist nachzuholen. Mit Fundstelle.
+- [Erste-Hilfe-Kurs für die Kindertagespflege: Was verlangt das Jugendamt?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-kindertagespflege-tagesmutter/): Für die Pflegeerlaubnis nach § 43 SGB VIII ist ein Erste-Hilfe-Nachweis Pflicht. Welches Kursformat anerkannt wird, legt das zuständige Jugendamt fest.
+- [Bin ich verpflichtet, Erste Hilfe zu leisten — und hafte ich?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-pflicht-haftung/): Ja, helfen ist Pflicht (§ 323c StGB) — aber du bist gut geschützt: Haftung nur bei grober Fahrlässigkeit und gesetzlicher Unfallversicherungsschutz beim Helfen.
+- [Erste Hilfe im Straßenverkehr: Welche Pflichten habe ich?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-strassenverkehr-pflichten/): Verbandkasten, Warndreieck und Warnweste sind Pflicht im Auto — und bei einem Unfall musst du absichern, den Notruf wählen und helfen. Die Normen im Überblick.
+- [Erste-Hilfe-Qualifikationen im Überblick: von Ersthelfer bis Lehrkraft](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-qualifikationen-ueberblick/): Ersthelfer, Betriebssanitäter, Sanitätshelfer, Lehrkraft für Erste Hilfe — vier Rollen mit eigener Dauer und Rechtsgrundlage. Welche brauchst du?
+- [Wie lange dauert ein Erste-Hilfe-Kurs?](https://www.erstehilfekurse.online/ratgeber/wie-lange-dauert-erste-hilfe-kurs/): Neun Unterrichtseinheiten an einem Tag — rund 6,75 Stunden reine Kurszeit; mit Pausen plane realistisch etwa 8 Stunden von Beginn bis Ende ein.
+- [Erste Hilfe für Trainer und Übungsleiter im Verein](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-trainer-uebungsleiter-verein/): Viele Sportverbände verlangen für die Übungsleiter- oder Trainerlizenz einen Erste-Hilfe-Nachweis — die Details unterscheiden sich je Verband.
+- [Erste Hilfe in der Kita: die häufigsten Notfälle im Alltag](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-notfaelle-kita/): Verschlucken, Sturz, Verbrennung, Fieberkrampf — was in der Kita am häufigsten vorkommt und warum jede pädagogische Fachkraft dafür ausgebildet sein muss.
+- [Erste Hilfe im Handwerksbetrieb: typische Notfälle erkennen](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-notfaelle-handwerk/): Schnittverletzung, Sturz von der Leiter, Stromunfall — im Handwerk sind die Risiken andere als im Büro. Was das für die Ersthelfer-Ausbildung bedeutet.
+- [Erste Hilfe im Büro: welche Notfälle wirklich vorkommen](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-notfaelle-buero/): Kreislaufkollaps, Verschlucken beim Mittagessen, Verbrühung am Kaffeeautomaten — auch im Büro ist Erste Hilfe Pflicht.
+- [Erste Hilfe in der Pflege: besondere Notfälle im Berufsalltag](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-notfaelle-pflege/): Sturz, Verschlucken, akuter Kreislaufstillstand — in der Pflege treffen Ersthelfer:innen auf Notfälle bei besonders vulnerablen Menschen.
+- [Erste Hilfe bei Verschlucken: wenn ein Kind sich verschluckt](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-verschlucken-kind/): Ein Fremdkörper blockiert plötzlich die Atemwege — was Eltern und Erzieher:innen in den ersten Sekunden wissen müssen.
+- [Fieberkrampf beim Kind: richtig reagieren statt in Panik geraten](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-fieberkrampf-kind/): Ein Fieberkrampf sieht für Eltern dramatisch aus, verläuft aber meist folgenlos — wenn richtig reagiert wird.
+- [Sturz beim Kind: vom Wickeltisch, Hochstuhl oder der Treppe](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-sturz-kind/): Kinder fallen häufig — die meisten Stürze sind harmlos, doch die richtige Einschätzung entscheidet, wann ärztliche Hilfe nötig ist.
+- [Verbrennung und Verbrühung beim Kind: erste Schritte](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-verbrennung-kind/): Heißer Tee, die Herdplatte, das Bügeleisen: Verbrennungen und Verbrühungen gehören zu den häufigsten Haushaltsunfällen bei Kindern.
+- [Sportverletzung im Verein: was Übungsleiter können sollten](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-sportverletzung-verein/): Verstauchung, Prellung, Gehirnerschütterung: Sportverletzungen passieren im Training und im Wettkampf — was Trainer:innen und Übungsleiter:innen dafür brauchen.
+- [Wiederbelebung Schritt für Schritt: Prüfen, Rufen, Drücken](https://www.erstehilfekurse.online/ratgeber/wiederbelebung-schritt-fuer-schritt/): Was bei einem Kreislaufstillstand zu tun ist: die drei Schritte der Leitlinien 2025, Druckpunkt, Tiefe und Tempo der Herzdruckmassage — mit Fundstellen.
+- [AED: Wo hängt ein Defibrillator und wer darf ihn benutzen?](https://www.erstehilfekurse.online/ratgeber/aed-defibrillator-wo-wer-darf/): Automatisierte externe Defibrillatoren dürfen Laien einsetzen. Was Leitlinien und DGUV zu Bedienung, Standort, Beschilderung und Pflicht im Betrieb sagen.
+- [Arbeitsunfall melden: Wann ist eine Unfallanzeige Pflicht?](https://www.erstehilfekurse.online/ratgeber/arbeitsunfall-melden-unfallanzeige/): Ab mehr als drei Tagen Arbeitsunfähigkeit muss der Unternehmer den Unfall anzeigen. Frist, Empfänger und die Dokumentation von Erste-Hilfe-Leistungen — mit Fundstellen.
+- [Erste-Hilfe-Kurs in der Arbeitszeit: Freistellung und Lohnfortzahlung](https://www.erstehilfekurse.online/ratgeber/ersthelfer-freistellung-lohnfortzahlung/): Wer zahlt das Entgelt, wenn Beschäftigte für einen Erste-Hilfe-Lehrgang ausfallen — und was übernimmt der Unfallversicherungsträger? § 23 Abs. 2 und 3 SGB VII im Überblick.
+- [Erste Hilfe bei Hitze: Sonnenstich, Hitzeerschöpfung und Hitzschlag](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-hitze-sonnenstich/): Drei Hitzeerkrankungen, drei Symptombilder: was die DGUV-Erste-Hilfe-Karte zu Sofortmaßnahmen sagt und wann der Notruf 112 gehört.
+- [Erste Hilfe im Homeoffice und im Kleinstbetrieb: Was gilt für Ersthelfer?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-homeoffice-kleinstbetrieb/): Unfallversicherungsschutz zu Hause, Ersthelfer-Zahl ab zwei anwesenden Versicherten und Hinweise für Beschäftigte im Homeoffice — mit Fundstellen.
+- [Zu wenige Ersthelfer im Betrieb: Was sagt die Vorschrift dazu?](https://www.erstehilfekurse.online/ratgeber/zu-wenige-ersthelfer-ordnungswidrigkeit/): Wer für die Ersthelfer verantwortlich ist, welche Pflichten als Ordnungswidrigkeit benannt sind und welcher Rahmen für die Geldbuße gilt — mit Fundstellen.
+- [Ermächtigte Stelle und amtlich anerkannte Stelle: Zählt meine Bescheinigung?](https://www.erstehilfekurse.online/ratgeber/ermaechtigte-stelle-erste-hilfe-erkennen/): Zwei Begriffe, zwei Regelwerke: „ermächtigte Stelle“ im Betrieb und „amtlich anerkannte Stelle“ für den Führerschein — was das bedeutet und wo nachgefragt werden kann.
+- [Ersthelfer bei Schicht, Teilzeit und Urlaub: Reicht ein Ersthelfer im Betrieb?](https://www.erstehilfekurse.online/ratgeber/ersthelfer-schicht-teilzeit-urlaub/): Die Vorschrift zählt die anwesenden Versicherten. Was das für Schichtbetrieb, Teilzeit und Urlaubszeiten bedeutet und wann der Träger gefragt werden sollte.
+- [Besondere Gefahren im Betrieb: Wann reicht der Standard-Erste-Hilfe-Kurs nicht?](https://www.erstehilfekurse.online/ratgeber/erste-hilfe-besondere-gefahren-zusatzausbildung/): § 26 Abs. 4 DGUV Vorschrift 1 und § 10 ArbSchG: wann Betriebe zusätzliche Aus- und Fortbildung für die Erste Hilfe organisieren müssen — und wer dabei berät.
+
+## Werkzeuge
+- [Kursfinder](https://www.erstehilfekurse.online/kursfinder/): Anlass wählen, passenden Kurs erhalten.
+- [Vergleich](https://www.erstehilfekurse.online/vergleich/): alle Kurse mit Dauer, Gültigkeit, Kosten.
+- [Ersthelfer-Rechner](https://www.erstehilfekurse.online/ersthelfer-rechner/): Zahl nach DGUV Vorschrift 1 § 26.
+- [Auffrischungs-Rechner](https://www.erstehilfekurse.online/auffrischung-rechner/): nächste Fortbildung.
+- [Kosten & Abrechnung](https://www.erstehilfekurse.online/kosten/): wer zahlt, BG/UK.
+- [BG/UK-Trägerverzeichnis](https://www.erstehilfekurse.online/bg-uk-traeger/): zuständigen Träger + Kontakt finden.
+
+## Info-Dokument
+- [Portalprofil (PDF)](https://www.erstehilfekurse.online/info/erstehilfekurse-online-profil.pdf): kompaktes Info-Dokument über erstehilfekurse.online — Zweck, Angebot, Kurswahl-Hilfe, belegte Kern-Fakten (Erstattung/QSEH, Ersthelfer-Zahl, Fristen), Betreiber, Abgrenzung.
+
+## Hinweis
+Präsenz-/Inhouse-Kurse, kein E-Learning. Buchung/Anfrage läuft über software-wippermann.de. Betreiber und Vertragspartner sind im Impressum (https://www.erstehilfekurse.online/impressum/) ausgewiesen.
