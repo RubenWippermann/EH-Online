@@ -124,11 +124,11 @@
   // Muss mit der vorgerenderten Fassung (Generator, termine_prerender) übereinstimmen.
   function veranstHinweis(list) {
     if (!list.some(function (k) { return orgOf(k) === 'bww'; })) return '';
-    return '<p class="termine-veranst muted" style="font-size:.86rem;margin-top:14px"><b>Veranstalter der BWW-Termine:</b> BWW UG (haftungsbeschränkt), Worbiser Straße 2, 37115 Duderstadt. ' +
-      '<a href="https://www.multiplikatorenstelle.de/impressum/" rel="noopener" target="_blank">Impressum des Veranstalters</a>. Es gelten die ' +
-      '<a href="https://www.multiplikatorenstelle.de/agb/" rel="noopener" target="_blank">AGB</a> und die ' +
-      '<a href="https://www.multiplikatorenstelle.de/widerruf/" rel="noopener" target="_blank">Widerrufsbelehrung</a> des Veranstalters. ' +
-      'Der Preis je Termin ist der Endpreis laut Veranstalter. Diese Website vermittelt den Kurs im Namen des Veranstalters.</p>';
+    return '<p class="termine-veranst muted" style="font-size:.9rem;margin:0 0 14px"><b>Veranstalter:</b> BWW UG (haftungsbeschränkt), Worbiser Straße 2, 37115 Duderstadt. ' +
+      'Impressum des Veranstalters (<a href="https://www.multiplikatorenstelle.de/impressum/" rel="noopener" target="_blank">https://www.multiplikatorenstelle.de/impressum/</a>). ' +
+      'Es gelten die AGB (<a href="https://www.multiplikatorenstelle.de/agb/" rel="noopener" target="_blank">https://www.multiplikatorenstelle.de/agb/</a>) ' +
+      'und die Widerrufsbelehrung (<a href="https://www.multiplikatorenstelle.de/widerruf/" rel="noopener" target="_blank">https://www.multiplikatorenstelle.de/widerruf/</a>) des Veranstalters. ' +
+      'Preis je Termin laut Zeile. Diese Website vermittelt den Kurs im Namen des Veranstalters.</p>';
   }
   function jget(url) {
     return fetch(url, { credentials: 'omit' }).then(function (r) {
@@ -184,6 +184,8 @@
   /* ---------- Rendering einer Termin-Zeile ---------- */
   function rowHTML(k) {
     var tags = [k.stadt];
+    var vn = orgOf(k) === 'bww' ? 'BWW UG (haftungsbeschränkt)' : (orgOf(k) === 'personal-paramedic' ? 'Personal Paramedic e.K.' : '');
+    if (vn) tags.push('Veranstalter: ' + vn);
     if (k.fuehrerschein_geeignet) tags.push('Führerschein');
     if (istBgUk(k)) tags.push('BG/UK abrechenbar');
     if (k.mehrtaegig) tags.push('mehrtägig');
@@ -246,11 +248,11 @@
         (hasBg ? '<label class="tf-bg"><input type="checkbox" class="tf-bgchk"> Nur BG/UK-abrechenbar</label>' : '') +
         '<span class="tf-count" aria-live="polite"></span></div>';
     }
-    el.innerHTML = bar + '<div class="termine-rows"></div><div class="termine-veranst-slot"></div>';
+    el.innerHTML = veranstHinweis(all) + bar + '<div class="termine-rows"></div>';
 
     var artSel = el.querySelector('.tf-art'), stadtSel = el.querySelector('.tf-stadt'),
         bgChk = el.querySelector('.tf-bgchk'), rows = el.querySelector('.termine-rows'),
-        count = el.querySelector('.tf-count'), vslot = el.querySelector('.termine-veranst-slot');
+        count = el.querySelector('.tf-count');
 
     function apply() {
       var a = artSel ? artSel.value : '', s = stadtSel ? stadtSel.value : '', bg = bgChk && bgChk.checked;
@@ -260,7 +262,6 @@
       rows.innerHTML = f.length ? f.map(rowHTML).join('')
         : '<p class="termine-empty">Für diese Auswahl ist gerade nichts frei. <a href="/inhouse/#anfrage">Wunschtermin anfragen →</a></p>';
       if (count) count.textContent = f.length + (f.length === 1 ? ' Termin' : ' Termine');
-      if (vslot) vslot.innerHTML = veranstHinweis(f);
     }
     [artSel, stadtSel, bgChk].forEach(function (n) { if (n) n.addEventListener('change', apply); });
     apply();
@@ -307,7 +308,7 @@
           var hinweis = (limit > 0 && gezeigt.length && gezeigt.every(function (k) { return k.ausgebucht; }))
             ? '<p class="termine-empty">Diese Termine sind belegt — <a href="/inhouse/#anfrage">schreib uns, wir finden einen Platz</a>.</p>'
             : '';
-          el.innerHTML = hinweis + '<div class="termine-rows">' + gezeigt.map(rowHTML).join('') + '</div>' + veranstHinweis(gezeigt);
+          el.innerHTML = veranstHinweis(gezeigt) + hinweis + '<div class="termine-rows">' + gezeigt.map(rowHTML).join('') + '</div>';
           return;
         }
         renderFiltered(el, list);
