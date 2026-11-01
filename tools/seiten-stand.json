@@ -360,13 +360,19 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-strassenverkehr-pflichten/": {
-"hash": "1ca8ea7fce6baee69d58e6104d2dbd150f547991",
+"hash": "c4dc401dac825007883b196aa43130362a53a481",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "§ 34 StVO, Primärtext gesetze-im-internet.de",
 "punkte": "Abs. 1 Nr. 1-7: halten, sichern, beiseitefahren, Unfallfolgen prüfen, Verletzten helfen, Angaben, am Unfallort bleiben bzw. angemessene Zeit warten und Daten hinterlassen, nachträglich ermöglichen. § 323c StGB für Unbeteiligte.",
 "url": "https://www.gesetze-im-internet.de/stvo_2013/__34.html"
+},
+{
+"gelesen": "2026-11-01",
+"name": "§ 15 StVO und § 53a StVZO, Primärtext gesetze-im-internet.de",
+"punkte": "§ 15: Warnblinklicht sofort, Warnzeichen bei schnellem Verkehr ca. 100 m, Warndreieck verwenden. § 53a StVZO: Warndreieck und Warnweste im Pkw mitzuführen.",
+"url": "https://www.gesetze-im-internet.de/stvo_2013/__15.html"
 }
 ],
 "stand": "2026-11-01"
