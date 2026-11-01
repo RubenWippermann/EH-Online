@@ -360,8 +360,16 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-strassenverkehr-pflichten/": {
-"hash": "29c5e940ee2e41d06c2fe6215d7cbfd1c31d7a6b",
-"stand": "2026-10-19"
+"hash": "1ca8ea7fce6baee69d58e6104d2dbd150f547991",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "§ 34 StVO, Primärtext gesetze-im-internet.de",
+"punkte": "Abs. 1 Nr. 1-7: halten, sichern, beiseitefahren, Unfallfolgen prüfen, Verletzten helfen, Angaben, am Unfallort bleiben bzw. angemessene Zeit warten und Daten hinterlassen, nachträglich ermöglichen. § 323c StGB für Unbeteiligte.",
+"url": "https://www.gesetze-im-internet.de/stvo_2013/__34.html"
+}
+],
+"stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-studium/": {
 "hash": "77480d4922452d070ec7a0c1cd2bbce60a9474c7",
