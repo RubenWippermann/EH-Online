@@ -340,8 +340,16 @@
 "stand": "2026-10-19"
 },
 "/ratgeber/erste-hilfe-pflicht-haftung/": {
-"hash": "4bca647f2921bc623bebd7514c5f9b11d36845dd",
-"stand": "2026-10-19"
+"hash": "d391fc3ced6e951faba4c3bcad932f4ddaa381bb",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "§ 323c und § 201a StGB, Primärtext gesetze-im-internet.de",
+"punkte": "§ 323c Abs. 1: zumutbar nur ohne erhebliche eigene Gefahr und ohne Verletzung anderer wichtiger Pflichten; Abs. 2: Behindern von Hilfeleistenden gleich strafbar. § 201a Abs. 1 Nr. 2: Bildaufnahme, die Hilflosigkeit zur Schau stellt.",
+"url": "https://www.gesetze-im-internet.de/stgb/__323c.html"
+}
+],
+"stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-qualifikationen-ueberblick/": {
 "hash": "47d2df7d10712e2004f8b8ad2a9df91dd6664338",
