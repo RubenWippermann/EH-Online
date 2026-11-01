@@ -8706,8 +8706,16 @@
 "stand": "2026-09-01"
 },
 "/wissen/muskelfaserriss/": {
-"hash": "0de281b3bc15340eeb0e864a85e9b3b232881661",
-"stand": "2026-09-01"
+"hash": "00fb0c093000fe13daf4d34427b0a5c48d8842bd",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 73-75 (gedruckte Seitenzahl)",
+"punkte": "Muskelfaserriss gehört zu den Muskel-/Gelenkverletzungen: Erste Hilfe nach PECH-Regel (Pause, Kühlung mit Kältekompresse/Eisbeutel/kalten Umschlägen nie direkt auf die Haut, leichter Kompressionsverband mit Fixierbinde, Hochlagern), Vereisungsspray abraten, anschließend ärztliche Diagnose.",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/muskelkater/": {
 "hash": "f6c24bc385ab2259851894b50d2222e9e3bf2025",
