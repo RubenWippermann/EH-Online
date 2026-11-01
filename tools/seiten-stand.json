@@ -328,8 +328,16 @@
 "stand": "2026-10-19"
 },
 "/ratgeber/erste-hilfe-kurs-inhouse-firma/": {
-"hash": "cf509ab9c4c8b10ea5d30c1d9593260a3bc97f99",
-"stand": "2026-10-19"
+"hash": "58f1b4aa476d870005f211e74804300c1d7fd207",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Fachbereich Erste Hilfe, FAQ 6.1-6.5 (Abruf 01.11.2026)",
+"punkte": "Standard-Lehrgang 9 UE, höchstens 20 Personen, Mindestteilnehmerzahl 12; Träger zahlen Lehrgangsgebühr nur für Anwesende; Inhouse-Mehrkosten nach zusätzlichem Vertrag zulasten des Unternehmens, Kitas/Schulen ausgenommen. Seite ohne Datum; Wiedergabe nach Seitenabruf (nicht PDF).",
+"url": "https://www.dguv.de/fb-erstehilfe/faq/index.jsp"
+}
+],
+"stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-kurs-kurzfristig/": {
 "hash": "8ed7b52b449a8f0f25b8a2f6793bc35416594478",
