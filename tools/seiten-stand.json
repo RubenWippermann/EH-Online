@@ -156,12 +156,12 @@
 "stand": "2026-10-07"
 },
 "/kurse/betriebssanitaeter-aufbaulehrgang/": {
-"hash": "d2077266aaf63cd0eea6b27f5592ac9731b2056f",
-"stand": "2026-10-31"
+"hash": "02185988a3c7eabfb67ee11dcc02ac4914ac2e6b",
+"stand": "2026-11-02"
 },
 "/kurse/betriebssanitaeter-grundausbildung/": {
-"hash": "ea93788bfd38c5c5af7d9cadad848bd6288bd411",
-"stand": "2026-10-31"
+"hash": "97a8fbf8760aa94517225fff4a0c45a1b22c48b4",
+"stand": "2026-11-02"
 },
 "/kurse/brandschutzhelfer/": {
 "hash": "a45a526c0f13217c5d321d216547244e5463e194",
@@ -196,8 +196,8 @@
 "stand": "2026-10-31"
 },
 "/kurse/notfalltraining/": {
-"hash": "6a93b259ef898d86d6bd9978b306fea3b4d31ca7",
-"stand": "2026-10-19"
+"hash": "f925b216f6286a57e4d999090c147e49c4b0a77a",
+"stand": "2026-11-02"
 },
 "/kurse/sanitaetshelfer/": {
 "hash": "57336caf80b2f70c709d2d88247ba791022a1515",
@@ -224,7 +224,7 @@
 "stand": "2026-10-19"
 },
 "/ratgeber/betriebliche-ersthelfer/": {
-"hash": "ef7b62120e29c88a1a6449f3a18473909cb85330",
+"hash": "32b990601855e728d3e07e2d93b6b39b821930ec",
 "quellen": [
 {
 "gelesen": "2026-11-02",
@@ -488,8 +488,8 @@
 "stand": "2026-10-07"
 },
 "/ratgeber/ersthelfer-im-betrieb-aufgaben-rechte/": {
-"hash": "471061986665207e206fe30e3de5c5979e8841ca",
-"stand": "2026-10-19"
+"hash": "d153a8355a009e765bad6f1c5305308185dcc947",
+"stand": "2026-11-02"
 },
 "/ratgeber/ersthelfer-kita-schule-anzahl/": {
 "hash": "f6b7e8fe951da87d3e75bedee14430aa2287b7d1",
