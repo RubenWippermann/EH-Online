@@ -168,8 +168,8 @@
 "stand": "2026-10-19"
 },
 "/kurse/erste-hilfe-bildungseinrichtungen/": {
-"hash": "a0ab66c39309320fa522952dac44f589328ba53d",
-"stand": "2026-10-19"
+"hash": "39d8b16253dad42a9ec00f100b6a5110492502a9",
+"stand": "2026-11-01"
 },
 "/kurse/erste-hilfe-fortbildung/": {
 "hash": "98b86d91772d689aa194481f6524c8646b357713",
@@ -200,8 +200,8 @@
 "stand": "2026-10-07"
 },
 "/ratgeber/": {
-"hash": "f2d03a2bc3e949c9da65d0916215a1460cea2750",
-"stand": "2026-10-07"
+"hash": "3457d597ea17c1ce61ec3239a4062b18741c3e67",
+"stand": "2026-11-01"
 },
 "/ratgeber/aed-defibrillator-wo-wer-darf/": {
 "hash": "b9c1f0562852da2622808a92b42c97be1449e2c2",
@@ -308,12 +308,20 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-kindertagespflege-tagesmutter/": {
-"hash": "48934f71770bc4269d199cc770c04e549b33f927",
-"stand": "2026-10-19"
+"hash": "cbb395605c6f888b858ab9ff0f9aecac76ea4cda",
+"stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-kita-schule/": {
-"hash": "18903ab0ec6c3825fbc9ecaae980ca5dc2ad8526",
-"stand": "2026-10-19"
+"hash": "efe00173137228a6f2463e78e950418470eb42d9",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Vorschrift 1 § 26 (Wortlaut BGHM) und DGUV Fachbereich Erste Hilfe FAQ, Abruf 01.11.2026",
+"punkte": "§ 26 Abs. 1, 3, 5; FAQ 4.1, 5.1, 5.2, 6.1, 6.4: Fortbildung alle 2 Jahre, Kita-Schulung, Kosten ohne Mehrkosten in Kita/Schule.",
+"url": "https://www.bghm.de/arbeitsschuetzer/schriften-und-regelwerk/dguv-vorschriften/dguv-vorschrift-1/organisation-des-arbeitsschutzes/26-zahl-und-ausbildung-der-ersthelfer"
+}
+],
+"stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-koffer-inhalt/": {
 "hash": "df4c3d29d212dba147932969c1818db2e651dcdf",
@@ -364,8 +372,8 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-notfaelle-kita/": {
-"hash": "46bd19ad47f1f4695a3c668f635aaaf6f4f1e712",
-"stand": "2026-10-04"
+"hash": "5c290d3bb71041d6f033f3176a8523d3b9f4e65b",
+"stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-notfaelle-pflege/": {
 "hash": "13fb5eca9b457f0acbccef4775653a2149ef2646",
@@ -468,8 +476,16 @@
 "stand": "2026-10-19"
 },
 "/ratgeber/ersthelfer-kita-schule-anzahl/": {
-"hash": "7d0ce773dd191609cadf194d41a8217bad4a9992",
-"stand": "2026-10-19"
+"hash": "b95bd6036f544d470fa65d79c24bd77f8940b4dc",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Vorschrift 1 § 26 (Wortlaut BGHM) und DGUV Fachbereich Erste Hilfe FAQ, Abruf 01.11.2026",
+"punkte": "§ 26 Abs. 1: 2-20 Versicherte ein Ersthelfer; >20: Kindertageseinrichtungen ein Ersthelfer je Kindergruppe, Hochschulen 10 %; Abs. 5: Abs. 1-4 gelten nicht für Schüler.",
+"url": "https://www.bghm.de/arbeitsschuetzer/schriften-und-regelwerk/dguv-vorschriften/dguv-vorschrift-1/organisation-des-arbeitsschutzes/26-zahl-und-ausbildung-der-ersthelfer"
+}
+],
+"stand": "2026-11-01"
 },
 "/ratgeber/ersthelfer-oder-betriebssanitaeter/": {
 "hash": "97ba412f3eb816f51f39f7c4d92b469d01e6b866",
