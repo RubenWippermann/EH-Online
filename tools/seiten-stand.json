@@ -224,11 +224,11 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-auffrischung/": {
-"hash": "f57e30e26ffd349f6172816387c5765c30948586",
+"hash": "c2ad00c98c99864052d32372945332d0e144e84d",
 "quellen": [
 {
 "gelesen": "2026-11-01",
-"name": "§ 19 FeV; DGUV Vorschrift 1 § 26 Abs. 3 (Wortlaut BGHM); DGUV Fachbereich Erste Hilfe FAQ 1.5, 4.1, 4.2",
+"name": "§ 19 FeV; DGUV Vorschrift 1 § 26 Abs. 3 (Ausgabe November 2013, S. 20 f.); DGUV Fachbereich Erste Hilfe FAQ 1.5, 4.1, 4.2",
 "punkte": "Fristen: Führerschein ohne Frist, Ersthelfer in der Regel 2 Jahre, Überschreitung, Führerschein-Kurs im Betrieb höchstens 2 Jahre.",
 "url": "https://www.dguv.de/fb-erstehilfe/faq/index.jsp"
 },
@@ -239,7 +239,7 @@
 "url": "https://www.gesetze-im-internet.de/fev_2010/__76.html"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-baby-kind/": {
 "hash": "cb81804b88722854df38aa8f4a9a8851a817fe44",
@@ -312,16 +312,16 @@
 "stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-kita-schule/": {
-"hash": "efe00173137228a6f2463e78e950418470eb42d9",
+"hash": "f9c6fbb62fa753eb7ec07ee40c31cc85b79a2fd3",
 "quellen": [
 {
-"gelesen": "2026-11-01",
-"name": "DGUV Vorschrift 1 § 26 (Wortlaut BGHM) und DGUV Fachbereich Erste Hilfe FAQ, Abruf 01.11.2026",
+"gelesen": "2026-11-02",
+"name": "DGUV Vorschrift 1, Ausgabe November 2013, § 26 Abs. 1, 3, 5 (S. 20 f.) und DGUV Fachbereich Erste Hilfe FAQ",
 "punkte": "§ 26 Abs. 1, 3, 5; FAQ 4.1, 5.1, 5.2, 6.1, 6.4: Fortbildung alle 2 Jahre, Kita-Schulung, Kosten ohne Mehrkosten in Kita/Schule.",
-"url": "https://www.bghm.de/arbeitsschuetzer/schriften-und-regelwerk/dguv-vorschriften/dguv-vorschrift-1/organisation-des-arbeitsschutzes/26-zahl-und-ausbildung-der-ersthelfer"
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/2909"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-koffer-inhalt/": {
 "hash": "df4c3d29d212dba147932969c1818db2e651dcdf",
@@ -476,16 +476,16 @@
 "stand": "2026-10-19"
 },
 "/ratgeber/ersthelfer-kita-schule-anzahl/": {
-"hash": "b95bd6036f544d470fa65d79c24bd77f8940b4dc",
+"hash": "f6b7e8fe951da87d3e75bedee14430aa2287b7d1",
 "quellen": [
 {
-"gelesen": "2026-11-01",
-"name": "DGUV Vorschrift 1 § 26 (Wortlaut BGHM) und DGUV Fachbereich Erste Hilfe FAQ, Abruf 01.11.2026",
+"gelesen": "2026-11-02",
+"name": "DGUV Vorschrift 1, Ausgabe November 2013, § 26 Abs. 1, 3, 5 (S. 20 f.) und DGUV Fachbereich Erste Hilfe FAQ",
 "punkte": "§ 26 Abs. 1: 2-20 Versicherte ein Ersthelfer; >20: Kindertageseinrichtungen ein Ersthelfer je Kindergruppe, Hochschulen 10 %; Abs. 5: Abs. 1-4 gelten nicht für Schüler.",
-"url": "https://www.bghm.de/arbeitsschuetzer/schriften-und-regelwerk/dguv-vorschriften/dguv-vorschrift-1/organisation-des-arbeitsschutzes/26-zahl-und-ausbildung-der-ersthelfer"
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/2909"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-02"
 },
 "/ratgeber/ersthelfer-oder-betriebssanitaeter/": {
 "hash": "97ba412f3eb816f51f39f7c4d92b469d01e6b866",
