@@ -5422,8 +5422,16 @@
 "stand": "2026-09-01"
 },
 "/wissen/guertelrose/": {
-"hash": "263fa9cf6b37d2839d414ce22d8a47afdc370464",
-"stand": "2026-09-16"
+"hash": "ba288999bacc4909e324b519e96b652e26cc8fb3",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "gesund.bund.de, Gürtelrose (Stand 18.07.2025, geprüft durch die Deutsche Dermatologische Gesellschaft)",
+"punkte": "Gürtelrose: jede Gürtelrose ärztlich behandeln, Ansteckung nur über Bläschenflüssigkeit (Windpocken, keine Gürtelrose), abdecken bis Krusten, Komplikation Ohr, STIKO-Impfempfehlung (ab 60; ab 50 bei Risiko; zwei Dosen im Abstand 2 bis 6 Monate).",
+"url": "https://gesund.bund.de/guertelrose"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/guillain-barre-syndrom/": {
 "hash": "fc656443177421b5326fff8bc2a8d50d06947278",
@@ -10576,8 +10584,16 @@
 "stand": "2026-09-15"
 },
 "/wissen/pseudokrupp/": {
-"hash": "53ba1b3a2cce3880a86d04a8af934168d40b5b83",
-"stand": "2026-09-21"
+"hash": "c4671b5e4dcdd5f8d7e3f554fbb0cac36b87d98e",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "BIÖG kindergesundheit-info.de, Pseudokrupp (Stand 14.05.2026, Inhalt BVKJ)",
+"punkte": "Pseudokrupp: Symptome, Alter (6. Lebensmonat bis 3. Lebensjahr), nicht ansteckend, Tabakrauch verschlimmert, beim Anfall ruhig bleiben, Kind aufrecht, feuchtkühle Luft, kleine Schlucke Kühles; bei schwerer Atemnot Notarzt, jeden bellenden Husten kinderärztlich abklären; Kortison nur ärztlich verordnet, Wirkung setzt verzögert ein.",
+"url": "https://www.kindergesundheit-info.de/themen/krankes-kind/erkrankungen/pseudokrupp-kruppsyndrom/"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/pseudomembranoese-kolitis-clostridium-difficile/": {
 "hash": "cc3dcc1f0bbee4d84f8caf0227cef894a73f7bca",
