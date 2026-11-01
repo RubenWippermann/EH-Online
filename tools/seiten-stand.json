@@ -1,6 +1,6 @@
 {
 "/": {
-"hash": "c664405e12a047082a585c05789db3df99128996",
+"hash": "def94b4686f6708588f62d5beb6aa9077050f4a6",
 "stand": "2026-11-01"
 },
 "/agb/": {
@@ -224,13 +224,19 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-auffrischung/": {
-"hash": "df0a129a49ded1816cd1dc60f3ba51ba568e4ec1",
+"hash": "f57e30e26ffd349f6172816387c5765c30948586",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "§ 19 FeV; DGUV Vorschrift 1 § 26 Abs. 3 (Wortlaut BGHM); DGUV Fachbereich Erste Hilfe FAQ 1.5, 4.1, 4.2",
 "punkte": "Fristen: Führerschein ohne Frist, Ersthelfer in der Regel 2 Jahre, Überschreitung, Führerschein-Kurs im Betrieb höchstens 2 Jahre.",
 "url": "https://www.dguv.de/fb-erstehilfe/faq/index.jsp"
+},
+{
+"gelesen": "2026-11-01",
+"name": "§ 21 Abs. 3 Nr. 5 und § 76 Nr. 11a FeV, Primärtext gesetze-im-internet.de (Abruf 01.11.2026)",
+"punkte": "Nachweis zu jedem Antrag (§ 21 Abs. 3 Nr. 5); Bescheinigungen gelten unbefristet als Nachweis beim Antrag auf Erteilung (§ 76 Nr. 11a). Abgleich mit Koordinator/seo/par19-fev-pruefung-02-11.md.",
+"url": "https://www.gesetze-im-internet.de/fev_2010/__76.html"
 }
 ],
 "stand": "2026-11-01"
@@ -268,13 +274,19 @@
 "stand": "2026-10-19"
 },
 "/ratgeber/erste-hilfe-fuehrerschein/": {
-"hash": "607e2fb0cc929ffc423647e6423c828ac8a34638",
+"hash": "64e0b51b7014f5dcfda10239e2352777f51cbc92",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "§ 19 FeV Abs. 1-3 (Primärtext gesetze-im-internet.de); DGUV Fachbereich Erste Hilfe FAQ 1.5",
 "punkte": "Kurslänge 9 UE à 45 Min, Bescheinigung amtlich anerkannter Stelle, keine Gültigkeitsfrist genannt, Betrieb nur ≤ 2 Jahre.",
 "url": "https://www.gesetze-im-internet.de/fev_2010/__19.html"
+},
+{
+"gelesen": "2026-11-01",
+"name": "§ 21 Abs. 3 Nr. 5 und § 76 Nr. 11a FeV, Primärtext gesetze-im-internet.de (Abruf 01.11.2026)",
+"punkte": "Nachweis zu jedem Antrag (§ 21 Abs. 3 Nr. 5); Bescheinigungen gelten unbefristet als Nachweis beim Antrag auf Erteilung (§ 76 Nr. 11a). Abgleich mit Koordinator/seo/par19-fev-pruefung-02-11.md.",
+"url": "https://www.gesetze-im-internet.de/fev_2010/__76.html"
 }
 ],
 "stand": "2026-11-01"
