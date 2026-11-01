@@ -8722,8 +8722,16 @@
 "stand": "2026-09-21"
 },
 "/wissen/muskelzerrung/": {
-"hash": "5b196ca5021f4addf9d4e89ecbeb7c58f4db3824",
-"stand": "2026-09-01"
+"hash": "5b003a002f47dc9edcd49aea3f36445c9a2c5b27",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 73-75 (gedruckte Seitenzahl)",
+"punkte": "Muskel-/Gelenkverletzungen: Symptome (Schmerz, Kraftlosigkeit, Bewegungseinschränkung, druckempfindliche Schwellung); genaue Diagnose nicht Aufgabe der Ersthelfer; PECH-Regel, Kühlung mit Kältekompresse/Eisbeutel/kalten Umschlägen, leichter Kompressionsverband mit Fixierbinde, Kühlmittel nie direkt auf die Haut, Vereisungsspray abraten, Hochlagern, danach ärztliche Diagnose.",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/muskulatur/": {
 "hash": "17a44123966fa76db65504b3fea29f7f61791a03",
