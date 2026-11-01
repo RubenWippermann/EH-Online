@@ -8426,8 +8426,16 @@
 "stand": "2026-09-17"
 },
 "/wissen/mittelohrentzuendung/": {
-"hash": "647176050bf15d7af2ec3fcba453b4804b4f1c50",
-"stand": "2026-09-21"
+"hash": "94c8b2b594cf8ea4ecf3ebd001b4786b13b1f91a",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "IQWiG Gesundheitsinformation.de, Was können Eltern bei einer Mittelohrentzündung tun? (aktualisiert 10.06.2026)",
+"punkte": "Mittelohrentzündung bei Kindern: klingt meist innerhalb weniger Tage von selbst ab, viele Kinder nach einem Tag schmerzfrei; 2 bis 3 Tage abwarten sinnvoll; Antibiotika vor allem bei eitrigem Ohrausfluss, Entzündung beider Ohren unter 2 Jahren, Immunschwäche/schweren Grunderkrankungen; keine Wirksamkeitsbelege für Wadenwickel, Zwiebelsäckchen, Rotlicht; frühzeitig ärztlicher Rat, wenn es dem Kind nicht gut geht; erneuter Besuch bei ausbleibender Besserung oder Hörstörungen.",
+"url": "https://www.gesundheitsinformation.de/was-koennen-eltern-bei-einer-mittelohrentzuendung-tun.html"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/mittelschmerz/": {
 "hash": "94153671e93730c79a20eb9587138de99b3b732c",
