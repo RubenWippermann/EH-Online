@@ -140,8 +140,16 @@
 "stand": "2026-10-20"
 },
 "/kosten/": {
-"hash": "8f91c60efa0265abcbd955f193df7602ec79b941",
-"stand": "2026-10-07"
+"hash": "37c255cf77f42be05d004e31ae65180987e61608",
+"quellen": [
+{
+"gelesen": "2026-11-02",
+"name": "DGUV Fachbereich Erste Hilfe: Lehrgangsgebühren ab 01.01.2026 (Stand 09.09.2025), ab 01.01.2027 (Stand September 2026), FAQ 6.1-6.5",
+"punkte": "Pauschgebühr 46,31 € je Teilnehmenden (Lehrgänge ab 01.01.2026) und 48,63 € (ab 01.01.2027) für Ausbildung, Fortbildung, Schulung in Bildungs- und Betreuungseinrichtungen; Abrechnung Ausbildungsstelle - Träger; nur Anwesende; Mehrkosten nur nach Zusatzvertrag.",
+"url": "https://dguv.de/fb-erstehilfe/nachrichten/meldungen-2025/lehrgangsgebuehren-2026/index.jsp"
+}
+],
+"stand": "2026-11-02"
 },
 "/kurse/": {
 "hash": "4a12a2d93724f115d0e503aaaa0fe669501523b5",
