@@ -11634,8 +11634,16 @@
 "stand": "2026-09-16"
 },
 "/wissen/sepsis-blutvergiftung/": {
-"hash": "f5995d71e256eee99ed672f4b577d11fcdf39a1a",
-"stand": "2026-09-21"
+"hash": "8a6966e71713d32e321694494cbf8ca9e12f9200",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 106 (gedruckte Seitenzahl)",
+"punkte": "Sepsis: weitere Warnzeichen (extreme Schmerzen, kalte, feuchte oder fleckige Haut, schneller Puls und/oder niedriger Blutdruck, Kurzatmigkeit, Verwirrtheit); bei Infektion plus nicht anders erklärbarem Symptom immer an Sepsis denken, Notruf, sofortige ärztliche Abklärung.",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/septooptische-dysplasie/": {
 "hash": "ca8235b5d0c51acefefd91afc665a559537e4d80",
@@ -11814,8 +11822,16 @@
 "stand": "2026-09-01"
 },
 "/wissen/sonnenbrand/": {
-"hash": "d1df22b1c1f4d4335693aa97b2b6f728623ee2ed",
-"stand": "2026-09-21"
+"hash": "7f7a44e240638ce0dd4debf9db9496a724ca82cb",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 92 (gedruckte Seitenzahl)",
+"punkte": "Sonnenbrand: feuchte, kühlende Tücher, Feuchtigkeit spendende Körperlotion, Sonne mindestens eine Woche meiden, Arzt bei Fieber und Schüttelfrost; Kinder: Babys unter einem Jahr im Schatten, Lichtschutzfaktor mindestens 50, Kopfbedeckung mit breiter Krempe, Mittagssonne 11 bis 15 Uhr meiden.",
+"url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+}
+],
+"stand": "2026-11-01"
 },
 "/wissen/sonnenstich/": {
 "hash": "906f1bd98872cb5cf7a39138e80972bbc45a546d",
