@@ -1,7 +1,7 @@
 {
 "/": {
-"hash": "186550d4cc9f9c98480fac49b7a63344b79157ad",
-"stand": "2026-10-20"
+"hash": "c664405e12a047082a585c05789db3df99128996",
+"stand": "2026-11-01"
 },
 "/agb/": {
 "hash": "21ffb2d4ba7aeab7eeaeb9faaa2aefd14911f0dc",
@@ -224,8 +224,16 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-auffrischung/": {
-"hash": "5aebf5dbe14e9f1ca0bd451ca48e517991cb88c4",
-"stand": "2026-10-19"
+"hash": "df0a129a49ded1816cd1dc60f3ba51ba568e4ec1",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "§ 19 FeV; DGUV Vorschrift 1 § 26 Abs. 3 (Wortlaut BGHM); DGUV Fachbereich Erste Hilfe FAQ 1.5, 4.1, 4.2",
+"punkte": "Fristen: Führerschein ohne Frist, Ersthelfer in der Regel 2 Jahre, Überschreitung, Führerschein-Kurs im Betrieb höchstens 2 Jahre.",
+"url": "https://www.dguv.de/fb-erstehilfe/faq/index.jsp"
+}
+],
+"stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-baby-kind/": {
 "hash": "cb81804b88722854df38aa8f4a9a8851a817fe44",
@@ -260,8 +268,16 @@
 "stand": "2026-10-19"
 },
 "/ratgeber/erste-hilfe-fuehrerschein/": {
-"hash": "1f6d5819bfea0bc73185f000d64dcbe17931b148",
-"stand": "2026-10-19"
+"hash": "607e2fb0cc929ffc423647e6423c828ac8a34638",
+"quellen": [
+{
+"gelesen": "2026-11-01",
+"name": "§ 19 FeV Abs. 1-3 (Primärtext gesetze-im-internet.de); DGUV Fachbereich Erste Hilfe FAQ 1.5",
+"punkte": "Kurslänge 9 UE à 45 Min, Bescheinigung amtlich anerkannter Stelle, keine Gültigkeitsfrist genannt, Betrieb nur ≤ 2 Jahre.",
+"url": "https://www.gesetze-im-internet.de/fev_2010/__19.html"
+}
+],
+"stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-hitze-sonnenstich/": {
 "hash": "82832b07132d453d03ec4596875f4ab23eb44888",
@@ -4266,8 +4282,8 @@
 "stand": "2026-10-19"
 },
 "/wissen/erste-hilfe-kurs-fuehrerschein/": {
-"hash": "f1544e0b581b40763bcb0aafb87204f605321a16",
-"stand": "2026-10-19"
+"hash": "84572855d96dcfe16e785c4fec9eefdf2726f3ab",
+"stand": "2026-11-01"
 },
 "/wissen/erste-hilfe-set-verbandskasten/": {
 "hash": "649233b204bf27d5d28fafd9d8de4b7e45c401ae",
@@ -10928,8 +10944,8 @@
 "stand": "2026-09-16"
 },
 "/wissen/reanimation-herz-lungen-wiederbelebung/": {
-"hash": "33630dc4a254d830f9ab693dd59b3bb61e32feef",
-"stand": "2026-10-19"
+"hash": "6397f3f984c7c50810fc4a75aeb3d4c5e14c568b",
+"stand": "2026-11-01"
 },
 "/wissen/rechter-doppelausstromventrikel-double-outlet-right-ventricle/": {
 "hash": "3abd3fd011727f214302183bbe079464a5a18b04",
