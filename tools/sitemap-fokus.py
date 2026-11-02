@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sitemap-Fokus (BL-Entscheidung 02.11., Stufe 1): Wissensseiten stehen nur mit >= 350 Prosa-Wörtern in sitemap.xml.
+"""Sitemap-Fokus (BL-Entscheidung 02.11., Stufe 1): Wissensseiten stehen nur in sitemap.xml, wenn sie in tools/sitemap-fokus-wissen.txt stehen (Option C); --min N nimmt zusätzlich alle mit >= N Prosa-Wörtern auf (Standard jetzt 0 = aus).
 Alles andere (Ratgeber, Kurse, Hubs, Orte, Rechtsseiten, Start) bleibt unangetastet. Dünnere Wissensseiten bleiben erreichbar,
 indexierbar (kein noindex) und im Hub verlinkt, fliegen nur aus der Sitemap. Reversibel: Schwelle 0 setzt alle wieder ein.
 Seiten mit noindex oder Canonical auf einen anderen Slug (Alias) kommen nie hinein. lastmod aus tools/seiten-stand.json (inhaltlicher Stand);
@@ -9,11 +9,11 @@ Aufruf im Repo-Root: python3 tools/sitemap-fokus.py [--dry] [--min N]"""
 import re, sys, glob, json, html
 HOST = "https://www.erstehilfekurse.online"
 dry = "--dry" in sys.argv
-mn = int(sys.argv[sys.argv.index("--min") + 1]) if "--min" in sys.argv else 350
+mn = int(sys.argv[sys.argv.index("--min") + 1]) if "--min" in sys.argv else 0
 sm = open("sitemap.xml", encoding="utf-8").read()
 ledger = json.load(open("tools/seiten-stand.json", encoding="utf-8"))
 ok = set()
-immer = {l.strip() for l in open("tools/sitemap-fokus-immer.txt", encoding="utf-8") if l.strip() and not l.startswith("#")}
+immer = {l.strip() for l in open("tools/sitemap-fokus-wissen.txt", encoding="utf-8") if l.strip() and not l.startswith("#")}  # Option C: feste Auswahlliste (Ausnahmeliste tools/sitemap-fokus-immer.txt ist darin enthalten)
 for f in glob.glob("wissen/*/index.html"):
     slug = f.split("/")[1]
     t = open(f, encoding="utf-8", errors="ignore").read()
@@ -23,7 +23,7 @@ for f in glob.glob("wissen/*/index.html"):
     if not c or c.group(1) != f"{HOST}/wissen/{slug}/":
         continue
     pr = re.search(r'<div class="prose rv">(.*?)</div>\s*<aside', t, re.S)
-    if slug in immer or (pr and len(html.unescape(re.sub(r"<[^>]+>", " ", pr.group(1))).split()) >= mn):
+    if slug in immer or (mn > 0 and pr and len(html.unescape(re.sub(r"<[^>]+>", " ", pr.group(1))).split()) >= mn):
         ok.add(f"/wissen/{slug}/")
 urls = re.findall(r"<url>.*?</url>", sm, flags=re.S)
 vorher = len(urls)
