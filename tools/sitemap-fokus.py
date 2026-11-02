@@ -13,6 +13,7 @@ mn = int(sys.argv[sys.argv.index("--min") + 1]) if "--min" in sys.argv else 350
 sm = open("sitemap.xml", encoding="utf-8").read()
 ledger = json.load(open("tools/seiten-stand.json", encoding="utf-8"))
 ok = set()
+immer = {l.strip() for l in open("tools/sitemap-fokus-immer.txt", encoding="utf-8") if l.strip() and not l.startswith("#")}
 for f in glob.glob("wissen/*/index.html"):
     slug = f.split("/")[1]
     t = open(f, encoding="utf-8", errors="ignore").read()
@@ -22,7 +23,7 @@ for f in glob.glob("wissen/*/index.html"):
     if not c or c.group(1) != f"{HOST}/wissen/{slug}/":
         continue
     pr = re.search(r'<div class="prose rv">(.*?)</div>\s*<aside', t, re.S)
-    if pr and len(html.unescape(re.sub(r"<[^>]+>", " ", pr.group(1))).split()) >= mn:
+    if slug in immer or (pr and len(html.unescape(re.sub(r"<[^>]+>", " ", pr.group(1))).split()) >= mn):
         ok.add(f"/wissen/{slug}/")
 urls = re.findall(r"<url>.*?</url>", sm, flags=re.S)
 vorher = len(urls)

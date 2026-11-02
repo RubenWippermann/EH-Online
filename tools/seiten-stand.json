@@ -1,6 +1,6 @@
 {
 "/": {
-"hash": "08878147ceea3dfbf020da715694efbf18c32a56",
+"hash": "a3fd597c19611427fb4404154726328607ef02cf",
 "stand": "2026-11-02"
 },
 "/agb/": {
@@ -166,27 +166,27 @@
 "stand": "2026-11-02"
 },
 "/kurse/betriebssanitaeter-aufbaulehrgang/": {
-"hash": "a8e1516ce33be5250c2be1764d734f34ed5c9677",
+"hash": "5bf55455743f0f456fead107bfdbc0dcefc32e50",
 "stand": "2026-11-02"
 },
 "/kurse/betriebssanitaeter-grundausbildung/": {
-"hash": "d0d251c667ba0e3fc86c854bd3bf40561982425d",
+"hash": "9a37b31b0d19615a2e087e0fca1b8433b36ebe37",
 "stand": "2026-11-02"
 },
 "/kurse/brandschutzhelfer/": {
-"hash": "2672b8c940f2b9cadb00481043001961d05d46fd",
-"stand": "2026-10-19"
+"hash": "41844e72c6e4081933af57a4ea5f2b22d9d0a3f8",
+"stand": "2026-11-02"
 },
 "/kurse/erste-hilfe-ausbildung/": {
 "hash": "c8f8f62c5aae950fea28378e72750207c775aab4",
 "stand": "2026-11-02"
 },
 "/kurse/erste-hilfe-baby-kind/": {
-"hash": "ec2bd7b176774e2caf26c4aef0ef4fda8b7166cc",
-"stand": "2026-10-19"
+"hash": "3ed4fa37a87b43fc84e622656a2a799f5eaab40f",
+"stand": "2026-11-02"
 },
 "/kurse/erste-hilfe-bildungseinrichtungen/": {
-"hash": "7b7ac33de29c87ead77d62957926a264949ac9b7",
+"hash": "3596678647f7d61991e3cac634b1d880b659b38d",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -199,27 +199,27 @@
 "stand": "2026-11-02"
 },
 "/kurse/erste-hilfe-fortbildung/": {
-"hash": "7cafeb24130dc64980c538bb714f6a48bbc1ba31",
+"hash": "f176a00754112c5e97997b154e186f75583cab16",
 "stand": "2026-11-02"
 },
 "/kurse/lehrkraefte-ausbildung-tb1/": {
-"hash": "bc20a3c95c0c19f68fcc5e62c08bb643f78b88ed",
+"hash": "5c47ee6fdc224dd207b206047fbe3bea782a0583",
 "stand": "2026-11-02"
 },
 "/kurse/lehrkraefte-ausbildung-tb2/": {
-"hash": "cecb9a7867bc3a98272380a2068b279d87619b0a",
+"hash": "6e64d1faf583a78d0f5feeff9e4715500050dc30",
 "stand": "2026-11-02"
 },
 "/kurse/lehrkraefte-fortbildung/": {
-"hash": "19ff0d41f45dbd5576b98124876e3119e282ecf5",
+"hash": "c2243a82a3e8b6d5ff175ce87a87f48292242482",
 "stand": "2026-11-02"
 },
 "/kurse/notfalltraining/": {
-"hash": "0399524353b7799339d2646074b13f0b071452cf",
+"hash": "0880ce807bfba711723db4213b8735e522c88a32",
 "stand": "2026-11-02"
 },
 "/kurse/sanitaetshelfer/": {
-"hash": "93bfddff35bd2abb2d3d027e675f2d56630f8f85",
+"hash": "f85e342ddaefccce30cdec8cad59bf92187ec383",
 "stand": "2026-11-02"
 },
 "/kursfinder/": {
@@ -1329,7 +1329,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/anaphylaktischer-schock/": {
-"hash": "436c4e339dab690079436ce7362e5ae1f6975b6f",
+"hash": "b85f07722681144d8df7c2832e431fae73e822bc",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -4329,7 +4329,7 @@
 "stand": "2026-09-07"
 },
 "/wissen/erkaeltung/": {
-"hash": "22591fab1f424bce02de9378500dc17dac543b86",
+"hash": "d61559474b9f36ec2dfd36cdbf446d5239ac1887",
 "quellen": [
 {
 "gelesen": "2026-11-02",
@@ -4353,7 +4353,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/erste-hilfe-bei-verbrennungen-sofortmassnahmen/": {
-"hash": "899178c6b85ab39c7ae9bf6b71b152371a08e492",
+"hash": "23a7682105f53387f6fb16aa3ce47b89a8254991",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -4385,7 +4385,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/ertrinken-rettung-aus-dem-wasser/": {
-"hash": "2a1e08802d487bfd558b9268080fdad22cff455a",
+"hash": "c99ae2e80b3106880fa459349b95eff6d81182a0",
 "stand": "2026-09-21"
 },
 "/wissen/erweiterte-tuba-auditiva/": {
@@ -4913,7 +4913,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/fremdkoerper-im-ohr/": {
-"hash": "30e7adcf229ec3ccd865a9c9742ee38f5afa78b1",
+"hash": "b3c926f7ba825a659771452bfc964a18b91bcfec",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -4937,7 +4937,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/fremdkoerper-in-der-nase/": {
-"hash": "5a64d8e633bed0729c66633b8179871ade1ff3aa",
+"hash": "50b82f6131f1a9afd76d329028e0a5066c69575f",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -5077,7 +5077,7 @@
 "stand": "2026-09-08"
 },
 "/wissen/gallensteine/": {
-"hash": "caf2b38da15caad7dea5fe89763708ca3f730261",
+"hash": "3dc673f8974008a668faf59051a211c4d039326e",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -5977,7 +5977,7 @@
 "stand": "2026-09-07"
 },
 "/wissen/herzinfarkt/": {
-"hash": "10ca54f510f94fea072b257904d6a4618ec97b3b",
+"hash": "824b2225e305596d83dd7b0463779e55640376e7",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -6117,7 +6117,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/hitzschlag/": {
-"hash": "74e598f48b630e059949bffa481a3fd666e5eb00",
+"hash": "f3938db88ae2779c3bf224782d2fb0485aaa64d4",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -6477,7 +6477,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/hyperventilation/": {
-"hash": "9eb63b22fb612d5c1502f73dddce09591c59244d",
+"hash": "aab17bab1e38397d9690ab3983129a0a88b2e9cb",
 "stand": "2026-09-21"
 },
 "/wissen/hypervitaminose-a/": {
@@ -6765,7 +6765,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/insektenstich-allergische-reaktion/": {
-"hash": "40b1bdc01aa78e9a8a303dfe4e9388457cb764a2",
+"hash": "9a29438fa33372c429f9fdc94e7b2e7a3632c192",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -8537,7 +8537,7 @@
 "stand": "2026-09-17"
 },
 "/wissen/mittelohrentzuendung/": {
-"hash": "94c8b2b594cf8ea4ecf3ebd001b4786b13b1f91a",
+"hash": "da166dc6412a68650cc67d7f1c5509208fc093d0",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -8817,7 +8817,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/muskelfaserriss/": {
-"hash": "00fb0c093000fe13daf4d34427b0a5c48d8842bd",
+"hash": "314da4c11be44b9b99f5e319159cdd444ab808ef",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -8841,7 +8841,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/muskelzerrung/": {
-"hash": "5b003a002f47dc9edcd49aea3f36445c9a2c5b27",
+"hash": "2f8be2f82b56fe5495966514f1291b7b365b08c8",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -9001,7 +9001,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/nasenbluten/": {
-"hash": "2c8c1289224f0c513a64047893ea04a559993b4b",
+"hash": "21ae1c3f7c203cbba3acc14a1d9e9773a981b319",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -9327,7 +9327,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/nierenstein/": {
-"hash": "59dc1c77edee657ec13ac34db94a31cd9e3db353",
+"hash": "b9d05a589e2c1448dfaeb25b634280b5e3799226",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -11559,7 +11559,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/schlaganfall/": {
-"hash": "bdf14090e4233917c66f261b4c704e06261457e0",
+"hash": "0644dd14bd9236b9984184c0c8788951a2a8da36",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -11995,7 +11995,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/sonnenbrand/": {
-"hash": "7f7a44e240638ce0dd4debf9db9496a724ca82cb",
+"hash": "fb2c946439c11fc3168e755ff8a43193763f796a",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -12007,7 +12007,7 @@
 "stand": "2026-11-01"
 },
 "/wissen/sonnenstich/": {
-"hash": "906f1bd98872cb5cf7a39138e80972bbc45a546d",
+"hash": "a3724ea5e94bff70f60ee7779541e89e559d5eb2",
 "stand": "2026-09-21"
 },
 "/wissen/sonstige-abnorme-hoerempfindungen/": {
@@ -12275,7 +12275,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/starke-blutung-blutstillung/": {
-"hash": "242129a0fe0cdab4cbdece861cfde6fc8d1b4c6f",
+"hash": "54da9d435d52f3e94a6898f3b44cc61550edb0eb",
 "stand": "2026-09-21"
 },
 "/wissen/status-asthmaticus/": {
@@ -12499,7 +12499,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/stromunfall/": {
-"hash": "8b76ee22070fb9694a6b50a819bffe745c7b2c39",
+"hash": "813b64e779d1a22a90bdd2aa94cdd9bc1d03633a",
 "stand": "2026-09-21"
 },
 "/wissen/strongyloidiasis-des-darmes/": {
@@ -13627,7 +13627,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/verbrennung/": {
-"hash": "ca14e4d331d38de4e0b717df4a51a991a39fce2b",
+"hash": "9c8e3f0f2530b8828933803db5c17782028b8346",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -13639,7 +13639,7 @@
 "stand": "2026-11-01"
 },
 "/wissen/verbruehung/": {
-"hash": "947ebf513d932e87ce7754480000901ff3e0c11e",
+"hash": "34db1332cbeb3850c0ba9688af393b0eba68e4e3",
 "stand": "2026-09-21"
 },
 "/wissen/verdauungssystem/": {
@@ -13647,7 +13647,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/vergiftung/": {
-"hash": "c7a6f14c755faf0b84587614ba0d6bb57186235d",
+"hash": "07ea541f32e0fe1b7b7294d52f5898a79aaf56da",
 "stand": "2026-09-21"
 },
 "/wissen/vergroesserte-und-hypertrophierte-naegel-angeboren/": {
@@ -13699,7 +13699,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/verstauchung-distorsion/": {
-"hash": "c8169cba09a31f7caeeb19f3b50549e812f73a20",
+"hash": "903d800eb3e45fe3c928ed32d1792907412702bb",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -13951,7 +13951,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/wespenstich-im-mund-rachen-notfall/": {
-"hash": "752a96e491e89e0a778b4ee96b73b45b898334db",
+"hash": "a227a7c4692f8178a177d6c1a04d2d8604e284b0",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -13991,7 +13991,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/windpocken/": {
-"hash": "065b593390a27de96928aaef5f58d8f0d5128ec0",
+"hash": "4a3e40eeb563e8a206682ec02915a9a5db9d8631",
 "quellen": [
 {
 "gelesen": "2026-11-02",
