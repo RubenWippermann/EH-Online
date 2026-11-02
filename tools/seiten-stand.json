@@ -1,6 +1,6 @@
 {
 "/": {
-"hash": "cc378870cbe08c0035343975cc12769d7c8aec9a",
+"hash": "8b319256f51fde89c0c328ec3eb5c03263706348",
 "stand": "2026-11-02"
 },
 "/agb/": {
@@ -52,8 +52,8 @@
 "stand": "2026-11-02"
 },
 "/datenschutz/": {
-"hash": "26ec32c6f6078218e099836cd1492bde7119cd3c",
-"stand": "2026-10-07"
+"hash": "2d307251299fa1ae73004565b8de4afd772849b8",
+"stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/": {
 "hash": "bfa1bae836e0dad672deddf016cdc09d47d2f414",
@@ -134,15 +134,15 @@
 "stand": "2026-10-07"
 },
 "/impressum/": {
-"hash": "92b4f285ab5118aac75589f4ee755af55b7ea935",
-"stand": "2026-10-07"
+"hash": "5234cafee402056953ee64858f4a627543365ebe",
+"stand": "2026-11-02"
 },
 "/inhouse/": {
 "hash": "db6da97d508c108db7dd6db95bab054efa913fbf",
 "stand": "2026-11-02"
 },
 "/kosten/": {
-"hash": "9ca712b7742e4094139c4e149c16f81af8e1dca0",
+"hash": "56c747709d41f12c83b87b169c01dcf0003843e8",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -186,7 +186,7 @@
 "stand": "2026-10-19"
 },
 "/kurse/erste-hilfe-bildungseinrichtungen/": {
-"hash": "eaed92dbf0ee8bda90773529fdf5caa25cd28f47",
+"hash": "4cab52a40c97d2d3e6cf13397ff2ac871bc0bead",
 "quellen": [
 {
 "gelesen": "2026-11-01",
