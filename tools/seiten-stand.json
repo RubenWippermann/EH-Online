@@ -339,8 +339,8 @@
 "stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-homeoffice-kleinstbetrieb/": {
-"hash": "faf19db9bcae0b34a173fc5e741eaa82c3b5b97c",
-"stand": "2026-10-04"
+"hash": "7e0cec0dccebbb51a35daafc6c9233e5d4a639e0",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-kindertagespflege-tagesmutter/": {
 "hash": "a2723e08b6a87783cb71fad3393c63fd3ab64385",
@@ -547,8 +547,8 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/zu-wenige-ersthelfer-ordnungswidrigkeit/": {
-"hash": "f8fcb031ab46a8aed71298b53f7ae96979578a68",
-"stand": "2026-10-04"
+"hash": "bcd042fba3bf6c79c375e44b65699145761d8610",
+"stand": "2026-11-02"
 },
 "/shop/": {
 "hash": "ec71ae60c11d82e10d14d7e6610656f3174b2bf4",
@@ -4321,8 +4321,16 @@
 "stand": "2026-09-07"
 },
 "/wissen/erkaeltung/": {
-"hash": "d475539226aee5c3c5ef8e9b350bce0a74eac9dc",
-"stand": "2026-11-01"
+"hash": "22591fab1f424bce02de9378500dc17dac543b86",
+"quellen": [
+{
+"gelesen": "2026-11-02",
+"name": "Gesundheitsinformation.de (IQWiG): Erkältung, aktualisiert 31.10.2023",
+"punkte": "Viren, Tröpfchen/Hände; Dauer 1-2 Wochen, Husten länger; Warnzeichen; Antibiotika wirken nicht; Hygiene; keine Impfung",
+"url": "https://www.gesundheitsinformation.de/erkaeltung.html"
+}
+],
+"stand": "2026-11-02"
 },
 "/wissen/ermuedungsbruch-eines-wirbels/": {
 "hash": "07bce4f165838d17fcfc33b0d16effc868c292de",
@@ -13959,8 +13967,16 @@
 "stand": "2026-09-01"
 },
 "/wissen/windpocken/": {
-"hash": "fec9902f4ae4c12eb4ccdc0f2d94a787b8010af2",
-"stand": "2026-10-20"
+"hash": "065b593390a27de96928aaef5f58d8f0d5128ec0",
+"quellen": [
+{
+"gelesen": "2026-11-02",
+"name": "Gesundheitsinformation.de (IQWiG): Windpocken, aktualisiert 08.02.2023",
+"punkte": "Komplikationen, Schwangerschaft, Impfschema 2 Dosen, Kassenleistung, Meldepflicht",
+"url": "https://www.gesundheitsinformation.de/windpocken.html"
+}
+],
+"stand": "2026-11-02"
 },
 "/wissen/wirbelosteomyelitis/": {
 "hash": "38307aa8d3efe4423558839dc44f639e83899e5a",
