@@ -231,19 +231,19 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/aed-defibrillator-wo-wer-darf/": {
-"hash": "78722c4241de45fb5c5bc972f3a26acedc40e196",
-"stand": "2026-09-25"
+"hash": "6c0c0cb2c5d390c74f7a0150476aeec22cd2f1ac",
+"stand": "2026-11-02"
 },
 "/ratgeber/arbeitsunfall-melden-unfallanzeige/": {
-"hash": "93e9ab023a3fb8a1aacb38e57f6640fd6a65dfa1",
-"stand": "2026-10-04"
+"hash": "3610f54284fd550b3f92ef9dfc2dd682900abc82",
+"stand": "2026-11-02"
 },
 "/ratgeber/ausbildung-oder-fortbildung/": {
-"hash": "a41dfa87c646ad3a65a8a0143c11449afee5efb5",
+"hash": "3842465f23a8cb98baeb8b248245695b5ab8e729",
 "stand": "2026-11-02"
 },
 "/ratgeber/betriebliche-ersthelfer/": {
-"hash": "c8e7ed7ec74cec50713345491e4da620d6f1da9e",
+"hash": "0b753e918077c62098d7fb2e0a84c4ea147af6d7",
 "quellen": [
 {
 "gelesen": "2026-11-02",
@@ -259,7 +259,7 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-auffrischung/": {
-"hash": "bd9f532ef0eeb5921aee49bad10f5fa99ebfbd5e",
+"hash": "cd19ddf2848ca04557cf6c8066869681a360e242",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -285,11 +285,11 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-besondere-gefahren-zusatzausbildung/": {
-"hash": "eb6cce94af4dedace0d29c8953758d49bf78ba52",
-"stand": "2026-10-04"
+"hash": "47aa4460f215133110fe7613c46a8d50d9b781e3",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-betrieb-pflichten/": {
-"hash": "7d322e3d876edb76296f374f6e6966dad67ac3d5",
+"hash": "a446f48529a549ca37edf97afe1b5a0b2643b6c0",
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-fieberkrampf-kind/": {
@@ -297,7 +297,7 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-fortbildung-frist-verpasst/": {
-"hash": "60759b01ebae370be9a596ea1bcbb0532888e997",
+"hash": "303256c0f1c09d02c3f10b05f181e909015a98a8",
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-fuehrerschein-klassen/": {
@@ -309,7 +309,7 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-fuehrerschein/": {
-"hash": "2a6ee86986d0c1d7c31b6bb8155a75fd1d9fecb2",
+"hash": "5f04efc74728c132a49ea4dfaabd9f0375cdb344",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -339,15 +339,15 @@
 "stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-homeoffice-kleinstbetrieb/": {
-"hash": "d13420b72eb340bd9926abc272258e02a6b2fd08",
+"hash": "a814a5b6618cef731a92548cf58cd5775a06007f",
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-kindertagespflege-tagesmutter/": {
-"hash": "36905636e53dd671cfe91d5aad4f10138d848a44",
+"hash": "2093342d80e08c956a7f1c86c7577284ee19c1bb",
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-kita-schule/": {
-"hash": "9601e7c091167c3c9ca9eab03fbfe9b386d4bd23",
+"hash": "a53b3e719b4415a5e24d5c36666fc16c12dc4843",
 "quellen": [
 {
 "gelesen": "2026-11-02",
@@ -359,8 +359,8 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-koffer-inhalt/": {
-"hash": "71525129d929b879359aa9a30f20419ad9dbe2b5",
-"stand": "2026-10-19"
+"hash": "a7d1cc0ae51bca06c9f0796c31c4bc31642a7330",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-kurs-fuehrerschein-gueltigkeit/": {
 "hash": "9606f7e59bcb9dc105b2e721bb04b8bfd4fccc9b",
@@ -371,7 +371,7 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-kurs-inhouse-firma/": {
-"hash": "48900ba825ec72ee6479220c03ed480587e15b75",
+"hash": "9e5628902e8cacbcf57d4f96aef72d9d28dea943",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -411,15 +411,15 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-notfaelle-pflege/": {
-"hash": "e06cf9564fefd515dcc72275f7dd9482cb0c58ac",
-"stand": "2026-10-04"
+"hash": "d8041d284399720fe9e2087c64b5f4d0e7f08d7a",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-pflege-gesundheitsberufe/": {
-"hash": "677e1afd9facbfb6eabee487be3408fb2e705d83",
-"stand": "2026-10-19"
+"hash": "cd89a442d0f4fad15c0cf23238d86449fa725808",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-pflicht-haftung/": {
-"hash": "a59a8cee4374859798fa4f438526b93caff63b2d",
+"hash": "6395e14468b4d992f6038917bbb353830242991c",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -431,15 +431,15 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-qualifikationen-ueberblick/": {
-"hash": "843b9fe282168c88886ad228e235ce11c8d68ab5",
-"stand": "2026-09-25"
+"hash": "b88ad8283f3592cb1422731aadf52034596422fb",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-sportverletzung-verein/": {
 "hash": "255a199ebed5d8c0059d74f3d5fdca76a343113a",
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-strassenverkehr-pflichten/": {
-"hash": "b4a70ce5c601a5638d6e6b51d08cb024337d9a29",
+"hash": "2a38dc7261957ae2279da460160a4f22ffe64673",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -457,16 +457,16 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-studium/": {
-"hash": "d3f4c13f203eee90839a62703f8b21da4ed1c6c4",
-"stand": "2026-10-19"
+"hash": "99cfb4da7532aebfa34f91c302938b5e9be1163d",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-sturz-kind/": {
-"hash": "d98640fe8a8d308ff0c75799a327dc333c466530",
-"stand": "2026-10-04"
+"hash": "d7b25c09623672c6d4d82ba11a7751fb25e70c06",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-trainer-uebungsleiter-verein/": {
-"hash": "9627a78092ed6b7087c4d3d9380a0e6b2a358a18",
-"stand": "2026-10-04"
+"hash": "94d6b0ad92fb68f2660aebf75bd0106560380b86",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-verbrennung-kind/": {
 "hash": "ae9c502c1f8da13307f6a159fc916a682365ad8c",
@@ -487,11 +487,11 @@
 "stand": "2026-11-01"
 },
 "/ratgeber/erste-hilfe-verein-ehrenamt/": {
-"hash": "ed2fc5ede43bb117caf85b0c691d815dbc4aa5eb",
-"stand": "2026-10-19"
+"hash": "95259753df167fe938801aa052ccefd6c352d920",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-verschlucken-kind/": {
-"hash": "1a3fd1b32161cc8cae0387667495849398204579",
+"hash": "4f04cab05ab6947a7b1687e93cd0d898480c5c34",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -500,18 +500,18 @@
 "url": "https://www.grc-org.de/downloads/FBAO%20Algo%20GRC%2015.08.2022.pdf"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-02"
 },
 "/ratgeber/ersthelfer-freistellung-lohnfortzahlung/": {
 "hash": "e8d3e414e73bb7ae2fca9a8fbe1539456ab14160",
 "stand": "2026-11-02"
 },
 "/ratgeber/ersthelfer-im-betrieb-aufgaben-rechte/": {
-"hash": "a383f858e8122dfe56688061bc15f649e6554b87",
+"hash": "b413b3d8c8516fc872f912d86a66cb0eb35dcf88",
 "stand": "2026-11-02"
 },
 "/ratgeber/ersthelfer-kita-schule-anzahl/": {
-"hash": "8103b2989e73c2df133f6a784507d9643883c6cd",
+"hash": "9bdc18443db06d641843257014900c4ea011dd23",
 "quellen": [
 {
 "gelesen": "2026-11-02",
@@ -523,15 +523,15 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/ersthelfer-oder-betriebssanitaeter/": {
-"hash": "e5e5083d5c1772ab7235630788e903a54c6bde9d",
-"stand": "2026-10-19"
+"hash": "bae8d343110b6a74845c2c50fc624f236642766f",
+"stand": "2026-11-02"
 },
 "/ratgeber/ersthelfer-schicht-teilzeit-urlaub/": {
 "hash": "4164edc68d1be4f4ce752bafb4a89c3507cf19c0",
 "stand": "2026-10-07"
 },
 "/ratgeber/welcher-kurs-zaehlt-wofuer/": {
-"hash": "82cbae1cd30ac7d7595d27fb0dd32025985edb2e",
+"hash": "10bfb94e6ce7eb8b0b32d786c7ca0bee8f186799",
 "stand": "2026-11-02"
 },
 "/ratgeber/wie-laeuft-ein-erste-hilfe-kurs-ab/": {
@@ -543,11 +543,11 @@
 "stand": "2026-09-25"
 },
 "/ratgeber/wiederbelebung-schritt-fuer-schritt/": {
-"hash": "535ef7bbf6aebd98f21f4cdb7ad4c2f503b30720",
-"stand": "2026-10-04"
+"hash": "e8ac9d69be9ed041c49142c049ad3f782a7bee7c",
+"stand": "2026-11-02"
 },
 "/ratgeber/zu-wenige-ersthelfer-ordnungswidrigkeit/": {
-"hash": "3cb2617c96d30ae73d1924c519077618e2acca36",
+"hash": "805a08ef64cf2aecb9f1ec4d372c2414b0bcf06f",
 "stand": "2026-11-02"
 },
 "/shop/": {
