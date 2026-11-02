@@ -1110,3 +1110,36 @@ li>a:only-child,p>a:only-child,a[href^="tel:"],.sources li>b>a:only-child{displa
 
 /* Design-Durchgang 31.10.2026: Punktraster im Hero ist reine Dekoration ohne Funktion */
 .hero::after{display:none}
+
+/* ---------- Animation Schritt 1 (02.11.): Ablaufleiste mit Linie, Hero-Bild, Kursfinder-Ergebnis ----------
+   Nur transform; Endzustand immer sichtbar (kein opacity:0, kein fill-mode auf Text); reduced-motion: keine Bewegung. */
+.steps4{list-style:none;margin:28px 0 8px;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;position:relative;counter-reset:s4}
+.steps4 li{position:relative;padding-top:52px;counter-increment:s4}
+.steps4 li::before{content:counter(s4);position:absolute;top:0;left:0;width:36px;height:36px;border-radius:50%;
+  display:grid;place-items:center;background:var(--brand-lo);color:#fff;font-weight:700;font-variant-numeric:tabular-nums;z-index:1}
+.steps4::before{content:"";position:absolute;top:17px;left:18px;right:18px;height:2px;background:var(--line);transform-origin:left center}
+.steps4 b{display:block;margin-bottom:.25em;color:var(--ink)}
+.steps4 span{display:block;color:var(--ink-2);font-size:.95rem;line-height:1.45}
+@media(max-width:720px){
+  .steps4{grid-template-columns:1fr;gap:20px}
+  .steps4 li{padding:2px 0 0 52px;min-height:36px}
+  .steps4::before{top:18px;bottom:18px;left:17px;right:auto;width:2px;height:auto;transform-origin:center top}}
+@media (prefers-reduced-motion:no-preference){
+  .js .steps4.rv.in::before{animation:ehLinie .7s cubic-bezier(.2,.8,.2,1) backwards}
+  .js .steps4.rv.in li::before{animation:ehPunkt .3s ease-out backwards}
+  .js .steps4.rv.in li:nth-child(2)::before{animation-delay:.12s}
+  .js .steps4.rv.in li:nth-child(3)::before{animation-delay:.24s}
+  .js .steps4.rv.in li:nth-child(4)::before{animation-delay:.36s}
+  .illu-band .illu{animation:ehBildEin .42s cubic-bezier(.2,.8,.2,1) backwards}
+  .finder-card .k-meta>*{animation:ehEin12 .3s cubic-bezier(.2,.8,.2,1) backwards}
+  .finder-card .k-meta>:nth-child(2){animation-delay:50ms}
+  .finder-card .k-meta>:nth-child(3){animation-delay:100ms}
+  .finder-card .k-meta>:nth-child(4){animation-delay:150ms}
+}
+@keyframes ehLinie{from{transform:scaleX(.001)}to{transform:none}}
+@keyframes ehPunkt{from{transform:scale(.7)}to{transform:none}}
+@keyframes ehBildEin{from{transform:translateY(10px)}to{transform:none}}
+@keyframes ehEin12{from{transform:translateY(10px)}to{transform:none}}
+@media (max-width:720px) and (prefers-reduced-motion:no-preference){
+  .js .steps4.rv.in::before{animation-name:ehLinieV}}
+@keyframes ehLinieV{from{transform:scaleY(.001)}to{transform:none}}
