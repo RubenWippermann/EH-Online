@@ -1,6 +1,6 @@
 {
 "/": {
-"hash": "a3fd597c19611427fb4404154726328607ef02cf",
+"hash": "190dbf2608021846699a5b5d3c76d09d49b0e1b2",
 "stand": "2026-11-02"
 },
 "/agb/": {
@@ -28,7 +28,7 @@
 "stand": "2026-11-02"
 },
 "/branchen/betrieb/": {
-"hash": "d131c08a9cfd53820871b797c60492898e6a1334",
+"hash": "120cac7dfa9ed1b08d09b2bde4f698ea10e3ee11",
 "stand": "2026-11-02"
 },
 "/branchen/betriebssanitaeter/": {
@@ -56,35 +56,35 @@
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/": {
-"hash": "f9ffcb1d29809a16a16d9ab61260675b11ad9817",
-"stand": "2026-09-06"
+"hash": "38f0c49e2d7912c1dce9e7626fc7e5217af83822",
+"stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/dortmund/": {
-"hash": "1fe931d6156e5dd8509164241f963b74b80ef92b",
-"stand": "2026-10-20"
+"hash": "04620d8b1ab9e47ea7c5ecfe4a588f1283f92671",
+"stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/essen/": {
-"hash": "d8c149df6ada5ce937564cac9f7b1102b3f43a2c",
-"stand": "2026-10-20"
+"hash": "cdd381d39db70498a4013b9a8ea280411c8ba2c4",
+"stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/hannover/": {
-"hash": "f228c10ecb579ca4cb6872c6c99c2d96f3a1d33d",
-"stand": "2026-10-20"
+"hash": "ff353a5ebfb544709e4cabf800a8379cf80a7547",
+"stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/in-baden-wuerttemberg/": {
-"hash": "f7f271dd7b2bba0a86b7759e00d879a4b7ac11f5",
+"hash": "d68feabcede67dfb2e8d20c797f6975a83c83cab",
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/in-bayern/": {
-"hash": "e3915daa979f8567b56e052ad46cd86545bbae15",
+"hash": "679b7e4d0984b70f472fff5f7d694b8c192c1cd1",
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/in-brandenburg/": {
-"hash": "e0166f0b5067c64911ffb9b4f8c2d79aa07ce747",
+"hash": "a15ad957bcba34cc3583aa9a63195f320a4e5d94",
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/in-hessen/": {
-"hash": "3edc63f99402e8b3cb40928055b022e57b1db940",
+"hash": "31b611324b9762ee93fe4b4f59a5edc93a979ffd",
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/in-mecklenburg-vorpommern/": {
@@ -93,15 +93,15 @@
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/in-niedersachsen/": {
-"hash": "b138fb3096a165593332b2a76a824ca5e4be9c9b",
+"hash": "d21e0d610ecf23fe36eaa1936868a2b54c9b022f",
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/in-nordrhein-westfalen/": {
-"hash": "68341803fd7e53aca58e79579f64122cb728555c",
+"hash": "b49cddaf51406a9f98b2f733eb73d8771cace560",
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/in-rheinland-pfalz/": {
-"hash": "34ee5823d53ffe0291ba5cdac7ec6ed4b1988d32",
+"hash": "3d50d61d6e41f8904c58ee97eb0dccf06dbb2363",
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/in-saarland/": {
@@ -110,35 +110,35 @@
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/in-sachsen-anhalt/": {
-"hash": "52e91dd3b6ee5a4fe12bf9015a77e31ea46c4b18",
+"hash": "ba69af9447b28cc585935d4e4631fd156046d01b",
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/in-sachsen/": {
-"hash": "57d77f351a595bc2848490bed4ae3344f598279f",
+"hash": "992a8a81e8e1d8d4db10b04fce877db0c8110e7a",
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/in-schleswig-holstein/": {
-"hash": "d5e6c618acc1a88934a41515f7771301c4fff662",
+"hash": "681ca771e6da7c8e70c015878bf8b016d4ebabd3",
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/in-thueringen/": {
-"hash": "0ec535ed5d411e8d9bc8b3685e248acf23bdf953",
+"hash": "40f04d3ad77035890170c8b687173ef7a4ea43ef",
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/koeln/": {
-"hash": "f7ebab7e5f6988241a999cac386f90ce4ad42b26",
-"stand": "2026-10-20"
+"hash": "0d902685ceeca88d2f1addd33fd08183a0171130",
+"stand": "2026-11-02"
 },
 "/ersthelfer-rechner/": {
-"hash": "cb0425f4860e2eae7ef5a50aed63ee9532da806b",
-"stand": "2026-10-07"
+"hash": "6eb519e8e83f46fc913341ae24bf372d8b8cecdb",
+"stand": "2026-11-02"
 },
 "/impressum/": {
 "hash": "975dbde1697c2c3acc6f6d3e9b506dcd21466b52",
 "stand": "2026-11-02"
 },
 "/inhouse/": {
-"hash": "4da5c7ae0f13cd0c5d8713ab39a6a46af6cca4ab",
+"hash": "04e24503956c95610a8cffc39f0d7afbca26ff11",
 "stand": "2026-11-02"
 },
 "/kosten/": {
@@ -162,31 +162,31 @@
 "stand": "2026-11-02"
 },
 "/kurse/": {
-"hash": "bde2ecdada63a8c2c6dc2be874e136c75a503a50",
+"hash": "aa6edcc09993ed384b7d5910c5180697c143ba5a",
 "stand": "2026-11-02"
 },
 "/kurse/betriebssanitaeter-aufbaulehrgang/": {
-"hash": "5bf55455743f0f456fead107bfdbc0dcefc32e50",
+"hash": "81d18fe6f7ef99a517a661ea9ff497bdb1686a1f",
 "stand": "2026-11-02"
 },
 "/kurse/betriebssanitaeter-grundausbildung/": {
-"hash": "9a37b31b0d19615a2e087e0fca1b8433b36ebe37",
+"hash": "5664e55e43c83aee26d5bb92eb61bd3b09ce4d5b",
 "stand": "2026-11-02"
 },
 "/kurse/brandschutzhelfer/": {
-"hash": "41844e72c6e4081933af57a4ea5f2b22d9d0a3f8",
+"hash": "9a91bb46aee5352fe6186414a1c788ec40af1f05",
 "stand": "2026-11-02"
 },
 "/kurse/erste-hilfe-ausbildung/": {
-"hash": "c8f8f62c5aae950fea28378e72750207c775aab4",
+"hash": "784f25b9bc1d0e6eef32d46d0e686070562a1393",
 "stand": "2026-11-02"
 },
 "/kurse/erste-hilfe-baby-kind/": {
-"hash": "3ed4fa37a87b43fc84e622656a2a799f5eaab40f",
+"hash": "46a714cdb81226016ccb48c705592d66a86d9878",
 "stand": "2026-11-02"
 },
 "/kurse/erste-hilfe-bildungseinrichtungen/": {
-"hash": "3596678647f7d61991e3cac634b1d880b659b38d",
+"hash": "de22b21e342138644f0a89ad15f813a14315da32",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -199,27 +199,27 @@
 "stand": "2026-11-02"
 },
 "/kurse/erste-hilfe-fortbildung/": {
-"hash": "f176a00754112c5e97997b154e186f75583cab16",
+"hash": "ce7494a9a3968e86cfc6c8054c1e86de96e6c49d",
 "stand": "2026-11-02"
 },
 "/kurse/lehrkraefte-ausbildung-tb1/": {
-"hash": "5c47ee6fdc224dd207b206047fbe3bea782a0583",
+"hash": "089f4749fbe5115e226d2e386adeb94f17cb0f3d",
 "stand": "2026-11-02"
 },
 "/kurse/lehrkraefte-ausbildung-tb2/": {
-"hash": "6e64d1faf583a78d0f5feeff9e4715500050dc30",
+"hash": "daef35e77c42945b758158fdefc563fc539784d7",
 "stand": "2026-11-02"
 },
 "/kurse/lehrkraefte-fortbildung/": {
-"hash": "c2243a82a3e8b6d5ff175ce87a87f48292242482",
+"hash": "2950ce4cac42345e1acab766a0a8e61fc7db043a",
 "stand": "2026-11-02"
 },
 "/kurse/notfalltraining/": {
-"hash": "0880ce807bfba711723db4213b8735e522c88a32",
+"hash": "31968a7754d1e8bb6d89029aaa961521c174eb4a",
 "stand": "2026-11-02"
 },
 "/kurse/sanitaetshelfer/": {
-"hash": "f85e342ddaefccce30cdec8cad59bf92187ec383",
+"hash": "661af59cd8326fee64b43f2081c780bf48c59596",
 "stand": "2026-11-02"
 },
 "/kursfinder/": {
@@ -383,7 +383,7 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-kurs-kurzfristig/": {
-"hash": "beeaf346011be39ca67110cc7bf0031b5802bd80",
+"hash": "8080e5842d2c8b811ecf4a26a9487236430ea587",
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-kurs-online/": {
