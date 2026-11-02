@@ -142,13 +142,19 @@
 "stand": "2026-11-02"
 },
 "/kosten/": {
-"hash": "37c255cf77f42be05d004e31ae65180987e61608",
+"hash": "9138e4bda2616cb6ae46278f22f66a458cf04f41",
 "quellen": [
 {
 "gelesen": "2026-11-02",
 "name": "DGUV Fachbereich Erste Hilfe: Lehrgangsgebühren ab 01.01.2026 (Stand 09.09.2025), ab 01.01.2027 (Stand September 2026), FAQ 6.1-6.5",
 "punkte": "Pauschgebühr 46,31 € je Teilnehmenden (Lehrgänge ab 01.01.2026) und 48,63 € (ab 01.01.2027) für Ausbildung, Fortbildung, Schulung in Bildungs- und Betreuungseinrichtungen; Abrechnung Ausbildungsstelle - Träger; nur Anwesende; Mehrkosten nur nach Zusatzvertrag.",
 "url": "https://dguv.de/fb-erstehilfe/nachrichten/meldungen-2025/lehrgangsgebuehren-2026/index.jsp"
+},
+{
+"gelesen": "2026-11-02",
+"name": "DGUV Vorschrift 1 § 26 Abs. 2 (Original Nov. 2013), DGUV Fachbereich Erste Hilfe FAQ 6.1, 6.2 (Abruf 02.11.2026)",
+"punkte": "Ausbildung durch ermächtigte Stelle, Abrechnung Ausbildungsstelle-Träger",
+"url": "https://www.dguv.de/fb-erstehilfe/faq/index.jsp"
 }
 ],
 "stand": "2026-11-02"
@@ -234,7 +240,7 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/betriebliche-ersthelfer/": {
-"hash": "32b990601855e728d3e07e2d93b6b39b821930ec",
+"hash": "4e963e0c5c2ef0bbce1d2a0f86f05494dc5a0ce5",
 "quellen": [
 {
 "gelesen": "2026-11-02",
@@ -494,11 +500,11 @@
 "stand": "2026-11-01"
 },
 "/ratgeber/ersthelfer-freistellung-lohnfortzahlung/": {
-"hash": "842a7cab5595cf99984058aa79f10994ed7906a7",
-"stand": "2026-10-07"
+"hash": "d90ee976c08384de52afc98cf63b6e0d2a729646",
+"stand": "2026-11-02"
 },
 "/ratgeber/ersthelfer-im-betrieb-aufgaben-rechte/": {
-"hash": "d153a8355a009e765bad6f1c5305308185dcc947",
+"hash": "5d7daee9a349d93a2037a38c654548138381455b",
 "stand": "2026-11-02"
 },
 "/ratgeber/ersthelfer-kita-schule-anzahl/": {
