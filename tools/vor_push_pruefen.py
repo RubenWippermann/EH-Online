@@ -8,7 +8,7 @@ import os, subprocess, sys
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 ref = sys.argv[1] if len(sys.argv) > 1 else "origin/main"
 MAX_DATEIEN = 400
-KENNUNGEN = ['document.documentElement.className+=" js"', 'name="google-site-verification"', 'aria-label="Betreiberhinweis"']
+KENNUNGEN = ['document.documentElement.className+=" js"']   # Live-Kennung, die der Generator-Vollbau nicht ausgibt (gemessen 02.11.)
 
 
 def git(*a):
