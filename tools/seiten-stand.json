@@ -1,6 +1,6 @@
 {
 "/": {
-"hash": "2f768f8dc4e27651cb4f1830daf0cc7911a60a15",
+"hash": "14ca0f0aa18bb6dacc527f3bfec1c94abdaefb3d",
 "stand": "2026-11-02"
 },
 "/agb/": {
@@ -52,7 +52,7 @@
 "stand": "2026-11-02"
 },
 "/datenschutz/": {
-"hash": "2d307251299fa1ae73004565b8de4afd772849b8",
+"hash": "5f6fb8dc6265fe885290abd45b4b2f442197fa8c",
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/": {
@@ -138,11 +138,11 @@
 "stand": "2026-11-02"
 },
 "/inhouse/": {
-"hash": "db6da97d508c108db7dd6db95bab054efa913fbf",
+"hash": "d7fcf66ee6de14bca8a9d04690d448e862cb401b",
 "stand": "2026-11-02"
 },
 "/kosten/": {
-"hash": "56c747709d41f12c83b87b169c01dcf0003843e8",
+"hash": "a7978db278d865ed7395113432057711c15bef3f",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -166,11 +166,11 @@
 "stand": "2026-11-02"
 },
 "/kurse/betriebssanitaeter-aufbaulehrgang/": {
-"hash": "02185988a3c7eabfb67ee11dcc02ac4914ac2e6b",
+"hash": "88b84a8385086d20ad384e581db30c9963d48927",
 "stand": "2026-11-02"
 },
 "/kurse/betriebssanitaeter-grundausbildung/": {
-"hash": "97a8fbf8760aa94517225fff4a0c45a1b22c48b4",
+"hash": "b8ec5bff6d3d6f91824026a5e9676fa81d69d9dd",
 "stand": "2026-11-02"
 },
 "/kurse/brandschutzhelfer/": {
@@ -203,24 +203,24 @@
 "stand": "2026-11-02"
 },
 "/kurse/lehrkraefte-ausbildung-tb1/": {
-"hash": "aaffd1c0924539b5793b05c05f49ba383ef7e23e",
-"stand": "2026-10-31"
+"hash": "d0cecde5060bd2fa075a82cebfbf852aaa14bba5",
+"stand": "2026-11-02"
 },
 "/kurse/lehrkraefte-ausbildung-tb2/": {
-"hash": "a2794295a0909deda122a513c6198ea7d56573eb",
-"stand": "2026-10-31"
+"hash": "04508f4c8caceb0a02dc0062ac617b807200bdd5",
+"stand": "2026-11-02"
 },
 "/kurse/lehrkraefte-fortbildung/": {
-"hash": "a32f64c00942a3c8c9355e239ed1d89e7813eb36",
-"stand": "2026-10-31"
+"hash": "31c59a71d5a649bb28c8ff9ecc6e72918ab43067",
+"stand": "2026-11-02"
 },
 "/kurse/notfalltraining/": {
 "hash": "f925b216f6286a57e4d999090c147e49c4b0a77a",
 "stand": "2026-11-02"
 },
 "/kurse/sanitaetshelfer/": {
-"hash": "57336caf80b2f70c709d2d88247ba791022a1515",
-"stand": "2026-10-19"
+"hash": "49bb854ca9fe2c0f6a81196627fbe875ee0004d6",
+"stand": "2026-11-02"
 },
 "/kursfinder/": {
 "hash": "f630270f2b9aa78288a1b42aa993680c8902f2d9",
@@ -555,8 +555,8 @@
 "stand": "2026-10-04"
 },
 "/ueber/": {
-"hash": "f19d38c73d3e2a8132abeebc1590b488e98e60d6",
-"stand": "2026-09-25"
+"hash": "5d5af5da3ef6417d22978623e5c8088d4fb915ca",
+"stand": "2026-11-02"
 },
 "/vergleich/": {
 "hash": "3b413d196a43ce3153e3469350185feeb4d6f128",
@@ -3261,8 +3261,8 @@
 "stand": "2026-09-01"
 },
 "/wissen/chronische-virushepatitis/": {
-"hash": "99d8bb1c6769f8fd2e89bc768580258673e19c81",
-"stand": "2026-09-16"
+"hash": "d7a9dd6cf7f50f332fb9e93a3b6c5743e3e74a28",
+"stand": "2026-11-02"
 },
 "/wissen/chronischer-posttraumatischer-kopfschmerz/": {
 "hash": "96089c62566896e23cb0d9cfa374340483437751",
