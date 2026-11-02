@@ -43,7 +43,14 @@ if not fehler:
                 break
         if len(fehler) > 20:
             break
+# Hinweiskasten „ersetzt keine ärztliche Untersuchung … 112“ (Gesundheitsseiten): darf nie weniger Seiten haben als live
+def hinweis_anzahl(rev):
+    out = subprocess.run(["git", "-C", ROOT, "grep", "-l", "-F", "ersetzt keine ärztliche", rev, "--", "wissen", "ratgeber"], capture_output=True, text=True).stdout
+    return len([x for x in out.split("\n") if x])
+n_live, n_neu = hinweis_anzahl(ref), hinweis_anzahl("HEAD")
+if n_neu < n_live:
+    fehler.append(f"Hinweiskasten 'ersetzt keine ärztliche Untersuchung' auf {n_neu} Wissens-/Ratgeberseiten, live {n_live}: Basis enthält den Kasten nicht (Vollbau/falsche Basis?)")
 if fehler:
     print("PUSH-SPERRE:\n  " + "\n  ".join(fehler[:20]))
     sys.exit(1)
-print(f"ok: {len(dateien)} Dateien gegen {ref} geprueft, keine verlorene Live-Kennung")
+print(f"ok: {len(dateien)} Dateien gegen {ref} geprueft, keine verlorene Live-Kennung, Hinweiskasten {n_neu} (live {n_live})")

@@ -809,6 +809,8 @@ body.menu-open .sticky-cta{display:none}
 .topbar b{color:#fff;font-weight:660}
 .topbar .tb-sep{opacity:.5}
 @media(max-width:520px){.topbar .tb-sep{display:none}}
+.topbar .tb-short{display:none}
+@media(max-width:600px){.topbar .tb-full{display:none}.topbar .tb-short{display:block;text-align:center;padding:0 8px}}
 .foot-angebot{font-size:.86rem;color:var(--muted);margin-top:6px}
 .foot-angebot b{color:var(--ink-2)}
 .foot-ort{font-size:.86rem;color:var(--muted);margin-top:4px}
