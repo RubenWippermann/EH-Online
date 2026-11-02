@@ -7,6 +7,7 @@ Ledger: tools/seiten-stand.json  {pfad: {"stand": "JJJJ-MM-TT", "hash": "<sha1>"
 Hash = sha1 des <main>-Inhalts ohne flüchtige Teile (Stand-Zeile, Stand im Haftungshinweis, vorgerenderte Termine inkl. Stand-Zeile, Skripte).
 Ablauf: Hash gleich -> Datum bleibt; Hash anders -> Datum = heute. Erster Lauf (Seite nicht im Ledger): Datum = max(sichtbarer Stand,
 bisheriger lastmod), Hash = aktuell.
+Seiten, die tools/sitemap-fokus.py aus der Sitemap genommen hat, werden hier nicht mehr verfolgt (Ledger bleibt eingefroren, lastmod-Fingerabdruck greift erst wieder nach Aufnahme).
 Aufruf im Repo-Root:  python3 tools/seiten-stand.py [--dry] [--rebase-hash (Hash nachziehen, Datum NICHT ändern: nur für technische Änderungen)] [--heute JJJJ-MM-TT] [--export <daten-datum.json des Generators>]
 --export schreibt die Daten in die daten-datum.json des Generators (geaendert = Stand, wo er von veroeffentlicht abweicht)."""
 import re, sys, os, json, glob, hashlib, datetime
