@@ -19,7 +19,7 @@ T = {
  'kurse/erste-hilfe-fortbildung': ('Fortbildungstermin finden und buchen', [
   'Zuerst klärst du, wann dein letzter Kurs war. Betriebliche Ersthelfer:innen werden nach der DGUV Vorschrift 1 in der Regel in Zeitabständen von zwei Jahren fortgebildet; der <a href="/auffrischung-rechner/">Auffrischungs-Rechner</a> nennt dir das Fristdatum auf den Tag.',
   'Danach wählst du im <a href="/kursfinder/">Kursfinder</a> den Anlass „Für Job &amp; Betrieb“ und siehst Format, Kostenträger und freie Termine. Die Fortbildung hat denselben Umfang wie die Ausbildung, nämlich neun Unterrichtseinheiten zu 45 Minuten. Wer bei einer verpassten Frist unsicher ist, findet die Auskunft des DGUV-Fachbereichs in den Fragen weiter unten.',
-  'Haben mehrere Beschäftigte im Betrieb denselben Fristablauf, lohnt ein gemeinsamer Termin. Ab acht Personen kommen wir bundesweit zu euch; die Anfrage dafür steht unter <a href="/inhouse/#anfrage">Kurs anfragen</a>.'],
+  'Haben mehrere Beschäftigte im Betrieb denselben Fristablauf, lohnt ein gemeinsamer Termin. Wir kommen bundesweit zu euch; die Anfrage dafür steht unter <a href="/inhouse/#anfrage">Kurs anfragen</a>.'],
   'Quelle: %s (Fortbildung in der Regel alle zwei Jahre, 9 Unterrichtseinheiten zu 45 Minuten).' % FAQ),
  'ratgeber/erste-hilfe-fuehrerschein': ('So meldest du dich für den Führerschein-Kurs an', [
   'Den Kurs für die Fahrerlaubnis buchst du online: Im <a href="/kursfinder/">Kursfinder</a> wählst du „Für den Führerschein“, öffnest die Ausbildung mit neun Unterrichtseinheiten und wählst einen Termin. Mehr als diesen einen Kurs brauchst du dafür nicht.',
@@ -32,9 +32,9 @@ T = {
   'Den passenden Termin findest du online im <a href="/kursfinder/">Kursfinder</a>: Anlass wählen, Format und Kostenträger ansehen, Termin buchen. Das Datum deiner nächsten Auffrischung rechnet der <a href="/auffrischung-rechner/">Auffrischungs-Rechner</a> aus.'],
   'Quelle: %s, §&nbsp;19; %s.' % (FEV, FAQ)),
  'inhouse': ('So läuft die Anfrage für Kurse bei euch im Betrieb', [
-  'Der Kurs findet bei euch statt, egal wo ihr sitzt: Ab acht Personen reisen wir zu euch, ob Betrieb, Kita, Schule oder Verein. Damit die Rückmeldung mit Terminvorschlag und Preis schnell kommt, helfen drei Angaben im Formular oben: welcher Kurs, wie viele Personen, in welchem Zeitraum.',
+  'Der Kurs findet bei euch statt, egal wo ihr sitzt: Wir reisen zu euch, ob Betrieb, Kita, Schule oder Verein. Damit die Rückmeldung mit Terminvorschlag und Preis schnell kommt, helfen drei Angaben im Formular oben: welcher Kurs, wie viele Personen, in welchem Zeitraum.',
   'Welcher Kurs passt, klärt der <a href="/kursfinder/">Kursfinder</a>. Wie viele Ersthelfer:innen ihr benennen müsst, rechnet der <a href="/ersthelfer-rechner/">Ersthelfer-Rechner</a> aus. Wer die Kosten trägt, steht auf der Seite <a href="/kosten/">Kosten &amp; Abrechnung</a>; für benannte Ersthelfer:innen übernimmt in der Regel der Unfallversicherungsträger die Lehrgangsgebühr.',
-  'Ist die Gruppe kleiner als acht Personen, stehen auf den Kursseiten offene Termine, die ihr einzeln buchen könnt.'],
+  'Wer lieber einzeln teilnimmt, findet auf den Kursseiten offene Termine, die ihr einzeln buchen könnt.'],
   'Quelle: Angaben auf dieser Seite sowie auf <a href="/kosten/">Kosten &amp; Abrechnung</a>.'),
  'kurse/lehrkraefte-ausbildung-tb1': ('Themenbereich 1 buchen und mit Themenbereich 2 zusammen planen', [
   'Themenbereich 1 ist die erste von zwei Stufen. Die Ausbildung zur Lehrkraft für Erste Hilfe besteht aus Themenbereich I mit 24 und Themenbereich II mit 32 Unterrichtseinheiten, zusammen mindestens 56. Für die Anmeldung heißt das: Du buchst zwei getrennte Kurse, und der zweite baut auf dem ersten auf.',
