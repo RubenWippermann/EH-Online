@@ -1,6 +1,6 @@
 {
 "/": {
-"hash": "14ca0f0aa18bb6dacc527f3bfec1c94abdaefb3d",
+"hash": "30a37dcfcee17db6c45217e831f7d26944fddc81",
 "stand": "2026-11-02"
 },
 "/agb/": {
@@ -52,7 +52,7 @@
 "stand": "2026-11-02"
 },
 "/datenschutz/": {
-"hash": "5f6fb8dc6265fe885290abd45b4b2f442197fa8c",
+"hash": "3100891fcf3cebcbd0dfa5d17fb534bede6a433d",
 "stand": "2026-11-02"
 },
 "/erste-hilfe-kurs/": {
@@ -243,7 +243,7 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/betriebliche-ersthelfer/": {
-"hash": "4e963e0c5c2ef0bbce1d2a0f86f05494dc5a0ce5",
+"hash": "b8fea44f55941b56c0e10d45367ca81e4efcf255",
 "quellen": [
 {
 "gelesen": "2026-11-02",
@@ -289,8 +289,8 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-betrieb-pflichten/": {
-"hash": "39a334b8fff08568cc350ae48f1165e69a170e7c",
-"stand": "2026-10-19"
+"hash": "fbd175dd2d45dff1eb98f8449460baf533c82f0a",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-fieberkrampf-kind/": {
 "hash": "970b5177d1c0a7abb262920c27eeb846992e1715",
