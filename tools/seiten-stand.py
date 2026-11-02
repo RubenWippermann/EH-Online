@@ -4,7 +4,7 @@ Dasselbe Datum steht (1) sichtbar als "Stand: TT. Mon. JJJJ" unter der H1 (und i
 (3) als <lastmod> in sitemap.xml.
 
 Ledger: tools/seiten-stand.json  {pfad: {"stand": "JJJJ-MM-TT", "hash": "<sha1>"}}.
-Hash = sha1 des <main>-Inhalts ohne flüchtige Teile (Stand-Zeile, Stand im Haftungshinweis, vorgerenderte Termine inkl. Stand-Zeile, Skripte).
+Hash = sha1 des <main>-Inhalts ohne flüchtige Teile (Stand-Zeile, Stand im Haftungshinweis, vorgerenderte Termine inkl. Stand-Zeile, Skripte, Weiterlesen-Kartenraster, Linkziele <a href>; Linktext zählt). Reine Verlinkung bumpt das Datum nicht.
 Ablauf: Hash gleich -> Datum bleibt; Hash anders -> Datum = heute. Erster Lauf (Seite nicht im Ledger): Datum = max(sichtbarer Stand,
 bisheriger lastmod), Hash = aktuell.
 Seiten, die tools/sitemap-fokus.py aus der Sitemap genommen hat, werden hier nicht mehr verfolgt (Ledger bleibt eingefroren, lastmod-Fingerabdruck greift erst wieder nach Aufnahme).
@@ -40,6 +40,8 @@ KS = re.compile(r'(<p class="muted k-stand"[^>]*>)(.*?)(</p>)', re.S)
 HIN = re.compile(r'(<aside class="note medizin-hinweis" role="note">.*?im Notfall an die 112\.)( Stand: [^<]*?\.)?(</aside>)', re.S)
 TERM = re.compile(r'<div class="termine rv"[^>]*data-prerendered="1">.*?<p class="termine-stand">.*?</p></div>', re.S)
 
+WL = re.compile(r'(Weiterlesen</h2></div>\s*<div class="grid g3">).*?(</div></section>)', re.S)
+
 
 def inhalt_hash(t):
     i, j = t.find("<main"), t.find("</main>")
@@ -48,6 +50,8 @@ def inhalt_hash(t):
     m = KS.sub("", m)
     m = HIN.sub(r"\1\3", m)
     m = TERM.sub("", m)
+    m = WL.sub(r"\1\2", m)  # Weiterlesen-Kartenraster zählt nicht (reine Verlinkung)
+    m = re.sub(r"<a [^>]*>(.*?)</a>", r"\1", m, flags=re.S)  # Linkziele zählen nicht, Linktext schon
     m = re.sub(r"\s+", " ", m)
     return hashlib.sha1(m.encode("utf-8")).hexdigest()
 
