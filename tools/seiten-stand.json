@@ -1,7 +1,7 @@
 {
 "/": {
-"hash": "def94b4686f6708588f62d5beb6aa9077050f4a6",
-"stand": "2026-11-01"
+"hash": "4a87ce46611b5f2624ab3c51d15b958f37ed91c8",
+"stand": "2026-11-02"
 },
 "/agb/": {
 "hash": "21ffb2d4ba7aeab7eeaeb9faaa2aefd14911f0dc",
@@ -24,12 +24,12 @@
 "stand": "2026-10-04"
 },
 "/branchen/behoerden/": {
-"hash": "69d00fc6325fb41735b28b7eb41d403965ee7523",
-"stand": "2026-10-07"
+"hash": "d5fc19ace101c5fe8fc42a3721f55a9d85507bcd",
+"stand": "2026-11-02"
 },
 "/branchen/betrieb/": {
-"hash": "28189699361881174d7edec8294be14c5d774078",
-"stand": "2026-10-07"
+"hash": "d19db40ad526a3d1ee124f2ac169a9f201a8b633",
+"stand": "2026-11-02"
 },
 "/branchen/betriebssanitaeter/": {
 "hash": "38e10ff32a6d0c8fc5dbbd6873ea44900e11195d",
@@ -44,12 +44,12 @@
 "stand": "2026-10-07"
 },
 "/branchen/schulen/": {
-"hash": "2757ada38dee56e061632097bf5573c81e8a11b4",
-"stand": "2026-10-20"
+"hash": "b77258b3319933473cb1cb641dbd936630018888",
+"stand": "2026-11-02"
 },
 "/branchen/verein/": {
-"hash": "39e6426ba3c2416a5eff7f6b62ad67b609c5d5b9",
-"stand": "2026-10-20"
+"hash": "d53e0f875a8163b4e1d5336ff89367af5caea3b2",
+"stand": "2026-11-02"
 },
 "/datenschutz/": {
 "hash": "26ec32c6f6078218e099836cd1492bde7119cd3c",
@@ -152,8 +152,8 @@
 "stand": "2026-11-02"
 },
 "/kurse/": {
-"hash": "4a12a2d93724f115d0e503aaaa0fe669501523b5",
-"stand": "2026-10-07"
+"hash": "a84d716617a0688c435170ee24ab229e874b5cc9",
+"stand": "2026-11-02"
 },
 "/kurse/betriebssanitaeter-aufbaulehrgang/": {
 "hash": "02185988a3c7eabfb67ee11dcc02ac4914ac2e6b",
@@ -168,8 +168,8 @@
 "stand": "2026-10-19"
 },
 "/kurse/erste-hilfe-ausbildung/": {
-"hash": "bac76dd9b94d546fe99db2289d8eac73357b9b5f",
-"stand": "2026-10-19"
+"hash": "33f124eec78615c375a8da20019b4fd69421f5ad",
+"stand": "2026-11-02"
 },
 "/kurse/erste-hilfe-baby-kind/": {
 "hash": "bd2fc97fdc3de3b6e446681903b3053051fe3b69",
@@ -180,8 +180,8 @@
 "stand": "2026-11-01"
 },
 "/kurse/erste-hilfe-fortbildung/": {
-"hash": "98b86d91772d689aa194481f6524c8646b357713",
-"stand": "2026-10-19"
+"hash": "57508712fb333f47cc56ded1c2a16124cd59cf4b",
+"stand": "2026-11-02"
 },
 "/kurse/lehrkraefte-ausbildung-tb1/": {
 "hash": "aaffd1c0924539b5793b05c05f49ba383ef7e23e",
@@ -208,8 +208,8 @@
 "stand": "2026-10-07"
 },
 "/ratgeber/": {
-"hash": "3457d597ea17c1ce61ec3239a4062b18741c3e67",
-"stand": "2026-11-01"
+"hash": "7a473f127c7215c42829d85d9a8e77a90d2bbd06",
+"stand": "2026-11-02"
 },
 "/ratgeber/aed-defibrillator-wo-wer-darf/": {
 "hash": "b9c1f0562852da2622808a92b42c97be1449e2c2",
@@ -220,8 +220,8 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/ausbildung-oder-fortbildung/": {
-"hash": "3d1c3c623f9566f5d5c8cedc3ed0997854ca8c08",
-"stand": "2026-10-19"
+"hash": "8770ed1533e45c0a1b2ff3b8bd67b2fa3ad1512b",
+"stand": "2026-11-02"
 },
 "/ratgeber/betriebliche-ersthelfer/": {
 "hash": "32b990601855e728d3e07e2d93b6b39b821930ec",
@@ -240,7 +240,7 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-auffrischung/": {
-"hash": "da406e1112b11b07d6f963e79ba13be3eb9076ba",
+"hash": "88138b8ffa62ca8ae23697832f91546f2db73e5d",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -368,8 +368,8 @@
 "stand": "2026-10-07"
 },
 "/ratgeber/erste-hilfe-kurs-online/": {
-"hash": "bd448f35a319ba5f93994b3510b0c38a3b0a741a",
-"stand": "2026-09-25"
+"hash": "ad90fabb751a095877b30f1bf0863b397083dd2c",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-kurs-stornieren-umbuchen/": {
 "hash": "e64620f38620f116d615cb76fe89f64b837799ca",
@@ -400,7 +400,7 @@
 "stand": "2026-10-19"
 },
 "/ratgeber/erste-hilfe-pflicht-haftung/": {
-"hash": "d391fc3ced6e951faba4c3bcad932f4ddaa381bb",
+"hash": "2297fdf63aed0a0bcc6551ef41d01015f88b630d",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -409,7 +409,7 @@
 "url": "https://www.gesetze-im-internet.de/stgb/__323c.html"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-qualifikationen-ueberblick/": {
 "hash": "47d2df7d10712e2004f8b8ad2a9df91dd6664338",
@@ -420,7 +420,7 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-strassenverkehr-pflichten/": {
-"hash": "c4dc401dac825007883b196aa43130362a53a481",
+"hash": "0af699c031af14c8fe1f60cd0f45499f49edf0ec",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -435,7 +435,7 @@
 "url": "https://www.gesetze-im-internet.de/stvo_2013/__15.html"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-studium/": {
 "hash": "77480d4922452d070ec7a0c1cd2bbce60a9474c7",
@@ -512,12 +512,12 @@
 "stand": "2026-10-07"
 },
 "/ratgeber/welcher-kurs-zaehlt-wofuer/": {
-"hash": "32d927e36f2544e4f568e6fbf90e1b443856951a",
-"stand": "2026-10-19"
+"hash": "610cc510085547234b9fb15848e9aace43cee14f",
+"stand": "2026-11-02"
 },
 "/ratgeber/wie-laeuft-ein-erste-hilfe-kurs-ab/": {
-"hash": "972ea075b6d66bd7a72e86ec4e23269725a58eee",
-"stand": "2026-10-19"
+"hash": "7135ee4fd82dec767d22bc72143e45cf99ee67e7",
+"stand": "2026-11-02"
 },
 "/ratgeber/wie-lange-dauert-erste-hilfe-kurs/": {
 "hash": "218529440333393c881d4735ec4b50bbf5c646c6",
@@ -540,8 +540,8 @@
 "stand": "2026-09-25"
 },
 "/vergleich/": {
-"hash": "f4654719de28629b06b4b2ef47f7446c0ab905a9",
-"stand": "2026-10-07"
+"hash": "3b413d196a43ce3153e3469350185feeb4d6f128",
+"stand": "2026-11-02"
 },
 "/widerruf/": {
 "hash": "dbd1908bb940564a251cfe00beb5ba03aeac15ed",
