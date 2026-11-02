@@ -142,17 +142,19 @@
 "stand": "2026-11-02"
 },
 "/kosten/": {
-"hash": "9138e4bda2616cb6ae46278f22f66a458cf04f41",
+"hash": "9ca712b7742e4094139c4e149c16f81af8e1dca0",
 "quellen": [
 {
-"gelesen": "2026-11-02",
+"gelesen": "2026-11-01",
 "name": "DGUV Fachbereich Erste Hilfe: Lehrgangsgebühren ab 01.01.2026 (Stand 09.09.2025), ab 01.01.2027 (Stand September 2026), FAQ 6.1-6.5",
+"pruefung": "FAQ-Seite per Seitenabruf gelesen, Antworten sinngemäß (kein PDF, kein Seitendatum); gelesen: 4.1, 5.1, 5.2, 6.1, 6.2 am 01.11.2026",
 "punkte": "Pauschgebühr 46,31 € je Teilnehmenden (Lehrgänge ab 01.01.2026) und 48,63 € (ab 01.01.2027) für Ausbildung, Fortbildung, Schulung in Bildungs- und Betreuungseinrichtungen; Abrechnung Ausbildungsstelle - Träger; nur Anwesende; Mehrkosten nur nach Zusatzvertrag.",
 "url": "https://dguv.de/fb-erstehilfe/nachrichten/meldungen-2025/lehrgangsgebuehren-2026/index.jsp"
 },
 {
-"gelesen": "2026-11-02",
-"name": "DGUV Vorschrift 1 § 26 Abs. 2 (Original Nov. 2013), DGUV Fachbereich Erste Hilfe FAQ 6.1, 6.2 (Abruf 02.11.2026)",
+"gelesen": "2026-11-01",
+"name": "DGUV Vorschrift 1 § 26 Abs. 2 (Original Nov. 2013), DGUV Fachbereich Erste Hilfe FAQ 6.1, 6.2 (Abruf 01.11.2026)",
+"pruefung": "FAQ-Seite per Seitenabruf gelesen, Antworten sinngemäß (kein PDF, kein Seitendatum); gelesen: 4.1, 5.1, 5.2, 6.1, 6.2 am 01.11.2026",
 "punkte": "Ausbildung durch ermächtigte Stelle, Abrechnung Ausbildungsstelle-Träger",
 "url": "https://www.dguv.de/fb-erstehilfe/faq/index.jsp"
 }
@@ -184,11 +186,12 @@
 "stand": "2026-10-19"
 },
 "/kurse/erste-hilfe-bildungseinrichtungen/": {
-"hash": "f35b88e8f2f729b2529f07b73b58e367ce5b58c0",
+"hash": "eaed92dbf0ee8bda90773529fdf5caa25cd28f47",
 "quellen": [
 {
-"gelesen": "2026-11-02",
+"gelesen": "2026-11-01",
 "name": "DGUV Vorschrift 1 § 26 Abs. 1, 3 (Originalfassung Nov. 2013) und DGUV Fachbereich Erste Hilfe FAQ 4.1, 5.1, 5.2 (Abruf 01.11.2026)",
+"pruefung": "FAQ-Seite per Seitenabruf gelesen, Antworten sinngemäß (kein PDF, kein Seitendatum); gelesen: 4.1, 5.1, 5.2, 6.1, 6.2 am 01.11.2026",
 "punkte": "Fortbildung alle 2 Jahre, keine eigene Kita-Frist; Kita je Kindergruppe bei >20 Versicherten; Schulung Erwachsene + Kind.",
 "url": "https://www.dguv.de/fb-erstehilfe/faq/index.jsp"
 }
