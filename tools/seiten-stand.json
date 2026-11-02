@@ -178,8 +178,16 @@
 "stand": "2026-10-19"
 },
 "/kurse/erste-hilfe-bildungseinrichtungen/": {
-"hash": "39d8b16253dad42a9ec00f100b6a5110492502a9",
-"stand": "2026-11-01"
+"hash": "f35b88e8f2f729b2529f07b73b58e367ce5b58c0",
+"quellen": [
+{
+"gelesen": "2026-11-02",
+"name": "DGUV Vorschrift 1 § 26 Abs. 1, 3 (Originalfassung Nov. 2013) und DGUV Fachbereich Erste Hilfe FAQ 4.1, 5.1, 5.2 (Abruf 01.11.2026)",
+"punkte": "Fortbildung alle 2 Jahre, keine eigene Kita-Frist; Kita je Kindergruppe bei >20 Versicherten; Schulung Erwachsene + Kind.",
+"url": "https://www.dguv.de/fb-erstehilfe/faq/index.jsp"
+}
+],
+"stand": "2026-11-02"
 },
 "/kurse/erste-hilfe-fortbildung/": {
 "hash": "57508712fb333f47cc56ded1c2a16124cd59cf4b",
@@ -326,8 +334,8 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-kindertagespflege-tagesmutter/": {
-"hash": "cbb395605c6f888b858ab9ff0f9aecac76ea4cda",
-"stand": "2026-11-01"
+"hash": "a2723e08b6a87783cb71fad3393c63fd3ab64385",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-kita-schule/": {
 "hash": "f9c6fbb62fa753eb7ec07ee40c31cc85b79a2fd3",
@@ -390,8 +398,8 @@
 "stand": "2026-10-04"
 },
 "/ratgeber/erste-hilfe-notfaelle-kita/": {
-"hash": "5c290d3bb71041d6f033f3176a8523d3b9f4e65b",
-"stand": "2026-11-01"
+"hash": "d8d6512418f8684672cd887fabb6a863f26b7b09",
+"stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-notfaelle-pflege/": {
 "hash": "13fb5eca9b457f0acbccef4775653a2149ef2646",
@@ -494,7 +502,7 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/ersthelfer-kita-schule-anzahl/": {
-"hash": "f6b7e8fe951da87d3e75bedee14430aa2287b7d1",
+"hash": "02ab46e72b84b5b75ddbe27290945b1ff8cc0192",
 "quellen": [
 {
 "gelesen": "2026-11-02",
