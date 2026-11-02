@@ -1143,3 +1143,16 @@ li>a:only-child,p>a:only-child,a[href^="tel:"],.sources li>b>a:only-child{displa
 @media (max-width:720px) and (prefers-reduced-motion:no-preference){
   .js .steps4.rv.in::before{animation-name:ehLinieV}}
 @keyframes ehLinieV{from{transform:scaleY(.001)}to{transform:none}}
+
+/* ---------- Hero-Loop (KI-generiert) im Panel rechts, nur Desktop; Poster immer, Video erst nach window load (assets/hero-video.js) ---------- */
+.hero-media{display:none}
+@media(min-width:1024px){
+  .hero-media{display:block;position:relative;aspect-ratio:16/9;margin:0 0 16px;border-radius:var(--r);overflow:hidden;background:var(--bg-soft)}
+  .hero-media img,.hero-media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .hero-media-label{position:absolute;right:8px;bottom:8px;padding:2px 8px;border-radius:6px;background:rgba(0,0,0,.68);color:#fff;font-size:.72rem;font-weight:600;line-height:1.5;letter-spacing:.02em}
+  .hero-media-pause{position:absolute;left:8px;bottom:8px;width:32px;height:32px;border:0;border-radius:50%;background:rgba(0,0,0,.68);color:#fff;cursor:pointer;padding:0}
+  .hero-media-pause::before{content:"";position:absolute;left:11px;top:9px;width:4px;height:14px;background:currentColor;box-shadow:7px 0 0 currentColor}
+  .hero-media-pause[data-state="pause"]::before{left:12px;top:9px;width:0;height:0;background:none;box-shadow:none;border-left:11px solid currentColor;border-top:7px solid transparent;border-bottom:7px solid transparent}
+  .hero-media-pause:focus-visible{outline:2px solid #fff;outline-offset:2px}
+}
+.foot-ki{margin:0 0 6px;font-size:.82rem;color:var(--muted)}
