@@ -1,7 +1,7 @@
 {
 "/": {
-"hash": "190dbf2608021846699a5b5d3c76d09d49b0e1b2",
-"stand": "2026-11-02"
+"hash": "c6f5c5e2d57127161a90843948efb67c23895c39",
+"stand": "2026-11-04"
 },
 "/agb/": {
 "hash": "d25cf5ccdab9485e880179b3d7c3d5f97b06bb53",
@@ -138,8 +138,8 @@
 "stand": "2026-11-02"
 },
 "/inhouse/": {
-"hash": "8a48662749ce8317be2fa8aec0d023c3f4b6a774",
-"stand": "2026-11-02"
+"hash": "e0a04ee6e4d0ea89ba36b14662f061e0a8e3d3d1",
+"stand": "2026-11-04"
 },
 "/kosten/": {
 "hash": "622683b32e24c6dd26f64dc4d26b227e4e418a03",
@@ -162,8 +162,8 @@
 "stand": "2026-11-02"
 },
 "/kurse/": {
-"hash": "aa6edcc09993ed384b7d5910c5180697c143ba5a",
-"stand": "2026-11-02"
+"hash": "10135791b84e9a4ccec1b41269040bdaaeb1df3b",
+"stand": "2026-11-04"
 },
 "/kurse/betriebssanitaeter-aufbaulehrgang/": {
 "hash": "81d18fe6f7ef99a517a661ea9ff497bdb1686a1f",
@@ -223,8 +223,8 @@
 "stand": "2026-11-02"
 },
 "/kursfinder/": {
-"hash": "bef21505ee77706cc132d9355351a9c7e9d72eb8",
-"stand": "2026-10-07"
+"hash": "feb9120c30ef06e3b0080976fd152c53c9d9f800",
+"stand": "2026-11-04"
 },
 "/ratgeber/": {
 "hash": "2efbfa77da5b4d26e37822acda37d4577d361fbc",
@@ -599,7 +599,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/abnorme-gewohnheiten-und-stoerungen-der-impulskontrolle/": {
-"hash": "32b8d54913b182212f2e1af82e59d924ccd66e35",
+"hash": "6dae6dc63a3bcfec3803b0e3a43e5aeb3b143aaa",
 "stand": "2026-09-07"
 },
 "/wissen/abnorme-liquorbefunde/": {
@@ -719,7 +719,7 @@
 "stand": "2026-10-20"
 },
 "/wissen/adrenogenitale-stoerungen/": {
-"hash": "872fdd3cead9757cc97ff5db1b376b3771c40287",
+"hash": "2088d559a0a837a1e9180a8694e7bd983565ba99",
 "stand": "2026-09-21"
 },
 "/wissen/adrenogenitales-syndrom-ags-im-kindes-und-jugendalter/": {
@@ -1023,7 +1023,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/akute-voruebergehende-psychotische-stoerungen/": {
-"hash": "40c38c5defe19e7ab8dbec914a0ea021b1074ee3",
+"hash": "2735099f97bc7afe6ff61e999f5dd1bf6f0cdaa2",
 "stand": "2026-09-08"
 },
 "/wissen/akute-vulvitis/": {
@@ -1095,7 +1095,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/albtraeume-angsttraeume/": {
-"hash": "283d318c4ab4b4446dff23f073e3cf4788393809",
+"hash": "0cab402d853a6c8b4d02b87d64e7f9c8f94095e8",
 "stand": "2026-09-15"
 },
 "/wissen/alimentaerer-kalziummangel/": {
@@ -1341,31 +1341,31 @@
 "stand": "2026-11-01"
 },
 "/wissen/andauernde-persoenlichkeitsaenderung-nach-psychischer-krankheit/": {
-"hash": "581e3d519d2741099ffd3c75841ecd7822486adc",
+"hash": "5d1940be0cd4200176e73be9b76a0f799e460f0b",
 "stand": "2026-09-17"
 },
 "/wissen/andauernde-persoenlichkeitsaenderungen-nicht-folge-einer-schaedigung-oder-krankheit-des-gehirns/": {
-"hash": "f78d72747cf77bf6b89acefb34ecc51fd7bda995",
+"hash": "1a193b2d5c0a0067c8c396eb99e87bcbcbbd4788",
 "stand": "2026-09-07"
 },
 "/wissen/andere-affektive-stoerungen/": {
-"hash": "9cbaa7be1a4c9a7472e3c58a1bb46ee53a21424b",
+"hash": "dafc340440ded57f28a111409aee7329d9185438",
 "stand": "2026-09-08"
 },
 "/wissen/andere-angststoerungen/": {
-"hash": "6175b915a5d2c1c69484db324790d38381bfb458",
+"hash": "082e765df1b30ca0d3e0e981751590d92fc6a6fd",
 "stand": "2026-09-07"
 },
 "/wissen/andere-desintegrative-stoerung-des-kindesalters/": {
-"hash": "5ce3728a160c48fa22a6c25796d758b86ffff995",
+"hash": "a12cb6f37c3ea0d2b6a2a9aedd5f4fb7337fe905",
 "stand": "2026-09-17"
 },
 "/wissen/andere-entwicklungsstoerungen/": {
-"hash": "2a572abe21d558cd2ab66556e9ecac5c84083814",
+"hash": "7c5631c5c68e027d67d8599b1acd8d3acdb9ea3a",
 "stand": "2026-09-17"
 },
 "/wissen/andere-intelligenzminderung/": {
-"hash": "e8e530c5ceb5136ca1bdcfb4dbe5bf32902ff06c",
+"hash": "83d0a6289a3a375ce2e7d83f92e30bc48ce56231",
 "stand": "2026-09-17"
 },
 "/wissen/andere-neurotische-stoerungen/": {
@@ -1377,7 +1377,7 @@
 "stand": "2026-09-17"
 },
 "/wissen/andere-psychische-stoerungen-aufgrund-einer-schaedigung-oder-funktionsstoerung-des-gehirns-oder-einer-koerperlichen-krankheit/": {
-"hash": "31c591a4ecaa3330590597c6a4ce7b283dbd18a0",
+"hash": "b2ea4c8013e541b35ec26876003288f696ce3092",
 "stand": "2026-09-17"
 },
 "/wissen/andere-verhaltens-und-emotionale-stoerungen-mit-beginn-in-der-kindheit-und-jugend/": {
@@ -1825,11 +1825,11 @@
 "stand": "2026-09-01"
 },
 "/wissen/anhaltende-affektive-stoerungen/": {
-"hash": "d935a1d25974a205ff95cdfefa0f7b1adf5070eb",
+"hash": "2252c3042392be58c33e483d8d16b93ab59ab70d",
 "stand": "2026-09-07"
 },
 "/wissen/anhaltende-schmerzstoerung/": {
-"hash": "5919ef69babd5ddf602c4a4bf6060640861b4266",
+"hash": "749063fb3d542aa4654fee2ef901b2146a8bca89",
 "stand": "2026-09-17"
 },
 "/wissen/anhaltende-wahnhafte-stoerung/": {
@@ -1893,7 +1893,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/anorexia-nervosa/": {
-"hash": "b60413fac8ad87f657efe139dd83efb994a6f7a4",
+"hash": "3b5c17d5d60805a6481aa513f915a9510f1966df",
 "stand": "2026-09-15"
 },
 "/wissen/anterograde-amnesie/": {
@@ -2105,7 +2105,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/artifizielle-stoerung-absichtliches-erzeugen-oder-vortaeuschen-von-koerperlichen-oder-psychischen-symptomen-oder-behinderungen/": {
-"hash": "fd0baede567728bb7ab208f622bdc2f3baad689c",
+"hash": "5192f82b0ff74dc744244fe30045405e08f31a67",
 "stand": "2026-09-17"
 },
 "/wissen/artikulationsstoerung/": {
@@ -2145,7 +2145,7 @@
 "stand": "2026-09-08"
 },
 "/wissen/asperger-syndrom/": {
-"hash": "a0ccf3cc45ba33011c28d0e0e4330ec31f5aedfb",
+"hash": "15cc8656633d0b441caf85e7d8f51f87f6241b55",
 "stand": "2026-09-17"
 },
 "/wissen/aspergillose/": {
@@ -2305,11 +2305,11 @@
 "stand": "2026-09-16"
 },
 "/wissen/atypische-anorexia-nervosa/": {
-"hash": "3e2dd76020cfa826407e7930577638506c615202",
+"hash": "6d1eede93aff1a2ebc5183845eac710e7ef298c1",
 "stand": "2026-09-17"
 },
 "/wissen/atypische-bulimia-nervosa/": {
-"hash": "c3bdf397d4d722dbba0563599f2b4e05374d95f6",
+"hash": "54022f2e6ab81ca59da7e8fbe1e2796027cc4197",
 "stand": "2026-09-17"
 },
 "/wissen/atypische-mykobakterien-oder-nocardia-mit-resistenz-gegen-ein-oder-mehrere-erstrangmedikamente/": {
@@ -2317,7 +2317,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/atypischer-autismus/": {
-"hash": "5750ee01a577a6b112d662684d3e8922b89fce3a",
+"hash": "26247184589699d69eea728b6eacdad9c1181fa5",
 "stand": "2026-09-17"
 },
 "/wissen/atypischer-gesichtsschmerz/": {
@@ -2325,7 +2325,7 @@
 "stand": "2026-09-17"
 },
 "/wissen/auf-den-familiaeren-rahmen-beschraenkte-stoerung-des-sozialverhaltens/": {
-"hash": "efec480d156bb173a74e38193f71699d59b7b184",
+"hash": "eacac0f5556575a817122b193aa8590141acdad1",
 "stand": "2026-09-17"
 },
 "/wissen/auflagerungen-belaege-auf-den-zaehnen/": {
@@ -2621,7 +2621,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/bindungsstoerung-des-kindesalters-mit-enthemmung/": {
-"hash": "f15edee9b8d6a7d67bdf1e32918dda45090322d9",
+"hash": "105f3bc877322ce261e293b307bb1a1e5d416fe7",
 "stand": "2026-09-17"
 },
 "/wissen/binnenschaedigung-des-kniegelenkes-internal-derangement/": {
@@ -2877,7 +2877,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/bulimia-nervosa/": {
-"hash": "892301abde76b17c75104ad35fbb0b291f2801e4",
+"hash": "028bdb3e837bb5df2d11ad2b34f3d3a59c548147",
 "stand": "2026-09-15"
 },
 "/wissen/bulloeses-pemphigoid/": {
@@ -3177,7 +3177,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/chronische-motorische-oder-vokale-ticstoerung/": {
-"hash": "bcfc17c5286d0b722f054e1ab4a51418a42538eb",
+"hash": "1f926cc5bd3d335e22336a1747fcab47c3641ff0",
 "stand": "2026-09-17"
 },
 "/wissen/chronische-muedigkeit-fatigue/": {
@@ -3513,7 +3513,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/depersonalisations-und-derealisationssyndrom/": {
-"hash": "f0c9b766e4ae6eb73d66d4d223f31a3e31d9eef9",
+"hash": "cdbe2bb70e95a9a2a1997c25f5977cae8dc96a95",
 "stand": "2026-09-17"
 },
 "/wissen/depression/": {
@@ -3521,7 +3521,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/depressive-episode/": {
-"hash": "1577634916c8bc89fe72866f631f0aceab83190e",
+"hash": "f19d9ec9760ad531b6373191d23908bfad970456",
 "stand": "2026-09-21"
 },
 "/wissen/dermatitis-durch-aufgenommene-nahrungsmittel/": {
@@ -3677,7 +3677,7 @@
 "stand": "2026-09-07"
 },
 "/wissen/dissoziale-persoenlichkeitsstoerung/": {
-"hash": "a12921dfda95ab8602a5b87cdcbe505a29991e7e",
+"hash": "6d0fe0275989234016885ea20ace45fdbd429ebd",
 "stand": "2026-09-17"
 },
 "/wissen/dissoziative-amnesie/": {
@@ -3685,7 +3685,7 @@
 "stand": "2026-09-17"
 },
 "/wissen/dissoziative-bewegungsstoerungen/": {
-"hash": "d19e3a1b20a1186abc75cefcfba9def1006dc2cb",
+"hash": "139657b52472ba97e9a8c5b32db1406309698a2c",
 "stand": "2026-09-17"
 },
 "/wissen/dissoziative-fugue/": {
@@ -3693,11 +3693,11 @@
 "stand": "2026-09-17"
 },
 "/wissen/dissoziative-krampfanfaelle/": {
-"hash": "2c3bb07b5cea42d297da7d27ee6a21debbd87b54",
+"hash": "fe0e5d8cbdb822752276f78dee96da65291272ac",
 "stand": "2026-09-17"
 },
 "/wissen/dissoziative-sensibilitaets-und-empfindungsstoerungen/": {
-"hash": "7345250dda725a89ef9b3cd1f3fb035acac52e32",
+"hash": "7d640413807e579099ec3224923ccdff801ffe36",
 "stand": "2026-09-17"
 },
 "/wissen/dissoziative-stoerungen/": {
@@ -3705,7 +3705,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/dissoziativer-stupor/": {
-"hash": "b4b2309c3731166fc755b76bfb4ff53e220f2ed5",
+"hash": "2f36c84a4ea5271bf6ea368cd6eaf58b985a1e58",
 "stand": "2026-09-17"
 },
 "/wissen/dissoziierte-intelligenz/": {
@@ -3877,7 +3877,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/dysthymia/": {
-"hash": "3991707e911bbf686b9a6744a4c9551e24ec414e",
+"hash": "dee4dc16219aa9f10056f393351084ecf4cc3a06",
 "stand": "2026-09-15"
 },
 "/wissen/dystonie/": {
@@ -3949,7 +3949,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/ejaculatio-praecox/": {
-"hash": "97044fd1a79a2b6edaab85144ba0d15efeea995a",
+"hash": "5ea9f153bc3fbfe23aad0eb89e4bbe06c055a119",
 "stand": "2026-09-15"
 },
 "/wissen/ekg-elektrokardiogramm/": {
@@ -4013,7 +4013,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/elektiver-mutismus/": {
-"hash": "33028d20a8254f17072ff47205c085a5dffb3ffa",
+"hash": "3a6c3a831565d4b01c2919f82034f05528eeba77",
 "stand": "2026-09-15"
 },
 "/wissen/elektrolyte-natrium-kalium/": {
@@ -4045,11 +4045,11 @@
 "stand": "2026-09-21"
 },
 "/wissen/emotionale-stoerung-mit-geschwisterrivalitaet/": {
-"hash": "e6f2a82087d0139cb1070128de6cc91443a8ce43",
+"hash": "e6a9790d428a3339cdcfd7d4fd50122215f7484f",
 "stand": "2026-09-17"
 },
 "/wissen/emotionale-stoerung-mit-trennungsangst-des-kindesalters/": {
-"hash": "8355ea12667fc8543a2ec8fcf925d4253dd512ad",
+"hash": "ab16c001bcb73fabf7e522d67a50fa83645f65c1",
 "stand": "2026-09-17"
 },
 "/wissen/emotionale-stoerungen-des-kindesalters/": {
@@ -4149,7 +4149,7 @@
 "stand": "2026-09-05"
 },
 "/wissen/entwicklung-koerperlicher-symptome-aus-psychischen-gruenden/": {
-"hash": "bd9a632c088825d7074e5cf0f239eb085b581f27",
+"hash": "0240d7b54c3fabf9d1153f972139691d7dbd035e",
 "stand": "2026-09-17"
 },
 "/wissen/entwicklungsbedingte-krankheiten-der-kiefer/": {
@@ -4301,7 +4301,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/erbrechen-bei-anderen-psychischen-stoerungen/": {
-"hash": "3a681679e60496240bfb608272c030fdb3d74e5d",
+"hash": "58272b79c4b7313cad171b0b155a6c1b4ab2ab7c",
 "stand": "2026-09-17"
 },
 "/wissen/erbrechen-beim-neugeborenen/": {
@@ -4977,7 +4977,7 @@
 "stand": "2026-09-02"
 },
 "/wissen/fruehkindlicher-autismus/": {
-"hash": "8165346fe0940f28ccda77d37dd880bb4b60d658",
+"hash": "519214a609d83e57092b31ea2fd6e86e698b3b51",
 "stand": "2026-09-17"
 },
 "/wissen/fruktoseintoleranz/": {
@@ -5001,7 +5001,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/fuetterstoerung-im-fruehen-kindesalter/": {
-"hash": "9271f6c3c2152b5195bd7e20d04c0457548477f9",
+"hash": "04931c524bebb254b74b7a619822fa33a6587adb",
 "stand": "2026-09-17"
 },
 "/wissen/funikulozele/": {
@@ -5021,11 +5021,11 @@
 "stand": "2026-09-16"
 },
 "/wissen/funktionsstoerung-des-labyrinths/": {
-"hash": "1b80f033c33fd2bf4856791974585da302a02372",
+"hash": "b54c5fd28f07978ca051cbc9e34d5ba650610873",
 "stand": "2026-09-07"
 },
 "/wissen/funktionsstoerung-eines-tracheostomas/": {
-"hash": "7eb1cdf63d5da8653cac1c2f61695004b1fae3b2",
+"hash": "df30fb9d6cbddc2ef94eff95c523c9557e379de1",
 "stand": "2026-09-21"
 },
 "/wissen/funktionsstoerung-nach-kolostomie-oder-enterostomie/": {
@@ -5273,7 +5273,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/gemischte-schizoaffektive-stoerung/": {
-"hash": "62e0a0b3925db63929e58d305422b8d9735f5a36",
+"hash": "2dca66b86d741d788e2a84ee72f592356b3e2517",
 "stand": "2026-09-17"
 },
 "/wissen/generalisierte-hauteruption-durch-drogen-oder-arzneimittel/": {
@@ -5353,7 +5353,7 @@
 "stand": "2026-09-06"
 },
 "/wissen/gesundheitsstoerung-durch-e-zigaretten/": {
-"hash": "2b3c0e86504a4784c0d466e766aa2b9a0a1e7466",
+"hash": "a3d608909c026c5ccbf1827b3bf827e316dc8c65",
 "stand": "2026-09-08"
 },
 "/wissen/gianotti-crosti-syndrom/": {
@@ -6333,7 +6333,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/hyperkinetische-stoerung-des-sozialverhaltens/": {
-"hash": "f30d61f61ee0b583aa30683f7dc039301d257ae4",
+"hash": "3db7903a8e787dfe1e7cff837e57c0af88ce115e",
 "stand": "2026-09-17"
 },
 "/wissen/hyperkinetische-stoerungen/": {
@@ -6529,7 +6529,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/hypomanie/": {
-"hash": "3df4e0117d1fd3d6be65b755f947cfcf95587ed0",
+"hash": "17eb8951fff2ccdb58e6e7248da618fa2acce54b",
 "stand": "2026-09-15"
 },
 "/wissen/hyponatriaemie/": {
@@ -6713,7 +6713,7 @@
 "stand": "2026-09-07"
 },
 "/wissen/induzierte-wahnhafte-stoerung/": {
-"hash": "6cac4029d9c672bdfd62a4bb7bca3993049c80ee",
+"hash": "5cbb693cb62e20905e285115ccd2e56bdb5b712b",
 "stand": "2026-09-08"
 },
 "/wissen/infantile-haemangiome-im-saeuglings-und-kleinkindesalter/": {
@@ -6849,7 +6849,7 @@
 "stand": "2026-09-17"
 },
 "/wissen/intrapartale-blutung-bei-gerinnungsstoerung/": {
-"hash": "d41ba89fff1ea3c905413a9cc7a2d29e027efe68",
+"hash": "67d8aefe5a543e0458505c47873d9e14dd1e4d48",
 "stand": "2026-09-17"
 },
 "/wissen/intraspinaler-abszess-und-intraspinales-granulom/": {
@@ -7309,15 +7309,15 @@
 "stand": "2026-09-16"
 },
 "/wissen/kombinierte-stoerung-des-sozialverhaltens-und-der-emotionen/": {
-"hash": "a5d6cad668a0f476003df9fe47c3a5215cdc806c",
+"hash": "c3de81e5466cd38d7762ace346bf281bf260fc23",
 "stand": "2026-09-17"
 },
 "/wissen/kombinierte-umschriebene-entwicklungsstoerungen/": {
-"hash": "7d151460f513387400d83b56a1992c9993efe775",
+"hash": "b33fc680857c75619e9203bffe747593f8e97a92",
 "stand": "2026-09-17"
 },
 "/wissen/kombinierte-und-andere-persoenlichkeitsstoerungen/": {
-"hash": "c8bfe39feee0540a5766a83a10e3afc8d93dfe80",
+"hash": "90c51d075d4795aeb772bd69ca3950aac88bc938",
 "stand": "2026-09-17"
 },
 "/wissen/kompartmentsyndrom/": {
@@ -7829,7 +7829,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/leichte-depressive-episode/": {
-"hash": "e5a087702353d58c6e95b545be5d02404750d9bc",
+"hash": "eac1ea5b3fa440ad8e213ddd758021759e16b9ab",
 "stand": "2026-09-17"
 },
 "/wissen/leichte-energie-und-eiweissmangelernaehrung/": {
@@ -7837,7 +7837,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/leichte-intelligenzminderung/": {
-"hash": "d06af1b2392768d964132e53f0df9b893ec23ba4",
+"hash": "67ebd9b431aa5a2750d4981da61338094b0bd296",
 "stand": "2026-09-21"
 },
 "/wissen/leichte-kognitive-stoerung/": {
@@ -8529,11 +8529,11 @@
 "stand": "2026-09-16"
 },
 "/wissen/mittelgradige-depressive-episode/": {
-"hash": "0da19136e72b10d36d45c73aa24950c95873de94",
+"hash": "9f07706e3e523dda4a9a7a4ae207764755f80f7e",
 "stand": "2026-09-17"
 },
 "/wissen/mittelgradige-intelligenzminderung/": {
-"hash": "27362ceec52e6e454f81b8d3e73e31d1c83c32a5",
+"hash": "1d2104bfa0fa5e49753e73d6e6ccbcf29ca17f3f",
 "stand": "2026-09-17"
 },
 "/wissen/mittelohrentzuendung/": {
@@ -9155,7 +9155,7 @@
 "stand": "2026-09-07"
 },
 "/wissen/neurasthenie/": {
-"hash": "7f53589d6a359ceb77285811d5861b8ed05effbf",
+"hash": "f26766aa08fb0c88556238ae8f9adca855a26105",
 "stand": "2026-09-17"
 },
 "/wissen/neuroblastom/": {
@@ -9235,7 +9235,7 @@
 "stand": "2026-09-17"
 },
 "/wissen/nichtorganische-insomnie/": {
-"hash": "504f59627ad65f421b1f3c53e50614502ccb86ad",
+"hash": "1f791b9279d336cc9fc412b7b0d27d507db101b2",
 "stand": "2026-09-15"
 },
 "/wissen/nichtorganische-schlafstoerungen/": {
@@ -9243,7 +9243,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/nichtorganische-stoerung-des-schlaf-wach-rhythmus/": {
-"hash": "5a66d71fa6edf7c9b77c24fd15655ee719edffd1",
+"hash": "1308c9ac541f9141a9a3406967ae6de6581fa96d",
 "stand": "2026-09-17"
 },
 "/wissen/nichtrheumatische-aortenklappenkrankheiten/": {
@@ -9519,7 +9519,7 @@
 "stand": "2026-09-07"
 },
 "/wissen/opioid-ueberdosierung/": {
-"hash": "a9bf0251d092d334557ce3fb0b89b60340c6e079",
+"hash": "327198f577a57850ab4b52ba261e94475b958901",
 "stand": "2026-09-07"
 },
 "/wissen/opisthorchiasis/": {
@@ -9559,7 +9559,7 @@
 "stand": "2026-09-17"
 },
 "/wissen/organische-emotional-labile-asthenische-stoerung/": {
-"hash": "7247b1568bd8d60d89a1f06b7af3e8098d63ff67",
+"hash": "9861230dac5e1dd0ab10c5fe3572ffab1ae16fde",
 "stand": "2026-09-17"
 },
 "/wissen/organische-halluzinose/": {
@@ -9787,7 +9787,7 @@
 "stand": "2026-09-08"
 },
 "/wissen/paranoide-persoenlichkeitsstoerung/": {
-"hash": "2e96f487eaf22f12374175e88e0367c9e88ade60",
+"hash": "cb87f08b371577b69cb4074b9b061725e15ec395",
 "stand": "2026-09-17"
 },
 "/wissen/paraparese-paraplegie-tetraparese-tetraplegie/": {
@@ -10143,7 +10143,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/phobische-stoerung-des-kindesalters/": {
-"hash": "e39a10c9a44585f9d8ec8f67e196a593542055e6",
+"hash": "788914615f00358c6e8736fed71d6ca84e51bd37",
 "stand": "2026-09-17"
 },
 "/wissen/phobische-stoerungen/": {
@@ -10303,7 +10303,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/poltern/": {
-"hash": "9abe28eee4f44b996c9d31da2218ab0969b10be0",
+"hash": "46ce7901b3d1623d2e0ee6e6a40edc206691d7d6",
 "stand": "2026-10-20"
 },
 "/wissen/polyarthrose/": {
@@ -10483,7 +10483,7 @@
 "stand": "2026-09-07"
 },
 "/wissen/postpartale-gerinnungsstoerungen/": {
-"hash": "fcebdd396fc1df51e6c11d437ab66923be518be5",
+"hash": "6efbcde686947d094019f9696dd11be6c2d5be83",
 "stand": "2026-09-20"
 },
 "/wissen/postpartale-thyreoiditis/": {
@@ -10499,7 +10499,7 @@
 "stand": "2026-09-07"
 },
 "/wissen/posttraumatische-belastungsstoerung/": {
-"hash": "b5d08a6c17f4028a8d6814809fffe073ea3e7a42",
+"hash": "1b66d44d27e4d78e3961f642c9a10bbcd8dedecf",
 "stand": "2026-09-17"
 },
 "/wissen/posttraumatische-schulterinstabilitaet/": {
@@ -10775,23 +10775,23 @@
 "stand": "2026-09-16"
 },
 "/wissen/psychische-krankheiten-sowie-krankheiten-des-nervensystems-die-schwangerschaft-geburt-und-wochenbett-komplizieren/": {
-"hash": "671abf658869858a457f0378b18fbe5b97584965",
+"hash": "0163923e3bb4de00db5292dfcc0e064c5dffec21",
 "stand": "2026-09-17"
 },
 "/wissen/psychische-stoerung-ohne-naehere-angabe/": {
-"hash": "4b98a7f9b299d2b04cadca6c70769a692651757a",
+"hash": "fe21f608e2ccbbe2a1f72ffaf0d2e402547d42cc",
 "stand": "2026-09-17"
 },
 "/wissen/psychische-und-verhaltensstoerungen-durch-alkohol/": {
-"hash": "a3d912a23068197b468480fc2717968141f445f1",
+"hash": "673a38632067a268088141132232ed610a05ed44",
 "stand": "2026-09-17"
 },
 "/wissen/psychische-und-verhaltensstoerungen-durch-andere-stimulanzien-einschliesslich-koffein/": {
-"hash": "6bf331c65ec2f942e3c6ca0c29870fc526eba29e",
+"hash": "ac334b091a6241073ba97c335f7b5d8b74c9024e",
 "stand": "2026-09-17"
 },
 "/wissen/psychische-und-verhaltensstoerungen-durch-cannabinoide/": {
-"hash": "d52005a9e076626570f368eeb1162c4d25671c6f",
+"hash": "8db05a466ac9f9157d7f6868637218d50bd8b80f",
 "stand": "2026-09-17"
 },
 "/wissen/psychische-und-verhaltensstoerungen-durch-fluechtige-loesungsmittel/": {
@@ -10799,31 +10799,31 @@
 "stand": "2026-09-17"
 },
 "/wissen/psychische-und-verhaltensstoerungen-durch-halluzinogene/": {
-"hash": "767fd17fc5b150f04009ae5aa3b9fa8479aa7974",
+"hash": "b986b2b849ba14a5d3b8b7eefc56cb01980336b0",
 "stand": "2026-09-07"
 },
 "/wissen/psychische-und-verhaltensstoerungen-durch-kokain/": {
-"hash": "278f5149ebe1f66f97d73971f3fc38a33d53bcdf",
+"hash": "fcefe271d43aeda65ac75add5267b590e2caf1b3",
 "stand": "2026-09-17"
 },
 "/wissen/psychische-und-verhaltensstoerungen-durch-multiplen-substanzgebrauch-und-konsum-anderer-psychotroper-substanzen/": {
-"hash": "8979bd1392b3b286ecedf32784ec4a271cf55631",
+"hash": "2112f58ba1fe9238a4a1dd305194ae60b336c52f",
 "stand": "2026-09-17"
 },
 "/wissen/psychische-und-verhaltensstoerungen-durch-opioide/": {
-"hash": "a6c91f0449281eb4e4879399631d544617ff0654",
+"hash": "9e71493c3e3d9c0e9b030a911db3861e016719b4",
 "stand": "2026-09-07"
 },
 "/wissen/psychische-und-verhaltensstoerungen-durch-sedativa-oder-hypnotika/": {
-"hash": "517d63f79263754ac90c7065567c1467565f7572",
+"hash": "921776944987c9337441a78223d52090f89f364e",
 "stand": "2026-09-07"
 },
 "/wissen/psychische-und-verhaltensstoerungen-durch-tabak/": {
-"hash": "bb2abf2143427d34beb3e3374b62cb3ff43d5f56",
+"hash": "df9739dab4963622924c193fde206d6bf5373fcc",
 "stand": "2026-09-17"
 },
 "/wissen/psychische-und-verhaltensstoerungen-in-verbindung-mit-der-sexuellen-entwicklung-und-orientierung/": {
-"hash": "090203ac7c46ef5afc41a0ea7606abacbc53bc33",
+"hash": "7373d6526e5e2fc0673cc70172d2733916980877",
 "stand": "2026-09-17"
 },
 "/wissen/pterygium/": {
@@ -10839,7 +10839,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/pubertaetsstoerungen/": {
-"hash": "2bb0e6604a6320db76bee052ffdc7c3f441e6de2",
+"hash": "f93659a8911262f1d59a8873ffca45458eb79caf",
 "stand": "2026-09-08"
 },
 "/wissen/pubertas-praecox-fruehreife-pubertaet/": {
@@ -11015,7 +11015,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/reaktionen-auf-schwere-belastungen-und-anpassungsstoerungen/": {
-"hash": "8f14a704eaf774b5952389055fcba5b6a20f5d59",
+"hash": "0f0120ecfb30a25b341304824953b4a938fc3ccc",
 "stand": "2026-09-07"
 },
 "/wissen/reaktionen-und-intoxikationen-durch-arzneimittel-beim-fetus-und-neugeborenen/": {
@@ -11195,7 +11195,7 @@
 "stand": "2026-09-17"
 },
 "/wissen/rett-syndrom/": {
-"hash": "af2f48757faabc50df3950d2a51e99133bd46a13",
+"hash": "c6c537697eb786fecb153e460f3f3999877a6fb4",
 "stand": "2026-09-21"
 },
 "/wissen/rettungsdienst-fahrzeuge-rtw-nef-ktw/": {
@@ -11211,27 +11211,27 @@
 "stand": "2026-09-17"
 },
 "/wissen/rezidivierende-depressive-stoerung-gegenwaertig-leichte-episode/": {
-"hash": "88b09ff0055fc85e21f2e2bb77ad2c3406e0f1f5",
+"hash": "5b9e38e6c4ca3ce95512382b79cbb909a18ab478",
 "stand": "2026-09-17"
 },
 "/wissen/rezidivierende-depressive-stoerung-gegenwaertig-mittelgradige-episode/": {
-"hash": "5768dcbc818a428faa2f594105122cc57d893069",
+"hash": "457adba9f435bd62ef413c0adc7187a36457708d",
 "stand": "2026-09-17"
 },
 "/wissen/rezidivierende-depressive-stoerung-gegenwaertig-remittiert/": {
-"hash": "de350cf295c63b401de6b76a07693556782af0cc",
+"hash": "8e961cf56eaea6a69e7e6b186b20d0b6a51f3391",
 "stand": "2026-09-17"
 },
 "/wissen/rezidivierende-depressive-stoerung-gegenwaertig-schwere-episode-mit-psychotischen-symptomen/": {
-"hash": "35a2799ffff24f9631096e32129be15c24898aa6",
+"hash": "1283af5f3c472d0d1f6fdfda57b6f13addc17b9e",
 "stand": "2026-09-17"
 },
 "/wissen/rezidivierende-depressive-stoerung-gegenwaertig-schwere-episode-ohne-psychotische-symptome/": {
-"hash": "07c58963acc44329b5d0b9ff04a93694607bec0e",
+"hash": "9d483c2f54fbc7db42944fe5354eb6b7c0296d79",
 "stand": "2026-09-17"
 },
 "/wissen/rezidivierende-depressive-stoerung/": {
-"hash": "eb6d2989f1bf35f307f1e5cf4616339ca02d5baf",
+"hash": "d756b2c91dd3d74976c79a3096399c4862e631fd",
 "stand": "2026-09-08"
 },
 "/wissen/rezidivierende-orale-aphthen/": {
@@ -11483,7 +11483,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/schaedlicher-gebrauch-von-nichtabhaengigkeitserzeugenden-substanzen/": {
-"hash": "3f75830e3bb0e122d0dcb3a873f47fc42b449aae",
+"hash": "00b22f7ea675fa2ae5c9ab6ebc7792257b036340",
 "stand": "2026-09-07"
 },
 "/wissen/scharlach/": {
@@ -11523,11 +11523,11 @@
 "stand": "2026-09-01"
 },
 "/wissen/schizoaffektive-stoerung-gegenwaertig-depressiv/": {
-"hash": "a579127d53294a14c104ef0f5631e24beaae2720",
+"hash": "37ee3142e5cdf498a4b2fdb3d9cd74a503d39821",
 "stand": "2026-09-17"
 },
 "/wissen/schizoaffektive-stoerung-gegenwaertig-manisch/": {
-"hash": "a470f729601ea7001e7bbf7df8f630faa6ea0712",
+"hash": "4b04135d0fb370b5cb63f972c49d7ca1f1b854b7",
 "stand": "2026-09-17"
 },
 "/wissen/schizoaffektive-stoerung/": {
@@ -11687,15 +11687,15 @@
 "stand": "2026-09-16"
 },
 "/wissen/schwere-depressive-episode-mit-psychotischen-symptomen/": {
-"hash": "9cc1cadae4ba95cf90d008cf2eff9938bd17d559",
+"hash": "51436598aa29d254ab493cd7f7830724f71b1db4",
 "stand": "2026-09-17"
 },
 "/wissen/schwere-depressive-episode-ohne-psychotische-symptome/": {
-"hash": "b0ad83c665f2b2da8898c27235e750c5d7cfae40",
+"hash": "c688ed77020494ff83d53002ded724ba04ebf5e8",
 "stand": "2026-09-17"
 },
 "/wissen/schwere-intelligenzminderung/": {
-"hash": "8c8c01b3e3b022f3bdd94291d425c3f4ab5450cb",
+"hash": "252a1fe531aac6aff1671a9025507beedae096d4",
 "stand": "2026-09-17"
 },
 "/wissen/schwerer-kombinierter-immundefekt-scid/": {
@@ -11703,7 +11703,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/schwerste-intelligenzminderung/": {
-"hash": "07b3b9d6a4462c030a3daf7114f1b672df602329",
+"hash": "c3ae58d02c28d307fd6bf0425a9a293d9248cf9e",
 "stand": "2026-09-17"
 },
 "/wissen/schwierigkeit-beim-neugeborenen-bei-brusternaehrung/": {
@@ -11839,7 +11839,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/sexuelle-funktionsstoerungen-nichtorganisch/": {
-"hash": "f33472408303e28efb6361347e6ef7e26453e329",
+"hash": "577996296a3b2c8e01368650c747f9cc9c1557fa",
 "stand": "2026-09-08"
 },
 "/wissen/shigellose/": {
@@ -11979,11 +11979,11 @@
 "stand": "2026-09-01"
 },
 "/wissen/somatoforme-autonome-funktionsstoerung/": {
-"hash": "c428b84f228fc6ed16c9dce5c3966bcd9b03e456",
+"hash": "8f5563171b3f24fd8a0a644448cfbc9607dd4e90",
 "stand": "2026-09-17"
 },
 "/wissen/somatoforme-stoerungen/": {
-"hash": "117459d5dc710c5664e0d32f8dcc133453aaeb0a",
+"hash": "1798cbe6284698b5043c70035dc19083f3da3a1e",
 "stand": "2026-09-21"
 },
 "/wissen/somnolenz-sopor-koma/": {
@@ -12039,7 +12039,7 @@
 "stand": "2026-09-07"
 },
 "/wissen/sonstige-koordinationsstoerungen/": {
-"hash": "3596da60079c09917fbd4bc2c2b6c2917cafcb6a",
+"hash": "a9182cd82988957db218bd4f255642aa4eefab07",
 "stand": "2026-09-08"
 },
 "/wissen/sonstige-krankheiten-der-kiefer/": {
@@ -12159,7 +12159,7 @@
 "stand": "2026-09-17"
 },
 "/wissen/spezifische-persoenlichkeitsstoerungen/": {
-"hash": "3fdd49c362254b824a2f7be10ce77e78e8584fef",
+"hash": "cf273970720e18a6a18a5a10242d0cb187f43186",
 "stand": "2026-09-17"
 },
 "/wissen/spezifische-phobien/": {
@@ -12243,7 +12243,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/sprech-und-sprachstoerungen/": {
-"hash": "4ab63ad087aeb3ef24c369b9f90bb49a098b5c44",
+"hash": "cc88989ad8dbd3e7b91d3c58979f8629be59886e",
 "stand": "2026-09-21"
 },
 "/wissen/stabile-seitenlage/": {
@@ -12319,7 +12319,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/stereotype-bewegungsstoerungen/": {
-"hash": "7950a38433fe4af8a4e17ebef96c854dba2b14ab",
+"hash": "0c8ccb48c3bb9e0efb90f4262b4a2e1757ffa222",
 "stand": "2026-09-17"
 },
 "/wissen/sterilitaet-der-frau/": {
@@ -12367,23 +12367,23 @@
 "stand": "2026-09-16"
 },
 "/wissen/stoerung-des-sozialverhaltens-bei-fehlenden-sozialen-bindungen/": {
-"hash": "ac1f04604f93ceafaa3479e9990cf16bf3187aed",
+"hash": "3ca7f481c3879a6f6168d3763d25225ec576ce81",
 "stand": "2026-09-17"
 },
 "/wissen/stoerung-des-sozialverhaltens-bei-vorhandenen-sozialen-bindungen/": {
-"hash": "464c60a2b1d383d2edf39c47d66880068ee2ebc6",
+"hash": "1a088de3b452b74c8a01a72e051fd913c8697e29",
 "stand": "2026-09-17"
 },
 "/wissen/stoerung-des-sozialverhaltens-mit-depressiver-stoerung/": {
-"hash": "bb994678d9dcb2539ea2f838df858ea2271cb057",
+"hash": "f75e62ee714e2489b8816b1fd9ccfc607848fd35",
 "stand": "2026-09-17"
 },
 "/wissen/stoerung-des-sozialverhaltens-mit-oppositionellem-aufsaessigem-verhalten/": {
-"hash": "53737fe9853b69c6b6fe0adbc857de3390d167cb",
+"hash": "2c2653fdbfa8f6e496a7bbb010dcf068680e9594",
 "stand": "2026-09-17"
 },
 "/wissen/stoerung-mit-sozialer-aengstlichkeit-des-kindesalters/": {
-"hash": "084ffe8c6663abfb494e3f17e6407de60fae9702",
+"hash": "96749067dc21e5d98997edb711533c6396cb9c68",
 "stand": "2026-09-17"
 },
 "/wissen/stoerungen-bei-langer-schwangerschaftsdauer-und-hohem-geburtsgewicht/": {
@@ -12391,7 +12391,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/stoerungen-der-atmung/": {
-"hash": "28646dfbfe83ac55a74ef9254ce98862145796f9",
+"hash": "b389e815c327e06a2eaec324924b35294cf895c0",
 "stand": "2026-09-08"
 },
 "/wissen/stoerungen-der-speichelsekretion/": {
@@ -12399,7 +12399,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/stoerungen-der-stimme/": {
-"hash": "41dba9b9c7ed3a5661b0ab0136e49f51cca8bef4",
+"hash": "18b2a8994098fb0a94f5c1900abbccf7a578cc9c",
 "stand": "2026-09-21"
 },
 "/wissen/stoerungen-der-vestibularfunktion/": {
@@ -12411,15 +12411,15 @@
 "stand": "2026-09-08"
 },
 "/wissen/stoerungen-des-ganges-und-der-mobilitaet/": {
-"hash": "247d6f496c7052714c284cda60516e1c3ac77fb7",
+"hash": "f8ca30e8fe67d2646b7a7ecdb45adac628e02444",
 "stand": "2026-09-07"
 },
 "/wissen/stoerungen-des-herzschlages/": {
-"hash": "bd157d1f9003c393a669f1594584065664ae3490",
+"hash": "2a0b5194c68e60da72593a8ebd4b2a10e578cffe",
 "stand": "2026-09-07"
 },
 "/wissen/stoerungen-des-muskeltonus-beim-neugeborenen/": {
-"hash": "fa235fbb8b1528bba50f2dd715ff4630edebb362",
+"hash": "24b59eda12f6634eb49b5ea4a611b508dbed854c",
 "stand": "2026-09-21"
 },
 "/wissen/stoerungen-des-schlaf-wach-rhythmus/": {
@@ -12439,7 +12439,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/stoerungen-sozialer-funktionen-mit-beginn-in-der-kindheit-und-jugend/": {
-"hash": "d61b7207904e4f90365421abac1ee609d92caaf8",
+"hash": "7f98eda5b970b6647892c92a85ff26a14a5e8af0",
 "stand": "2026-09-17"
 },
 "/wissen/stomatitis/": {
@@ -12639,7 +12639,7 @@
 "stand": "2026-09-07"
 },
 "/wissen/tabak-und-nikotin/": {
-"hash": "20afe3229ac3c18547243879864fb4526b0ea0f0",
+"hash": "ad73dc7f43fea530aad303a72723debefb0dfbac",
 "stand": "2026-09-15"
 },
 "/wissen/taeniasis/": {
@@ -12799,7 +12799,7 @@
 "stand": "2026-10-20"
 },
 "/wissen/tief-greifende-entwicklungsstoerungen/": {
-"hash": "4d958439b7824d03afda6e607aabf4e487a568f2",
+"hash": "4230760f09aab41c1904fa6dad21392d6ae3dd9f",
 "stand": "2026-09-17"
 },
 "/wissen/tiefe-venenthrombose-in-der-schwangerschaft/": {
@@ -13019,7 +13019,7 @@
 "stand": "2026-09-17"
 },
 "/wissen/trance-und-besessenheitszustaende/": {
-"hash": "623c8f7f3490ea2028c7bfd59195cfaf330aa886",
+"hash": "93fc4d1e10bc5fc49919adb9a958dc8fe75ae3a7",
 "stand": "2026-09-17"
 },
 "/wissen/transcobalamin-ii-mangel-anaemie/": {
@@ -13147,7 +13147,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/trichotillomanie/": {
-"hash": "4d0f6d2e7d76d586cee695680bff23edce48c069",
+"hash": "120fe210629ab249ae75d626a7a1d88214db389e",
 "stand": "2026-09-15"
 },
 "/wissen/trichterbrust/": {
@@ -13271,7 +13271,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/ueberaktive-stoerung-mit-intelligenzminderung-und-bewegungsstereotypien/": {
-"hash": "41316dc9cb45d5b0e684c1b416e61c12c5c3985f",
+"hash": "4cf8e1aa6071bf8f46332b8d159d028265b3783f",
 "stand": "2026-09-17"
 },
 "/wissen/ueberernaehrung-beim-neugeborenen/": {
@@ -13347,11 +13347,11 @@
 "stand": "2026-09-16"
 },
 "/wissen/umschriebene-entwicklungsstoerung-der-fein-und-graphomotorik/": {
-"hash": "ac775b2b16ff2076a2d48fa4ae1ec041bd09bae7",
+"hash": "2d2c722106ac6e6c5f86fed1c6efd4b9003a08a3",
 "stand": "2026-09-17"
 },
 "/wissen/umschriebene-entwicklungsstoerung-der-grobmotorik/": {
-"hash": "9f1ab2503ca867fedb251bb40024e8f8d3282741",
+"hash": "e91c50a6db29abadd5eec2581a485dbf22eba6ba",
 "stand": "2026-09-17"
 },
 "/wissen/umschriebene-entwicklungsstoerung-der-motorischen-funktionen/": {
@@ -13359,15 +13359,15 @@
 "stand": "2026-09-17"
 },
 "/wissen/umschriebene-entwicklungsstoerung-der-mundmotorik/": {
-"hash": "b6ef972c8ac603d066f476516543c76b71d5ed13",
+"hash": "0994959524d5b66f10cd38f1646ad43cabdf36b5",
 "stand": "2026-09-17"
 },
 "/wissen/umschriebene-entwicklungsstoerungen-des-sprechens-und-der-sprache/": {
-"hash": "eed208b37afe6cc187f06416aa309a70a7794f71",
+"hash": "89b975a0f1125217aea44639896457df1da650e1",
 "stand": "2026-09-17"
 },
 "/wissen/umschriebene-entwicklungsstoerungen-schulischer-fertigkeiten/": {
-"hash": "593169e6e66f9e591525e6e1fbf402111194d28b",
+"hash": "c8e412612d0f79543572e9e179f8efb3f3781e45",
 "stand": "2026-09-17"
 },
 "/wissen/umschriebene-hirnatrophie/": {
@@ -14303,7 +14303,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/zyklothymia/": {
-"hash": "608c3a369c689f803be5aa746a376b01ae37698d",
+"hash": "3d61130de5befabb89c9e8f70c42265eaa0aa423",
 "stand": "2026-09-15"
 },
 "/wissen/zyklusstoerungen/": {
