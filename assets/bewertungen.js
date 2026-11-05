@@ -1,11 +1,11 @@
-/* Stimmen unserer Teilnehmenden: ein GET je Seitenaufruf, nur freigegebene Bewertungen der eigenen
+/* Stimmen unserer Teilnehmenden: ein GET je Seitenaufruf (kein Browser-Speicher, BL/Jurist 05.11.), nur freigegebene Bewertungen der eigenen
    Firma (Personal Paramedic e.K. = org personal-paramedic). Ohne Daten/Fehler/Timeout bleibt der Block
    ausgeblendet (hidden). Kein JSON-LD: Eigenbewertungen der Betreiberfirma sind fuer Rich Results nicht zulaessig. */
 (function () {
   'use strict';
   var root = document.querySelector('[data-bewertungen]');
   if (!root) return;
-  var ORG = 'personal-paramedic', API = 'https://software-wippermann.de', KEY = 'ehb-' + ORG, TTL = 600000;
+  var ORG = 'personal-paramedic', API = 'https://software-wippermann.de';
   var section = root.closest('section') || root;
 
   function show(list) {
@@ -30,18 +30,12 @@
     section.hidden = false;
   }
 
-  try {
-    var c = JSON.parse(sessionStorage.getItem(KEY) || 'null');
-    if (c && Date.now() - c.t < TTL) { show(c.l); return; }
-  } catch (e) {}
-
   var ctl = window.AbortController ? new AbortController() : null;
   var timer = setTimeout(function () { if (ctl) ctl.abort(); }, 6000);
   fetch(API + '/api/bewertungen?org=' + encodeURIComponent(ORG), ctl ? { signal: ctl.signal } : {})
     .then(function (r) { return r.ok ? r.json() : null; })
     .then(function (d) {
       var l = (d && d.bewertungen) || [];
-      try { sessionStorage.setItem(KEY, JSON.stringify({ t: Date.now(), l: l })); } catch (e) {}
       show(l);
     })
     .catch(function () {})
