@@ -8311,8 +8311,16 @@
 "stand": "2026-09-01"
 },
 "/wissen/luxation-ausgekugeltes-gelenk/": {
-"hash": "84fdf4f729e190b7bfea771c220e128f8bbe511e",
-"stand": "2026-09-01"
+"hash": "6e9dd627d65f3042d2574c2bc904453ef0355e43",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Gelenkverletzungen",
+"punkte": "Erkennen, PECH-Formel, Arzt oder Notruf",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/gelenkverletzungen/"
+}
+],
+"stand": "2026-11-08"
 },
 "/wissen/luxation-der-huefte/": {
 "hash": "349dbe92c61416be3894cbae798bb4c6aa2ba157",
@@ -14423,16 +14431,28 @@
 "stand": "2026-09-15"
 },
 "/wissen/wespenstich-im-mund-rachen-notfall/": {
-"hash": "a227a7c4692f8178a177d6c1a04d2d8604e284b0",
+"hash": "026a7e3941e4dce6483d8ecd4fdae11110274f8f",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 36",
 "punkte": "Insektenstich im Mund-Rachenraum: Erstickungsgefahr, allergischer Schock, Notfallset nach ärztlicher Absprache",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Was tun bei Insektenstichen",
+"punkte": "Stich im Mund/Rachen: 112, Eis lutschen, kalte Umschläge, nicht direkt auf die Haut",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/insektenstiche/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "gesund.bund.de: Insektengiftallergie (Stand 27.05.2024)",
+"punkte": "Mund/Rachen besonders gefährlich bei Allergie",
+"url": "https://gesund.bund.de/insektengiftallergie"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-08"
 },
 "/wissen/west-nil-fieber/": {
 "hash": "6204d32375c822a55eb3092d4ae60366fdd859cd",
@@ -14579,8 +14599,16 @@
 "stand": "2026-09-16"
 },
 "/wissen/zeckenbiss-und-uebertragbare-erkrankungen/": {
-"hash": "cad6b7b1495946a9bc2502aa0660827c51b68acf",
-"stand": "2026-09-21"
+"hash": "3a1c6c83011912678eeb2545d435fd1ba7dbd4bb",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Zeckenstich vorbeugen",
+"punkte": "Aktivität März–November, Entfernen, keine Hausmittel, roter Hof, FSME/Borreliose",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/zeckenstich-vorbeugen/"
+}
+],
+"stand": "2026-11-08"
 },
 "/wissen/zeckenbissfieber/": {
 "hash": "8825f550f080d5df277a5df9d047ba274754df51",
