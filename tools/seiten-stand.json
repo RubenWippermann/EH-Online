@@ -1329,16 +1329,34 @@
 "stand": "2026-09-01"
 },
 "/wissen/anaphylaktischer-schock/": {
-"hash": "b85f07722681144d8df7c2832e431fae73e822bc",
+"hash": "bac93e9d3cf6e80107e6ca1ff04e49a0210c7bfe",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 44 f. (gedruckte Seitenzahl)",
 "punkte": "Schwere allergische Reaktion: erste Anzeichen Kribbeln in Mund/Zunge/Lippen, Quaddeln mit Juckreiz; Auslöser unterbinden (Stachel entfernen, Einstichstelle kühlen); Notruf; beruhigen, warm halten; bei Atemnot Kleidung öffnen, Oberkörper erhöht; nach Notfallset fragen und bei der Anwendung helfen. NICHT übernommen (nicht in DGUV): Haltezeit/zweite Dosis des Injektors, Adrenalin-Nebenwirkungen, Notfallset-Inhalt",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Gesundheitsinformation.de (IQWiG): Anaphylaxie nach Insektenstichen, aktualisiert 31.05.2023",
+"punkte": "Vorboten, Schweregrade, 112, Notfallset, Lagerung, 30:2",
+"url": "https://www.gesundheitsinformation.de/anaphylaktische-reaktion-anaphylaxie-nach-insektenstichen.html"
+},
+{
+"gelesen": "2026-11-08",
+"name": "gesund.bund.de: Insektengiftallergie (Stand 27.05.2024)",
+"punkte": "schwere Verläufe, erneutes Auftreten, Adrenalin bei heftigen Symptomen",
+"url": "https://gesund.bund.de/insektengiftallergie"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Schockzustand",
+"punkte": "Schockzeichen, Beine erhöht, stabile Seitenlage",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/schock/"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-08"
 },
 "/wissen/andauernde-persoenlichkeitsaenderung-nach-psychischer-krankheit/": {
 "hash": "5d1940be0cd4200176e73be9b76a0f799e460f0b",
@@ -2174,6 +2192,20 @@
 },
 "/wissen/asthma-bronchiale/": {
 "hash": "6f97c8bb5364a2305f310d9dc4a5edd7990d9b25",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Asthma bronchiale",
+"punkte": "Erkennen, Lagerung, Unterstützung der Inhalation, Arztbehandlung",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/asthma-bronchiale/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Gesundheitsinformation.de (IQWiG): Asthma, aktualisiert 15.06.2022",
+"punkte": "Anfälle, Symptome bei Erwachsenen und Kindern, Steigerung der Atemnot, Schulung",
+"url": "https://www.gesundheitsinformation.de/asthma.html"
+}
+],
 "stand": "2026-09-21"
 },
 "/wissen/astigmatismus-hornhautverkruemmung/": {
@@ -2598,6 +2630,26 @@
 },
 "/wissen/bewusstlosigkeit/": {
 "hash": "dbf581849544e5b2d3edc773f9d78ca35033c1e4",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Bewusstlosigkeit überprüfen",
+"punkte": "Erkennen, Gefahren, Reihenfolge",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/bewusstlosigkeit/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "gesund.bund.de: Erste Hilfe (Stand 07.10.2025, geprüft durch DIVI)",
+"punkte": "Atmung prüfen, Schnappatmung, stabile Seitenlage, Rettungsdecke",
+"url": "https://gesund.bund.de/erste-hilfe"
+},
+{
+"gelesen": "2026-11-08",
+"name": "BAG Mehr Sicherheit für Kinder: Erste Hilfe bei Kindern: Bewusstlosigkeit (Letzte Änderung 20.06.2024)",
+"punkte": "Kinder, Atemwege frei halten, Lagerung",
+"url": "https://www.kindersicherheit.de/kindersicherheit/erste-hilfe/bewusstlosigkeit"
+}
+],
 "stand": "2026-10-19"
 },
 "/wissen/bifaszikulaerer-block/": {
@@ -4322,6 +4374,14 @@
 },
 "/wissen/erfrierung/": {
 "hash": "ecfa7bb2d270e5280993152f989ab4281aa2440f",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Erfrierungen und Unterkühlungen",
+"punkte": "Erfrierung: Definition, Maßnahmen, Fehler",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/erfrierungen-und-unterkuehlungen/"
+}
+],
 "stand": "2026-09-21"
 },
 "/wissen/erhoehter-blutglukosewert/": {
@@ -4953,8 +5013,28 @@
 "stand": "2026-09-15"
 },
 "/wissen/fremdkoerper-in-den-atemwegen/": {
-"hash": "bbd09fd89dc47eab4444175eac40e86f9d25aef9",
-"stand": "2026-09-15"
+"hash": "83a0590e63949bb5682bce294a5437618b99ae6d",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Erste Hilfe bei Erstickungsgefahr",
+"punkte": "Fälle 1–3, Rückenschläge, Oberbauchkompression",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/ersticken/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "BAG Mehr Sicherheit für Kinder: Einatmen von Fremdkörpern (Letzte Änderung 20.06.2024)",
+"punkte": "Säuglinge/Kinder, Rückenschläge, Abklärung",
+"url": "https://www.kindersicherheit.de/kindersicherheit/erste-hilfe/einatmen-von-fremdkoerpern-/-aspiration"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Malteser: Erste Hilfe für Babys und Kinder (Abschnitt Verschlucken und Ersticken)",
+"punkte": "Säugling: Rückenklopfen, Brustkorbstöße, ärztliche Untersuchung",
+"url": "https://www.malteser.de/aware/hilfreich/erste-hilfe-fuer-babys-und-kinder-die-wichtigsten-tipps.html"
+}
+],
+"stand": "2026-11-08"
 },
 "/wissen/fremdkoerper-in-der-nase/": {
 "hash": "50b82f6131f1a9afd76d329028e0a5066c69575f",
@@ -5982,6 +6062,26 @@
 },
 "/wissen/herz-kreislauf-stillstand/": {
 "hash": "cab43d69be339be98a0c9b43d0e00078f8d6c3bb",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Wiederbelebung: Prüfen, Rufen, Drücken",
+"punkte": "Erkennen, Druckpunkt, Frequenz und Tiefe",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/erste-hilfe-massnahmen-zur-wiederbelebung-pruefen-rufen-druecken/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Herz-Lungen-Wiederbelebung",
+"punkte": "AED, 112, nicht unterbrechen",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/herz-lungen-wiederbelebung/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "gesund.bund.de: Erste Hilfe (Stand 07.10.2025, geprüft durch DIVI)",
+"punkte": "Schnappatmung, 5–6 cm, Wechsel nach 1–2 Minuten, telefonische Anleitung",
+"url": "https://gesund.bund.de/erste-hilfe"
+}
+],
 "stand": "2026-10-19"
 },
 "/wissen/herz-kreislauf-system/": {
@@ -6550,6 +6650,26 @@
 },
 "/wissen/hypoglykaemie/": {
 "hash": "1f8ce9e9d9170fd9c64dacff51aa925fa2a950eb",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Unterzuckerung (Hypoglykämie)",
+"punkte": "Ursachen, Symptome, Traubenzucker, Seitenlage, Notruf",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/unterzuckerung/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "diabetesDE: Erste Hilfe bei Diabetes-Notfällen",
+"punkte": "Bewusstsein prüfen, 112, nichts einflößen, kein Insulin/Glukagon bei Unsicherheit",
+"url": "https://www.diabetesde.org/erste-hilfe-diabetes-notfaellen"
+},
+{
+"gelesen": "2026-11-08",
+"name": "diabetesDE: Unterzuckerung (Hypoglykämie)",
+"punkte": "Grenzwerte, schwere Hypoglykämie, Ursachen",
+"url": "https://www.diabetesde.org/unterzuckerung-hypoglykaemie"
+}
+],
 "stand": "2026-10-20"
 },
 "/wissen/hypoglykaemisches-koma/": {
@@ -6809,16 +6929,28 @@
 "stand": "2026-09-16"
 },
 "/wissen/insektenstich-allergische-reaktion/": {
-"hash": "9a29438fa33372c429f9fdc94e7b2e7a3632c192",
+"hash": "66015c7842f174841e7eabadedd929f21b0d57c5",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 36 und 68 (gedruckte Seiten)",
 "punkte": "Insektenstich Mund-Rachenraum (S. 36): Notruf, Speiseeis/Eiswürfel lutschen, Hals von außen kühlen, bei Atemstillstand beatmen, Vorbeugung Trinkhalm, Notfallset nach ärztlicher Absprache; Stachel sofort entfernen (S. 68). NICHT übernommen (nicht in DGUV): Beobachtung 20-30 min, Pinzette/Abkratzen-Methode, Autoinjektor-Details",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Was tun bei Insektenstichen",
+"punkte": "Stachel entfernen, Kühlen, Mund/Rachen, Allergie, 112",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/insektenstiche/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "gesund.bund.de: Insektengiftallergie (Stand 27.05.2024)",
+"punkte": "Bienen/Wespen, Mund/Rachen, Vorbeugung",
+"url": "https://gesund.bund.de/insektengiftallergie"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-08"
 },
 "/wissen/instabilitaet-der-wirbelsaeule/": {
 "hash": "93c3a976af356b2b214454d4e7ff6d6a4a6802ef",
@@ -7302,6 +7434,14 @@
 },
 "/wissen/knochenbruch-fraktur/": {
 "hash": "9b9600a460a40457db87e0703760d62434043c16",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Knochenbrüche",
+"punkte": "Erkennen, ruhigstellen, umpolstern, offener/geschlossener Bruch",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/knochenbruch/knochenbrueche/"
+}
+],
 "stand": "2026-09-21"
 },
 "/wissen/knochenfraktur-nach-einsetzen-eines-orthopaedischen-implantates-einer-gelenkprothese-oder-einer-knochenplatte/": {
@@ -11603,16 +11743,34 @@
 "stand": "2026-09-01"
 },
 "/wissen/schlaganfall/": {
-"hash": "0644dd14bd9236b9984184c0c8788951a2a8da36",
+"hash": "5c632cd2ecae1548b180de002ec7ed484cb503fd",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 103 f. (gedruckte Seitenzahl)",
 "punkte": "Schlaganfall: Notruf, Seitenlage bei Bewusstlosigkeit mit Atmung, Wiederbelebung bei Stillstand, bequem mit erhöhtem Oberkörper, gelähmte Körperteile polstern, ständig beobachten; FAST-Schema",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Stiftung Deutsche Schlaganfall-Hilfe: Der FAST-Test",
+"punkte": "Face, Arms, Speech, Time",
+"url": "https://www.schlaganfall-hilfe.de/de/verstehen-vermeiden/schlaganfall-erkennen/fast-test"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Stiftung Deutsche Schlaganfall-Hilfe: Verhalten im Notfall",
+"punkte": "112, Zeitpunkt, TIA, keine Getränke/Medikamente",
+"url": "https://www.schlaganfall-hilfe.de/de/verstehen-vermeiden/verhalten-im-notfall"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Schlaganfall",
+"punkte": "Symptome, Lagerung mit erhöhtem Oberkörper, umpolstern",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/schlaganfall/"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-08"
 },
 "/wissen/schlangengift/": {
 "hash": "275ffb9abb19bd50e8074aaba5b34adfc8fa94a0",
@@ -12306,6 +12464,20 @@
 },
 "/wissen/stabile-seitenlage/": {
 "hash": "6bcdbb2f1e9f151987b8b4725b689ca5ea08c6dd",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Stabile Seitenlage – Anleitung",
+"punkte": "Zweck, Schritte 1 und 2, Kontrolle",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/stabile-seitenlage/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "gesund.bund.de: Erste Hilfe (Stand 07.10.2025, geprüft durch DIVI)",
+"punkte": "Seitenlage-Griffe, Atemkontrolle mindestens einmal pro Minute, Rettungsdecke",
+"url": "https://gesund.bund.de/erste-hilfe"
+}
+],
 "stand": "2026-10-19"
 },
 "/wissen/staerkere-anomalien-der-kiefergroesse/": {
@@ -13508,6 +13680,14 @@
 },
 "/wissen/unterkuehlung-hypothermie/": {
 "hash": "c44f3af368d159e6868a6837c1848648d5fb162e",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Erfrierungen und Unterkühlungen",
+"punkte": "Stadien I und II, Maßnahmen, Fehler",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/erfrierungen-und-unterkuehlungen/"
+}
+],
 "stand": "2026-09-21"
 },
 "/wissen/unterlassene-hilfeleistung-gesetzliche-pflicht/": {
@@ -13843,16 +14023,22 @@
 "stand": "2026-09-16"
 },
 "/wissen/verstauchung-distorsion/": {
-"hash": "903d800eb3e45fe3c928ed32d1792907412702bb",
+"hash": "4edb4a5c32868fed5cf6d32354c17f4ce977cec5",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 74-76 (Korrektur Wissensdatenbank/Rubens Linie)",
 "punkte": "PECH-Regel, leichter Kompressionsverband mit Fixierbinde, Kühlphase 20-30 min, Kältepackung nie direkt auf die Haut, ärztliche Diagnose zwingend, Vereisungssprays abraten",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Gelenkverletzungen",
+"punkte": "Erkennen, PECH-Formel, Arzt oder Notruf",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/gelenkverletzungen/"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-08"
 },
 "/wissen/verstopfung-obstipation/": {
 "hash": "93ee3e9d0efc6120814984a9a71d959c06983e34",
