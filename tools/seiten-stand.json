@@ -4385,8 +4385,28 @@
 "stand": "2026-09-21"
 },
 "/wissen/ertrinken-rettung-aus-dem-wasser/": {
-"hash": "c99ae2e80b3106880fa459349b95eff6d81182a0",
-"stand": "2026-09-21"
+"hash": "3d6090688c6a5a9a5b567df917c357be04f66a30",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Baderegeln und Tipps gegen Badeunfälle",
+"punkte": "stilles Ertrinken, Aufsicht, Eigenschutz, Unterkühlung, Baderegeln",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/baderegeln-und-tipps-gegen-badeunfaelle/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "DLRG: Selbst- & Fremdrettung",
+"punkte": "Eigenschutz vor Hilfeleistung, Reihenfolge Selbstschutz – Notruf – Erste Hilfe",
+"url": "https://www.dlrg.de/informieren/freizeit-im-wasser/selbst-und-fremdrettung/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Herz-Lungen-Wiederbelebung",
+"punkte": "30:2, Vorgehen bei fehlender normaler Atmung",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/herz-lungen-wiederbelebung/"
+}
+],
+"stand": "2026-11-08"
 },
 "/wissen/erweiterte-tuba-auditiva/": {
 "hash": "84f2fee123488e5f13b9d793434574602e755bee",
@@ -5977,16 +5997,34 @@
 "stand": "2026-09-07"
 },
 "/wissen/herzinfarkt/": {
-"hash": "824b2225e305596d83dd7b0463779e55640376e7",
+"hash": "41d7a85ab4abc9c088bb8844ad266e1508649cb6",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 100-102 (gedruckte Seitenzahl)",
 "punkte": "Herzinfarkt: Schmerz hinter dem Brustbein, Ausstrahlung linker Arm/Schulterblätter/Hals/Kiefer/Oberbauch; Notruf, beruhigen, abschirmen, Oberkörper erhöht, enge Kleidung öffnen, nicht allein lassen, Wiederbelebung und AED. Angina pectoris: Hilfe bei Einnahme der EIGENEN Medikamente (meist Nitrosprays), Frischluft; Ersthelfer geben selbst nichts",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Herzinfarkt – Symptome und Erste Hilfe",
+"punkte": "Ursache, Risikofaktoren, Warnzeichen auch bei Frauen, Notruf, Lagerung, Klinik lebend erreichen",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/herzinfarkt/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Herz-Lungen-Wiederbelebung",
+"punkte": "Erkennen, 112, AED, 30:2, Leitstelle leitet an",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/herz-lungen-wiederbelebung/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "gesund.bund.de: Erste Hilfe (Stand 07.10.2025)",
+"punkte": "Herzdruckmassage bei Atemstillstand, Defibrillator nach Gerätanweisung, telefonische Anleitung",
+"url": "https://gesund.bund.de/erste-hilfe"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-08"
 },
 "/wissen/herzinsuffizienz-beim-neugeborenen/": {
 "hash": "03e77f9cdaf4dc03bd7a2e1b2a160933a3b2fea8",
@@ -6117,16 +6155,22 @@
 "stand": "2026-09-15"
 },
 "/wissen/hitzschlag/": {
-"hash": "f3938db88ae2779c3bf224782d2fb0485aaa64d4",
+"hash": "e70af6d276f96436f9ccecaa893383cf9ba94652",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 83 (Fachprüfung BL 01.11.; Seitenzahlen = gedruckte)",
 "punkte": "Hitzschlag: flach mit erhöhtem Kopf, feuchte kühle Tücher/Eisbeutel im Tuch, bei Bewusstlosigkeit Seitenlage und Notruf",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Hitzschlag – was tun?",
+"punkte": "Risiko, Symptome, Schritte, Notruf, Kühlen ohne Eis, Vorbeugung",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/hitzschlag/"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-08"
 },
 "/wissen/hiv-infektion/": {
 "hash": "f4185805eff33ac3d8621faff1b51dfb018e52d5",
@@ -12007,8 +12051,22 @@
 "stand": "2026-11-01"
 },
 "/wissen/sonnenstich/": {
-"hash": "a3724ea5e94bff70f60ee7779541e89e559d5eb2",
-"stand": "2026-09-21"
+"hash": "19d9bf1f9b41489296321268fb8e7da69317c64e",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Sonnenstich",
+"punkte": "Entstehung, Gefährdete, Symptome, Erste-Hilfe-Schritte, Vorbeugung",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/sonnenstich/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Erste-Hilfe-Handgriffe für den Sommer",
+"punkte": "Schatten, Kopf erhöht, kühles Tuch; Notarzt bei Bewusstlosigkeit; Vorbeugung",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/erste-hilfe-handgriffe-fuer-den-sommer/"
+}
+],
+"stand": "2026-11-08"
 },
 "/wissen/sonstige-abnorme-hoerempfindungen/": {
 "hash": "456fa762e4d5ef36f93aa95e111a7161e6b67f3d",
@@ -12275,8 +12333,28 @@
 "stand": "2026-09-16"
 },
 "/wissen/starke-blutung-blutstillung/": {
-"hash": "54da9d435d52f3e94a6898f3b44cc61550edb0eb",
-"stand": "2026-09-21"
+"hash": "2d81ae9510a0ff13df4470df2babc62021c2272a",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "gesund.bund.de: Erste Hilfe – beherztes Handeln rettet Leben (Stand 07.10.2025)",
+"punkte": "Druckverband mit zwei Verbandpäckchen, Hals/Kopf, Notrufinhalte, Hilfspflicht",
+"url": "https://gesund.bund.de/erste-hilfe"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Starke Blutungen",
+"punkte": "Blutstillung hat Vorrang, 1 Liter Lebensgefahr, direkter Druck, Infektion in Kauf nehmen",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/blutungen-und-blutstillung/blutungen/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Schockzustand",
+"punkte": "Schockzeichen, Beine erhöht, zudecken, stabile Seitenlage",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/schock/"
+}
+],
+"stand": "2026-11-08"
 },
 "/wissen/status-asthmaticus/": {
 "hash": "67c351f3b8af2410e13b2b045d1d2f6fbeab4149",
@@ -12499,8 +12577,22 @@
 "stand": "2026-09-16"
 },
 "/wissen/stromunfall/": {
-"hash": "813b64e779d1a22a90bdd2aa94cdd9bc1d03633a",
-"stand": "2026-09-21"
+"hash": "dc090ee61ea209502c30d6bc73f339c7c22e7525",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Stromschlag",
+"punkte": "Eigenschutz, Stromkreis unterbrechen, Hochspannung, Strommarken, Vorbeugung",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/stromschlag/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Malteser: Erste Hilfe für Babys und Kinder (Abschnitt Stromunfälle)",
+"punkte": "Brandwunde abdecken, nach Stromunfall immer Untersuchung im Krankenhaus",
+"url": "https://www.malteser.de/aware/hilfreich/erste-hilfe-fuer-babys-und-kinder-die-wichtigsten-tipps.html"
+}
+],
+"stand": "2026-11-08"
 },
 "/wissen/strongyloidiasis-des-darmes/": {
 "hash": "1e70e14c0740c2df593cb6da93f3b0641a017012",
@@ -13627,28 +13719,80 @@
 "stand": "2026-09-16"
 },
 "/wissen/verbrennung/": {
-"hash": "9c8e3f0f2530b8828933803db5c17782028b8346",
+"hash": "8c014419c292428739d74275d71f8fbdc2e1cfa2",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 90 f. (Fachprüfung BL 01.11.; Seitenzahlen = gedruckte)",
 "punkte": "Verbrennungen/Verbrühungen: Wasser kühlen nur bei kleineren Verbrennungen an Armen und Beinen für wenige Minuten, nicht eiskalt; im Gesicht feuchte Tücher; danach keimfreies Verbandtuch; Notruf",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+},
+{
+"gelesen": "2026-11-08",
+"name": "BAG Mehr Sicherheit für Kinder: Erste Hilfe bei Kindern: Verbrennung (Letzte Änderung 20.06.2024)",
+"punkte": "Löschen, Kleidung, Kühlen mit handwarmem Wasser, Abdecken, 112, was man vermeiden soll",
+"url": "https://www.kindersicherheit.de/kindersicherheit/erste-hilfe/verbrennungen"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Malteser: Erste Hilfe für Babys und Kinder (Abschnitt Verbrennungen und Verbrühungen)",
+"punkte": "ca. 10 Minuten handwarmes Wasser; großflächig nicht kühlen, locker abdecken, Notarzt",
+"url": "https://www.malteser.de/aware/hilfreich/erste-hilfe-fuer-babys-und-kinder-die-wichtigsten-tipps.html"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-08"
 },
 "/wissen/verbruehung/": {
-"hash": "34db1332cbeb3850c0ba9688af393b0eba68e4e3",
-"stand": "2026-09-21"
+"hash": "bc830c5facd67725b6aad6975aecd60c926d438b",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "BAG Mehr Sicherheit für Kinder: Erste Hilfe bei Kindern: Verbrühungen (Letzte Änderung 20.06.2024)",
+"punkte": "Kleidung/Windel, Kühlen nur der Stelle, Notruf bei großflächig, Vermeiden-Liste",
+"url": "https://www.kindersicherheit.de/kindersicherheit/erste-hilfe/verbruehungen"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Malteser: Erste Hilfe für Babys und Kinder (Abschnitt Verbrennungen und Verbrühungen)",
+"punkte": "ca. 10 Minuten handwarmes Wasser, großflächig nicht kühlen, 112, 116117, Vorbeugung Küche",
+"url": "https://www.malteser.de/aware/hilfreich/erste-hilfe-fuer-babys-und-kinder-die-wichtigsten-tipps.html"
+}
+],
+"stand": "2026-11-08"
 },
 "/wissen/verdauungssystem/": {
 "hash": "0d48a0d5abafa6620051cfc208233dcbdc259857",
 "stand": "2026-09-21"
 },
 "/wissen/vergiftung/": {
-"hash": "07ea541f32e0fe1b7b7294d52f5898a79aaf56da",
-"stand": "2026-09-21"
+"hash": "20459d7112f5246ab709b1f179f8c77dbf94e421",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Giftnotruf der Charité",
+"punkte": "Telefonnummer 030 19240 rund um die Uhr, regionale Zuständigkeit",
+"url": "https://giftnotruf.charite.de/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Giftnotruf der Charité: Pflanzen – eine Gefahr für Kinder?",
+"punkte": "Schritte, kein Erbrechen/Salzwasser/Milch, vier W, giftige Pflanzen",
+"url": "https://giftnotruf.charite.de/fuer_patienten/pflanzen/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Giftnotruf der Charité: Machen Sie Ihr Zuhause giftsicher",
+"punkte": "Medikamente, Putzmittel, Rohrreiniger, Frostschutz",
+"url": "https://giftnotruf.charite.de/fuer_patienten/machen_sie_ihr_zuhause_giftsicher/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Vergiftungen und Hilfe bei Erbrechen",
+"punkte": "Anzeichen, Lebenszeichen, stabile Seitenlage, Giftreste, Atemwege/Kontaktgifte",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/vergiftungen-und-hilfe-bei-erbrechen/"
+}
+],
+"stand": "2026-11-08"
 },
 "/wissen/vergroesserte-und-hypertrophierte-naegel-angeboren/": {
 "hash": "893f17ebc735c4470aeacff366438c5da9d8e2ea",
