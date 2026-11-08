@@ -632,6 +632,26 @@
 },
 "/wissen/absicherung-der-unfallstelle/": {
 "hash": "351f2d7f1cbd6793aa7d4e258c847fc66b9af179",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "ADAC: Warndreieck aufstellen (Stand 03.07.2026)",
+"punkte": "Abstände Stadt/Land/Autobahn, Warnweste, Vorgehen",
+"url": "https://www.adac.de/rund-ums-fahrzeug/unfall-schaden-panne/panne/warndreieck-aufstellen/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Absichern der Unfallstelle",
+"punkte": "Warnblinker, Warnweste, ca. 100 m, Reihenfolge Notruf/Erste Hilfe",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/verkehrsunfall/absichern-der-unfallstelle/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "gesund.bund.de: Erste Hilfe (Stand 07.10.2025, geprüft durch DIVI)",
+"punkte": "vier Leitstellenfragen, nicht auflegen, Motorradhelm zu zweit",
+"url": "https://gesund.bund.de/erste-hilfe"
+}
+],
 "stand": "2026-09-01"
 },
 "/wissen/absichtliche-selbstbeschaedigung/": {
@@ -5037,16 +5057,22 @@
 "stand": "2026-11-08"
 },
 "/wissen/fremdkoerper-in-der-nase/": {
-"hash": "50b82f6131f1a9afd76d329028e0a5066c69575f",
+"hash": "7721f86105b3c3d26d2e497c996a07fcbe554799",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 70 (Korrektur nach Rubens Linie: offizielle DGUV-Ausgabe gilt)",
 "punkte": "Fremdkörper in Körperöffnungen (Nase/Ohren): am besten dort lassen, ärztlich entfernen, Gegenstand beschreiben/Duplikat zeigen",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+},
+{
+"gelesen": "2026-11-08",
+"name": "BAG Mehr Sicherheit für Kinder: Fremdkörper in Auge, Nase, Ohr (Letzte Änderung 20.06.2024)",
+"punkte": "Kleinteile, nicht selbst entfernen, Kinderarzt/Krankenhaus",
+"url": "https://www.kindersicherheit.de/kindersicherheit/erste-hilfe/fremdkoerper-in-auge-nase-oder-ohr"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-08"
 },
 "/wissen/friedreich-ataxie/": {
 "hash": "7773051f43af67a42f371748b574eedc9660716b",
@@ -5334,6 +5360,20 @@
 },
 "/wissen/gehirnerschuetterung/": {
 "hash": "c3cab640577de71a1b22d9e4f233b58b888dba1e",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Gesundheitsinformation.de (IQWiG): Gehirnerschütterung (aktualisiert 02.09.2026)",
+"punkte": "Beobachtung, Ruhe, Steigerung, CT, Verlauf, Notruf-Warnzeichen",
+"url": "https://www.gesundheitsinformation.de/gehirnerschuetterung.html"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Gesundheitsinformation.de (IQWiG): Erste Hilfe bei einer Kopfverletzung (erstellt 18.05.2022)",
+"punkte": "Notruf-Kriterien",
+"url": "https://www.gesundheitsinformation.de/erste-hilfe-bei-einer-kopfverletzung_62721.html"
+}
+],
 "stand": "2026-09-21"
 },
 "/wissen/gehoergangsentzuendung-otitis-externa/": {
@@ -9185,7 +9225,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/nasenbluten/": {
-"hash": "21ae1c3f7c203cbba3acc14a1d9e9773a981b319",
+"hash": "2d39a5d0c7d179e6cae466b964da9750ff49c970",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -9198,9 +9238,15 @@
 "name": "DGUV Information 204-007, Handbuch zur Ersten Hilfe (März 2023), S. 72 (Korrektur nach Rubens Linie: offizielle DGUV-Ausgabe gilt)",
 "punkte": "Nasenbluten: Kopf leicht vornüberbeugen, kurzzeitige Kompression der weichen Nasenflügel, Kälte im Nacken, Notruf bei starkem anhaltendem Nasenbluten",
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/826"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Starke Blutungen (Abschnitt Blutung aus der Nase)",
+"punkte": "Kopf vornüber, Stirn stützen, kalter Umschlag, Notruf bei starker/anhaltender Blutung",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/blutungen-und-blutstillung/blutungen/"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-08"
 },
 "/wissen/nasenfurche-naseneinkerbung-und-spaltnase/": {
 "hash": "75a63b03362a583031a80de87d2ed94e281730fa",
@@ -9644,6 +9690,20 @@
 },
 "/wissen/ohnmacht-synkope/": {
 "hash": "84e1ca3998a77a3a16eec7eee4b63a3809d91e25",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Bewusstlosigkeit überprüfen",
+"punkte": "Erkennen, Gefahr, Reihenfolge",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/bewusstlosigkeit/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "gesund.bund.de: Erste Hilfe (Stand 07.10.2025, geprüft durch DIVI)",
+"punkte": "Atmung prüfen, Schnappatmung, stabile Seitenlage",
+"url": "https://gesund.bund.de/erste-hilfe"
+}
+],
 "stand": "2026-09-21"
 },
 "/wissen/ohrenschmalzpfropf/": {
@@ -11656,6 +11716,20 @@
 },
 "/wissen/schaedel-hirn-trauma/": {
 "hash": "205713547152593c1115ac167114c6a02e25c949",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Gesundheitsinformation.de (IQWiG): Erste Hilfe bei einer Kopfverletzung (erstellt 18.05.2022)",
+"punkte": "Notruf-Kriterien, Schritte, Lagerung, Wirbelsäule",
+"url": "https://www.gesundheitsinformation.de/erste-hilfe-bei-einer-kopfverletzung_62721.html"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Gewalteinwirkungen auf den Kopf",
+"punkte": "kurzer Bewusstseinsschwund, Erinnerungslücken, wiederholte Kontrolle",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/gewalteinwirkungen-auf-den-kopf/"
+}
+],
 "stand": "2026-09-21"
 },
 "/wissen/schaedelbasisfraktur/": {
@@ -11834,6 +11908,20 @@
 },
 "/wissen/schnittwunde/": {
 "hash": "93b43decb5eb4385aabd92c0d04df596dd17beca",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Wundversorgung, Verbände und Hilfsmittel",
+"punkte": "Wunde keimfrei bedecken, Handschuhe, Fremdkörper nur vom Arzt, Scherbe nicht ziehen, Tetanus",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/wundbehandlung/wundversorgung-und-verbaende/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "gesund.bund.de: Erste Hilfe (Stand 07.10.2025, geprüft durch DIVI)",
+"punkte": "Druckverband, Notruf bei stark blutenden Wunden",
+"url": "https://gesund.bund.de/erste-hilfe"
+}
+],
 "stand": "2026-09-21"
 },
 "/wissen/schnupfen-rhinitis/": {
@@ -11846,6 +11934,14 @@
 },
 "/wissen/schuerfwunde/": {
 "hash": "84496331a3981fda0fd5293eec527253d6befa33",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Wundversorgung, Verbände und Hilfsmittel",
+"punkte": "Tetanus-Schutz nur durch Impfung, Impfpass, keimfrei bedecken, Arzt im Zweifel",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/wundbehandlung/wundversorgung-und-verbaende/"
+}
+],
 "stand": "2026-09-21"
 },
 "/wissen/schulterdystokie/": {
@@ -14414,6 +14510,14 @@
 },
 "/wissen/zahnnotfall/": {
 "hash": "98a9e649af62259f0974cfd3adee904f071623dc",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "BAG Mehr Sicherheit für Kinder: Zahn-, Kieferverletzung (Letzte Änderung 20.06.2024)",
+"punkte": "feuchter Zahntransport, Zahnarzt/112, Kiefer",
+"url": "https://www.kindersicherheit.de/kindersicherheit/erste-hilfe/zahn-und-kieferverletzungen"
+}
+],
 "stand": "2026-09-21"
 },
 "/wissen/zahnstellungsanomalien/": {
