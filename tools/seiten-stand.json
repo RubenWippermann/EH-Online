@@ -4833,8 +4833,22 @@
 "stand": "2026-09-21"
 },
 "/wissen/fieberkraempfe-im-kindesalter/": {
-"hash": "4ef8e7a470afa6b836ae607e36e96717e78a0cb1",
-"stand": "2026-09-15"
+"hash": "24ac0f6fcafc75c7e7b097a085080b46b85d8afc",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "kindergesundheit-info.de (BIÖG): Fieber bei Babys und Kindern (Stand 04.05.2026)",
+"punkte": "Fieberkrampf: Erkennen, Dauer 3–4 Min, Schritte, nichts geben, 112 im Zweifel",
+"url": "https://www.kindergesundheit-info.de/themen/krankes-kind/krankheitszeichen/fieber/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "DGKJ: Elterninfo Fieberkrampf (© 2018)",
+"punkte": "kompliziert >15 Min, nicht schütteln, kein kaltes Wasser, Nachsorge, Folgen",
+"url": "https://www.dgkj.de/eltern/dgkj-elterninformationen/elterninfo-fieberkrampf/"
+}
+],
+"stand": "2026-11-08"
 },
 "/wissen/fieberkrampf-bei-kindern/": {
 "hash": "ffc59b169dadf0cd51153004b5a0881064a93791",
@@ -10963,16 +10977,28 @@
 "stand": "2026-09-15"
 },
 "/wissen/pseudokrupp/": {
-"hash": "615d1b8b4af84fb3a4854da700d8e7c5aa54cb1b",
+"hash": "168b483dc8dbf34f32a1830d2a25e8582fbfa491",
 "quellen": [
 {
 "gelesen": "2026-11-01",
 "name": "BIÖG kindergesundheit-info.de, Pseudokrupp (Stand 14.05.2026, Inhalt BVKJ)",
 "punkte": "Pseudokrupp: Symptome, Alter (6. Lebensmonat bis 3. Lebensjahr), nicht ansteckend, Tabakrauch verschlimmert, beim Anfall ruhig bleiben, Kind aufrecht, feuchtkühle Luft, kleine Schlucke Kühles; bei schwerer Atemnot Notarzt, jeden bellenden Husten kinderärztlich abklären; Kortison nur ärztlich verordnet, Wirkung setzt verzögert ein.",
 "url": "https://www.kindergesundheit-info.de/themen/krankes-kind/erkrankungen/pseudokrupp-kruppsyndrom/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Gesundheitsinformation.de (IQWiG): Pseudokrupp (aktualisiert 08.03.2023)",
+"punkte": "Warnzeichen 112, Studienlage kühle Luft, Verlauf, Kortison wirkt nach ca. 2 Std",
+"url": "https://www.gesundheitsinformation.de/pseudokrupp.html"
+},
+{
+"gelesen": "2026-11-08",
+"name": "BVKJ kinderaerzte-im-netz.de: Pseudokrupp (aktualisiert 14.11.2019)",
+"punkte": "Ruhe, aufrecht, kühle Luft, keine Milch, sofort Arzt bei Atemnot",
+"url": "https://www.kinderaerzte-im-netz.de/krankheiten/pseudokrupp-stenosierende-laryngitis/"
 }
 ],
-"stand": "2026-11-01"
+"stand": "2026-11-08"
 },
 "/wissen/pseudomembranoese-kolitis-clostridium-difficile/": {
 "hash": "cc3dcc1f0bbee4d84f8caf0227cef894a73f7bca",
@@ -13971,8 +13997,28 @@
 "stand": "2026-09-08"
 },
 "/wissen/veraetzung/": {
-"hash": "0896580172acaecf9d36c4a9ee1090b0240a7958",
-"stand": "2026-09-21"
+"hash": "357715fb53fcf5c1de322cec38e7beb69f37229b",
+"quellen": [
+{
+"gelesen": "2026-11-08",
+"name": "Deutsches Rotes Kreuz (DRK): Verätzungen",
+"punkte": "Auge spülen von innen nach außen, Mund, nie Erbrechen, Mittel mitgeben",
+"url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/veraetzungen/"
+},
+{
+"gelesen": "2026-11-08",
+"name": "BAG Mehr Sicherheit für Kinder: Verätzung (Letzte Änderung 20.06.2024)",
+"punkte": "Haut abduschen ca. 20 Grad, Auge, Mund, 112",
+"url": "https://www.kindersicherheit.de/kindersicherheit/erste-hilfe/veraetzungen"
+},
+{
+"gelesen": "2026-11-08",
+"name": "Giftnotruf der Charité: Für Patienten",
+"punkte": "Auge 10–15 Min lauwarm, Kontaktlinsen, Haut, Einnahme, Giftnotruf 030 19240",
+"url": "https://giftnotruf.charite.de/fuer_patienten/"
+}
+],
+"stand": "2026-11-08"
 },
 "/wissen/verbliebene-zahnwurzel/": {
 "hash": "b8326c7b6fb07ed43b0b3ba04022ef2d3aa54aa8",
