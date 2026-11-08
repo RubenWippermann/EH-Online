@@ -1349,7 +1349,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/anaphylaktischer-schock/": {
-"hash": "bac93e9d3cf6e80107e6ca1ff04e49a0210c7bfe",
+"hash": "043412dd506e235d497b3df23d38135b2d67e653",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -2211,7 +2211,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/asthma-bronchiale/": {
-"hash": "8e1e06475decf1e3402469abced85653df99654d",
+"hash": "ca3b7de38686765239fbb24e6478a59f2d81b74d",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -2226,7 +2226,7 @@
 "url": "https://www.gesundheitsinformation.de/asthma.html"
 }
 ],
-"stand": "2026-09-21"
+"stand": "2026-11-08"
 },
 "/wissen/astigmatismus-hornhautverkruemmung/": {
 "hash": "7875e90e1ce1b978e5a50bd2e22b178fdeaa2196",
@@ -2649,7 +2649,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/bewusstlosigkeit/": {
-"hash": "7e5912f504855655d9a10ddb1988e135a9f77181",
+"hash": "9b0268282d2767602a8874525ad50cbc3f8823e7",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -2670,7 +2670,7 @@
 "url": "https://www.kindersicherheit.de/kindersicherheit/erste-hilfe/bewusstlosigkeit"
 }
 ],
-"stand": "2026-10-19"
+"stand": "2026-11-08"
 },
 "/wissen/bifaszikulaerer-block/": {
 "hash": "68e06c8fd9d0d6046a3018de34fa479a4145afa8",
@@ -4333,7 +4333,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/epilepsie/": {
-"hash": "419092d8cb9c6ba5a16a644f1eb353fa9c28d1d9",
+"hash": "9498d25ecfc4936ce0553178ff19a363f11dd133",
 "quellen": [
 {
 "gelesen": "2026-11-02",
@@ -4342,7 +4342,7 @@
 "url": "https://www.gesundheitsinformation.de/epilepsie.html"
 }
 ],
-"stand": "2026-11-02"
+"stand": "2026-11-08"
 },
 "/wissen/epileptischer-anfall/": {
 "hash": "9d4935392495c55ddaa797585ac787559e0bac47",
@@ -4393,7 +4393,7 @@
 "stand": "2026-09-06"
 },
 "/wissen/erfrierung/": {
-"hash": "edcdff17ad3dfbb60d04adf74372e490f50aed45",
+"hash": "112c379555debef54daa941263451d6269136abf",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -4402,7 +4402,7 @@
 "url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/erfrierungen-und-unterkuehlungen/"
 }
 ],
-"stand": "2026-09-21"
+"stand": "2026-11-08"
 },
 "/wissen/erhoehter-blutglukosewert/": {
 "hash": "2db4ceefdec9c1d49995f138039ca6d7aa42e78e",
@@ -4465,7 +4465,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/ertrinken-rettung-aus-dem-wasser/": {
-"hash": "3d6090688c6a5a9a5b567df917c357be04f66a30",
+"hash": "8d2d1d70a512288804e538f37534e91b88fcb4b6",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -4833,7 +4833,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/fieberkraempfe-im-kindesalter/": {
-"hash": "24ac0f6fcafc75c7e7b097a085080b46b85d8afc",
+"hash": "1da03e483d83260d6dff00c0005763b09e2fb98e",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -5011,7 +5011,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/fremdkoerper-im-auge/": {
-"hash": "745346e45a2b8bad7e4c25398db77c9da684b016",
+"hash": "9d6f69b3aa332755a2bd1a2e6886854976a155be",
 "quellen": [
 {
 "gelesen": "2026-11-02",
@@ -5020,7 +5020,7 @@
 "url": "https://www.gesundheitsinformation.de/kleine-fremdkoerper-im-auge.html"
 }
 ],
-"stand": "2026-11-02"
+"stand": "2026-11-08"
 },
 "/wissen/fremdkoerper-im-oesophagus/": {
 "hash": "4d82eb9643d81eeb302a6512bea732686eefad05",
@@ -5047,7 +5047,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/fremdkoerper-in-den-atemwegen/": {
-"hash": "83a0590e63949bb5682bce294a5437618b99ae6d",
+"hash": "a566843404b01ba8568fac1ad8c5966b11c8f38d",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -5373,7 +5373,7 @@
 "stand": "2026-10-20"
 },
 "/wissen/gehirnerschuetterung/": {
-"hash": "7d0f896d9131a6b974d1d5af867aa2befbafd7aa",
+"hash": "4d15d1864a75dca733849ca573e0a9a7ab54da32",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -5388,7 +5388,7 @@
 "url": "https://www.gesundheitsinformation.de/erste-hilfe-bei-einer-kopfverletzung_62721.html"
 }
 ],
-"stand": "2026-09-21"
+"stand": "2026-11-08"
 },
 "/wissen/gehoergangsentzuendung-otitis-externa/": {
 "hash": "df2cfc5aa32ed868b4d256c59eba7da737b5aa38",
@@ -6151,7 +6151,7 @@
 "stand": "2026-09-07"
 },
 "/wissen/herzinfarkt/": {
-"hash": "41d7a85ab4abc9c088bb8844ad266e1508649cb6",
+"hash": "bc05bc71c9e9e4007b45412bb2464c6430226fb1",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -6309,7 +6309,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/hitzschlag/": {
-"hash": "e70af6d276f96436f9ccecaa893383cf9ba94652",
+"hash": "ecb9266348a2a9134ff33dd0642dc9399bef879e",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -6703,7 +6703,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/hypoglykaemie/": {
-"hash": "6ade8bb902a1eccd24d049b7163a79b35048b6c5",
+"hash": "568a3ea05931cccfaa2b65a264cdceea07fa6835",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -6724,7 +6724,7 @@
 "url": "https://www.diabetesde.org/unterzuckerung-hypoglykaemie"
 }
 ],
-"stand": "2026-10-20"
+"stand": "2026-11-08"
 },
 "/wissen/hypoglykaemisches-koma/": {
 "hash": "849d48a780d598f4e0b3e86cdd0c132e4d4188dc",
@@ -6983,7 +6983,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/insektenstich-allergische-reaktion/": {
-"hash": "66015c7842f174841e7eabadedd929f21b0d57c5",
+"hash": "f1d6ff0b2c9b4b6e5ccc7af863890fe77d9b0679",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -7487,7 +7487,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/knochenbruch-fraktur/": {
-"hash": "74bb934e1de429094ec2a28ab3dabda89f744425",
+"hash": "4caeb0b79dfb8843e13a386000d6b0d74cfe8e9e",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -7496,7 +7496,7 @@
 "url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/knochenbruch/knochenbrueche/"
 }
 ],
-"stand": "2026-09-21"
+"stand": "2026-11-08"
 },
 "/wissen/knochenfraktur-nach-einsetzen-eines-orthopaedischen-implantates-einer-gelenkprothese-oder-einer-knochenplatte/": {
 "hash": "2ca8e9f0ec139a4ebeb7321a7705050065894006",
@@ -8311,7 +8311,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/luxation-ausgekugeltes-gelenk/": {
-"hash": "6e9dd627d65f3042d2574c2bc904453ef0355e43",
+"hash": "6f8a27865c9590b7620b41ec7c72d580e4c9d4d1",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -9247,7 +9247,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/nasenbluten/": {
-"hash": "2d39a5d0c7d179e6cae466b964da9750ff49c970",
+"hash": "9559aff62afd820e15f96e439758b1ecd3f8143a",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -9711,7 +9711,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/ohnmacht-synkope/": {
-"hash": "b42987398cbb94be2127f06bda2bbced3881c23e",
+"hash": "f25dc372db0bc728cc5b46577fbd784b03a06f75",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -9726,7 +9726,7 @@
 "url": "https://gesund.bund.de/erste-hilfe"
 }
 ],
-"stand": "2026-09-21"
+"stand": "2026-11-08"
 },
 "/wissen/ohrenschmalzpfropf/": {
 "hash": "07fac146f5ffe6ed0508daf0970be59cc69b20b7",
@@ -10985,7 +10985,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/pseudokrupp/": {
-"hash": "168b483dc8dbf34f32a1830d2a25e8582fbfa491",
+"hash": "cd144a79c0f2f6eb125116e75355acf75f682959",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -11749,7 +11749,7 @@
 "stand": "2026-09-08"
 },
 "/wissen/schaedel-hirn-trauma/": {
-"hash": "a885274b8508c473fc53524840dfc9a75e92d92b",
+"hash": "8744a95af177e2a056c8117fba9e0dc84ea97b63",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -11764,7 +11764,7 @@
 "url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/gewalteinwirkungen-auf-den-kopf/"
 }
 ],
-"stand": "2026-09-21"
+"stand": "2026-11-08"
 },
 "/wissen/schaedelbasisfraktur/": {
 "hash": "9c19cbf58999895c60e7be4499a153abf96a19ec",
@@ -11851,7 +11851,7 @@
 "stand": "2026-09-01"
 },
 "/wissen/schlaganfall/": {
-"hash": "5c632cd2ecae1548b180de002ec7ed484cb503fd",
+"hash": "f3680a0fdf882c52468a0682ecdfc3f693b1b278",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -11941,7 +11941,7 @@
 "stand": "2026-10-19"
 },
 "/wissen/schnittwunde/": {
-"hash": "c02e3adf13daa91c8e1096ead304a0db7da70552",
+"hash": "ed081ea737d452d01539109b744c345469000683",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -11956,7 +11956,7 @@
 "url": "https://gesund.bund.de/erste-hilfe"
 }
 ],
-"stand": "2026-09-21"
+"stand": "2026-11-08"
 },
 "/wissen/schnupfen-rhinitis/": {
 "hash": "0bc4450703f8ebee2779ce77349c7b407b27d814",
@@ -11967,7 +11967,7 @@
 "stand": "2026-10-19"
 },
 "/wissen/schuerfwunde/": {
-"hash": "84dce2547ce1666593ec027396187fcaba7bdbdb",
+"hash": "cfbce72eb301d5786377b37d487c942e6c9f1a0a",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -11976,7 +11976,7 @@
 "url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/wundbehandlung/wundversorgung-und-verbaende/"
 }
 ],
-"stand": "2026-09-21"
+"stand": "2026-11-08"
 },
 "/wissen/schulterdystokie/": {
 "hash": "7d3ae58f7637a4cb5056d0f50c8560f4f1888967",
@@ -12339,7 +12339,7 @@
 "stand": "2026-11-01"
 },
 "/wissen/sonnenstich/": {
-"hash": "19d9bf1f9b41489296321268fb8e7da69317c64e",
+"hash": "580b9ee57dd37c26c6f0379fda73c1a44557bdcf",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -12593,7 +12593,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/stabile-seitenlage/": {
-"hash": "8fe3602b46b9d67dc06b3b0bc13424db40ef16c3",
+"hash": "509e62ecb97c8a8c726cddd85dc6560a3303f1bd",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -12608,7 +12608,7 @@
 "url": "https://gesund.bund.de/erste-hilfe"
 }
 ],
-"stand": "2026-10-19"
+"stand": "2026-11-08"
 },
 "/wissen/staerkere-anomalien-der-kiefergroesse/": {
 "hash": "b053e230160e8eb538041ce5863c648f9401b17a",
@@ -12635,7 +12635,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/starke-blutung-blutstillung/": {
-"hash": "2d81ae9510a0ff13df4470df2babc62021c2272a",
+"hash": "3dfeaf6c21cd9a4dd0f3d41cb9c8ce1cfc0e742c",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -12879,7 +12879,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/stromunfall/": {
-"hash": "dc090ee61ea209502c30d6bc73f339c7c22e7525",
+"hash": "e69b53df0e64733d5b1456e112f66146f346b1ff",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -13809,7 +13809,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/unterkuehlung-hypothermie/": {
-"hash": "c7403f3253c26cd326be9135e28dcca10edc7970",
+"hash": "7425e68ca470ee2953d92da94d1d65ec21a6f8e2",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -13818,7 +13818,7 @@
 "url": "https://www.drk.de/hilfe-in-deutschland/erste-hilfe/erfrierungen-und-unterkuehlungen/"
 }
 ],
-"stand": "2026-09-21"
+"stand": "2026-11-08"
 },
 "/wissen/unterlassene-hilfeleistung-gesetzliche-pflicht/": {
 "hash": "c144b48713da74e39079318a5082d866ec034d2a",
@@ -14005,7 +14005,7 @@
 "stand": "2026-09-08"
 },
 "/wissen/veraetzung/": {
-"hash": "357715fb53fcf5c1de322cec38e7beb69f37229b",
+"hash": "58ae898db77778fa6d4825139753ad7e795c4ecf",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -14049,7 +14049,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/verbrennung/": {
-"hash": "8c014419c292428739d74275d71f8fbdc2e1cfa2",
+"hash": "196f2dee6b0f715130f6d2de3ae5a858d8cd4d10",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -14073,7 +14073,7 @@
 "stand": "2026-11-08"
 },
 "/wissen/verbruehung/": {
-"hash": "bc830c5facd67725b6aad6975aecd60c926d438b",
+"hash": "4f07115a3defd45baf9d1eccab8e957cfc1da081",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -14095,7 +14095,7 @@
 "stand": "2026-09-21"
 },
 "/wissen/vergiftung/": {
-"hash": "20459d7112f5246ab709b1f179f8c77dbf94e421",
+"hash": "8c3975d320836666ba8b4e2c668fc3504f6a8ca8",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -14173,7 +14173,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/verstauchung-distorsion/": {
-"hash": "4edb4a5c32868fed5cf6d32354c17f4ce977cec5",
+"hash": "c3960820f42719486bbfa98210f2fc397a17be46",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -14431,7 +14431,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/wespenstich-im-mund-rachen-notfall/": {
-"hash": "026a7e3941e4dce6483d8ecd4fdae11110274f8f",
+"hash": "a55d8c12cc264244d8b2d77cf4460c41eff73dd1",
 "quellen": [
 {
 "gelesen": "2026-11-01",
@@ -14575,7 +14575,7 @@
 "stand": "2026-09-15"
 },
 "/wissen/zahnnotfall/": {
-"hash": "490bf15672f5edc6e88505edbf6c893ab81911a4",
+"hash": "c7e707dc5f72a59afec52ad3f2b09e31c0aa72b1",
 "quellen": [
 {
 "gelesen": "2026-11-08",
@@ -14584,7 +14584,7 @@
 "url": "https://www.kindersicherheit.de/kindersicherheit/erste-hilfe/zahn-und-kieferverletzungen"
 }
 ],
-"stand": "2026-09-21"
+"stand": "2026-11-08"
 },
 "/wissen/zahnstellungsanomalien/": {
 "hash": "794441f46687f77636a3cfa33f19a34632fde3dc",
@@ -14599,7 +14599,7 @@
 "stand": "2026-09-16"
 },
 "/wissen/zeckenbiss-und-uebertragbare-erkrankungen/": {
-"hash": "3a1c6c83011912678eeb2545d435fd1ba7dbd4bb",
+"hash": "eae711e6fc7519bde4838c69ad03c6a5d9c951dc",
 "quellen": [
 {
 "gelesen": "2026-11-08",
