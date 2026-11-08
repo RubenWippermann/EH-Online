@@ -2,7 +2,7 @@
 
 > Info- und Vergleichsportal rund um Erste-Hilfe-Kurse: welcher Kurs für welchen Anlass, wer zahlt, wie oft auffrischen — plus direkte Buchung freier Termine. Betrieben von Personal Paramedic e.K. (DGUV-Kennziffer 8.2018).
 
-Stand: 25. Sep. 2026 (letzte inhaltliche Änderung)
+Stand: 8. Nov. 2026 (letzte inhaltliche Änderung)
 
 Ausführliche Fassung mit allen Kursen im Detail: https://www.erstehilfekurse.online/llms-full.txt
 
@@ -28,6 +28,45 @@ Ausführliche Fassung mit allen Kursen im Detail: https://www.erstehilfekurse.on
 - [Betriebssanitäter — Grundausbildung](https://www.erstehilfekurse.online/kurse/betriebssanitaeter-grundausbildung/): Kompaktblock mit Prüfung, DGUV 304-002. Dauer: 63 UE zzgl. Prüfung (i. d. R. 8 UE). Gültig: mit Aufbaulehrgang vollständig. Kosten: auf Anfrage (Arbeitgeber).
 - [Betriebssanitäter — Aufbaulehrgang](https://www.erstehilfekurse.online/kurse/betriebssanitaeter-aufbaulehrgang/): Der zweite Teil zur vollen Qualifikation. Dauer: 32 UE zzgl. Prüfung (i. d. R. 8 UE). Gültig: vollständige Qualifikation. Kosten: auf Anfrage (Arbeitgeber).
 - [Medizinischer Sanitätshelfer](https://www.erstehilfekurse.online/kurse/sanitaetshelfer/): Sechs Tage bis zur qualifizierten Sanitätsausbildung. Dauer: 6 Tage. Gültig: Grundlage Sanitätsdienst. Kosten: auf Anfrage (selbst · Verein).
+
+## Erste-Hilfe-Lexikon (Notfälle, Schritt für Schritt)
+Ausgewählte Wissensartikel mit Quellenangabe (DRK, gesund.bund.de, IQWiG u. a.); sie ersetzen keine Ausbildung und keine ärztliche Beratung, im Notfall 112.
+- [Herzinfarkt](https://www.erstehilfekurse.online/wissen/herzinfarkt/): Herzinfarkt: typische und untypische Symptome, richtiges Sofortverhalten und warum der Notruf nicht warten darf. Ein Herzinfarkt entsteht.
+- [Schlaganfall](https://www.erstehilfekurse.online/wissen/schlaganfall/): Schlaganfall erkennen mit dem FAST-Test: Gesicht, Arme, Sprache — und warum jede Minute für die Behandlung zählt.
+- [Bewusstlosigkeit](https://www.erstehilfekurse.online/wissen/bewusstlosigkeit/): Bewusstlosigkeit erkennen und richtig handeln: Ansprechbarkeit prüfen, Atemkontrolle, stabile Seitenlage oder Reanimation.
+- [Stabile Seitenlage](https://www.erstehilfekurse.online/wissen/stabile-seitenlage/): Stabile Seitenlage Schritt für Schritt: wann sie nötig ist und wie sie die Atemwege bei Bewusstlosigkeit frei hält.
+- [Herz-Kreislauf-Stillstand](https://www.erstehilfekurse.online/wissen/herz-kreislauf-stillstand/): Herz-Kreislauf-Stillstand: Erkennungszeichen, warum jede Minute zählt und was Ersthelfer:innen bis zum Rettungsdienst tun können.
+- [Starke Blutung: Blutstillung](https://www.erstehilfekurse.online/wissen/starke-blutung-blutstillung/): Starke Blutung stillen: Druckverband anlegen, wann ein Tourniquet nötig ist und was zuerst zu tun ist.
+- [Verbrennung](https://www.erstehilfekurse.online/wissen/verbrennung/): Verbrennung erstversorgen: kühlen, richtig abdecken, Grade unterscheiden und wann es in die Klinik geht.
+- [Verbrühung](https://www.erstehilfekurse.online/wissen/verbruehung/): Verbrühung durch heiße Flüssigkeiten: warum vor allem Kinder betroffen sind und wie die Erstversorgung abläuft.
+- [Hitzschlag](https://www.erstehilfekurse.online/wissen/hitzschlag/): Hitzschlag erkennen: hohe Körpertemperatur, trockene Haut, Verwirrtheit — ein lebensbedrohlicher Notfall, der sofortiges Kühlen braucht.
+- [Sonnenstich](https://www.erstehilfekurse.online/wissen/sonnenstich/): Sonnenstich: Kopfschmerzen und heißer Kopf nach Sonneneinstrahlung — was hilft und wann es ernst wird.
+- [Stromunfall](https://www.erstehilfekurse.online/wissen/stromunfall/): Stromunfall: erst Eigenschutz, dann Erste Hilfe — worauf es bei Niederspannung und Starkstrom ankommt.
+- [Ertrinken: Rettung aus dem Wasser](https://www.erstehilfekurse.online/wissen/ertrinken-rettung-aus-dem-wasser/): Ertrinkungsunfall: Eigenschutz beim Retten, was nach dem Herausziehen aus dem Wasser zu tun ist. Ertrinken verläuft oft leiser und schneller als vermutet.
+- [Vergiftung](https://www.erstehilfekurse.online/wissen/vergiftung/): Vergiftung durch Medikamente, Chemikalien oder Pflanzen: Sofortmaßnahmen und wann die Giftnotrufzentrale hilft.
+- [Anaphylaktischer Schock](https://www.erstehilfekurse.online/wissen/anaphylaktischer-schock/): Anaphylaktischer Schock: die schwerste allergische Reaktion — Symptome erkennen und den Adrenalin-Autoinjektor richtig einsetzen.
+- [Insektenstich mit allergischer Reaktion](https://www.erstehilfekurse.online/wissen/insektenstich-allergische-reaktion/): Insektenstich: normale Reaktion oder Notfall? Anzeichen einer Allergie erkennen und richtig reagieren.
+- [Asthma bronchiale](https://www.erstehilfekurse.online/wissen/asthma-bronchiale/): Asthma bronchiale: warum die Atemwege anfallsweise eng werden und wie ein Anfall behandelt wird.
+- [Fremdkörper in den Atemwegen](https://www.erstehilfekurse.online/wissen/fremdkoerper-in-den-atemwegen/): Ein akut eingeatmeter Gegenstand, der die Atemwege teilweise oder vollständig verlegt und je nach Ausmaß der Verlegung von leichtem Husten bis zu einem…
+- [Unterkühlung (Hypothermie)](https://www.erstehilfekurse.online/wissen/unterkuehlung-hypothermie/): Unterkühlung: Zittern, Verwirrtheit, Erschöpfung — wie man vorsichtig aufwärmt, ohne den Kreislauf zu gefährden.
+- [Erfrierung](https://www.erstehilfekurse.online/wissen/erfrierung/): Erfrierung an Fingern, Zehen oder Nase: Wärmen ohne Reiben und wann es in die Klinik geht. Eine Erfrierung ist eine örtlich begrenzte Kälteschädigung.
+- [Knochenbruch (Fraktur)](https://www.erstehilfekurse.online/wissen/knochenbruch-fraktur/): Knochenbruch erkennen und ruhigstellen: was Ersthelfer:innen tun dürfen — und was Fachpersonal vorbehalten bleibt.
+- [Verstauchung (Distorsion)](https://www.erstehilfekurse.online/wissen/verstauchung-distorsion/): Verstauchtes Gelenk: Pause, Eis, Hochlagern — und was von der PECH-Regel für Ersthelfer belegt ist. Eine Verstauchung (Distorsion) entsteht.
+- [Hypoglykämie (Unterzuckerung)](https://www.erstehilfekurse.online/wissen/hypoglykaemie/): Hypoglykämie: ein zu niedriger Blutzuckerspiegel erfordert rasches Handeln.
+- [Epilepsie](https://www.erstehilfekurse.online/wissen/epilepsie/): Bei der Epilepsie kommt es zu wiederkehrenden, unprovozierten Anfällen durch eine vorübergehende elektrische Fehlfunktion des Gehirns.
+- [Fremdkörper im Auge](https://www.erstehilfekurse.online/wissen/fremdkoerper-im-auge/): Was hilft, was streng verboten ist, und wann es sofort in die Augenklinik geht.
+- [Tetanus (Wundstarrkrampf)](https://www.erstehilfekurse.online/wissen/tetanus-wundstarrkrampf/): Tetanus: warum jede verschmutzte Wunde an den Impfschutz erinnern sollte. Tetanus (Wundstarrkrampf) wird durch ein Bakteriengift ausgelöst.
+- [Sepsis (Blutvergiftung)](https://www.erstehilfekurse.online/wissen/sepsis-blutvergiftung/): Sepsis: die häufig unterschätzte, lebensbedrohliche Reaktion auf eine Infektion — Warnzeichen erkennen und richtig handeln.
+- [Nasenbluten](https://www.erstehilfekurse.online/wissen/nasenbluten/): Nasenbluten stoppen: die richtige Kopfhaltung, Nasenflügel zusammendrücken und wann ein Arztbesuch nötig wird.
+- [Schnittwunde](https://www.erstehilfekurse.online/wissen/schnittwunde/): Schnittwunde versorgen: reinigen, abdecken, wann sie genäht werden muss und wann eine Tetanusauffrischung ansteht.
+- [Schürfwunde](https://www.erstehilfekurse.online/wissen/schuerfwunde/): Schürfwunde: die kleine Alltagsverletzung richtig versorgen — und wann sie größer wird, als sie aussieht. Eine Schürfwunde entsteht.
+- [Schädel-Hirn-Trauma](https://www.erstehilfekurse.online/wissen/schaedel-hirn-trauma/): Schädel-Hirn-Trauma nach einem Sturz oder Stoß auf den Kopf: Warnzeichen erkennen und richtig reagieren.
+- [Gehirnerschütterung](https://www.erstehilfekurse.online/wissen/gehirnerschuetterung/): Gehirnerschütterung: die leichteste, aber häufigste Form der Hirnverletzung — warum Ruhe die wichtigste Therapie ist.
+- [Ohnmacht (Synkope)](https://www.erstehilfekurse.online/wissen/ohnmacht-synkope/): Ohnmacht (Synkope): kurzer Bewusstseinsverlust — Erste Hilfe und wann eine ärztliche Abklärung nötig ist. Eine Ohnmacht (Synkope) ist ein kurzer.
+- [Absicherung der Unfallstelle](https://www.erstehilfekurse.online/wissen/absicherung-der-unfallstelle/): Absicherung der Unfallstelle: der erste Schritt jeder Ersten Hilfe im Straßenverkehr — vor der Versorgung des Verletzten.
+- [Zahnnotfall (ausgeschlagener Zahn, starke Zahnschmerzen)](https://www.erstehilfekurse.online/wissen/zahnnotfall/): Zahn ausgeschlagen oder abgebrochen: die ersten Minuten entscheiden, ob er gerettet werden kann.
+- [Pseudokrupp (Krupp-Anfall)](https://www.erstehilfekurse.online/wissen/pseudokrupp/): Bellender Husten in der Nacht: Pseudokrupp bei Kindern erkennen und richtig beruhigen.
+- [Zeckenbiss: FSME und Borreliose](https://www.erstehilfekurse.online/wissen/zeckenbiss-und-uebertragbare-erkrankungen/): Zeckenbiss richtig entfernen und die beiden wichtigsten übertragbaren Erkrankungen — FSME und Borreliose — unterscheiden.
 
 ## Ratgeber
 - [Welcher Erste-Hilfe-Kurs zählt wofür — und welcher ist nur ein Zusatz?](https://www.erstehilfekurse.online/ratgeber/welcher-kurs-zaehlt-wofuer/): Führerschein, Betrieb, Kita, privat: Nur bestimmte Kurse gelten als anerkannter Ersthelfer-Nachweis. Was zählt und was nur ergänzt — mit Fundstellen.
