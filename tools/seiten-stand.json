@@ -138,8 +138,8 @@
 "stand": "2026-11-02"
 },
 "/inhouse/": {
-"hash": "e0a04ee6e4d0ea89ba36b14662f061e0a8e3d3d1",
-"stand": "2026-11-04"
+"hash": "941dae97ddf031cb27eb6a3aed1083a84875480c",
+"stand": "2026-11-09"
 },
 "/kosten/": {
 "hash": "622683b32e24c6dd26f64dc4d26b227e4e418a03",
@@ -347,7 +347,7 @@
 "stand": "2026-11-02"
 },
 "/ratgeber/erste-hilfe-kita-schule/": {
-"hash": "a53b3e719b4415a5e24d5c36666fc16c12dc4843",
+"hash": "f3c7ba5f5dff1aaf62b8ece459e2908f95047377",
 "quellen": [
 {
 "gelesen": "2026-11-02",
@@ -356,7 +356,7 @@
 "url": "https://publikationen.dguv.de/widgets/pdf/download/article/2909"
 }
 ],
-"stand": "2026-11-02"
+"stand": "2026-11-09"
 },
 "/ratgeber/erste-hilfe-koffer-inhalt/": {
 "hash": "a7d1cc0ae51bca06c9f0796c31c4bc31642a7330",
