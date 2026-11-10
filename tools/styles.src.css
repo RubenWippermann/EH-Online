@@ -107,7 +107,7 @@ hr{border:0;border-top:1px solid var(--line);margin:2.5rem 0}
 .brand svg,.brand img{width:40px;height:40px;flex:0 0 auto}
 .brand-txt{display:flex;flex-direction:column;line-height:1.12}
 .brand-txt b{font-size:1.02rem;font-weight:780;letter-spacing:-.028em;white-space:nowrap}
-.brand-txt small{font-size:.685rem;color:var(--muted);letter-spacing:.075em;text-transform:uppercase;font-weight:620;white-space:nowrap}
+.brand-txt small{font-size:.75rem;color:var(--muted);letter-spacing:.075em;text-transform:uppercase;font-weight:620;white-space:nowrap}
 .nav-links{display:flex;align-items:center;gap:2px;margin-left:auto}
 .nav-links a{
   color:var(--ink-2);font-weight:560;font-size:.945rem;padding:9px 12px;border-radius:var(--r-xs);
@@ -356,7 +356,7 @@ a.kurs-card:hover{color:var(--ink)}
 .kurs-card .k-top{display:flex;align-items:center;gap:10px;margin-bottom:14px}
 .k-badge{
   display:inline-flex;align-items:center;padding:4px 11px;border-radius:var(--r-pill);
-  background:var(--bg-tint);color:var(--brand-lo);font-size:.71rem;font-weight:740;letter-spacing:.075em;
+  background:var(--bg-tint);color:var(--brand-lo);font-size:.75rem;font-weight:740;letter-spacing:.075em;
   border:1px solid var(--o-200);
 }
 .k-ue{font-size:.79rem;color:var(--muted);font-weight:600}
@@ -594,7 +594,7 @@ tr:last-child td{border-bottom:0}
 .foot-col a{color:var(--ink-2);font-size:.93rem}
 .foot-col a:hover{color:var(--brand-lo)}
 .foot-ad{margin:34px 0 0;padding-top:20px;border-top:1px solid var(--line);font-size:.86rem;color:var(--muted)}
-.foot-ad .ad-label{position:static;display:inline;margin-right:8px;text-transform:uppercase;font-size:.66rem;letter-spacing:.06em;color:var(--muted)}
+.foot-ad .ad-label{position:static;display:inline;margin-right:8px;text-transform:uppercase;font-size:.75rem;letter-spacing:.06em;color:var(--muted)}
 .foot-ad a{color:var(--brand);font-weight:600}
 .foot-ad a:hover{color:var(--brand-lo)}
 .foot-bottom{
@@ -649,7 +649,7 @@ body.menu-open .sticky-cta{display:none}
    ========================================================================== */
 
 /* ---------- Karten-Zusätze ---------- */
-.tag{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.02em;
+.tag{display:inline-block;font-size:.75rem;font-weight:600;letter-spacing:.02em;
   padding:3px 9px;border-radius:var(--r-pill);background:var(--o-100);color:var(--o-800)}
 .tag.alt{background:var(--line-2);color:var(--ink-2)}
 .anlass .k-more,.card .k-more{margin-top:auto}
@@ -1152,9 +1152,9 @@ li>a:only-child,p>a:only-child,a[href^="tel:"],.sources li>b>a:only-child{displa
   .hero-media{display:block;position:relative;aspect-ratio:16/9;margin:0 0 16px;border-radius:var(--r);overflow:hidden;background:var(--bg-soft)}
   .hero-media img,.hero-media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
   .hero-media-label{position:absolute;right:8px;bottom:8px;padding:2px 8px;border-radius:6px;background:rgba(0,0,0,.68);color:#fff;font-size:.72rem;font-weight:600;line-height:1.5;letter-spacing:.02em}
-  .hero-media-pause{position:absolute;left:8px;bottom:8px;width:32px;height:32px;border:0;border-radius:50%;background:rgba(0,0,0,.68);color:#fff;cursor:pointer;padding:0}
-  .hero-media-pause::before{content:"";position:absolute;left:11px;top:9px;width:4px;height:14px;background:currentColor;box-shadow:7px 0 0 currentColor}
-  .hero-media-pause[data-state="pause"]::before{left:12px;top:9px;width:0;height:0;background:none;box-shadow:none;border-left:11px solid currentColor;border-top:7px solid transparent;border-bottom:7px solid transparent}
+  .hero-media-pause{position:absolute;left:8px;bottom:8px;width:44px;height:44px;border:0;border-radius:50%;background:rgba(0,0,0,.68);color:#fff;cursor:pointer;padding:0}
+  .hero-media-pause::before{content:"";position:absolute;left:16px;top:15px;width:4px;height:14px;background:currentColor;box-shadow:7px 0 0 currentColor}
+  .hero-media-pause[data-state="pause"]::before{left:17px;top:15px;width:0;height:0;background:none;box-shadow:none;border-left:11px solid currentColor;border-top:7px solid transparent;border-bottom:7px solid transparent}
   .hero-media-pause:focus-visible{outline:2px solid #fff;outline-offset:2px}
 }
 .foot-ki{margin:0 0 6px;font-size:.82rem;color:var(--muted)}
@@ -1167,3 +1167,19 @@ li>a:only-child,p>a:only-child,a[href^="tel:"],.sources li>b>a:only-child{displa
 :root[data-theme="dark"] :is(.nav-links a:hover,.nav-links a.active,.btn.ghost:hover,.termin-meta b,.termin-cta,.termin-row.is-full .termin-cta:hover,.k-badge,.k-price,.k-more,.choice input:checked+span,.chip:hover,.wissen-pill:hover,.crumbs a:hover,.foot-contact a:hover,.foot-social a:hover,.foot-col a:hover,.foot-ad a:hover,.foot-bottom a:hover,.ratgeber-cta-sec,.t-tel,.cta-band .btn.outline-light,.cta-band .btn.outline-light:hover,.cc-actions .btn.primary,.cc-actions .btn.primary:hover){color:var(--brand)}
 :root[data-theme="dark"] .cc-actions .btn.primary{border-color:var(--brand)}
 :root[data-theme="dark"] :is(.btn.primary:hover,.nav-cta:hover){background:var(--o-700);color:#fff}
+
+/* ---------- Design-Etappe B (10.11.2026): Typografie, Layout, Bedienbarkeit ---------- */
+h1,h2,h3{text-wrap:balance}
+p,li,.lead{text-wrap:pretty}
+.prose h2{font-size:clamp(1.5rem,1.15rem + 1.2vw,2.125rem);margin-top:2.2em}
+.prose p,.prose li{max-width:68ch}
+.faq{margin-inline:auto}
+/* Touch-Ziele mindestens 44 px */
+.chip{padding:10px 16px}
+.foot-col a,.foot-contact a,.foot-social a{min-height:44px;display:inline-flex;align-items:center}
+.crumbs a{min-height:44px;margin-block:-13px}
+@media (max-width:1040px){
+  .nav-links .nav-cta{justify-content:center;border-radius:var(--r-pill)}
+  /* Cookie-Banner (ca. 285 px hoch) verdeckt sonst das Menüende: Platz darunter lassen, solange er sichtbar ist */
+  body:has([data-cc-banner]:not([hidden])) .nav-links{padding-bottom:calc(26px + 300px)}
+}
