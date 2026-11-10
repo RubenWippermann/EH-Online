@@ -68,7 +68,10 @@
             var status = form.querySelector(".calc-lead-status");
             btn.disabled = true;
             btn.textContent = "Wird gesendet …";
+            var zk = window.AbortController ? new AbortController() : null;
+            if (zk) setTimeout(function() { zk.abort(); }, 20000);
             fetch(API + "/api/lead", {
+                signal: zk ? zk.signal : undefined,
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

@@ -30,6 +30,7 @@
 
   var CFG = window.EHD_CONFIG || {};
   var API        = CFG.api        || 'https://software-wippermann.de';
+  function mitZeit(o) { if (window.AbortController) { var c = new AbortController(); setTimeout(function () { c.abort(); }, 20000); o.signal = c.signal; } return o; }   // Zeitgrenze 20 s, danach greift die Fehlermeldung (Verbindung fehlgeschlagen + Telefon)
   var ORG_LEAD   = CFG.orgLead    || 'personal-paramedic';
   var ORG_FEEDS  = CFG.orgFeeds   || ['bww', 'personal-paramedic'];
   var QUELLE     = CFG.quelle     || 'erstehilfekurse';
@@ -414,9 +415,9 @@
         }
 
         var http = 0;
-        fetch(API + '/api/' + endpoint, {
+        fetch(API + '/api/' + endpoint, mitZeit({
           method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload)
-        }).then(function (r) {
+        })).then(function (r) {
           http = r.status;
           return r.json().catch(function () { return {}; });
         }).then(function (res) {
