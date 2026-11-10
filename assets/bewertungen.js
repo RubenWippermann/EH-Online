@@ -15,8 +15,9 @@
       if (!b || !b.text) return;
       var fig = document.createElement('figure'); fig.className = 'card';
       var st = document.createElement('div');
+      st.setAttribute('role', 'img');
       st.setAttribute('aria-label', Math.max(1, Math.min(5, +b.sterne || 5)) + ' von 5 Sternen');
-      st.style.cssText = 'color:var(--accent);font-size:1.05rem;letter-spacing:.08em';
+      st.style.cssText = 'color:var(--brand);font-size:1.05rem;letter-spacing:.08em';
       st.textContent = '★★★★★'.slice(0, Math.max(1, Math.min(5, +b.sterne || 5)));
       var q = document.createElement('blockquote');
       q.style.cssText = 'margin:12px 0 14px;font-size:1rem;color:var(--ink-2)';

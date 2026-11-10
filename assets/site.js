@@ -8,6 +8,7 @@
     try {
         var saved = localStorage.getItem("ehd-theme");
         if (saved === "dark" || saved === "light") document.documentElement.setAttribute("data-theme", saved);
+        else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) document.documentElement.setAttribute("data-theme", "dark");
     } catch (e) {}
     function toggleTheme() {
         var cur = document.documentElement.getAttribute("data-theme") || "light";

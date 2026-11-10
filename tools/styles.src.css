@@ -47,7 +47,7 @@
 :root[data-theme="dark"]{
   --ink:#F4F1FA; --ink-2:#D2CCDE; --muted:#A29CB0;
   --line:#2A2434; --line-2:#211C2B;
-  --bg:#141019; --bg-soft:#1A1524; --bg-tint:#221A33; --card:#1C1727;
+  --bg:#0E0B13; --bg-soft:#141019; --bg-tint:#221A33; --card:#1C1727;
   --brand:#A78BFA; --brand-hi:#C4B5FD; --brand-lo:#8B5CF6;
   --ok:#4ADE80; --ok-bg:#0F2318;
   --warn:#FBBF24; --warn-bg:#291D08;
@@ -220,7 +220,7 @@ body.menu-open .menu-toggle span::after{top:0;transform:rotate(-45deg)}
   -webkit-background-clip:text;background-clip:text;color:transparent;
 }
 :root[data-theme="dark"] .hero h1 .hl{
-  background:linear-gradient(105deg,var(--brand-hi),var(--brand-lo) 60%,var(--brand));
+  background:linear-gradient(105deg,var(--brand-hi),#8B5CF6 60%,var(--brand));
   -webkit-background-clip:text;background-clip:text;
 }
 .hero-sub{font-size:clamp(1.06rem,.98rem + .35vw,1.22rem);color:var(--ink-2);max-width:36em;margin-bottom:1.7em}
@@ -803,7 +803,7 @@ body.menu-open .sticky-cta{display:none}
 
 /* ---------- Transparenz-Leiste (Ein Angebot von …) ---------- */
 .topbar{background:var(--o-950);color:#EDE9FE;font-size:.8rem}
-:root[data-theme="dark"] .topbar{background:#0F0B16}
+:root[data-theme="dark"] .topbar{background:var(--bg)}
 .topbar .wrap{display:flex;align-items:center;justify-content:center;gap:10px;
   padding-top:7px;padding-bottom:7px;flex-wrap:wrap;text-align:center}
 .topbar b{color:#fff;font-weight:660}
@@ -922,7 +922,7 @@ input:not([type=checkbox]):not([type=radio]),select{min-height:44px}
 :root[data-theme="dark"]{
   --ink:#f5f5f7; --ink-2:#d2d2d7; --muted:#a1a1a6;
   --line:rgba(255,255,255,.16); --line-2:rgba(255,255,255,.08);
-  --bg:#000; --bg-soft:#1c1c1e; --bg-tint:#1c1c1e; --card:#1c1c1e;
+  --bg:#0E0B13; --bg-soft:#141019; --bg-tint:#1C1727; --card:#1C1727;
   --sh-2:0 1px 2px rgba(0,0,0,.5),0 10px 30px -18px rgba(0,0,0,.8);
   --sh-3:0 1px 2px rgba(0,0,0,.5),0 10px 30px -18px rgba(0,0,0,.8);
 }
@@ -1158,3 +1158,12 @@ li>a:only-child,p>a:only-child,a[href^="tel:"],.sources li>b>a:only-child{displa
   .hero-media-pause:focus-visible{outline:2px solid #fff;outline-offset:2px}
 }
 .foot-ki{margin:0 0 6px;font-size:.82rem;color:var(--muted)}
+
+/* ---------- Design-Etappe A (10.11.2026): Kontrast, Betriebssystem-Dunkelmodus ---------- */
+:root{color-scheme:light}
+:root[data-theme="dark"]{color-scheme:dark;--brand-lo:#7C3AED}
+@media (prefers-color-scheme:dark){:root:not([data-theme]) body{background:#0E0B13;color:#F4F1FA}}
+/* Dunkel: Flächen mit Weiß (7C3AED, 5,7:1); Text in der hellen Markenfarbe (A78BFA) */
+:root[data-theme="dark"] :is(.nav-links a:hover,.nav-links a.active,.btn.ghost:hover,.termin-meta b,.termin-cta,.termin-row.is-full .termin-cta:hover,.k-badge,.k-price,.k-more,.choice input:checked+span,.chip:hover,.wissen-pill:hover,.crumbs a:hover,.foot-contact a:hover,.foot-social a:hover,.foot-col a:hover,.foot-ad a:hover,.foot-bottom a:hover,.ratgeber-cta-sec,.t-tel,.cta-band .btn.outline-light,.cta-band .btn.outline-light:hover,.cc-actions .btn.primary,.cc-actions .btn.primary:hover){color:var(--brand)}
+:root[data-theme="dark"] .cc-actions .btn.primary{border-color:var(--brand)}
+:root[data-theme="dark"] :is(.btn.primary:hover,.nav-cta:hover){background:var(--o-700);color:#fff}
