@@ -98,7 +98,7 @@
             }).catch(function() {
                 btn.disabled = false;
                 btn.textContent = "Ergebnis per Mail sichern";
-                if (status) status.textContent = "Das hat leider nicht geklappt. Bitte später erneut versuchen.";
+                if (status) status.textContent = "Wir haben keine Antwort erhalten. Ihre Anfrage ist möglicherweise angekommen. Bitte prüfen Sie Ihr Postfach oder rufen Sie uns an, bevor Sie erneut senden.";
             });
         }
         function calc() {

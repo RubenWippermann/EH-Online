@@ -444,7 +444,7 @@
         }).catch(function () {
           if (status) {
             status.className = 'form-status is-error';
-            status.textContent = 'Verbindung fehlgeschlagen. Bitte später erneut versuchen oder anrufen: ' + TEL + '.';
+            status.textContent = 'Wir haben keine Antwort erhalten. Ihre Anfrage ist möglicherweise angekommen. Bitte prüfen Sie Ihr Postfach oder rufen Sie uns an, bevor Sie erneut senden. Telefon: ' + TEL + '.';
           }
           if (btn) { btn.disabled = false; btn.textContent = orig; }
         });
