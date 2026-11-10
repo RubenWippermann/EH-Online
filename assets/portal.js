@@ -98,7 +98,7 @@
             }).catch(function() {
                 btn.disabled = false;
                 btn.textContent = "Ergebnis per Mail sichern";
-                if (status) status.textContent = "Wir haben keine Antwort erhalten. Ihre Anfrage ist möglicherweise angekommen. Bitte prüfen Sie Ihr Postfach oder rufen Sie uns an, bevor Sie erneut senden.";
+                if (status) status.innerHTML = 'Wir haben keine Antwort erhalten. Ihre Anfrage ist möglicherweise angekommen. Bitte prüfen Sie Ihr Postfach oder rufen Sie uns an, bevor Sie erneut senden. Telefon: <a href="tel:+4955277488495">+49 5527 7488495</a> oder <a href="/inhouse/#anfrage">Anfrage-Formular</a>.';
             });
         }
         function calc() {
