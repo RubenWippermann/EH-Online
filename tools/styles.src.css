@@ -822,6 +822,7 @@ body.menu-open .sticky-cta{display:none}
 .t-tel{display:inline-flex;align-items:center;gap:7px;font-weight:640;color:var(--brand-lo);margin-top:4px}
 .t-tel svg{width:17px;height:17px}
 .t-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:2px;font-size:.9rem;font-weight:600}
+.t-links a{display:inline-block;min-height:24px;line-height:24px}
 .t-hint{display:flex;gap:7px;align-items:flex-start;font-size:.84rem;color:var(--warn);margin:2px 0 0}
 .t-hint svg{width:15px;height:15px;flex:0 0 auto;margin-top:2px}
 .t-src{font-size:.78rem;color:var(--muted);margin:6px 0 0;padding-top:8px;border-top:1px solid var(--line-2)}
