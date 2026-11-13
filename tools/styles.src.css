@@ -364,7 +364,7 @@ a.kurs-card:hover{color:var(--ink)}
   border-top:1px solid var(--line-2);
 }
 .k-price{font-weight:740;color:var(--brand-lo);font-size:1.02rem}
-.k-price small{display:block;font-weight:500;color:var(--muted);font-size:.73rem;letter-spacing:.02em}
+.k-price small{display:block;font-weight:500;color:var(--muted);font-size:.75rem;letter-spacing:.02em}
 .k-more{font-size:.9rem;font-weight:640;color:var(--brand-lo);display:inline-flex;align-items:center;gap:5px}
 a.kurs-card:hover .k-more{gap:9px}
 
