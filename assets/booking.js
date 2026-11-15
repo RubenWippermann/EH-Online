@@ -35,7 +35,7 @@
   var ORG_FEEDS  = CFG.orgFeeds   || ['bww', 'personal-paramedic'];
   var QUELLE     = CFG.quelle     || 'erstehilfekurse';
   // Anzeigename des Veranstalters je Mandanten-Kürzel — für den Buchungs-Zwischenhinweis.
-  // Die offenen Termine veranstaltet BWW (grüne Buchungsseite im neuen Tab); der Hinweis
+  // Die offenen Termine veranstaltet BWW (grüne Buchungsseite im selben Fenster); der Hinweis
   // benennt den Veranstalter offen, statt den Marken-Wechsel zu verschleiern.
   var VERANSTALTER = CFG.veranstalter || { 'bww': 'BWW', 'personal-paramedic': 'Personal Paramedic' };
   // M1-Buchungs-Zwischenhinweis: von Ruben freigegeben (11.08.) → default AN. Kill-Switch:
@@ -216,7 +216,7 @@
     // NUR additiv quelle=erstehilfekurse anhängen (Herkunfts-Attribution im Arbeitsbereich).
     // org wird NIE angefasst; quelle nur ergänzt, falls noch nicht vorhanden.
     var url = withQuelle(k.buchungs_url || (API + '/buchen?termin=' + encodeURIComponent(k.id || '')));
-    return '<a class="termin-row" href="' + esc(url) + '" target="_blank" rel="noopener"' +
+    return '<a class="termin-row" href="' + esc(url) + '" rel="noopener"' +
       ' data-termin-id="' + esc(k.id || '') + '" data-titel="' + esc(label(k.titel)) + '"' +
       ' data-datum="' + esc(fmtRange(k)) + (k.stadt ? ' · ' + esc(k.stadt) : '') + '"' +
       ' data-veranstalter="' + esc(veranstalter(k)) + '">' +
@@ -454,7 +454,7 @@
 
   /* ---------- Buchungs-Zwischenhinweis (Marken-Wechsel abfedern) ----------
      Der Kurs wird vom Veranstalter (i. d. R. BWW) gebucht; dessen Buchungsseite
-     hat ein anderes Erscheinungsbild. Statt wortlos in einen neuen Tab zu springen,
+     hat ein anderes Erscheinungsbild. Statt wortlos auf eine andere Seite zu springen,
      benennt ein kurzer Hinweis den Veranstalter offen und führt dann weiter.
      Kleinster Eingriff, keine zweite Wahrheit: die buchungs_url (org des Veranstalters)
      bleibt unverändert; der Hinweis verschleiert NICHT, wer bucht. */
@@ -468,14 +468,14 @@
         '<h3 id="bkTitle">Weiter zur Buchung</h3>' +
         '<p class="m-sub" id="bkSub"></p>' +
         '<p id="bkNote" style="margin:0 0 20px;font-size:.95rem;color:var(--ink-2)"></p>' +
-        '<a id="bkGo" class="btn primary block" target="_blank" rel="noopener" href="#">Weiter zur Buchung →</a>' +
+        '<a id="bkGo" class="btn primary block" rel="noopener" href="#">Weiter zur Buchung →</a>' +
         '<button type="button" class="btn ghost block bk-cancel" style="margin-top:10px">Abbrechen</button>' +
       '</div>';
     document.body.appendChild(d);
     function close() { d.hidden = true; }
     d.querySelector('.modal-x').addEventListener('click', close);
     d.querySelector('.bk-cancel').addEventListener('click', close);
-    // Nach dem Weiterklick (öffnet neuen Tab per echtem Link) den Hinweis schließen.
+    // Nach dem Weiterklick (öffnet die Buchungsseite per echtem Link) den Hinweis schließen.
     d.querySelector('#bkGo').addEventListener('click', function () { setTimeout(close, 0); });
     d.addEventListener('click', function (e) { if (e.target === d) close(); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !d.hidden) close(); });
@@ -500,8 +500,8 @@
       m.querySelector('#bkSub').textContent = titel + (datum ? ' — ' + datum : '');
       m.querySelector('#bkNote').textContent = vera
         ? 'Diesen Kurs veranstaltet ' + vera + '. Die Buchung läuft direkt beim Veranstalter — '
-          + 'die Seite öffnet sich in einem neuen Tab und sieht daher anders aus als dieses Portal.'
-        : 'Die Buchung läuft direkt beim Veranstalter des Kurses und öffnet sich in einem neuen Tab.';
+          + 'die Seite öffnet sich im selben Fenster und sieht daher anders aus als dieses Portal.'
+        : 'Die Buchung läuft direkt beim Veranstalter des Kurses und öffnet sich im selben Fenster.';
       m.hidden = false;
       setTimeout(function () { go.focus(); }, 60);
     });
