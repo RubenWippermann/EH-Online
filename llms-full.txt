@@ -2,7 +2,7 @@
 
 > Info- und Vergleichsportal rund um Erste-Hilfe-Kurse (Betreiber: Personal Paramedic e.K.). Dies ist die lange Fassung von https://www.erstehilfekurse.online/llms.txt: Kernfakten, jeder Kurs mit Zielgruppe, Inhalten und häufigen Fragen, danach Ratgeber und Werkzeuge.
 
-Stand: 20. Okt. 2026 (letzte inhaltliche Änderung)
+Stand: 2. Nov. 2026 (letzte inhaltliche Änderung)
 
 ## Kernfakten
 - Erste-Hilfe-Ausbildung (Grundkurs): 9 Unterrichtseinheiten an einem Tag; für den Führerschein Pflicht (§ 19 FeV); das Gesetz nennt keine Ablauffrist, die Fahrerlaubnisbehörde vorher fragen.
