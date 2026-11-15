@@ -166,24 +166,24 @@
 "stand": "2026-11-04"
 },
 "/kurse/betriebssanitaeter-aufbaulehrgang/": {
-"hash": "81d18fe6f7ef99a517a661ea9ff497bdb1686a1f",
-"stand": "2026-11-02"
+"hash": "44a184c0665c161d6c0ae91c3a6681b1f6e6075f",
+"stand": "2026-11-15"
 },
 "/kurse/betriebssanitaeter-grundausbildung/": {
-"hash": "5664e55e43c83aee26d5bb92eb61bd3b09ce4d5b",
-"stand": "2026-11-02"
+"hash": "c41268e63cc7513740574df9a854b03af9d57737",
+"stand": "2026-11-15"
 },
 "/kurse/brandschutzhelfer/": {
-"hash": "9a91bb46aee5352fe6186414a1c788ec40af1f05",
-"stand": "2026-11-02"
+"hash": "81c21c99356e48ed525c87bf03dfff4eb605c19d",
+"stand": "2026-11-15"
 },
 "/kurse/erste-hilfe-ausbildung/": {
-"hash": "784f25b9bc1d0e6eef32d46d0e686070562a1393",
-"stand": "2026-11-02"
+"hash": "d4ef21d620fc6398811de02d160ad7092d1bf84e",
+"stand": "2026-11-15"
 },
 "/kurse/erste-hilfe-baby-kind/": {
-"hash": "46a714cdb81226016ccb48c705592d66a86d9878",
-"stand": "2026-11-02"
+"hash": "dde363012b580094627795519fe870475a5b0ab4",
+"stand": "2026-11-15"
 },
 "/kurse/erste-hilfe-bildungseinrichtungen/": {
 "hash": "de22b21e342138644f0a89ad15f813a14315da32",
@@ -199,28 +199,28 @@
 "stand": "2026-11-02"
 },
 "/kurse/erste-hilfe-fortbildung/": {
-"hash": "ce7494a9a3968e86cfc6c8054c1e86de96e6c49d",
-"stand": "2026-11-02"
+"hash": "7c171641cce98a4399102726b0e3f6c87ecac374",
+"stand": "2026-11-15"
 },
 "/kurse/lehrkraefte-ausbildung-tb1/": {
-"hash": "089f4749fbe5115e226d2e386adeb94f17cb0f3d",
-"stand": "2026-11-02"
+"hash": "5c9dd3b1597504d93e7cfc6b974f5cc8a9a9e7ac",
+"stand": "2026-11-15"
 },
 "/kurse/lehrkraefte-ausbildung-tb2/": {
-"hash": "daef35e77c42945b758158fdefc563fc539784d7",
-"stand": "2026-11-02"
+"hash": "bc8d5c9b564067a244aec4a60f304cc9fe1fe5b5",
+"stand": "2026-11-15"
 },
 "/kurse/lehrkraefte-fortbildung/": {
-"hash": "2950ce4cac42345e1acab766a0a8e61fc7db043a",
-"stand": "2026-11-02"
+"hash": "1165b0a963c6014979516f37f1e3185a90b93554",
+"stand": "2026-11-15"
 },
 "/kurse/notfalltraining/": {
-"hash": "30d2c3fd570813f08fd60dd44f639c93a29b4670",
-"stand": "2026-11-02"
+"hash": "d3178fffe2002cbbf37ec03334ed2e4ed76a3998",
+"stand": "2026-11-15"
 },
 "/kurse/sanitaetshelfer/": {
-"hash": "661af59cd8326fee64b43f2081c780bf48c59596",
-"stand": "2026-11-02"
+"hash": "f6513b2bc12fd639a511e12d43ca7f80c0a19daf",
+"stand": "2026-11-15"
 },
 "/kursfinder/": {
 "hash": "feb9120c30ef06e3b0080976fd152c53c9d9f800",
