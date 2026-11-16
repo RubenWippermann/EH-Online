@@ -1193,3 +1193,5 @@ p,li,.lead{text-wrap:pretty}
   @view-transition{navigation:auto}
   ::view-transition-old(root),::view-transition-new(root){animation-duration:.2s}
 }
+/* Tippfläche 16.11. (T-404): Kursfinder-Link und Shop-Link als eigene Tippziele >= 44 px */
+.hero-alt a,.foot-ad a{display:inline-block;box-sizing:border-box;min-height:44px;padding:10px 0;line-height:24px}
