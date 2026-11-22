@@ -8,7 +8,7 @@ Stand: 2. Nov. 2026 (letzte inhaltliche Änderung)
 - Erste-Hilfe-Ausbildung (Grundkurs): 9 Unterrichtseinheiten an einem Tag; für den Führerschein Pflicht (§ 19 FeV); das Gesetz nennt keine Ablauffrist, die Fahrerlaubnisbehörde vorher fragen.
 - Betriebliche Ersthelfer frischen in der Regel alle 2 Jahre per Fortbildung auf (DGUV Vorschrift 1 § 26 Abs. 3); Lehrkräfte für Erste Hilfe alle 3 Jahre (DGUV Grundsatz 304-003).
 - Zahl der betrieblichen Ersthelfer: 1 bei 2–20 anwesenden Versicherten, darüber 5 % (Verwaltung/Handel) bzw. 10 % (sonstige Betriebe) (DGUV Vorschrift 1 § 26 Abs. 1); in Kindertageseinrichtungen mindestens 1 pro Kindergruppe.
-- Kostenübernahme: Für benannte betriebliche Ersthelfer:innen trägt der Unfallversicherungsträger (Berufsgenossenschaft/Unfallkasse) die Lehrgangsgebühr (§ 23 Abs. 2 SGB VII) — nur für Erste-Hilfe-Aus- und -Fortbildung, nicht §26.
+- Kostenübernahme: Für benannte betriebliche Ersthelfer:innen trägt in der Regel der Unfallversicherungsträger (Berufsgenossenschaft/Unfallkasse) die Lehrgangsgebühr (§ 23 SGB VII); eine Übernahme ist nicht garantiert und hängt vom Träger ab — nur für Erste-Hilfe-Aus- und -Fortbildung, nicht §26.
 - Wer Erste Hilfe leistet, ist gesetzlich unfallversichert (§ 2 Abs. 1 Nr. 13 Buchstabe a SGB VII) und haftet nur bei Vorsatz oder grober Fahrlässigkeit (§ 680 BGB).
 - Betriebssanitäter: erforderlich bei mehr als 1500 Versicherten in einer Betriebsstätte, bei mehr als 250 bis 1500, wenn Art, Schwere und Zahl der Unfälle es erfordern, und auf Baustellen mit mehr als 100 Versicherten (DGUV Vorschrift 1 § 27); Grundausbildung 63 UE, Aufbaulehrgang 32 UE (DGUV Grundsatz 304-002).
 - Alle Kurse finden in Präsenz statt: Inhouse-Kurse bei euch vor Ort (Orte nach Absprache), Präsenzkurse in Leinefelde-Worbis. Die Endung .online meint Organisation, Buchung und digitale Bescheinigung, nicht die Kursform.
@@ -39,7 +39,7 @@ Antwort: Nach Auskunft des DGUV-Fachbereichs Erste Hilfe kann die Person zunäch
 Frage: Wie oft muss ich als betrieblicher Ersthelfer auffrischen?
 Antwort: § 26 Abs. 3 DGUV Vorschrift 1 sieht vor, dass Ersthelfer „in der Regel in Zeitabständen von zwei Jahren fortgebildet werden“. Wann deine nächste Fortbildung fällig ist, rechnet der Auffrischungs-Rechner aus.
 Frage: Zahlt die Berufsgenossenschaft die Fortbildung?
-Antwort: In der Regel ja: Für benannte Ersthelfer:innen trägt der zuständige Unfallversicherungsträger bei einer ermächtigten Stelle die Lehrgangsgebühr, wenn der Betrieb den Kurs veranlasst (§ 23 Abs. 2 SGB VII). Einzelheiten stehen auf der Seite Kosten &amp; BG/UK-Abrechnung; welcher Träger zuständig ist, zeigt das Trägerverzeichnis.
+Antwort: In der Regel ja: Für benannte Ersthelfer:innen trägt der zuständige Unfallversicherungsträger bei einer ermächtigten Stelle die Lehrgangsgebühr, wenn der Betrieb den Kurs veranlasst (§ 23 SGB VII); eine Übernahme ist nicht garantiert und hängt vom Träger ab. Einzelheiten stehen auf der Seite Kosten &amp; BG/UK-Abrechnung; welcher Träger zuständig ist, zeigt das Trägerverzeichnis.
 Frage: Was ist der Unterschied zwischen Ausbildung und Fortbildung?
 Antwort: Beide dauern 9 Unterrichtseinheiten. Die Ausbildung ist die Erstqualifikation, die Fortbildung frischt sie für bereits ausgebildete Ersthelfer:innen auf. Mehr dazu im Ratgeber Ausbildung oder Fortbildung?
 
@@ -49,7 +49,7 @@ Für Kita, Schule, Hort und Tagespflege. Dauer: 1 Tag (9 Unterrichtseinheiten). 
 Für wen: Erzieher:innen und Kinderpfleger:innen; Lehrkräfte und pädagogische Fachkräfte; Tagespflegepersonen; Betreuungskräfte in Hort und Ganztag.
 Inhalte: Notfallcheck und Wiederbelebung bei Kindern; Verschlucken — Rückenschläge und Heimlich-Handgriff; Fieberkrampf, Pseudokrupp, allergische Reaktion; Stürze, Kopfverletzungen, Zahnunfall; Verbrennungen, Vergiftungen, Insektenstiche.
 Frage: Zahlt die Unfallkasse den Kurs?
-Antwort: Für Beschäftigte in Kitas und Schulen übernimmt in der Regel die zuständige Unfallkasse die Lehrgangsgebühren. Wie die Abrechnung läuft, steht unter Kosten & Abrechnung.
+Antwort: Für Beschäftigte in Kitas und Schulen kommt in der Regel die zuständige Unfallkasse für die Lehrgangsgebühren in Betracht; eine Übernahme ist nicht garantiert und hängt vom Träger ab. Wie die Abrechnung läuft, steht unter Kosten & Abrechnung.
 
 ### Erste Hilfe für Babys & Kleinkinder
 Seite: https://www.erstehilfekurse.online/kurse/erste-hilfe-baby-kind/
@@ -139,7 +139,7 @@ Frage: Wie oft muss ich auffrischen?
 Antwort: Für den Führerschein nie. Als betriebliche:r Ersthelfer:in alle zwei Jahre. Mehr im Auffrischungs-Ratgeber oder direkt im Rechner.
 
 Frage: Was kostet ein Kurs und wer zahlt?
-Antwort: Für betriebliche Ersthelfer:innen übernimmt meist die Berufsgenossenschaft oder Unfallkasse die Kosten. Selbstzahler:innen sehen den Preis direkt am Termin. Alles dazu unter Kosten & Abrechnung.
+Antwort: Für betriebliche Ersthelfer:innen kommt je nach Träger die Berufsgenossenschaft oder Unfallkasse für die Kosten in Betracht; eine Übernahme ist nicht garantiert. Selbstzahler:innen sehen den Preis direkt am Termin. Alles dazu unter Kosten & Abrechnung.
 
 Frage: Wer steckt hinter diesem Portal?
 Antwort: Betrieben wird erstehilfekurse.online von Personal Paramedic e.K., einer von der gesetzlichen Unfallversicherung ermächtigten Stelle (Kennziffer 8.2018). Die buchbaren Kurse sind eigene Kurse bzw. Kurse unseres Kooperationspartners BWW UG — Details stehen jeweils am Kurs und im Impressum. Kurse unseres Kooperationspartners BWW UG (haftungsbeschränkt) werden von dieser als eigenständigem Veranstalter durchgeführt und verantwortet.
