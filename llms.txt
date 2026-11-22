@@ -1,8 +1,8 @@
 # erstehilfekurse.online
 
-> Info- und Vergleichsportal rund um Erste-Hilfe-Kurse: welcher Kurs für welchen Anlass, wer zahlt, wie oft auffrischen — plus direkte Buchung freier Termine. Betrieben von Personal Paramedic e.K. (DGUV-Kennziffer 8.2018).
+> Info- und Vergleichsportal rund um Erste-Hilfe-Kurse: welcher Kurs für welchen Anlass, wer zahlt, wie oft auffrischen — plus direkte Buchung freier Termine. Betrieben von Personal Paramedic e.K. (Kennziffer 8.2018).
 
-Stand: 8. Nov. 2026 (letzte inhaltliche Änderung)
+Stand: 22. Nov. 2026 (letzte inhaltliche Änderung)
 
 Ausführliche Fassung mit allen Kursen im Detail: https://www.erstehilfekurse.online/llms-full.txt
 
